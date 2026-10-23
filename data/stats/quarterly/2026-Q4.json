@@ -1,0 +1,165 @@
+{
+  "key": "2026-Q4",
+  "label": "2026 年 Q4 季度",
+  "summary": {
+    "days": 1,
+    "repos": 9,
+    "gained": 8070,
+    "categories": {
+      "ai": 5,
+      "agent": 3
+    },
+    "top_language": "Python"
+  },
+  "repos": [
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "days": 1,
+      "best_rank": 4,
+      "gained": 2979,
+      "stars": 38125,
+      "language": "JavaScript",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 1
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "days": 1,
+      "best_rank": 3,
+      "gained": 1949,
+      "stars": 172626,
+      "language": "JavaScript",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 2
+    },
+    {
+      "full_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "days": 1,
+      "best_rank": 5,
+      "gained": 1407,
+      "stars": 132319,
+      "language": "Python",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "description_zh": "将任何代码库及其文档、SQL架构、配置和PDF转换为可查询的知识图。Claude Code、Cursor、Codex和Gemini CLI的A/graphify技能：本地确定性AST解析，解释每个边缘，没有矢量存储。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 3
+    },
+    {
+      "full_name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "days": 1,
+      "best_rank": 6,
+      "gained": 683,
+      "stars": 113280,
+      "language": "TypeScript",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "description_zh": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 4
+    },
+    {
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "days": 1,
+      "best_rank": 8,
+      "gained": 428,
+      "stars": 42640,
+      "language": "Python",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 5
+    },
+    {
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "days": 1,
+      "best_rank": 2,
+      "gained": 303,
+      "stars": 31302,
+      "language": "Python",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 6
+    },
+    {
+      "full_name": "Meloong-Git/PCL",
+      "url": "https://github.com/Meloong-Git/PCL",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 115,
+      "stars": 8547,
+      "language": "Visual Basic .NET",
+      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+      "description_zh": "",
+      "categories": [],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 7
+    },
+    {
+      "full_name": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "days": 1,
+      "best_rank": 1,
+      "gained": 110,
+      "stars": 40797,
+      "language": "C",
+      "description": "The PHP Interpreter",
+      "description_zh": "PHP解释器",
+      "categories": [],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 8
+    },
+    {
+      "full_name": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "days": 1,
+      "best_rank": 7,
+      "gained": 96,
+      "stars": 103422,
+      "language": "Python",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "description_zh": "FastAPI框架，高性能，易于学习，快速编码，可投入生产",
+      "categories": [],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "rank": 9
+    }
+  ]
+}

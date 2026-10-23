@@ -1,0 +1,162 @@
+{
+  "period": "monthly",
+  "category": "agent",
+  "fetched_at": "2026-10-19T02:06:13+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 104159,
+      "forks": 17405,
+      "stars_gained": 23340,
+      "categories": [
+        "agent"
+      ],
+      "rank": 1,
+      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理"
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 66785,
+      "forks": 6059,
+      "stars_gained": 15429,
+      "categories": [
+        "agent"
+      ],
+      "rank": 2,
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 51263,
+      "forks": 6150,
+      "stars_gained": 27550,
+      "categories": [
+        "agent"
+      ],
+      "rank": 3,
+      "description_zh": "后见之明：学习的客服代表记忆"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 31181,
+      "forks": 1953,
+      "stars_gained": 19109,
+      "categories": [
+        "agent"
+      ],
+      "rank": 4,
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 5514,
+      "forks": 602,
+      "stars_gained": 3533,
+      "categories": [
+        "agent"
+      ],
+      "rank": 5,
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 30779,
+      "forks": 2281,
+      "stars_gained": 7319,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 6,
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 16629,
+      "forks": 1811,
+      "stars_gained": 7995,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 7,
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。"
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 283324,
+      "forks": 42090,
+      "stars_gained": 23080,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 8,
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars": 9910,
+      "forks": 1273,
+      "stars_gained": 6138,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 9,
+      "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。"
+    },
+    {
+      "trend_rank": 18,
+      "full_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "stars": 30148,
+      "forks": 2168,
+      "stars_gained": 7211,
+      "categories": [
+        "agent"
+      ],
+      "rank": 10,
+      "description_zh": ""
+    }
+  ]
+}

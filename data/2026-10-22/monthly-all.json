@@ -1,0 +1,284 @@
+{
+  "period": "monthly",
+  "category": "all",
+  "fetched_at": "2026-10-22T12:26:55+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 105940,
+      "forks": 17620,
+      "stars_gained": 24756,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理"
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 81149,
+      "forks": 8957,
+      "stars_gained": 46590,
+      "categories": [],
+      "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 69661,
+      "forks": 6304,
+      "stars_gained": 17177,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。"
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 52596,
+      "forks": 6204,
+      "stars_gained": 28488,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "后见之明：学习的客服代表记忆"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 17117,
+      "forks": 1818,
+      "stars_gained": 8303,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 38125,
+      "forks": 2381,
+      "stars_gained": 16694,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 31760,
+      "forks": 2188,
+      "stars_gained": 7915,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 31302,
+      "forks": 3507,
+      "stars_gained": 5802,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "stars": 92895,
+      "forks": 10416,
+      "stars_gained": 13471,
+      "categories": [],
+      "description_zh": "Ghidra是一个软件逆向工程（ SRE ）框架"
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 43767,
+      "forks": 4607,
+      "stars_gained": 7175,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "由Anthropic管理的高质量Claude Code插件的官方目录。"
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars": 39260,
+      "forks": 5298,
+      "stars_gained": 11190,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "每月74亿个代币。34个免费LLM提供商。635个免费模型端点。全部在一个/v1端点后面，加上任何与OpenAI兼容的自定义端点。智能路由、自动故障转移、加密密钥。仅限个人实验。"
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 13524,
+      "forks": 1344,
+      "stars_gained": 5135,
+      "categories": [],
+      "description_zh": "光标插件规范和官方插件"
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "stars": 22455,
+      "forks": 2196,
+      "stars_gained": 6081,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "为您的代理商提供CAD超能力。"
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 72271,
+      "forks": 12723,
+      "stars_gained": 17286,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "学习人工智能工程！学习它。建造它。为别人运送它。"
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 286098,
+      "forks": 42443,
+      "stars_gained": 22531,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
+    },
+    {
+      "trend_rank": 16,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 29309,
+      "forks": 7865,
+      "stars_gained": 6006,
+      "categories": [],
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars": 10681,
+      "forks": 1362,
+      "stars_gained": 6164,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。"
+    },
+    {
+      "trend_rank": 18,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 84731,
+      "forks": 5058,
+      "stars_gained": 15078,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "让您的人工智能更好地进行设计的设计语言。"
+    },
+    {
+      "trend_rank": 19,
+      "full_name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 39451,
+      "forks": 3425,
+      "stars_gained": 3784,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "📑 PageIndex ：无矢量、基于推理的RAG的文档索引"
+    },
+    {
+      "trend_rank": 20,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 56101,
+      "forks": 5059,
+      "stars_gained": 6389,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": ""
+    }
+  ]
+}

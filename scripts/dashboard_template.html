@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 热榜 · AI &amp; Agent</title>
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --line: #e5e7eb;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-soft: #eff4ff;
+    --gain: #16a34a;
+    --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 8px 20px -12px rgba(16, 24, 40, .18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --line: #262b35;
+      --text: #e8eaee;
+      --muted: #9aa3b2;
+      --accent: #6ea0ff;
+      --accent-soft: #1c2536;
+      --gain: #4ade80;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 32px 20px 56px; }
+  header h1 { margin: 0 0 8px; font-size: 26px; letter-spacing: .2px; }
+  header h1 .accent { color: var(--accent); }
+  .sub { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+  .controls {
+    position: sticky; top: 0; z-index: 5;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    padding: 16px 0; margin-top: 12px;
+    background: linear-gradient(var(--bg) 75%, transparent);
+  }
+  .tabs, .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tabs button, .chips button {
+    border: 1px solid var(--line); background: var(--card); color: var(--muted);
+    padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer;
+    transition: all .15s ease;
+  }
+  .tabs button:hover, .chips button:hover { color: var(--text); border-color: var(--muted); }
+  .tabs button.on, .chips button.on {
+    background: var(--accent); border-color: var(--accent); color: #fff;
+  }
+  .chips button.on.cat-ai { background: #7c3aed; border-color: #7c3aed; }
+  .chips button.on.cat-agent { background: #0891b2; border-color: #0891b2; }
+  #search {
+    flex: 1 1 220px; min-width: 180px;
+    border: 1px solid var(--line); background: var(--card); color: var(--text);
+    border-radius: 999px; padding: 8px 16px; font-size: 13px; outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  .stats {
+    display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    color: var(--muted); font-size: 12px; margin: 4px 0 14px;
+  }
+  .card {
+    display: flex; gap: 14px; align-items: flex-start;
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 16px 18px; margin-bottom: 10px; box-shadow: var(--shadow);
+    transition: transform .15s ease;
+  }
+  .card:hover { transform: translateY(-1px); }
+  .rank {
+    flex: 0 0 30px; height: 30px; border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; color: var(--muted);
+    background: var(--bg); border: 1px solid var(--line);
+  }
+  .rank.top { color: #fff; border: 0; background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .body { flex: 1; min-width: 0; }
+  .title { font-size: 15px; font-weight: 600; line-height: 1.4; }
+  .title a { color: var(--text); text-decoration: none; word-break: break-all; }
+  .title a:hover { color: var(--accent); text-decoration: underline; }
+  .title .owner { color: var(--muted); font-weight: 400; }
+  .desc { margin: 6px 0 0; font-size: 13.5px; line-height: 1.65; }
+  .desc-en {
+    margin: 4px 0 0; font-size: 12px; line-height: 1.6; color: var(--muted);
+    opacity: .75;
+  }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center;
+    margin-top: 10px; font-size: 12px; color: var(--muted);
+  }
+  .meta .gain { color: var(--gain); font-weight: 600; }
+  .tag {
+    padding: 2px 8px; border-radius: 999px; font-size: 11px;
+    background: var(--accent-soft); color: var(--accent);
+  }
+  .tag.ai { color: #8b5cf6; background: rgba(139, 92, 246, .12); }
+  .tag.agent { color: #0891b2; background: rgba(8, 145, 178, .12); }
+  .empty {
+    text-align: center; color: var(--muted); font-size: 14px;
+    padding: 48px 16px; border: 1px dashed var(--line); border-radius: 14px;
+  }
+  .summary {
+    display: grid; gap: 10px; margin-bottom: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+  .metric {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px 16px; box-shadow: var(--shadow);
+  }
+  .metric .m-label { display: block; color: var(--muted); font-size: 12px; }
+  .metric strong { display: block; margin-top: 6px; font-size: 22px; line-height: 1.2; }
+  .metric .m-hint { display: block; margin-top: 4px; color: var(--muted); font-size: 11px; }
+  .tablewrap {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    box-shadow: var(--shadow); overflow-x: auto;
+  }
+  table.rank-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .rank-table th, .rank-table td {
+    padding: 11px 12px; text-align: left; border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  .rank-table th {
+    color: var(--muted); font-weight: 500; font-size: 12px; white-space: nowrap;
+    background: var(--bg); position: sticky; top: 0;
+  }
+  .rank-table tbody tr:last-child td { border-bottom: 0; }
+  .rank-table tbody tr:hover { background: var(--accent-soft); }
+  .rank-table .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .rank-table .gain { color: var(--gain); font-weight: 600; }
+  .rank-table .c-rank { width: 44px; color: var(--muted); font-weight: 700; }
+  .rank-table .c-rank.top { color: #ef4444; }
+  .rank-table .c-repo { min-width: 220px; }
+  .rank-table .c-repo a {
+    color: var(--text); font-weight: 600; text-decoration: none; word-break: break-all;
+  }
+  .rank-table .c-repo a:hover { color: var(--accent); text-decoration: underline; }
+  .rank-table .r-desc { margin-top: 4px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+  .rank-table .c-tags { white-space: nowrap; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 12px; line-height: 1.8; }
+  footer a { color: var(--accent); text-decoration: none; }
+  @media (max-width: 560px) {
+    .wrap { padding: 20px 14px 40px; }
+    header h1 { font-size: 21px; }
+    .card { padding: 14px; gap: 10px; }
+    .rank { flex-basis: 26px; height: 26px; }
+    .metric strong { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>GitHub 热榜 <span class="accent">AI &amp; Agent</span></h1>
+    <p class="sub">数据来自 github.com/trending，仓库描述已由脚本译为中文；季度 / 年度为每日归档累计统计。</p>
+  </header>
+
+  <div class="controls">
+    <div class="tabs" id="viewTabs"></div>
+    <div class="tabs" id="periodTabs"></div>
+    <div class="tabs" id="scopeTabs"></div>
+    <div class="chips" id="bucketChips"></div>
+    <div class="chips" id="catChips"></div>
+    <input id="search" type="search" placeholder="搜索仓库名 / 描述 / 语言…">
+  </div>
+
+  <div class="stats">
+    <span id="count"></span>
+    <span id="updated"></span>
+  </div>
+
+  <main id="list"></main>
+  <main id="statsView" hidden></main>
+
+  <footer>
+    由 GitHub Actions 每日自动更新 · 本地双击本文件即可查看，也可部署到 GitHub Pages。<br>
+    GitHub 官方仅有日 / 周 / 月榜，季度与年度数据由每日榜单归档累计得出。<br>
+    榜单来源：<a href="https://github.com/trending" target="_blank" rel="noopener">github.com/trending</a>
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const PERIOD_LABEL = { daily: "今日", weekly: "本周", monthly: "本月" };
+const PERIOD_ORDER = ["daily", "weekly", "monthly"];
+const GAINED_LABEL = { daily: "今日", weekly: "本周", monthly: "本月" };
+const SCOPE_LABEL = { quarterly: "季度", yearly: "年度" };
+const SCOPE_ORDER = ["quarterly", "yearly"];
+
+let state = { view: "list", period: "daily", scope: "quarterly", bucket: null, cat: "all", keyword: "" };
+
+function fmt(n) {
+  return typeof n === "number" ? n.toLocaleString("en-US") : "—";
+}
+
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+
+function localTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  const p = function (n) { return String(n).padStart(2, "0"); };
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) +
+         " " + p(d.getHours()) + ":" + p(d.getMinutes());
+}
+
+function periods() {
+  return PERIOD_ORDER.filter(function (p) { return DATA && DATA.periods && DATA.periods[p]; });
+}
+
+function categories() {
+  return DATA && DATA.categories ? DATA.categories : {};
+}
+
+function statsData() {
+  return (DATA && DATA.stats) || { quarterly: [], yearly: [] };
+}
+
+function scopes() {
+  const s = statsData();
+  return SCOPE_ORDER.filter(function (k) { return (s[k] || []).length; });
+}
+
+function buckets() {
+  return statsData()[state.scope] || [];
+}
+
+function currentBucket() {
+  const list = buckets();
+  if (!list.length) return null;
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].key === state.bucket) return list[i];
+  }
+  return list[0];
+}
+
+function renderViewTabs() {
+  const box = document.getElementById("viewTabs");
+  let html = '<button class="' + (state.view === "list" ? "on" : "") + '" data-view="list">榜单</button>';
+  if (scopes().length) {
+    html += '<button class="' + (state.view === "stats" ? "on" : "") + '" data-view="stats">统计</button>';
+  }
+  box.innerHTML = html;
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.view = btn.dataset.view;
+      renderAll();
+    });
+  });
+}
+
+function renderTabs() {
+  const box = document.getElementById("periodTabs");
+  box.innerHTML = periods().map(function (p) {
+    const on = p === state.period ? " on" : "";
+    return '<button class="' + on.trim() + '" data-period="' + p + '">' +
+           PERIOD_LABEL[p] + "</button>";
+  }).join("");
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.period = btn.dataset.period;
+      renderAll();
+    });
+  });
+}
+
+function renderScopeTabs() {
+  const box = document.getElementById("scopeTabs");
+  box.innerHTML = scopes().map(function (s) {
+    const on = s === state.scope ? " on" : "";
+    return '<button class="' + on.trim() + '" data-scope="' + s + '">' +
+           SCOPE_LABEL[s] + "</button>";
+  }).join("");
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.scope = btn.dataset.scope;
+      state.bucket = null;
+      renderAll();
+    });
+  });
+}
+
+function renderBucketChips() {
+  const box = document.getElementById("bucketChips");
+  const cur = currentBucket();
+  box.innerHTML = buckets().map(function (b) {
+    const on = cur && b.key === cur.key ? " on" : "";
+    return '<button class="' + on.trim() + '" data-key="' + esc(b.key) + '">' +
+           esc(b.label) + "</button>";
+  }).join("");
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.bucket = btn.dataset.key;
+      renderAll();
+    });
+  });
+}
+
+function renderChips() {
+  const box = document.getElementById("catChips");
+  const cats = categories();
+  let html = '<button class="' + (state.cat === "all" ? "on" : "") + '" data-cat="all">全部</button>';
+  Object.keys(cats).forEach(function (key) {
+    const on = state.cat === key ? " on" : "";
+    html += '<button class="' + on.trim() + " cat-" + key + '" data-cat="' + key + '">' +
+            esc(cats[key]) + "</button>";
+  });
+  box.innerHTML = html;
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.cat = btn.dataset.cat;
+      renderAll();
+    });
+  });
+}
+
+function matchKeyword(it) {
+  const kw = state.keyword.trim().toLowerCase();
+  if (!kw) return true;
+  const hay = [it.full_name, it.description, it.description_zh, it.language]
+    .filter(Boolean).join(" ").toLowerCase();
+  return hay.indexOf(kw) !== -1;
+}
+
+function matchCat(it) {
+  return state.cat === "all" || (it.categories || []).indexOf(state.cat) !== -1;
+}
+
+function currentItems() {
+  const p = DATA && DATA.periods ? DATA.periods[state.period] : null;
+  if (!p) return [];
+  return (p.items || []).filter(function (it) {
+    return matchCat(it) && matchKeyword(it);
+  });
+}
+
+function currentRepos() {
+  const b = currentBucket();
+  if (!b) return [];
+  return (b.repos || []).filter(function (it) {
+    return matchCat(it) && matchKeyword(it);
+  });
+}
+
+function card(it, period) {
+  const parts = String(it.full_name || "").split("/");
+  const owner = parts.length > 1 ? parts[0] + " /" : "";
+  const repo = parts.length > 1 ? parts[1] : it.full_name;
+  const zh = it.description_zh || "";
+  const en = it.description || "";
+  const rankCls = it.trend_rank <= 3 ? "rank top" : "rank";
+  const tags = (it.categories || []).map(function (c) {
+    const label = categories()[c] || c;
+    return '<span class="tag ' + esc(c) + '">' + esc(label) + "</span>";
+  }).join("");
+  let meta = "<span>⭐ " + fmt(it.stars) + "</span>";
+  if (it.stars_gained) {
+    meta += '<span class="gain">+' + fmt(it.stars_gained) + " " + GAINED_LABEL[period] + "</span>";
+  }
+  if (it.language) meta += "<span>" + esc(it.language) + "</span>";
+  return '<article class="card">' +
+    '<div class="' + rankCls + '">' + esc(it.trend_rank) + "</div>" +
+    '<div class="body">' +
+      '<div class="title"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
+        '<span class="owner">' + esc(owner) + "</span>" + esc(repo) + "</a></div>" +
+      (zh ? '<p class="desc">' + esc(zh) + "</p>" : "") +
+      (en ? '<p class="desc-en">' + esc(en) + "</p>" : "") +
+      '<div class="meta">' + meta + tags + "</div>" +
+    "</div></article>";
+}
+
+function renderList() {
+  const list = document.getElementById("list");
+  const items = currentItems();
+  if (!items.length) {
+    list.innerHTML = '<div class="empty">没有符合条件的项目</div>';
+  } else {
+    list.innerHTML = items.map(function (it) { return card(it, state.period); }).join("");
+  }
+  document.getElementById("count").textContent = "共 " + items.length + " 个项目";
+  const p = DATA && DATA.periods ? DATA.periods[state.period] : null;
+  document.getElementById("updated").textContent =
+    p && p.fetched_at ? "数据时间：" + localTime(p.fetched_at) : "";
+}
+
+function metric(label, value, hint) {
+  return '<div class="metric"><span class="m-label">' + esc(label) + "</span>" +
+         "<strong>" + esc(value) + "</strong>" +
+         (hint ? '<span class="m-hint">' + esc(hint) + "</span>" : "") + "</div>";
+}
+
+function statRow(it) {
+  const tags = (it.categories || []).map(function (c) {
+    return '<span class="tag ' + esc(c) + '">' + esc(categories()[c] || c) + "</span>";
+  }).join(" ");
+  const desc = it.description_zh || it.description || "";
+  const rankCls = it.rank <= 3 ? "c-rank top" : "c-rank";
+  return "<tr>" +
+    '<td class="' + rankCls + '">' + esc(it.rank) + "</td>" +
+    '<td class="c-repo"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
+      esc(it.full_name) + "</a>" + (desc ? '<div class="r-desc">' + esc(desc) + "</div>" : "") + "</td>" +
+    '<td class="num">' + esc(it.days) + " 天</td>" +
+    '<td class="num gain">' + (it.gained ? "+" + fmt(it.gained) : "—") + "</td>" +
+    '<td class="num">' + (it.best_rank ? "#" + esc(it.best_rank) : "—") + "</td>" +
+    '<td class="c-tags">' + (tags || "—") + "</td>" +
+  "</tr>";
+}
+
+function renderStats() {
+  const view = document.getElementById("statsView");
+  const bucket = currentBucket();
+  if (!bucket) {
+    view.innerHTML = '<div class="empty">暂无统计数据，等待每日归档累积后自动生成</div>';
+    document.getElementById("count").textContent = "";
+    document.getElementById("updated").textContent = "";
+    return;
+  }
+  const s = bucket.summary || {};
+  const cats = s.categories || {};
+  const repos = currentRepos();
+  const catKeys = Object.keys(categories());
+  let summary = metric("覆盖天数", (s.days || 0) + " 天", "基于每日榜单归档");
+  summary += metric("上榜仓库", fmt(s.repos || 0) + " 个", bucket.label);
+  summary += metric("累计增星", "+" + fmt(s.gained || 0), "每日新增星数求和");
+  summary += metric("主力语言", s.top_language || "—", "按上榜仓库数统计");
+  catKeys.forEach(function (key) {
+    summary += metric((categories()[key] || key) + " 仓库", fmt(cats[key] || 0) + " 个",
+                      "占全部 " + (s.repos || 0) + " 个");
+  });
+
+  const rows = repos.map(statRow).join("");
+  const table = repos.length
+    ? '<div class="tablewrap"><table class="rank-table"><thead><tr>' +
+      "<th>#</th><th>仓库</th><th class=\"num\">上榜天数</th>" +
+      "<th class=\"num\">累计增星</th><th class=\"num\">最佳排名</th><th>分类</th>" +
+      "</tr></thead><tbody>" + rows + "</tbody></table></div>"
+    : '<div class="empty">没有符合条件的项目</div>';
+
+  view.innerHTML = '<section class="summary">' + summary + "</section>" + table;
+  document.getElementById("count").textContent = "共 " + repos.length + " 个仓库 · 榜单前 " +
+    (bucket.repos || []).length + " 名";
+  const generated = statsData().generated_at;
+  document.getElementById("updated").textContent =
+    (generated ? "统计时间：" + localTime(generated) : "") + " · " + bucket.label;
+}
+
+function applyVisibility() {
+  const isStats = state.view === "stats";
+  document.getElementById("periodTabs").hidden = isStats;
+  document.getElementById("scopeTabs").hidden = !isStats;
+  document.getElementById("bucketChips").hidden = !isStats;
+  document.getElementById("list").hidden = isStats;
+  document.getElementById("statsView").hidden = !isStats;
+}
+
+function renderAll() {
+  renderViewTabs();
+  renderTabs();
+  renderScopeTabs();
+  renderBucketChips();
+  renderChips();
+  applyVisibility();
+  if (state.view === "stats") renderStats();
+  else renderList();
+}
+
+document.getElementById("search").addEventListener("input", function (e) {
+  state.keyword = e.target.value;
+  if (state.view === "stats") renderStats();
+  else renderList();
+});
+
+if (!DATA || (!periods().length && !scopes().length)) {
+  document.getElementById("viewTabs").innerHTML = "";
+  document.getElementById("list").innerHTML =
+    '<div class="empty">暂无数据，请先运行抓取脚本生成 index.html</div>';
+} else {
+  state.period = periods().indexOf("daily") !== -1 ? "daily" : (periods()[0] || "daily");
+  state.scope = scopes()[0] || "quarterly";
+  if (!periods().length) state.view = "stats";
+  renderAll();
+}
+</script>
+</body>
+</html>

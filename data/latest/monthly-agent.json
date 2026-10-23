@@ -1,0 +1,152 @@
+{
+  "period": "monthly",
+  "category": "agent",
+  "fetched_at": "2026-10-22T12:26:55+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 105940,
+      "forks": 17620,
+      "stars_gained": 24756,
+      "categories": [
+        "agent"
+      ],
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 69661,
+      "forks": 6304,
+      "stars_gained": 17177,
+      "categories": [
+        "agent"
+      ],
+      "rank": 2
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 52596,
+      "forks": 6204,
+      "stars_gained": 28488,
+      "categories": [
+        "agent"
+      ],
+      "rank": 3
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 17117,
+      "forks": 1818,
+      "stars_gained": 8303,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 4
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 38125,
+      "forks": 2381,
+      "stars_gained": 16694,
+      "categories": [
+        "agent"
+      ],
+      "rank": 5
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 31760,
+      "forks": 2188,
+      "stars_gained": 7915,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 6
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "stars": 22455,
+      "forks": 2196,
+      "stars_gained": 6081,
+      "categories": [
+        "agent"
+      ],
+      "rank": 7
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 286098,
+      "forks": 42443,
+      "stars_gained": 22531,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 8
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars": 10681,
+      "forks": 1362,
+      "stars_gained": 6164,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 9
+    },
+    {
+      "trend_rank": 20,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 56101,
+      "forks": 5059,
+      "stars_gained": 6389,
+      "categories": [
+        "agent"
+      ],
+      "rank": 10
+    }
+  ]
+}

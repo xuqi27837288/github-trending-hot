@@ -1,0 +1,54 @@
+{
+  "period": "weekly",
+  "category": "agent",
+  "fetched_at": "2026-10-19T02:06:09+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 323167,
+      "forks": 81883,
+      "stars_gained": 229268,
+      "categories": [
+        "agent"
+      ],
+      "rank": 1,
+      "description_zh": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 30779,
+      "forks": 2281,
+      "stars_gained": 4138,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 2,
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 66785,
+      "forks": 6059,
+      "stars_gained": 5883,
+      "categories": [
+        "agent"
+      ],
+      "rank": 3,
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。"
+    }
+  ]
+}

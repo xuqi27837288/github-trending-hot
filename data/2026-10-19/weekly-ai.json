@@ -1,0 +1,69 @@
+{
+  "period": "weekly",
+  "category": "ai",
+  "fetched_at": "2026-10-19T02:06:09+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 4,
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 42740,
+      "forks": 4535,
+      "stars_gained": 4774,
+      "categories": [
+        "ai"
+      ],
+      "rank": 1,
+      "description_zh": "由Anthropic管理的高质量Claude Code插件的官方目录。"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 30779,
+      "forks": 2281,
+      "stars_gained": 4138,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 2,
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 57743,
+      "forks": 3697,
+      "stars_gained": 7901,
+      "categories": [
+        "ai"
+      ],
+      "rank": 3,
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "language": "Python",
+      "stars": 53422,
+      "forks": 17421,
+      "stars_gained": 5742,
+      "categories": [
+        "ai"
+      ],
+      "rank": 4,
+      "description_zh": ""
+    }
+  ]
+}

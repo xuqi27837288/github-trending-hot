@@ -1,0 +1,132 @@
+{
+  "period": "monthly",
+  "category": "ai",
+  "fetched_at": "2026-10-19T02:06:13+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 8,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 30779,
+      "forks": 2281,
+      "stars_gained": 7319,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 1,
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 16629,
+      "forks": 1811,
+      "stars_gained": 7995,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 2,
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。"
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 283324,
+      "forks": 42090,
+      "stars_gained": 23080,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 3,
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars": 37107,
+      "forks": 5015,
+      "stars_gained": 10063,
+      "categories": [
+        "ai"
+      ],
+      "rank": 4,
+      "description_zh": "每月74亿个代币。34个免费LLM提供商。635个免费模型端点。全部在一个/v1端点后面，加上任何与OpenAI兼容的自定义端点。智能路由、自动故障转移、加密密钥。仅限个人实验。"
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 30218,
+      "forks": 3415,
+      "stars_gained": 5493,
+      "categories": [
+        "ai"
+      ],
+      "rank": 5,
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 71057,
+      "forks": 12498,
+      "stars_gained": 16300,
+      "categories": [
+        "ai"
+      ],
+      "rank": 6,
+      "description_zh": "学习人工智能工程！学习它。建造它。为别人运送它。"
+    },
+    {
+      "trend_rank": 16,
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 42740,
+      "forks": 4535,
+      "stars_gained": 6015,
+      "categories": [
+        "ai"
+      ],
+      "rank": 7,
+      "description_zh": "由Anthropic管理的高质量Claude Code插件的官方目录。"
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars": 9910,
+      "forks": 1273,
+      "stars_gained": 6138,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 8,
+      "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。"
+    }
+  ]
+}

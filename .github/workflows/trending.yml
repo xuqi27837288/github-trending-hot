@@ -1,0 +1,93 @@
+name: Fetch GitHub Trending
+
+on:
+  schedule:
+    # UTC 00:00 = 北京时间每天 08:00
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      periods:
+        description: "抓取周期，逗号分隔（daily,weekly,monthly）"
+        required: false
+        default: "daily,weekly,monthly"
+      push:
+        description: "是否推送通知"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: trending
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch trending
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+        run: |
+          ARGS=(--periods "${{ github.event.inputs.periods || 'daily,weekly,monthly' }}" --top 25 --push-limit 10)
+          if [ "${{ github.event.inputs.push }}" = "false" ]; then
+            ARGS+=(--no-push)
+          fi
+          python scripts/fetch_trending.py "${ARGS[@]}"
+
+      - name: Commit archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ index.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "trending: archive $(date -u +%F)"
+            git push
+          fi
+
+  # 归档提交由 GITHUB_TOKEN 推送，不会触发 pages.yml，因此在这里直接部署
+  deploy-dashboard:
+    needs: fetch-and-push
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare site
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

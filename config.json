@@ -1,0 +1,21 @@
+{
+  "categories": {
+    "ai": {
+      "label": "AI",
+      "keywords": [
+        "ai", "llm", "llms", "gpt", "claude", "gemini", "deepseek", "qwen",
+        "openai", "anthropic", "ollama", "vllm", "rag", "embedding",
+        "fine-tune", "fine-tuning", "finetune", "diffusion", "multimodal",
+        "transformer", "transformers", "chatbot", "inference", "prompt"
+      ]
+    },
+    "agent": {
+      "label": "Agent",
+      "keywords": [
+        "agent", "agents", "agentic", "multi-agent", "swarm", "swarms",
+        "autogen", "crewai", "langgraph", "mcp", "tool use", "tool calling",
+        "tool-use", "tool-calling", "browser-use", "computer-use", "autonomous"
+      ]
+    }
+  }
+}

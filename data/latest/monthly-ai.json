@@ -1,0 +1,152 @@
+{
+  "period": "monthly",
+  "category": "ai",
+  "fetched_at": "2026-10-22T12:26:55+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 5,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 17117,
+      "forks": 1818,
+      "stars_gained": 8303,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 1
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 31760,
+      "forks": 2188,
+      "stars_gained": 7915,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 2
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 31302,
+      "forks": 3507,
+      "stars_gained": 5802,
+      "categories": [
+        "ai"
+      ],
+      "rank": 3
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 43767,
+      "forks": 4607,
+      "stars_gained": 7175,
+      "categories": [
+        "ai"
+      ],
+      "rank": 4
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars": 39260,
+      "forks": 5298,
+      "stars_gained": 11190,
+      "categories": [
+        "ai"
+      ],
+      "rank": 5
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 72271,
+      "forks": 12723,
+      "stars_gained": 17286,
+      "categories": [
+        "ai"
+      ],
+      "rank": 6
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 286098,
+      "forks": 42443,
+      "stars_gained": 22531,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 7
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars": 10681,
+      "forks": 1362,
+      "stars_gained": 6164,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 8
+    },
+    {
+      "trend_rank": 18,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 84731,
+      "forks": 5058,
+      "stars_gained": 15078,
+      "categories": [
+        "ai"
+      ],
+      "rank": 9
+    },
+    {
+      "trend_rank": 19,
+      "full_name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 39451,
+      "forks": 3425,
+      "stars_gained": 3784,
+      "categories": [
+        "ai"
+      ],
+      "rank": 10
+    }
+  ]
+}

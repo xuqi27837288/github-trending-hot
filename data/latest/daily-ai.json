@@ -1,0 +1,80 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-10-22T12:26:43+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 31302,
+      "forks": 3507,
+      "stars_gained": 303,
+      "categories": [
+        "ai"
+      ],
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 172626,
+      "forks": 9389,
+      "stars_gained": 1949,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 2
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "stars": 132319,
+      "forks": 12685,
+      "stars_gained": 1407,
+      "categories": [
+        "ai"
+      ],
+      "rank": 3
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "stars": 113280,
+      "forks": 16988,
+      "stars_gained": 683,
+      "categories": [
+        "ai"
+      ],
+      "rank": 4
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 42640,
+      "forks": 5351,
+      "stars_gained": 428,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 5
+    }
+  ]
+}

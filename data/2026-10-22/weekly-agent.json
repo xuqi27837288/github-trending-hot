@@ -1,0 +1,148 @@
+{
+  "period": "weekly",
+  "category": "agent",
+  "fetched_at": "2026-10-22T12:26:49+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 362407,
+      "forks": 90922,
+      "stars_gained": 129417,
+      "categories": [
+        "agent"
+      ],
+      "rank": 1,
+      "description_zh": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。"
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 78338,
+      "forks": 9208,
+      "stars_gained": 3590,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 2,
+      "description_zh": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars": 53779,
+      "forks": 4746,
+      "stars_gained": 4719,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 3,
+      "description_zh": "将任何AI特工变成AI科学家。首屈一指的科学代理技能库，全球超过25万名科学家使用。177项随时可用的经验证的技能，以及100多个涵盖生物学、化学、医学和药物发现的科学数据库。与Cursor、Claude Code、Codex、Pi、Antigravity和开放Agent Skills标准兼容。"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 219971,
+      "forks": 29392,
+      "stars_gained": 6545,
+      "categories": [
+        "agent"
+      ],
+      "rank": 4,
+      "description_zh": "开源编码代理。"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 56101,
+      "forks": 5059,
+      "stars_gained": 3681,
+      "categories": [
+        "agent"
+      ],
+      "rank": 5,
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 12632,
+      "forks": 890,
+      "stars_gained": 2833,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 6,
+      "description_zh": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案"
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 69661,
+      "forks": 6304,
+      "stars_gained": 5740,
+      "categories": [
+        "agent"
+      ],
+      "rank": 7,
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。"
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 102188,
+      "forks": 6451,
+      "stars_gained": 8705,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 8,
+      "description_zh": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）。使用您自己的订阅运行任何编码代理。可在桌面、移动和远程运行时使用。"
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 31760,
+      "forks": 2188,
+      "stars_gained": 2968,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 9,
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
+    }
+  ]
+}

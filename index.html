@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 热榜 · AI &amp; Agent</title>
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --line: #e5e7eb;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-soft: #eff4ff;
+    --gain: #16a34a;
+    --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 8px 20px -12px rgba(16, 24, 40, .18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --line: #262b35;
+      --text: #e8eaee;
+      --muted: #9aa3b2;
+      --accent: #6ea0ff;
+      --accent-soft: #1c2536;
+      --gain: #4ade80;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 32px 20px 56px; }
+  header h1 { margin: 0 0 8px; font-size: 26px; letter-spacing: .2px; }
+  header h1 .accent { color: var(--accent); }
+  .sub { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+  .controls {
+    position: sticky; top: 0; z-index: 5;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    padding: 16px 0; margin-top: 12px;
+    background: linear-gradient(var(--bg) 75%, transparent);
+  }
+  .tabs, .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tabs button, .chips button {
+    border: 1px solid var(--line); background: var(--card); color: var(--muted);
+    padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer;
+    transition: all .15s ease;
+  }
+  .tabs button:hover, .chips button:hover { color: var(--text); border-color: var(--muted); }
+  .tabs button.on, .chips button.on {
+    background: var(--accent); border-color: var(--accent); color: #fff;
+  }
+  .chips button.on.cat-ai { background: #7c3aed; border-color: #7c3aed; }
+  .chips button.on.cat-agent { background: #0891b2; border-color: #0891b2; }
+  #search {
+    flex: 1 1 220px; min-width: 180px;
+    border: 1px solid var(--line); background: var(--card); color: var(--text);
+    border-radius: 999px; padding: 8px 16px; font-size: 13px; outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  .stats {
+    display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    color: var(--muted); font-size: 12px; margin: 4px 0 14px;
+  }
+  .card {
+    display: flex; gap: 14px; align-items: flex-start;
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 16px 18px; margin-bottom: 10px; box-shadow: var(--shadow);
+    transition: transform .15s ease;
+  }
+  .card:hover { transform: translateY(-1px); }
+  .rank {
+    flex: 0 0 30px; height: 30px; border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; color: var(--muted);
+    background: var(--bg); border: 1px solid var(--line);
+  }
+  .rank.top { color: #fff; border: 0; background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .body { flex: 1; min-width: 0; }
+  .title { font-size: 15px; font-weight: 600; line-height: 1.4; }
+  .title a { color: var(--text); text-decoration: none; word-break: break-all; }
+  .title a:hover { color: var(--accent); text-decoration: underline; }
+  .title .owner { color: var(--muted); font-weight: 400; }
+  .desc { margin: 6px 0 0; font-size: 13.5px; line-height: 1.65; }
+  .desc-en {
+    margin: 4px 0 0; font-size: 12px; line-height: 1.6; color: var(--muted);
+    opacity: .75;
+  }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center;
+    margin-top: 10px; font-size: 12px; color: var(--muted);
+  }
+  .meta .gain { color: var(--gain); font-weight: 600; }
+  .tag {
+    padding: 2px 8px; border-radius: 999px; font-size: 11px;
+    background: var(--accent-soft); color: var(--accent);
+  }
+  .tag.ai { color: #8b5cf6; background: rgba(139, 92, 246, .12); }
+  .tag.agent { color: #0891b2; background: rgba(8, 145, 178, .12); }
+  .empty {
+    text-align: center; color: var(--muted); font-size: 14px;
+    padding: 48px 16px; border: 1px dashed var(--line); border-radius: 14px;
+  }
+  .summary {
+    display: grid; gap: 10px; margin-bottom: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+  .metric {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px 16px; box-shadow: var(--shadow);
+  }
+  .metric .m-label { display: block; color: var(--muted); font-size: 12px; }
+  .metric strong { display: block; margin-top: 6px; font-size: 22px; line-height: 1.2; }
+  .metric .m-hint { display: block; margin-top: 4px; color: var(--muted); font-size: 11px; }
+  .tablewrap {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    box-shadow: var(--shadow); overflow-x: auto;
+  }
+  table.rank-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .rank-table th, .rank-table td {
+    padding: 11px 12px; text-align: left; border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  .rank-table th {
+    color: var(--muted); font-weight: 500; font-size: 12px; white-space: nowrap;
+    background: var(--bg); position: sticky; top: 0;
+  }
+  .rank-table tbody tr:last-child td { border-bottom: 0; }
+  .rank-table tbody tr:hover { background: var(--accent-soft); }
+  .rank-table .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .rank-table .gain { color: var(--gain); font-weight: 600; }
+  .rank-table .c-rank { width: 44px; color: var(--muted); font-weight: 700; }
+  .rank-table .c-rank.top { color: #ef4444; }
+  .rank-table .c-repo { min-width: 220px; }
+  .rank-table .c-repo a {
+    color: var(--text); font-weight: 600; text-decoration: none; word-break: break-all;
+  }
+  .rank-table .c-repo a:hover { color: var(--accent); text-decoration: underline; }
+  .rank-table .r-desc { margin-top: 4px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+  .rank-table .c-tags { white-space: nowrap; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 12px; line-height: 1.8; }
+  footer a { color: var(--accent); text-decoration: none; }
+  @media (max-width: 560px) {
+    .wrap { padding: 20px 14px 40px; }
+    header h1 { font-size: 21px; }
+    .card { padding: 14px; gap: 10px; }
+    .rank { flex-basis: 26px; height: 26px; }
+    .metric strong { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>GitHub 热榜 <span class="accent">AI &amp; Agent</span></h1>
+    <p class="sub">数据来自 github.com/trending，仓库描述已由脚本译为中文；季度 / 年度为每日归档累计统计。</p>
+  </header>
+
+  <div class="controls">
+    <div class="tabs" id="viewTabs"></div>
+    <div class="tabs" id="periodTabs"></div>
+    <div class="tabs" id="scopeTabs"></div>
+    <div class="chips" id="bucketChips"></div>
+    <div class="chips" id="catChips"></div>
+    <input id="search" type="search" placeholder="搜索仓库名 / 描述 / 语言…">
+  </div>
+
+  <div class="stats">
+    <span id="count"></span>
+    <span id="updated"></span>
+  </div>
+
+  <main id="list"></main>
+  <main id="statsView" hidden></main>
+
+  <footer>
+    由 GitHub Actions 每日自动更新 · 本地双击本文件即可查看，也可部署到 GitHub Pages。<br>
+    GitHub 官方仅有日 / 周 / 月榜，季度与年度数据由每日榜单归档累计得出。<br>
+    榜单来源：<a href="https://github.com/trending" target="_blank" rel="noopener">github.com/trending</a>
+  </footer>
+</div>
+
+<script>
+const DATA = {"generated_at": "2026-10-22T13:00:37+00:00", "categories": {"ai": "AI", "agent": "Agent"}, "periods": {"daily": {"fetched_at": "2026-10-22T12:26:43+00:00", "items": [{"trend_rank": 1, "full_name": "php/php-src", "url": "https://github.com/php/php-src", "description": "The PHP Interpreter", "language": "C", "stars": 40797, "forks": 8274, "stars_gained": 110, "categories": [], "description_zh": "PHP解释器"}, {"trend_rank": 2, "full_name": "anthropics/knowledge-work-plugins", "url": "https://github.com/anthropics/knowledge-work-plugins", "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork", "language": "Python", "stars": 31302, "forks": 3507, "stars_gained": 303, "categories": ["ai"], "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"}, {"trend_rank": 3, "full_name": "DietrichGebert/ponytail", "url": "https://github.com/DietrichGebert/ponytail", "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.", "language": "JavaScript", "stars": 172626, "forks": 9389, "stars_gained": 1949, "categories": ["ai", "agent"], "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。"}, {"trend_rank": 4, "full_name": "cloudflare/security-audit-skill", "url": "https://github.com/cloudflare/security-audit-skill", "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings", "language": "JavaScript", "stars": 38125, "forks": 2381, "stars_gained": 2979, "categories": ["agent"], "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"}, {"trend_rank": 5, "full_name": "Graphify-Labs/graphify", "url": "https://github.com/Graphify-Labs/graphify", "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.", "language": "Python", "stars": 132319, "forks": 12685, "stars_gained": 1407, "categories": ["ai"], "description_zh": "将任何代码库及其文档、SQL架构、配置和PDF转换为可查询的知识图。Claude Code、Cursor、Codex和Gemini CLI的A/graphify技能：本地确定性AST解析，解释每个边缘，没有矢量存储。"}, {"trend_rank": 6, "full_name": "supabase/supabase", "url": "https://github.com/supabase/supabase", "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.", "language": "TypeScript", "stars": 113280, "forks": 16988, "stars_gained": 683, "categories": ["ai"], "description_zh": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序。"}, {"trend_rank": 7, "full_name": "fastapi/fastapi", "url": "https://github.com/fastapi/fastapi", "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production", "language": "Python", "stars": 103422, "forks": 10068, "stars_gained": 96, "categories": [], "description_zh": "FastAPI框架，高性能，易于学习，快速编码，可投入生产"}, {"trend_rank": 8, "full_name": "luongnv89/claude-howto", "url": "https://github.com/luongnv89/claude-howto", "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.", "language": "Python", "stars": 42640, "forks": 5351, "stars_gained": 428, "categories": ["ai", "agent"], "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。"}, {"trend_rank": 9, "full_name": "Meloong-Git/PCL", "url": "https://github.com/Meloong-Git/PCL", "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。", "language": "Visual Basic .NET", "stars": 8547, "forks": 1180, "stars_gained": 115, "categories": [], "description_zh": ""}]}, "weekly": {"fetched_at": "2026-10-22T12:26:49+00:00", "items": [{"trend_rank": 1, "full_name": "morluto/rea", "url": "https://github.com/morluto/rea", "description": "Reverse engineer anything with agents, from app behavior down to native binaries.", "language": "TypeScript", "stars": 362407, "forks": 90922, "stars_gained": 129417, "categories": ["agent"], "description_zh": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。"}, {"trend_rank": 2, "full_name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.", "language": "Python", "stars": 43767, "forks": 4607, "stars_gained": 5703, "categories": ["ai"], "description_zh": "由Anthropic管理的高质量Claude Code插件的官方目录。"}, {"trend_rank": 3, "full_name": "ruvnet/ruflo", "url": "https://github.com/ruvnet/ruflo", "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated", "language": "TypeScript", "stars": 78338, "forks": 9208, "stars_gained": 3590, "categories": ["ai", "agent"], "description_zh": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能"}, {"trend_rank": 4, "full_name": "android/skills", "url": "https://github.com/android/skills", "description": "", "language": "Kotlin", "stars": 9196, "forks": 592, "stars_gained": 1332, "categories": [], "description_zh": ""}, {"trend_rank": 5, "full_name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.", "language": "Python", "stars": 53779, "forks": 4746, "stars_gained": 4719, "categories": ["ai", "agent"], "description_zh": "将任何AI特工变成AI科学家。首屈一指的科学代理技能库，全球超过25万名科学家使用。177项随时可用的经验证的技能，以及100多个涵盖生物学、化学、医学和药物发现的科学数据库。与Cursor、Claude Code、Codex、Pi、Antigravity和开放Agent Skills标准兼容。"}, {"trend_rank": 6, "full_name": "anomalyco/opencode", "url": "https://github.com/anomalyco/opencode", "description": "The open source coding agent.", "language": "TypeScript", "stars": 219971, "forks": 29392, "stars_gained": 6545, "categories": ["agent"], "description_zh": "开源编码代理。"}, {"trend_rank": 7, "full_name": "HKUDS/CLI-Anything", "url": "https://github.com/HKUDS/CLI-Anything", "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/", "language": "Python", "stars": 56101, "forks": 5059, "stars_gained": 3681, "categories": ["agent"], "description_zh": ""}, {"trend_rank": 8, "full_name": "cursor/plugins", "url": "https://github.com/cursor/plugins", "description": "Cursor plugin specification and official plugins", "language": "TypeScript", "stars": 13524, "forks": 1344, "stars_gained": 2049, "categories": [], "description_zh": "光标插件规范和官方插件"}, {"trend_rank": 9, "full_name": "akitaonrails/ai-memory", "url": "https://github.com/akitaonrails/ai-memory", "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors", "language": "Rust", "stars": 12632, "forks": 890, "stars_gained": 2833, "categories": ["ai", "agent"], "description_zh": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案"}, {"trend_rank": 10, "full_name": "debpalash/VoiceStudio", "url": "https://github.com/debpalash/VoiceStudio", "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.", "language": "Python", "stars": 81149, "forks": 8957, "stars_gained": 15125, "categories": [], "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"}, {"trend_rank": 11, "full_name": "heygen-com/hyperframes", "url": "https://github.com/heygen-com/hyperframes", "description": "Write HTML. Render video. Built for agents.", "language": "TypeScript", "stars": 69661, "forks": 6304, "stars_gained": 5740, "categories": ["agent"], "description_zh": "编写HTML。渲染视频。专为客服代表打造。"}, {"trend_rank": 12, "full_name": "NationalSecurityAgency/ghidra", "url": "https://github.com/NationalSecurityAgency/ghidra", "description": "Ghidra is a software reverse engineering (SRE) framework", "language": "Java", "stars": 92895, "forks": 10416, "stars_gained": 5769, "categories": [], "description_zh": "Ghidra是一个软件逆向工程（ SRE ）框架"}, {"trend_rank": 13, "full_name": "stablyai/orca", "url": "https://github.com/stablyai/orca", "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.", "language": "TypeScript", "stars": 102188, "forks": 6451, "stars_gained": 8705, "categories": ["ai", "agent"], "description_zh": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）。使用您自己的订阅运行任何编码代理。可在桌面、移动和远程运行时使用。"}, {"trend_rank": 14, "full_name": "Comfy-Org/ComfyUI", "url": "https://github.com/Comfy-Org/ComfyUI", "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.", "language": "Python", "stars": 141881, "forks": 16729, "stars_gained": 3948, "categories": ["ai"], "description_zh": "最强大、模块化的扩散模型GUI、API和后端，具有图形/节点界面。世界上最快的本地推理引擎。"}, {"trend_rank": 15, "full_name": "mksglu/context-mode", "url": "https://github.com/mksglu/context-mode", "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.", "language": "TypeScript", "stars": 31760, "forks": 2188, "stars_gained": 2968, "categories": ["ai", "agent"], "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"}]}, "monthly": {"fetched_at": "2026-10-22T12:26:55+00:00", "items": [{"trend_rank": 1, "full_name": "paperclipai/paperclip", "url": "https://github.com/paperclipai/paperclip", "description": "The open-source app everyone uses to manage agents at work", "language": "TypeScript", "stars": 105940, "forks": 17620, "stars_gained": 24756, "categories": ["agent"], "description_zh": "每个人都使用的开源应用程序来管理工作中的代理"}, {"trend_rank": 2, "full_name": "debpalash/VoiceStudio", "url": "https://github.com/debpalash/VoiceStudio", "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.", "language": "Python", "stars": 81149, "forks": 8957, "stars_gained": 46590, "categories": [], "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"}, {"trend_rank": 3, "full_name": "heygen-com/hyperframes", "url": "https://github.com/heygen-com/hyperframes", "description": "Write HTML. Render video. Built for agents.", "language": "TypeScript", "stars": 69661, "forks": 6304, "stars_gained": 17177, "categories": ["agent"], "description_zh": "编写HTML。渲染视频。专为客服代表打造。"}, {"trend_rank": 4, "full_name": "vectorize-io/hindsight", "url": "https://github.com/vectorize-io/hindsight", "description": "Hindsight: Agent Memory That Learns", "language": "Python", "stars": 52596, "forks": 6204, "stars_gained": 28488, "categories": ["agent"], "description_zh": "后见之明：学习的客服代表记忆"}, {"trend_rank": 5, "full_name": "NVIDIA/OpenShell", "url": "https://github.com/NVIDIA/OpenShell", "description": "OpenShell is the safe, private runtime for autonomous AI agents.", "language": "Rust", "stars": 17117, "forks": 1818, "stars_gained": 8303, "categories": ["ai", "agent"], "description_zh": "OpenShell是自主AI代理的安全、私有运行时。"}, {"trend_rank": 6, "full_name": "cloudflare/security-audit-skill", "url": "https://github.com/cloudflare/security-audit-skill", "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings", "language": "JavaScript", "stars": 38125, "forks": 2381, "stars_gained": 16694, "categories": ["agent"], "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"}, {"trend_rank": 7, "full_name": "mksglu/context-mode", "url": "https://github.com/mksglu/context-mode", "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.", "language": "TypeScript", "stars": 31760, "forks": 2188, "stars_gained": 7915, "categories": ["ai", "agent"], "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"}, {"trend_rank": 8, "full_name": "anthropics/knowledge-work-plugins", "url": "https://github.com/anthropics/knowledge-work-plugins", "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork", "language": "Python", "stars": 31302, "forks": 3507, "stars_gained": 5802, "categories": ["ai"], "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"}, {"trend_rank": 9, "full_name": "NationalSecurityAgency/ghidra", "url": "https://github.com/NationalSecurityAgency/ghidra", "description": "Ghidra is a software reverse engineering (SRE) framework", "language": "Java", "stars": 92895, "forks": 10416, "stars_gained": 13471, "categories": [], "description_zh": "Ghidra是一个软件逆向工程（ SRE ）框架"}, {"trend_rank": 10, "full_name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.", "language": "Python", "stars": 43767, "forks": 4607, "stars_gained": 7175, "categories": ["ai"], "description_zh": "由Anthropic管理的高质量Claude Code插件的官方目录。"}, {"trend_rank": 11, "full_name": "tashfeenahmed/freellmapi", "url": "https://github.com/tashfeenahmed/freellmapi", "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.", "language": "TypeScript", "stars": 39260, "forks": 5298, "stars_gained": 11190, "categories": ["ai"], "description_zh": "每月74亿个代币。34个免费LLM提供商。635个免费模型端点。全部在一个/v1端点后面，加上任何与OpenAI兼容的自定义端点。智能路由、自动故障转移、加密密钥。仅限个人实验。"}, {"trend_rank": 12, "full_name": "cursor/plugins", "url": "https://github.com/cursor/plugins", "description": "Cursor plugin specification and official plugins", "language": "TypeScript", "stars": 13524, "forks": 1344, "stars_gained": 5135, "categories": [], "description_zh": "光标插件规范和官方插件"}, {"trend_rank": 13, "full_name": "earthtojake/text-to-cad", "url": "https://github.com/earthtojake/text-to-cad", "description": "Give your agent CAD superpowers.", "language": "Python", "stars": 22455, "forks": 2196, "stars_gained": 6081, "categories": ["agent"], "description_zh": "为您的代理商提供CAD超能力。"}, {"trend_rank": 14, "full_name": "rohitg00/ai-engineering-from-scratch", "url": "https://github.com/rohitg00/ai-engineering-from-scratch", "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.", "language": "Python", "stars": 72271, "forks": 12723, "stars_gained": 17286, "categories": ["ai"], "description_zh": "学习人工智能工程！学习它。建造它。为别人运送它。"}, {"trend_rank": 15, "full_name": "affaan-m/ECC", "url": "https://github.com/affaan-m/ECC", "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.", "language": "JavaScript", "stars": 286098, "forks": 42443, "stars_gained": 22531, "categories": ["ai", "agent"], "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"}, {"trend_rank": 16, "full_name": "pingdotgg/t3code", "url": "https://github.com/pingdotgg/t3code", "description": "", "language": "TypeScript", "stars": 29309, "forks": 7865, "stars_gained": 6006, "categories": [], "description_zh": ""}, {"trend_rank": 17, "full_name": "TencentCloud/Octop", "url": "https://github.com/TencentCloud/Octop", "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.", "language": "Python", "stars": 10681, "forks": 1362, "stars_gained": 6164, "categories": ["ai", "agent"], "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。"}, {"trend_rank": 18, "full_name": "pbakaus/impeccable", "url": "https://github.com/pbakaus/impeccable", "description": "The design language that makes your AI harness better at design.", "language": "Rust", "stars": 84731, "forks": 5058, "stars_gained": 15078, "categories": ["ai"], "description_zh": "让您的人工智能更好地进行设计的设计语言。"}, {"trend_rank": 19, "full_name": "VectifyAI/PageIndex", "url": "https://github.com/VectifyAI/PageIndex", "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG", "language": "Python", "stars": 39451, "forks": 3425, "stars_gained": 3784, "categories": ["ai"], "description_zh": "📑 PageIndex ：无矢量、基于推理的RAG的文档索引"}, {"trend_rank": 20, "full_name": "HKUDS/CLI-Anything", "url": "https://github.com/HKUDS/CLI-Anything", "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/", "language": "Python", "stars": 56101, "forks": 5059, "stars_gained": 6389, "categories": ["agent"], "description_zh": ""}]}}, "stats": {"generated_at": "2026-10-22T13:00:37+00:00", "yearly": [{"key": "2026", "label": "2026 年", "summary": {"days": 1, "repos": 9, "gained": 8070, "categories": {"ai": 5, "agent": 3}, "top_language": "Python"}, "repos": [{"full_name": "cloudflare/security-audit-skill", "url": "https://github.com/cloudflare/security-audit-skill", "days": 1, "best_rank": 4, "gained": 2979, "stars": 38125, "language": "JavaScript", "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings", "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果", "categories": ["agent"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 1}, {"full_name": "DietrichGebert/ponytail", "url": "https://github.com/DietrichGebert/ponytail", "days": 1, "best_rank": 3, "gained": 1949, "stars": 172626, "language": "JavaScript", "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.", "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。", "categories": ["ai", "agent"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 2}, {"full_name": "Graphify-Labs/graphify", "url": "https://github.com/Graphify-Labs/graphify", "days": 1, "best_rank": 5, "gained": 1407, "stars": 132319, "language": "Python", "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.", "description_zh": "将任何代码库及其文档、SQL架构、配置和PDF转换为可查询的知识图。Claude Code、Cursor、Codex和Gemini CLI的A/graphify技能：本地确定性AST解析，解释每个边缘，没有矢量存储。", "categories": ["ai"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 3}, {"full_name": "supabase/supabase", "url": "https://github.com/supabase/supabase", "days": 1, "best_rank": 6, "gained": 683, "stars": 113280, "language": "TypeScript", "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.", "description_zh": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序。", "categories": ["ai"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 4}, {"full_name": "luongnv89/claude-howto", "url": "https://github.com/luongnv89/claude-howto", "days": 1, "best_rank": 8, "gained": 428, "stars": 42640, "language": "Python", "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.", "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。", "categories": ["ai", "agent"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 5}, {"full_name": "anthropics/knowledge-work-plugins", "url": "https://github.com/anthropics/knowledge-work-plugins", "days": 1, "best_rank": 2, "gained": 303, "stars": 31302, "language": "Python", "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork", "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库", "categories": ["ai"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 6}, {"full_name": "Meloong-Git/PCL", "url": "https://github.com/Meloong-Git/PCL", "days": 1, "best_rank": 9, "gained": 115, "stars": 8547, "language": "Visual Basic .NET", "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。", "description_zh": "", "categories": [], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 7}, {"full_name": "php/php-src", "url": "https://github.com/php/php-src", "days": 1, "best_rank": 1, "gained": 110, "stars": 40797, "language": "C", "description": "The PHP Interpreter", "description_zh": "PHP解释器", "categories": [], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 8}, {"full_name": "fastapi/fastapi", "url": "https://github.com/fastapi/fastapi", "days": 1, "best_rank": 7, "gained": 96, "stars": 103422, "language": "Python", "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production", "description_zh": "FastAPI框架，高性能，易于学习，快速编码，可投入生产", "categories": [], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 9}]}], "quarterly": [{"key": "2026-Q4", "label": "2026 年 Q4 季度", "summary": {"days": 1, "repos": 9, "gained": 8070, "categories": {"ai": 5, "agent": 3}, "top_language": "Python"}, "repos": [{"full_name": "cloudflare/security-audit-skill", "url": "https://github.com/cloudflare/security-audit-skill", "days": 1, "best_rank": 4, "gained": 2979, "stars": 38125, "language": "JavaScript", "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings", "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果", "categories": ["agent"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 1}, {"full_name": "DietrichGebert/ponytail", "url": "https://github.com/DietrichGebert/ponytail", "days": 1, "best_rank": 3, "gained": 1949, "stars": 172626, "language": "JavaScript", "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.", "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。", "categories": ["ai", "agent"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 2}, {"full_name": "Graphify-Labs/graphify", "url": "https://github.com/Graphify-Labs/graphify", "days": 1, "best_rank": 5, "gained": 1407, "stars": 132319, "language": "Python", "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.", "description_zh": "将任何代码库及其文档、SQL架构、配置和PDF转换为可查询的知识图。Claude Code、Cursor、Codex和Gemini CLI的A/graphify技能：本地确定性AST解析，解释每个边缘，没有矢量存储。", "categories": ["ai"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 3}, {"full_name": "supabase/supabase", "url": "https://github.com/supabase/supabase", "days": 1, "best_rank": 6, "gained": 683, "stars": 113280, "language": "TypeScript", "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.", "description_zh": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序。", "categories": ["ai"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 4}, {"full_name": "luongnv89/claude-howto", "url": "https://github.com/luongnv89/claude-howto", "days": 1, "best_rank": 8, "gained": 428, "stars": 42640, "language": "Python", "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.", "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。", "categories": ["ai", "agent"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 5}, {"full_name": "anthropics/knowledge-work-plugins", "url": "https://github.com/anthropics/knowledge-work-plugins", "days": 1, "best_rank": 2, "gained": 303, "stars": 31302, "language": "Python", "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork", "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库", "categories": ["ai"], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 6}, {"full_name": "Meloong-Git/PCL", "url": "https://github.com/Meloong-Git/PCL", "days": 1, "best_rank": 9, "gained": 115, "stars": 8547, "language": "Visual Basic .NET", "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。", "description_zh": "", "categories": [], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 7}, {"full_name": "php/php-src", "url": "https://github.com/php/php-src", "days": 1, "best_rank": 1, "gained": 110, "stars": 40797, "language": "C", "description": "The PHP Interpreter", "description_zh": "PHP解释器", "categories": [], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 8}, {"full_name": "fastapi/fastapi", "url": "https://github.com/fastapi/fastapi", "days": 1, "best_rank": 7, "gained": 96, "stars": 103422, "language": "Python", "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production", "description_zh": "FastAPI框架，高性能，易于学习，快速编码，可投入生产", "categories": [], "first_seen": "2026-10-22", "last_seen": "2026-10-22", "rank": 9}]}]}};
+const PERIOD_LABEL = { daily: "今日", weekly: "本周", monthly: "本月" };
+const PERIOD_ORDER = ["daily", "weekly", "monthly"];
+const GAINED_LABEL = { daily: "今日", weekly: "本周", monthly: "本月" };
+const SCOPE_LABEL = { quarterly: "季度", yearly: "年度" };
+const SCOPE_ORDER = ["quarterly", "yearly"];
+
+let state = { view: "list", period: "daily", scope: "quarterly", bucket: null, cat: "all", keyword: "" };
+
+function fmt(n) {
+  return typeof n === "number" ? n.toLocaleString("en-US") : "—";
+}
+
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+
+function localTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  const p = function (n) { return String(n).padStart(2, "0"); };
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) +
+         " " + p(d.getHours()) + ":" + p(d.getMinutes());
+}
+
+function periods() {
+  return PERIOD_ORDER.filter(function (p) { return DATA && DATA.periods && DATA.periods[p]; });
+}
+
+function categories() {
+  return DATA && DATA.categories ? DATA.categories : {};
+}
+
+function statsData() {
+  return (DATA && DATA.stats) || { quarterly: [], yearly: [] };
+}
+
+function scopes() {
+  const s = statsData();
+  return SCOPE_ORDER.filter(function (k) { return (s[k] || []).length; });
+}
+
+function buckets() {
+  return statsData()[state.scope] || [];
+}
+
+function currentBucket() {
+  const list = buckets();
+  if (!list.length) return null;
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].key === state.bucket) return list[i];
+  }
+  return list[0];
+}
+
+function renderViewTabs() {
+  const box = document.getElementById("viewTabs");
+  let html = '<button class="' + (state.view === "list" ? "on" : "") + '" data-view="list">榜单</button>';
+  if (scopes().length) {
+    html += '<button class="' + (state.view === "stats" ? "on" : "") + '" data-view="stats">统计</button>';
+  }
+  box.innerHTML = html;
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.view = btn.dataset.view;
+      renderAll();
+    });
+  });
+}
+
+function renderTabs() {
+  const box = document.getElementById("periodTabs");
+  box.innerHTML = periods().map(function (p) {
+    const on = p === state.period ? " on" : "";
+    return '<button class="' + on.trim() + '" data-period="' + p + '">' +
+           PERIOD_LABEL[p] + "</button>";
+  }).join("");
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.period = btn.dataset.period;
+      renderAll();
+    });
+  });
+}
+
+function renderScopeTabs() {
+  const box = document.getElementById("scopeTabs");
+  box.innerHTML = scopes().map(function (s) {
+    const on = s === state.scope ? " on" : "";
+    return '<button class="' + on.trim() + '" data-scope="' + s + '">' +
+           SCOPE_LABEL[s] + "</button>";
+  }).join("");
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.scope = btn.dataset.scope;
+      state.bucket = null;
+      renderAll();
+    });
+  });
+}
+
+function renderBucketChips() {
+  const box = document.getElementById("bucketChips");
+  const cur = currentBucket();
+  box.innerHTML = buckets().map(function (b) {
+    const on = cur && b.key === cur.key ? " on" : "";
+    return '<button class="' + on.trim() + '" data-key="' + esc(b.key) + '">' +
+           esc(b.label) + "</button>";
+  }).join("");
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.bucket = btn.dataset.key;
+      renderAll();
+    });
+  });
+}
+
+function renderChips() {
+  const box = document.getElementById("catChips");
+  const cats = categories();
+  let html = '<button class="' + (state.cat === "all" ? "on" : "") + '" data-cat="all">全部</button>';
+  Object.keys(cats).forEach(function (key) {
+    const on = state.cat === key ? " on" : "";
+    html += '<button class="' + on.trim() + " cat-" + key + '" data-cat="' + key + '">' +
+            esc(cats[key]) + "</button>";
+  });
+  box.innerHTML = html;
+  box.querySelectorAll("button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      state.cat = btn.dataset.cat;
+      renderAll();
+    });
+  });
+}
+
+function matchKeyword(it) {
+  const kw = state.keyword.trim().toLowerCase();
+  if (!kw) return true;
+  const hay = [it.full_name, it.description, it.description_zh, it.language]
+    .filter(Boolean).join(" ").toLowerCase();
+  return hay.indexOf(kw) !== -1;
+}
+
+function matchCat(it) {
+  return state.cat === "all" || (it.categories || []).indexOf(state.cat) !== -1;
+}
+
+function currentItems() {
+  const p = DATA && DATA.periods ? DATA.periods[state.period] : null;
+  if (!p) return [];
+  return (p.items || []).filter(function (it) {
+    return matchCat(it) && matchKeyword(it);
+  });
+}
+
+function currentRepos() {
+  const b = currentBucket();
+  if (!b) return [];
+  return (b.repos || []).filter(function (it) {
+    return matchCat(it) && matchKeyword(it);
+  });
+}
+
+function card(it, period) {
+  const parts = String(it.full_name || "").split("/");
+  const owner = parts.length > 1 ? parts[0] + " /" : "";
+  const repo = parts.length > 1 ? parts[1] : it.full_name;
+  const zh = it.description_zh || "";
+  const en = it.description || "";
+  const rankCls = it.trend_rank <= 3 ? "rank top" : "rank";
+  const tags = (it.categories || []).map(function (c) {
+    const label = categories()[c] || c;
+    return '<span class="tag ' + esc(c) + '">' + esc(label) + "</span>";
+  }).join("");
+  let meta = "<span>⭐ " + fmt(it.stars) + "</span>";
+  if (it.stars_gained) {
+    meta += '<span class="gain">+' + fmt(it.stars_gained) + " " + GAINED_LABEL[period] + "</span>";
+  }
+  if (it.language) meta += "<span>" + esc(it.language) + "</span>";
+  return '<article class="card">' +
+    '<div class="' + rankCls + '">' + esc(it.trend_rank) + "</div>" +
+    '<div class="body">' +
+      '<div class="title"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
+        '<span class="owner">' + esc(owner) + "</span>" + esc(repo) + "</a></div>" +
+      (zh ? '<p class="desc">' + esc(zh) + "</p>" : "") +
+      (en ? '<p class="desc-en">' + esc(en) + "</p>" : "") +
+      '<div class="meta">' + meta + tags + "</div>" +
+    "</div></article>";
+}
+
+function renderList() {
+  const list = document.getElementById("list");
+  const items = currentItems();
+  if (!items.length) {
+    list.innerHTML = '<div class="empty">没有符合条件的项目</div>';
+  } else {
+    list.innerHTML = items.map(function (it) { return card(it, state.period); }).join("");
+  }
+  document.getElementById("count").textContent = "共 " + items.length + " 个项目";
+  const p = DATA && DATA.periods ? DATA.periods[state.period] : null;
+  document.getElementById("updated").textContent =
+    p && p.fetched_at ? "数据时间：" + localTime(p.fetched_at) : "";
+}
+
+function metric(label, value, hint) {
+  return '<div class="metric"><span class="m-label">' + esc(label) + "</span>" +
+         "<strong>" + esc(value) + "</strong>" +
+         (hint ? '<span class="m-hint">' + esc(hint) + "</span>" : "") + "</div>";
+}
+
+function statRow(it) {
+  const tags = (it.categories || []).map(function (c) {
+    return '<span class="tag ' + esc(c) + '">' + esc(categories()[c] || c) + "</span>";
+  }).join(" ");
+  const desc = it.description_zh || it.description || "";
+  const rankCls = it.rank <= 3 ? "c-rank top" : "c-rank";
+  return "<tr>" +
+    '<td class="' + rankCls + '">' + esc(it.rank) + "</td>" +
+    '<td class="c-repo"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
+      esc(it.full_name) + "</a>" + (desc ? '<div class="r-desc">' + esc(desc) + "</div>" : "") + "</td>" +
+    '<td class="num">' + esc(it.days) + " 天</td>" +
+    '<td class="num gain">' + (it.gained ? "+" + fmt(it.gained) : "—") + "</td>" +
+    '<td class="num">' + (it.best_rank ? "#" + esc(it.best_rank) : "—") + "</td>" +
+    '<td class="c-tags">' + (tags || "—") + "</td>" +
+  "</tr>";
+}
+
+function renderStats() {
+  const view = document.getElementById("statsView");
+  const bucket = currentBucket();
+  if (!bucket) {
+    view.innerHTML = '<div class="empty">暂无统计数据，等待每日归档累积后自动生成</div>';
+    document.getElementById("count").textContent = "";
+    document.getElementById("updated").textContent = "";
+    return;
+  }
+  const s = bucket.summary || {};
+  const cats = s.categories || {};
+  const repos = currentRepos();
+  const catKeys = Object.keys(categories());
+  let summary = metric("覆盖天数", (s.days || 0) + " 天", "基于每日榜单归档");
+  summary += metric("上榜仓库", fmt(s.repos || 0) + " 个", bucket.label);
+  summary += metric("累计增星", "+" + fmt(s.gained || 0), "每日新增星数求和");
+  summary += metric("主力语言", s.top_language || "—", "按上榜仓库数统计");
+  catKeys.forEach(function (key) {
+    summary += metric((categories()[key] || key) + " 仓库", fmt(cats[key] || 0) + " 个",
+                      "占全部 " + (s.repos || 0) + " 个");
+  });
+
+  const rows = repos.map(statRow).join("");
+  const table = repos.length
+    ? '<div class="tablewrap"><table class="rank-table"><thead><tr>' +
+      "<th>#</th><th>仓库</th><th class=\"num\">上榜天数</th>" +
+      "<th class=\"num\">累计增星</th><th class=\"num\">最佳排名</th><th>分类</th>" +
+      "</tr></thead><tbody>" + rows + "</tbody></table></div>"
+    : '<div class="empty">没有符合条件的项目</div>';
+
+  view.innerHTML = '<section class="summary">' + summary + "</section>" + table;
+  document.getElementById("count").textContent = "共 " + repos.length + " 个仓库 · 榜单前 " +
+    (bucket.repos || []).length + " 名";
+  const generated = statsData().generated_at;
+  document.getElementById("updated").textContent =
+    (generated ? "统计时间：" + localTime(generated) : "") + " · " + bucket.label;
+}
+
+function applyVisibility() {
+  const isStats = state.view === "stats";
+  document.getElementById("periodTabs").hidden = isStats;
+  document.getElementById("scopeTabs").hidden = !isStats;
+  document.getElementById("bucketChips").hidden = !isStats;
+  document.getElementById("list").hidden = isStats;
+  document.getElementById("statsView").hidden = !isStats;
+}
+
+function renderAll() {
+  renderViewTabs();
+  renderTabs();
+  renderScopeTabs();
+  renderBucketChips();
+  renderChips();
+  applyVisibility();
+  if (state.view === "stats") renderStats();
+  else renderList();
+}
+
+document.getElementById("search").addEventListener("input", function (e) {
+  state.keyword = e.target.value;
+  if (state.view === "stats") renderStats();
+  else renderList();
+});
+
+if (!DATA || (!periods().length && !scopes().length)) {
+  document.getElementById("viewTabs").innerHTML = "";
+  document.getElementById("list").innerHTML =
+    '<div class="empty">暂无数据，请先运行抓取脚本生成 index.html</div>';
+} else {
+  state.period = periods().indexOf("daily") !== -1 ? "daily" : (periods()[0] || "daily");
+  state.scope = scopes()[0] || "quarterly";
+  if (!periods().length) state.view = "stats";
+  renderAll();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-10-22T12:26:43+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 3,
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 172626,
+      "forks": 9389,
+      "stars_gained": 1949,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 1,
+      "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。"
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 38125,
+      "forks": 2381,
+      "stars_gained": 2979,
+      "categories": [
+        "agent"
+      ],
+      "rank": 2,
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 42640,
+      "forks": 5351,
+      "stars_gained": 428,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "rank": 3,
+      "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。"
+    }
+  ]
+}
