@@ -66,6 +66,7 @@ def add_item(bucket, date, it):
             "days": 0, "best_rank": None, "gained": 0, "stars": None,
             "language": None, "description": "", "description_zh": "",
             "categories": [], "first_seen": date, "last_seen": date,
+            "history": [],
         }
         bucket["repos"][name] = repo
 
@@ -77,6 +78,8 @@ def add_item(bucket, date, it):
         repo["gained"] += it["stars_gained"]
     if it.get("stars") is not None:
         repo["stars"] = it["stars"]
+        if not repo["history"] or repo["history"][-1][0] != date:
+            repo["history"].append([date, it["stars"]])
     repo["language"] = it.get("language") or repo["language"]
     repo["description"] = it.get("description") or repo["description"]
     repo["description_zh"] = it.get("description_zh") or repo["description_zh"]

@@ -146,6 +146,17 @@
   .rank-table .c-repo a:hover { color: var(--accent); text-decoration: underline; }
   .rank-table .r-desc { margin-top: 4px; color: var(--muted); font-size: 12px; line-height: 1.5; }
   .rank-table .c-tags { white-space: nowrap; }
+  .rank-table .c-spark { white-space: nowrap; }
+  .spark { display: block; }
+  .spark polyline {
+    fill: none; stroke: var(--accent); stroke-width: 1.6;
+    stroke-linejoin: round; stroke-linecap: round;
+  }
+  .spark-up polyline { stroke: var(--gain); }
+  .spark-down polyline { stroke: #ef4444; }
+  .spark-flat polyline { stroke: var(--muted); }
+  .spark-delta { display: block; margin-top: 3px; font-size: 11px; color: var(--muted); }
+  .spark-na { color: var(--muted); }
   footer { margin-top: 28px; color: var(--muted); font-size: 12px; line-height: 1.8; }
   footer a { color: var(--accent); text-decoration: none; }
   @media (max-width: 560px) {
@@ -402,6 +413,33 @@ function metric(label, value, hint) {
          (hint ? '<span class="m-hint">' + esc(hint) + "</span>" : "") + "</div>";
 }
 
+function sparkline(history) {
+  if (!history || history.length < 2) {
+    return '<span class="spark-na" title="仅 1 天数据，需累积多天后生成曲线">—</span>';
+  }
+  const w = 96, h = 26, pad = 2;
+  const vals = history.map(function (p) { return Number(p[1]) || 0; });
+  const min = Math.min.apply(null, vals);
+  const max = Math.max.apply(null, vals);
+  const span = max - min;
+  const step = (w - pad * 2) / (history.length - 1);
+  const pts = vals.map(function (v, i) {
+    const x = pad + i * step;
+    const y = span === 0 ? h / 2 : pad + (1 - (v - min) / span) * (h - pad * 2);
+    return x.toFixed(1) + "," + y.toFixed(1);
+  }).join(" ");
+  const first = history[0];
+  const last = history[history.length - 1];
+  const delta = (Number(last[1]) || 0) - (Number(first[1]) || 0);
+  const cls = delta > 0 ? "spark-up" : (delta < 0 ? "spark-down" : "spark-flat");
+  const tip = first[0] + " " + fmt(first[1]) + " → " + last[0] + " " + fmt(last[1]);
+  return '<svg class="spark ' + cls + '" viewBox="0 0 ' + w + " " + h +
+    '" width="' + w + '" height="' + h + '" role="img" aria-label="' + esc(tip) + '">' +
+    "<title>" + esc(tip) + "</title>" +
+    '<polyline points="' + pts + '" /></svg>' +
+    '<span class="spark-delta">' + (delta > 0 ? "+" : "") + fmt(delta) + " ⭐</span>";
+}
+
 function statRow(it) {
   const tags = (it.categories || []).map(function (c) {
     return '<span class="tag ' + esc(c) + '">' + esc(categories()[c] || c) + "</span>";
@@ -415,6 +453,7 @@ function statRow(it) {
     '<td class="num">' + esc(it.days) + " 天</td>" +
     '<td class="num gain">' + (it.gained ? "+" + fmt(it.gained) : "—") + "</td>" +
     '<td class="num">' + (it.best_rank ? "#" + esc(it.best_rank) : "—") + "</td>" +
+    '<td class="c-spark">' + sparkline(it.history) + "</td>" +
     '<td class="c-tags">' + (tags || "—") + "</td>" +
   "</tr>";
 }
@@ -445,7 +484,7 @@ function renderStats() {
   const table = repos.length
     ? '<div class="tablewrap"><table class="rank-table"><thead><tr>' +
       "<th>#</th><th>仓库</th><th class=\"num\">上榜天数</th>" +
-      "<th class=\"num\">累计增星</th><th class=\"num\">最佳排名</th><th>分类</th>" +
+      "<th class=\"num\">累计增星</th><th class=\"num\">最佳排名</th><th>星标趋势</th><th>分类</th>" +
       "</tr></thead><tbody>" + rows + "</tbody></table></div>"
     : '<div class="empty">没有符合条件的项目</div>';
 
