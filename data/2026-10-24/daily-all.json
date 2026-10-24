@@ -1,0 +1,113 @@
+{
+  "period": "daily",
+  "category": "all",
+  "fetched_at": "2026-10-24T02:54:32+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 42285,
+      "forks": 2641,
+      "stars_gained": 2716,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "stars": 41582,
+      "forks": 8362,
+      "stars_gained": 716,
+      "categories": [],
+      "description_zh": "PHP解释器"
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 32270,
+      "forks": 3574,
+      "stars_gained": 635,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 18857,
+      "forks": 1886,
+      "stars_gained": 1119,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "stars": 6920,
+      "forks": 1418,
+      "stars_gained": 546,
+      "categories": [],
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "stars": 8545,
+      "forks": 1105,
+      "stars_gained": 226,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "claude-red 是一个专为 Claude 技能系统设计的进攻性安全技能库。每项技能都是一个结构化的 SKILL.md 文件，为 Claude 提供针对特定攻击面的专家级方法——从 SQLi 到 shellcode，从 EDR 规避到漏洞利用开发。"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 40299,
+      "forks": 4580,
+      "stars_gained": 150,
+      "categories": [],
+      "description_zh": "VoxCPM2：用于多语言语音生成、创意语音设计和逼真克隆的无分词器 TTS"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "stars": 122904,
+      "forks": 39834,
+      "stars_gained": 66,
+      "categories": [],
+      "description_zh": "Node.js JavaScript 运行时✨🐢🚀✨"
+    }
+  ]
+}

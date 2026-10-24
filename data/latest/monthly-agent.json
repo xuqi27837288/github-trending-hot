@@ -1,93 +1,99 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-10-22T12:26:55+00:00",
+  "fetched_at": "2026-10-24T02:54:40+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
-      "trend_rank": 1,
-      "full_name": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "stars": 105940,
-      "forks": 17620,
-      "stars_gained": 24756,
-      "categories": [
-        "agent"
-      ],
-      "rank": 1
-    },
-    {
-      "trend_rank": 3,
+      "trend_rank": 2,
       "full_name": "heygen-com/hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 69661,
-      "forks": 6304,
-      "stars_gained": 17177,
+      "stars": 70859,
+      "forks": 6406,
+      "stars_gained": 18268,
       "categories": [
         "agent"
       ],
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 106625,
+      "forks": 17722,
+      "stars_gained": 25543,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理",
       "rank": 2
     },
     {
       "trend_rank": 4,
-      "full_name": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "stars": 52596,
-      "forks": 6204,
-      "stars_gained": 28488,
-      "categories": [
-        "agent"
-      ],
-      "rank": 3
-    },
-    {
-      "trend_rank": 5,
-      "full_name": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "stars": 17117,
-      "forks": 1818,
-      "stars_gained": 8303,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "rank": 4
-    },
-    {
-      "trend_rank": 6,
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 38125,
-      "forks": 2381,
-      "stars_gained": 16694,
+      "stars": 42285,
+      "forks": 2641,
+      "stars_gained": 20554,
       "categories": [
         "agent"
       ],
-      "rank": 5
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 3
     },
     {
-      "trend_rank": 7,
-      "full_name": "mksglu/context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "stars": 31760,
-      "forks": 2188,
-      "stars_gained": 7915,
+      "trend_rank": 5,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 53166,
+      "forks": 6232,
+      "stars_gained": 28115,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "后见之明：学习的客服代表记忆",
+      "rank": 4
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 18857,
+      "forks": 1886,
+      "stars_gained": 9666,
       "categories": [
         "ai",
         "agent"
       ],
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 32008,
+      "forks": 2205,
+      "stars_gained": 8135,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。",
       "rank": 6
     },
     {
@@ -96,56 +102,61 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 22455,
-      "forks": 2196,
-      "stars_gained": 6081,
+      "stars": 22772,
+      "forks": 2218,
+      "stars_gained": 6519,
       "categories": [
         "agent"
       ],
+      "description_zh": "为您的代理商提供CAD超能力。",
       "rank": 7
     },
     {
-      "trend_rank": 15,
+      "trend_rank": 16,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 286098,
-      "forks": 42443,
-      "stars_gained": 22531,
+      "stars": 287393,
+      "forks": 42617,
+      "stars_gained": 22804,
       "categories": [
         "ai",
         "agent"
       ],
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
       "rank": 8
     },
     {
-      "trend_rank": 17,
+      "trend_rank": 18,
       "full_name": "TencentCloud/Octop",
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 10681,
-      "forks": 1362,
-      "stars_gained": 6164,
+      "stars": 10871,
+      "forks": 1391,
+      "stars_gained": 6225,
       "categories": [
         "ai",
         "agent"
       ],
+      "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。",
       "rank": 9
     },
     {
       "trend_rank": 20,
-      "full_name": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "stars": 56101,
-      "forks": 5059,
-      "stars_gained": 6389,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 102589,
+      "forks": 9066,
+      "stars_gained": 8445,
       "categories": [
+        "ai",
         "agent"
       ],
+      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
       "rank": 10
     }
   ]

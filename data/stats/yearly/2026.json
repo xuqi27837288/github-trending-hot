@@ -2,12 +2,12 @@
   "key": "2026",
   "label": "2026 年",
   "summary": {
-    "days": 1,
-    "repos": 9,
-    "gained": 8070,
+    "days": 2,
+    "repos": 14,
+    "gained": 14244,
     "categories": {
-      "ai": 5,
-      "agent": 3
+      "ai": 7,
+      "agent": 4
     },
     "top_language": "Python"
   },
@@ -15,10 +15,10 @@
     {
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "days": 1,
-      "best_rank": 4,
-      "gained": 2979,
-      "stars": 38125,
+      "days": 2,
+      "best_rank": 1,
+      "gained": 5695,
+      "stars": 42285,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
@@ -26,14 +26,70 @@
         "agent"
       ],
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "history": [
         [
           "2026-10-22",
           38125
+        ],
+        [
+          "2026-10-24",
+          42285
         ]
       ],
       "rank": 1
+    },
+    {
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "days": 2,
+      "best_rank": 2,
+      "gained": 938,
+      "stars": 32270,
+      "language": "Python",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
+      "history": [
+        [
+          "2026-10-22",
+          31302
+        ],
+        [
+          "2026-10-24",
+          32270
+        ]
+      ],
+      "rank": 2
+    },
+    {
+      "full_name": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "days": 2,
+      "best_rank": 1,
+      "gained": 826,
+      "stars": 41582,
+      "language": "C",
+      "description": "The PHP Interpreter",
+      "description_zh": "PHP解释器",
+      "categories": [],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
+      "history": [
+        [
+          "2026-10-22",
+          40797
+        ],
+        [
+          "2026-10-24",
+          41582
+        ]
+      ],
+      "rank": 3
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -57,7 +113,7 @@
           172626
         ]
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -80,7 +136,31 @@
           132319
         ]
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "days": 1,
+      "best_rank": 4,
+      "gained": 1119,
+      "stars": 18857,
+      "language": "Rust",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "history": [
+        [
+          "2026-10-24",
+          18857
+        ]
+      ],
+      "rank": 6
     },
     {
       "full_name": "supabase/supabase",
@@ -103,7 +183,28 @@
           113280
         ]
       ],
-      "rank": 4
+      "rank": 7
+    },
+    {
+      "full_name": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "days": 1,
+      "best_rank": 5,
+      "gained": 546,
+      "stars": 6920,
+      "language": "TypeScript",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "description_zh": "",
+      "categories": [],
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "history": [
+        [
+          "2026-10-24",
+          6920
+        ]
+      ],
+      "rank": 8
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -127,30 +228,51 @@
           42640
         ]
       ],
-      "rank": 5
+      "rank": 9
     },
     {
-      "full_name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "full_name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
       "days": 1,
-      "best_rank": 2,
-      "gained": 303,
-      "stars": 31302,
+      "best_rank": 6,
+      "gained": 226,
+      "stars": 8545,
       "language": "Python",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "description_zh": "claude-red 是一个专为 Claude 技能系统设计的进攻性安全技能库。每项技能都是一个结构化的 SKILL.md 文件，为 Claude 提供针对特定攻击面的专家级方法——从 SQLi 到 shellcode，从 EDR 规避到漏洞利用开发。",
       "categories": [
         "ai"
       ],
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
       "history": [
         [
-          "2026-10-22",
-          31302
+          "2026-10-24",
+          8545
         ]
       ],
-      "rank": 6
+      "rank": 10
+    },
+    {
+      "full_name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "days": 1,
+      "best_rank": 7,
+      "gained": 150,
+      "stars": 40299,
+      "language": "Python",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "description_zh": "VoxCPM2：用于多语言语音生成、创意语音设计和逼真克隆的无分词器 TTS",
+      "categories": [],
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "history": [
+        [
+          "2026-10-24",
+          40299
+        ]
+      ],
+      "rank": 11
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -171,28 +293,7 @@
           8547
         ]
       ],
-      "rank": 7
-    },
-    {
-      "full_name": "php/php-src",
-      "url": "https://github.com/php/php-src",
-      "days": 1,
-      "best_rank": 1,
-      "gained": 110,
-      "stars": 40797,
-      "language": "C",
-      "description": "The PHP Interpreter",
-      "description_zh": "PHP解释器",
-      "categories": [],
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22",
-      "history": [
-        [
-          "2026-10-22",
-          40797
-        ]
-      ],
-      "rank": 8
+      "rank": 12
     },
     {
       "full_name": "fastapi/fastapi",
@@ -213,7 +314,28 @@
           103422
         ]
       ],
-      "rank": 9
+      "rank": 13
+    },
+    {
+      "full_name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "days": 1,
+      "best_rank": 8,
+      "gained": 66,
+      "stars": 122904,
+      "language": "JavaScript",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "description_zh": "Node.js JavaScript 运行时✨🐢🚀✨",
+      "categories": [],
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "history": [
+        [
+          "2026-10-24",
+          122904
+        ]
+      ],
+      "rank": 14
     }
   ]
 }

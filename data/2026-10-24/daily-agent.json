@@ -1,0 +1,39 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-10-24T02:54:32+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 42285,
+      "forks": 2641,
+      "stars_gained": 2716,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 1
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 18857,
+      "forks": 1886,
+      "stars_gained": 1119,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "rank": 2
+    }
+  ]
+}

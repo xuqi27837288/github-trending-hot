@@ -1,0 +1,54 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-10-24T02:54:32+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 3,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 32270,
+      "forks": 3574,
+      "stars_gained": 635,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "rank": 1
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 18857,
+      "forks": 1886,
+      "stars_gained": 1119,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "stars": 8545,
+      "forks": 1105,
+      "stars_gained": 226,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "claude-red 是一个专为 Claude 技能系统设计的进攻性安全技能库。每项技能都是一个结构化的 SKILL.md 文件，为 Claude 提供针对特定攻击面的专家级方法——从 SQLi 到 shellcode，从 EDR 规避到漏洞利用开发。",
+      "rank": 3
+    }
+  ]
+}

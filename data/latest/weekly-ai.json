@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "ai",
-  "fetched_at": "2026-10-22T12:26:49+00:00",
+  "fetched_at": "2026-10-24T02:54:36+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,12 +10,13 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 43767,
-      "forks": 4607,
-      "stars_gained": 5703,
+      "stars": 44145,
+      "forks": 4643,
+      "stars_gained": 4250,
       "categories": [
         "ai"
       ],
+      "description_zh": "由Anthropic管理的高质量Claude Code插件的官方目录。",
       "rank": 1
     },
     {
@@ -24,88 +25,78 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "stars": 78338,
-      "forks": 9208,
-      "stars_gained": 3590,
+      "stars": 78807,
+      "forks": 9254,
+      "stars_gained": 3349,
       "categories": [
         "ai",
         "agent"
       ],
+      "description_zh": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能",
       "rank": 2
     },
     {
-      "trend_rank": 5,
-      "full_name": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "stars": 53779,
-      "forks": 4746,
-      "stars_gained": 4719,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "rank": 3
-    },
-    {
-      "trend_rank": 9,
-      "full_name": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "stars": 12632,
-      "forks": 890,
-      "stars_gained": 2833,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "rank": 4
-    },
-    {
-      "trend_rank": 13,
+      "trend_rank": 6,
       "full_name": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 102188,
-      "forks": 6451,
-      "stars_gained": 8705,
+      "stars": 103970,
+      "forks": 6571,
+      "stars_gained": 9545,
       "categories": [
         "ai",
         "agent"
       ],
-      "rank": 5
+      "description_zh": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）。使用您自己的订阅运行任何编码代理。可在桌面、移动和远程运行时使用。",
+      "rank": 3
     },
     {
-      "trend_rank": 14,
+      "trend_rank": 8,
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 13068,
+      "forks": 910,
+      "stars_gained": 3449,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案",
+      "rank": 4
+    },
+    {
+      "trend_rank": 10,
       "full_name": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "stars": 141881,
-      "forks": 16729,
-      "stars_gained": 3948,
+      "stars": 142375,
+      "forks": 16787,
+      "stars_gained": 4531,
       "categories": [
         "ai"
       ],
-      "rank": 6
+      "description_zh": "最强大、模块化的扩散模型GUI、API和后端，具有图形/节点界面。世界上最快的本地推理引擎。",
+      "rank": 5
     },
     {
-      "trend_rank": 15,
-      "full_name": "mksglu/context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "stars": 31760,
-      "forks": 2188,
-      "stars_gained": 2968,
+      "trend_rank": 13,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars": 54253,
+      "forks": 4784,
+      "stars_gained": 3077,
       "categories": [
         "ai",
         "agent"
       ],
-      "rank": 7
+      "description_zh": "将任何AI特工变成AI科学家。首屈一指的科学代理技能库，全球超过25万名科学家使用。177项随时可用的经验证的技能，以及100多个涵盖生物学、化学、医学和药物发现的科学数据库。与Cursor、Claude Code、Codex、Pi、Antigravity和开放Agent Skills标准兼容。",
+      "rank": 6
     }
   ]
 }
