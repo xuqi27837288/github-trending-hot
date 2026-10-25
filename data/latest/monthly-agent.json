@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-10-24T02:54:40+00:00",
+  "fetched_at": "2026-10-25T02:47:27+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 70859,
-      "forks": 6406,
-      "stars_gained": 18268,
+      "stars": 71536,
+      "forks": 6465,
+      "stars_gained": 18759,
       "categories": [
         "agent"
       ],
@@ -21,48 +21,33 @@
     },
     {
       "trend_rank": 3,
-      "full_name": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "stars": 106625,
-      "forks": 17722,
-      "stars_gained": 25543,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理",
-      "rank": 2
-    },
-    {
-      "trend_rank": 4,
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 42285,
-      "forks": 2641,
-      "stars_gained": 20554,
+      "stars": 44748,
+      "forks": 2773,
+      "stars_gained": 22219,
       "categories": [
         "agent"
       ],
       "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
-      "rank": 3
+      "rank": 2
     },
     {
-      "trend_rank": 5,
-      "full_name": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "stars": 53166,
-      "forks": 6232,
-      "stars_gained": 28115,
+      "trend_rank": 4,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 106999,
+      "forks": 17769,
+      "stars_gained": 25709,
       "categories": [
         "agent"
       ],
-      "description_zh": "后见之明：学习的客服代表记忆",
-      "rank": 4
+      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理",
+      "rank": 3
     },
     {
       "trend_rank": 6,
@@ -70,14 +55,29 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 18857,
-      "forks": 1886,
-      "stars_gained": 9666,
+      "stars": 19519,
+      "forks": 1933,
+      "stars_gained": 10495,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 53468,
+      "forks": 6237,
+      "stars_gained": 26766,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "后见之明：学习的客服代表记忆",
       "rank": 5
     },
     {
@@ -86,9 +86,9 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 32008,
-      "forks": 2205,
-      "stars_gained": 8135,
+      "stars": 32136,
+      "forks": 2220,
+      "stars_gained": 8261,
       "categories": [
         "ai",
         "agent"
@@ -97,14 +97,14 @@
       "rank": 6
     },
     {
-      "trend_rank": 13,
+      "trend_rank": 12,
       "full_name": "earthtojake/text-to-cad",
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 22772,
-      "forks": 2218,
-      "stars_gained": 6519,
+      "stars": 22955,
+      "forks": 2235,
+      "stars_gained": 6675,
       "categories": [
         "agent"
       ],
@@ -117,9 +117,9 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 287393,
-      "forks": 42617,
-      "stars_gained": 22804,
+      "stars": 288145,
+      "forks": 42717,
+      "stars_gained": 22855,
       "categories": [
         "ai",
         "agent"
@@ -133,9 +133,9 @@
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 10871,
-      "forks": 1391,
-      "stars_gained": 6225,
+      "stars": 10941,
+      "forks": 1409,
+      "stars_gained": 6206,
       "categories": [
         "ai",
         "agent"
@@ -144,20 +144,35 @@
       "rank": 9
     },
     {
-      "trend_rank": 20,
+      "trend_rank": 19,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 102589,
-      "forks": 9066,
-      "stars_gained": 8445,
+      "stars": 102847,
+      "forks": 9082,
+      "stars_gained": 8637,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
       "rank": 10
+    },
+    {
+      "trend_rank": 21,
+      "full_name": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
+      "language": "Go",
+      "stars": 5826,
+      "forks": 272,
+      "stars_gained": 2036,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "终端窗口管理器知道您的代理正在做什么。平铺窗格、工作区、重新启动后仍保留的会话以及每个编码代理的一个收件箱。仅限 tuios.dev 和此存储库的官方版本。 tuios 没有 X/Twitter 帐户。",
+      "rank": 11
     }
   ]
 }

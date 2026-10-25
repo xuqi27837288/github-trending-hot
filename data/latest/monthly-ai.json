@@ -1,38 +1,38 @@
 {
   "period": "monthly",
   "category": "ai",
-  "fetched_at": "2026-10-24T02:54:40+00:00",
+  "fetched_at": "2026-10-25T02:47:27+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
+    {
+      "trend_rank": 5,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 32667,
+      "forks": 3607,
+      "stars_gained": 7138,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "rank": 1
+    },
     {
       "trend_rank": 6,
       "full_name": "NVIDIA/OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 18857,
-      "forks": 1886,
-      "stars_gained": 9666,
+      "stars": 19519,
+      "forks": 1933,
+      "stars_gained": 10495,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
-      "rank": 1
-    },
-    {
-      "trend_rank": 7,
-      "full_name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "stars": 32271,
-      "forks": 3574,
-      "stars_gained": 6635,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
       "rank": 2
     },
     {
@@ -41,9 +41,9 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 32008,
-      "forks": 2205,
-      "stars_gained": 8135,
+      "stars": 32136,
+      "forks": 2220,
+      "stars_gained": 8261,
       "categories": [
         "ai",
         "agent"
@@ -57,9 +57,9 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44145,
-      "forks": 4643,
-      "stars_gained": 7614,
+      "stars": 44373,
+      "forks": 4656,
+      "stars_gained": 7817,
       "categories": [
         "ai"
       ],
@@ -67,14 +67,14 @@
       "rank": 4
     },
     {
-      "trend_rank": 12,
+      "trend_rank": 13,
       "full_name": "tashfeenahmed/freellmapi",
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "stars": 40305,
-      "forks": 5439,
-      "stars_gained": 12006,
+      "stars": 41027,
+      "forks": 5535,
+      "stars_gained": 12538,
       "categories": [
         "ai"
       ],
@@ -83,33 +83,18 @@
     },
     {
       "trend_rank": 14,
-      "full_name": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "stars": 72831,
-      "forks": 12793,
-      "stars_gained": 17479,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "学习人工智能工程！学习它。建造它。为别人运送它。",
-      "rank": 6
-    },
-    {
-      "trend_rank": 15,
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 85584,
-      "forks": 5117,
-      "stars_gained": 15614,
+      "stars": 86487,
+      "forks": 5160,
+      "stars_gained": 15700,
       "categories": [
         "ai"
       ],
       "description_zh": "让您的人工智能更好地进行设计的设计语言。",
-      "rank": 7
+      "rank": 6
     },
     {
       "trend_rank": 16,
@@ -117,14 +102,29 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 287393,
-      "forks": 42617,
-      "stars_gained": 22804,
+      "stars": 288145,
+      "forks": 42717,
+      "stars_gained": 22855,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 73346,
+      "forks": 12860,
+      "stars_gained": 17406,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "学习人工智能工程！学习它。建造它。为别人运送它。",
       "rank": 8
     },
     {
@@ -133,9 +133,9 @@
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 10871,
-      "forks": 1391,
-      "stars_gained": 6225,
+      "stars": 10941,
+      "forks": 1409,
+      "stars_gained": 6206,
       "categories": [
         "ai",
         "agent"
@@ -145,49 +145,34 @@
     },
     {
       "trend_rank": 19,
-      "full_name": "VectifyAI/PageIndex",
-      "url": "https://github.com/VectifyAI/PageIndex",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-      "language": "Python",
-      "stars": 39576,
-      "forks": 3427,
-      "stars_gained": 3867,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "📑 PageIndex ：无矢量、基于推理的RAG的文档索引",
-      "rank": 10
-    },
-    {
-      "trend_rank": 20,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 102589,
-      "forks": 9066,
-      "stars_gained": 8445,
+      "stars": 102847,
+      "forks": 9082,
+      "stars_gained": 8637,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
-      "rank": 11
+      "rank": 10
     },
     {
-      "trend_rank": 21,
-      "full_name": "supabase/supabase",
-      "url": "https://github.com/supabase/supabase",
-      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "language": "TypeScript",
-      "stars": 113805,
-      "forks": 16931,
-      "stars_gained": 3317,
+      "trend_rank": 20,
+      "full_name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 39639,
+      "forks": 3427,
+      "stars_gained": 3908,
       "categories": [
         "ai"
       ],
-      "description_zh": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序。",
-      "rank": 12
+      "description_zh": "📑 PageIndex ：无矢量、基于推理的RAG的文档索引",
+      "rank": 11
     }
   ]
 }

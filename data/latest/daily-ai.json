@@ -1,54 +1,118 @@
 {
   "period": "daily",
   "category": "ai",
-  "fetched_at": "2026-10-24T02:54:32+00:00",
+  "fetched_at": "2026-10-25T02:47:19+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
-      "trend_rank": 3,
-      "full_name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "stars": 32270,
-      "forks": 3574,
-      "stars_gained": 635,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
-      "rank": 1
-    },
-    {
-      "trend_rank": 4,
+      "trend_rank": 2,
       "full_name": "NVIDIA/OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 18857,
-      "forks": 1886,
-      "stars_gained": 1119,
+      "stars": 19519,
+      "forks": 1933,
+      "stars_gained": 896,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "stars": 3156,
+      "forks": 400,
+      "stars_gained": 13,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AWS 支持的官方 MCP 服务器、技能和插件可帮助 AI 代理在 AWS 上构建",
       "rank": 2
     },
     {
-      "trend_rank": 6,
-      "full_name": "SnailSploit/Claude-Red",
-      "url": "https://github.com/SnailSploit/Claude-Red",
-      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-      "language": "Python",
-      "stars": 8545,
-      "forks": 1105,
-      "stars_gained": 226,
+      "trend_rank": 4,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 32235,
+      "forks": 1654,
+      "stars_gained": 455,
       "categories": [
         "ai"
       ],
-      "description_zh": "claude-red 是一个专为 Claude 技能系统设计的进攻性安全技能库。每项技能都是一个结构化的 SKILL.md 文件，为 Claude 提供针对特定攻击面的专家级方法——从 SQLi 到 shellcode，从 EDR 规避到漏洞利用开发。",
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
       "rank": 3
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 44609,
+      "forks": 5496,
+      "stars_gained": 392,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 86487,
+      "forks": 5160,
+      "stars_gained": 619,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "language": "TypeScript",
+      "stars": 108105,
+      "forks": 14812,
+      "stars_gained": 44,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。",
+      "rank": 6
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 4142,
+      "forks": 600,
+      "stars_gained": 477,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 7
     }
   ]
 }

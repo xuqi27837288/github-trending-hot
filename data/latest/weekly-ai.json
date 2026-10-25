@@ -1,18 +1,18 @@
 {
   "period": "weekly",
   "category": "ai",
-  "fetched_at": "2026-10-24T02:54:36+00:00",
+  "fetched_at": "2026-10-25T02:47:23+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
-      "trend_rank": 2,
+      "trend_rank": 3,
       "full_name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44145,
-      "forks": 4643,
-      "stars_gained": 4250,
+      "stars": 44373,
+      "forks": 4656,
+      "stars_gained": 3232,
       "categories": [
         "ai"
       ],
@@ -20,14 +20,14 @@
       "rank": 1
     },
     {
-      "trend_rank": 3,
+      "trend_rank": 4,
       "full_name": "ruvnet/ruflo",
       "url": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "stars": 78807,
-      "forks": 9254,
-      "stars_gained": 3349,
+      "stars": 79064,
+      "forks": 9285,
+      "stars_gained": 3241,
       "categories": [
         "ai",
         "agent"
@@ -36,14 +36,14 @@
       "rank": 2
     },
     {
-      "trend_rank": 6,
+      "trend_rank": 5,
       "full_name": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 103970,
-      "forks": 6571,
-      "stars_gained": 9545,
+      "stars": 105023,
+      "forks": 6628,
+      "stars_gained": 9828,
       "categories": [
         "ai",
         "agent"
@@ -52,30 +52,29 @@
       "rank": 3
     },
     {
-      "trend_rank": 8,
-      "full_name": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "stars": 13068,
-      "forks": 910,
-      "stars_gained": 3449,
+      "trend_rank": 9,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 32667,
+      "forks": 3607,
+      "stars_gained": 2631,
       "categories": [
-        "ai",
-        "agent"
+        "ai"
       ],
-      "description_zh": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案",
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
       "rank": 4
     },
     {
-      "trend_rank": 10,
+      "trend_rank": 11,
       "full_name": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "stars": 142375,
-      "forks": 16787,
-      "stars_gained": 4531,
+      "stars": 142652,
+      "forks": 16825,
+      "stars_gained": 4648,
       "categories": [
         "ai"
       ],
@@ -83,20 +82,50 @@
       "rank": 5
     },
     {
-      "trend_rank": 13,
-      "full_name": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "stars": 54253,
-      "forks": 4784,
-      "stars_gained": 3077,
+      "trend_rank": 12,
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 13293,
+      "forks": 938,
+      "stars_gained": 3541,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "将任何AI特工变成AI科学家。首屈一指的科学代理技能库，全球超过25万名科学家使用。177项随时可用的经验证的技能，以及100多个涵盖生物学、化学、医学和药物发现的科学数据库。与Cursor、Claude Code、Codex、Pi、Antigravity和开放Agent Skills标准兼容。",
+      "description_zh": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案",
       "rank": 6
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "stars": 134508,
+      "forks": 12838,
+      "stars_gained": 6868,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "将任何代码库及其文档、SQL架构、配置和PDF转换为可查询的知识图。Claude Code、Cursor、Codex和Gemini CLI的A/graphify技能：本地确定性AST解析，解释每个边缘，没有矢量存储。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python",
+      "stars": 95356,
+      "forks": 23903,
+      "stars_gained": 1371,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "适用于法学硕士的高吞吐量和内存高效推理和服务引擎",
+      "rank": 8
     }
   ]
 }

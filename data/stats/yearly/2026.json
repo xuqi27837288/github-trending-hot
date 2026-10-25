@@ -2,12 +2,12 @@
   "key": "2026",
   "label": "2026 年",
   "summary": {
-    "days": 2,
-    "repos": 14,
-    "gained": 14244,
+    "days": 3,
+    "repos": 21,
+    "gained": 19950,
     "categories": {
-      "ai": 7,
-      "agent": 4
+      "ai": 12,
+      "agent": 7
     },
     "top_language": "Python"
   },
@@ -15,10 +15,10 @@
     {
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "days": 2,
+      "days": 3,
       "best_rank": 1,
-      "gained": 5695,
-      "stars": 42285,
+      "gained": 7959,
+      "stars": 44747,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
@@ -26,7 +26,7 @@
         "agent"
       ],
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-25",
       "history": [
         [
           "2026-10-22",
@@ -35,9 +35,41 @@
         [
           "2026-10-24",
           42285
+        ],
+        [
+          "2026-10-25",
+          44747
         ]
       ],
       "rank": 1
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "days": 2,
+      "best_rank": 2,
+      "gained": 2015,
+      "stars": 19519,
+      "language": "Rust",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-24",
+          18857
+        ],
+        [
+          "2026-10-25",
+          19519
+        ]
+      ],
+      "rank": 2
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -64,7 +96,7 @@
           32270
         ]
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "full_name": "php/php-src",
@@ -89,7 +121,35 @@
           41582
         ]
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "days": 2,
+      "best_rank": 5,
+      "gained": 820,
+      "stars": 44609,
+      "language": "Python",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-22",
+          42640
+        ],
+        [
+          "2026-10-25",
+          44609
+        ]
+      ],
+      "rank": 5
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -113,7 +173,7 @@
           172626
         ]
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -136,31 +196,7 @@
           132319
         ]
       ],
-      "rank": 5
-    },
-    {
-      "full_name": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "days": 1,
-      "best_rank": 4,
-      "gained": 1119,
-      "stars": 18857,
-      "language": "Rust",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "history": [
-        [
-          "2026-10-24",
-          18857
-        ]
-      ],
-      "rank": 6
+      "rank": 7
     },
     {
       "full_name": "supabase/supabase",
@@ -183,7 +219,30 @@
           113280
         ]
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "days": 1,
+      "best_rank": 6,
+      "gained": 619,
+      "stars": 86487,
+      "language": "Rust",
+      "description": "The design language that makes your AI harness better at design.",
+      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-25",
+          86487
+        ]
+      ],
+      "rank": 9
     },
     {
       "full_name": "Renhuai123/ziwei-doushu",
@@ -204,31 +263,96 @@
           6920
         ]
       ],
-      "rank": 8
+      "rank": 10
     },
     {
-      "full_name": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
       "days": 1,
-      "best_rank": 8,
-      "gained": 428,
-      "stars": 42640,
-      "language": "Python",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。",
+      "best_rank": 10,
+      "gained": 477,
+      "stars": 4142,
+      "language": "TypeScript",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "description_zh": "",
       "categories": [
         "ai",
         "agent"
       ],
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22",
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
       "history": [
         [
-          "2026-10-22",
-          42640
+          "2026-10-25",
+          4142
         ]
       ],
-      "rank": 9
+      "rank": 11
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "days": 1,
+      "best_rank": 4,
+      "gained": 455,
+      "stars": 32235,
+      "language": "CSS",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-25",
+          32235
+        ]
+      ],
+      "rank": 12
+    },
+    {
+      "full_name": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "days": 1,
+      "best_rank": 7,
+      "gained": 319,
+      "stars": 11035,
+      "language": "Rust",
+      "description": "A Tiny biped duck robot 🦆",
+      "description_zh": "小型双足鸭子机器人🦆",
+      "categories": [],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-25",
+          11035
+        ]
+      ],
+      "rank": 13
+    },
+    {
+      "full_name": "jbiaojerry/ebook-treasure-chest",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 227,
+      "stars": 22694,
+      "language": "Python",
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "description_zh": "",
+      "categories": [],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-25",
+          22694
+        ]
+      ],
+      "rank": 14
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -251,7 +375,7 @@
           8545
         ]
       ],
-      "rank": 10
+      "rank": 15
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -272,7 +396,7 @@
           40299
         ]
       ],
-      "rank": 11
+      "rank": 16
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -293,7 +417,7 @@
           8547
         ]
       ],
-      "rank": 12
+      "rank": 17
     },
     {
       "full_name": "fastapi/fastapi",
@@ -314,7 +438,7 @@
           103422
         ]
       ],
-      "rank": 13
+      "rank": 18
     },
     {
       "full_name": "nodejs/node",
@@ -335,7 +459,55 @@
           122904
         ]
       ],
-      "rank": 14
+      "rank": 19
+    },
+    {
+      "full_name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "days": 1,
+      "best_rank": 8,
+      "gained": 44,
+      "stars": 108105,
+      "language": "TypeScript",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "description_zh": "一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-25",
+          108105
+        ]
+      ],
+      "rank": 20
+    },
+    {
+      "full_name": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "days": 1,
+      "best_rank": 3,
+      "gained": 13,
+      "stars": 3156,
+      "language": "Python",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "description_zh": "AWS 支持的官方 MCP 服务器、技能和插件可帮助 AI 代理在 AWS 上构建",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "history": [
+        [
+          "2026-10-25",
+          3156
+        ]
+      ],
+      "rank": 21
     }
   ]
 }
