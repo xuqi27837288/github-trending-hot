@@ -1,103 +1,71 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-10-25T02:47:19+00:00",
+  "fetched_at": "2026-10-26T01:02:48+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "stars": 44747,
-      "forks": 2773,
-      "stars_gained": 2264,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
-      "rank": 1
-    },
-    {
-      "trend_rank": 2,
-      "full_name": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "stars": 19519,
-      "forks": 1933,
-      "stars_gained": 896,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
-      "rank": 2
-    },
-    {
-      "trend_rank": 3,
-      "full_name": "aws/agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-      "language": "Python",
-      "stars": 3156,
-      "forks": 400,
-      "stars_gained": 13,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "AWS 支持的官方 MCP 服务器、技能和插件可帮助 AI 代理在 AWS 上构建",
-      "rank": 3
-    },
-    {
-      "trend_rank": 5,
-      "full_name": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "stars": 44609,
-      "forks": 5496,
-      "stars_gained": 392,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。",
-      "rank": 4
-    },
-    {
-      "trend_rank": 8,
-      "full_name": "google-gemini/gemini-cli",
-      "url": "https://github.com/google-gemini/gemini-cli",
-      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "language": "TypeScript",
-      "stars": 108105,
-      "forks": 14812,
-      "stars_gained": 44,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。",
-      "rank": 5
-    },
-    {
-      "trend_rank": 10,
       "full_name": "makecindy/cindy",
       "url": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "stars": 4142,
-      "forks": 600,
-      "stars_gained": 477,
+      "stars": 4879,
+      "forks": 666,
+      "stars_gained": 675,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "",
-      "rank": 6
+      "rank": 1
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 114623,
+      "forks": 22128,
+      "stars_gained": 381,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
+      "rank": 2
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 46919,
+      "forks": 2908,
+      "stars_gained": 2878,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 3
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 20882,
+      "forks": 2956,
+      "stars_gained": 197,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "rank": 4
     }
   ]
 }

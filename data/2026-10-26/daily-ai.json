@@ -1,0 +1,86 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-10-26T01:02:48+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 4879,
+      "forks": 666,
+      "stars_gained": 675,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 1
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 33786,
+      "forks": 1767,
+      "stars_gained": 1317,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 87708,
+      "forks": 5243,
+      "stars_gained": 1092,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 114623,
+      "forks": 22128,
+      "stars_gained": 381,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
+      "rank": 4
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 20882,
+      "forks": 2956,
+      "stars_gained": 197,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "rank": 5
+    }
+  ]
+}

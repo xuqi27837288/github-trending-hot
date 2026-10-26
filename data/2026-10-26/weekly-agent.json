@@ -1,0 +1,101 @@
+{
+  "period": "weekly",
+  "category": "agent",
+  "fetched_at": "2026-10-26T01:02:52+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 46919,
+      "forks": 2908,
+      "stars_gained": 15072,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 1
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 79283,
+      "forks": 9305,
+      "stars_gained": 2987,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能",
+      "rank": 2
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 221523,
+      "forks": 29617,
+      "stars_gained": 5921,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "开源编码代理。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 105831,
+      "forks": 6693,
+      "stars_gained": 9622,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）。使用您自己的订阅运行任何编码代理。可在桌面、移动和远程运行时使用。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 72168,
+      "forks": 6520,
+      "stars_gained": 5612,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 13526,
+      "forks": 959,
+      "stars_gained": 3254,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案",
+      "rank": 6
+    }
+  ]
+}

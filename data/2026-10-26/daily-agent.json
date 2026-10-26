@@ -1,0 +1,71 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-10-26T01:02:48+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 4879,
+      "forks": 666,
+      "stars_gained": 675,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 1
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 114623,
+      "forks": 22128,
+      "stars_gained": 381,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
+      "rank": 2
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 46919,
+      "forks": 2908,
+      "stars_gained": 2878,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 3
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 20882,
+      "forks": 2956,
+      "stars_gained": 197,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "rank": 4
+    }
+  ]
+}

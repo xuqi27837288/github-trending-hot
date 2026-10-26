@@ -1,18 +1,18 @@
 {
   "period": "monthly",
   "category": "ai",
-  "fetched_at": "2026-10-25T02:47:27+00:00",
+  "fetched_at": "2026-10-26T01:02:55+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
-      "trend_rank": 5,
+      "trend_rank": 4,
       "full_name": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 32667,
-      "forks": 3607,
-      "stars_gained": 7138,
+      "stars": 32982,
+      "forks": 3633,
+      "stars_gained": 7387,
       "categories": [
         "ai"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19519,
-      "forks": 1933,
-      "stars_gained": 10495,
+      "stars": 19869,
+      "forks": 1966,
+      "stars_gained": 11062,
       "categories": [
         "ai",
         "agent"
@@ -36,14 +36,14 @@
       "rank": 2
     },
     {
-      "trend_rank": 8,
+      "trend_rank": 7,
       "full_name": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 32136,
-      "forks": 2220,
-      "stars_gained": 8261,
+      "stars": 32258,
+      "forks": 2232,
+      "stars_gained": 8324,
       "categories": [
         "ai",
         "agent"
@@ -52,14 +52,14 @@
       "rank": 3
     },
     {
-      "trend_rank": 11,
+      "trend_rank": 10,
       "full_name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44373,
-      "forks": 4656,
-      "stars_gained": 7817,
+      "stars": 44566,
+      "forks": 4664,
+      "stars_gained": 7932,
       "categories": [
         "ai"
       ],
@@ -67,111 +67,111 @@
       "rank": 4
     },
     {
-      "trend_rank": 13,
-      "full_name": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "stars": 41027,
-      "forks": 5535,
-      "stars_gained": 12538,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "每月74亿个代币。34个免费LLM提供商。635个免费模型端点。全部在一个/v1端点后面，加上任何与OpenAI兼容的自定义端点。智能路由、自动故障转移、加密密钥。仅限个人实验。",
-      "rank": 5
-    },
-    {
-      "trend_rank": 14,
+      "trend_rank": 12,
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 86487,
-      "forks": 5160,
-      "stars_gained": 15700,
+      "stars": 87709,
+      "forks": 5243,
+      "stars_gained": 16493,
       "categories": [
         "ai"
       ],
       "description_zh": "让您的人工智能更好地进行设计的设计语言。",
-      "rank": 6
+      "rank": 5
     },
     {
-      "trend_rank": 16,
+      "trend_rank": 14,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 288145,
-      "forks": 42717,
-      "stars_gained": 22855,
+      "stars": 288870,
+      "forks": 42829,
+      "stars_gained": 22882,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
-      "rank": 7
+      "rank": 6
     },
     {
-      "trend_rank": 17,
-      "full_name": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "stars": 73346,
-      "forks": 12860,
-      "stars_gained": 17406,
+      "trend_rank": 15,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars": 41591,
+      "forks": 5605,
+      "stars_gained": 12957,
       "categories": [
         "ai"
       ],
-      "description_zh": "学习人工智能工程！学习它。建造它。为别人运送它。",
-      "rank": 8
+      "description_zh": "每月74亿个代币。34个免费LLM提供商。635个免费模型端点。全部在一个/v1端点后面，加上任何与OpenAI兼容的自定义端点。智能路由、自动故障转移、加密密钥。仅限个人实验。",
+      "rank": 7
     },
     {
-      "trend_rank": 18,
-      "full_name": "TencentCloud/Octop",
-      "url": "https://github.com/TencentCloud/Octop",
-      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "language": "Python",
-      "stars": 10941,
-      "forks": 1409,
-      "stars_gained": 6206,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。",
-      "rank": 9
-    },
-    {
-      "trend_rank": 19,
+      "trend_rank": 16,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 102847,
-      "forks": 9082,
-      "stars_gained": 8637,
+      "stars": 103123,
+      "forks": 9110,
+      "stars_gained": 8817,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
-      "rank": 10
+      "rank": 8
     },
     {
-      "trend_rank": 20,
+      "trend_rank": 18,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 73820,
+      "forks": 12941,
+      "stars_gained": 16847,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "学习人工智能工程！学习它。建造它。为别人运送它。",
+      "rank": 9
+    },
+    {
+      "trend_rank": 19,
       "full_name": "VectifyAI/PageIndex",
       "url": "https://github.com/VectifyAI/PageIndex",
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "stars": 39639,
-      "forks": 3427,
-      "stars_gained": 3908,
+      "stars": 39699,
+      "forks": 3429,
+      "stars_gained": 3964,
       "categories": [
         "ai"
       ],
       "description_zh": "📑 PageIndex ：无矢量、基于推理的RAG的文档索引",
+      "rank": 10
+    },
+    {
+      "trend_rank": 20,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars": 11023,
+      "forks": 1415,
+      "stars_gained": 6203,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。",
       "rank": 11
     }
   ]

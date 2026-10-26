@@ -77,6 +77,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # 定时触发的 SHA 是触发时刻的提交，必须显式取最新 main，
+          # 否则会部署上一版 index.html
+          ref: main
 
       - name: Prepare site
         run: |

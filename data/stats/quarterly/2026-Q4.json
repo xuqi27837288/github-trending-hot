@@ -2,12 +2,12 @@
   "key": "2026-Q4",
   "label": "2026 年 Q4 季度",
   "summary": {
-    "days": 3,
-    "repos": 21,
-    "gained": 19950,
+    "days": 4,
+    "repos": 26,
+    "gained": 29131,
     "categories": {
-      "ai": 12,
-      "agent": 7
+      "ai": 14,
+      "agent": 9
     },
     "top_language": "Python"
   },
@@ -15,10 +15,10 @@
     {
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "days": 3,
+      "days": 4,
       "best_rank": 1,
-      "gained": 7959,
-      "stars": 44747,
+      "gained": 10837,
+      "stars": 46919,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
@@ -26,7 +26,7 @@
         "agent"
       ],
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-26",
       "history": [
         [
           "2026-10-22",
@@ -39,6 +39,10 @@
         [
           "2026-10-25",
           44747
+        ],
+        [
+          "2026-10-26",
+          46919
         ]
       ],
       "rank": 1
@@ -72,6 +76,113 @@
       "rank": 2
     },
     {
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "days": 2,
+      "best_rank": 2,
+      "gained": 1772,
+      "stars": 33786,
+      "language": "CSS",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-25",
+          32235
+        ],
+        [
+          "2026-10-26",
+          33786
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "days": 2,
+      "best_rank": 4,
+      "gained": 1711,
+      "stars": 87708,
+      "language": "Rust",
+      "description": "The design language that makes your AI harness better at design.",
+      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-25",
+          86487
+        ],
+        [
+          "2026-10-26",
+          87708
+        ]
+      ],
+      "rank": 4
+    },
+    {
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "days": 2,
+      "best_rank": 1,
+      "gained": 1152,
+      "stars": 4879,
+      "language": "TypeScript",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "description_zh": "",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-25",
+          4142
+        ],
+        [
+          "2026-10-26",
+          4879
+        ]
+      ],
+      "rank": 5
+    },
+    {
+      "full_name": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "days": 2,
+      "best_rank": 5,
+      "gained": 966,
+      "stars": 11648,
+      "language": "Rust",
+      "description": "A Tiny biped duck robot 🦆",
+      "description_zh": "小型双足鸭子机器人🦆",
+      "categories": [],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-25",
+          11035
+        ],
+        [
+          "2026-10-26",
+          11648
+        ]
+      ],
+      "rank": 6
+    },
+    {
       "full_name": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "days": 2,
@@ -96,7 +207,7 @@
           32270
         ]
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "full_name": "php/php-src",
@@ -121,7 +232,7 @@
           41582
         ]
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -149,7 +260,32 @@
           44609
         ]
       ],
-      "rank": 5
+      "rank": 9
+    },
+    {
+      "full_name": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "days": 2,
+      "best_rank": 5,
+      "gained": 745,
+      "stars": 7563,
+      "language": "TypeScript",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "description_zh": "",
+      "categories": [],
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-24",
+          6920
+        ],
+        [
+          "2026-10-26",
+          7563
+        ]
+      ],
+      "rank": 10
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -173,7 +309,28 @@
           172626
         ]
       ],
-      "rank": 6
+      "rank": 11
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "days": 1,
+      "best_rank": 3,
+      "gained": 1592,
+      "stars": 86843,
+      "language": "Python",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。",
+      "categories": [],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-26",
+          86843
+        ]
+      ],
+      "rank": 12
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -196,7 +353,7 @@
           132319
         ]
       ],
-      "rank": 7
+      "rank": 13
     },
     {
       "full_name": "supabase/supabase",
@@ -219,119 +376,31 @@
           113280
         ]
       ],
-      "rank": 8
+      "rank": 14
     },
     {
-      "full_name": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
       "days": 1,
       "best_rank": 6,
-      "gained": 619,
-      "stars": 86487,
-      "language": "Rust",
-      "description": "The design language that makes your AI harness better at design.",
-      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-25",
-      "history": [
-        [
-          "2026-10-25",
-          86487
-        ]
-      ],
-      "rank": 9
-    },
-    {
-      "full_name": "Renhuai123/ziwei-doushu",
-      "url": "https://github.com/Renhuai123/ziwei-doushu",
-      "days": 1,
-      "best_rank": 5,
-      "gained": 546,
-      "stars": 6920,
-      "language": "TypeScript",
-      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "description_zh": "",
-      "categories": [],
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "history": [
-        [
-          "2026-10-24",
-          6920
-        ]
-      ],
-      "rank": 10
-    },
-    {
-      "full_name": "makecindy/cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "days": 1,
-      "best_rank": 10,
-      "gained": 477,
-      "stars": 4142,
-      "language": "TypeScript",
-      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "description_zh": "",
+      "gained": 381,
+      "stars": 114623,
+      "language": "Python",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
       "categories": [
         "ai",
         "agent"
       ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-25",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
       "history": [
         [
-          "2026-10-25",
-          4142
+          "2026-10-26",
+          114623
         ]
       ],
-      "rank": 11
-    },
-    {
-      "full_name": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "days": 1,
-      "best_rank": 4,
-      "gained": 455,
-      "stars": 32235,
-      "language": "CSS",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-25",
-      "history": [
-        [
-          "2026-10-25",
-          32235
-        ]
-      ],
-      "rank": 12
-    },
-    {
-      "full_name": "pollen-robotics/microduck",
-      "url": "https://github.com/pollen-robotics/microduck",
-      "days": 1,
-      "best_rank": 7,
-      "gained": 319,
-      "stars": 11035,
-      "language": "Rust",
-      "description": "A Tiny biped duck robot 🦆",
-      "description_zh": "小型双足鸭子机器人🦆",
-      "categories": [],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-25",
-      "history": [
-        [
-          "2026-10-25",
-          11035
-        ]
-      ],
-      "rank": 13
+      "rank": 15
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -352,7 +421,7 @@
           22694
         ]
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -375,7 +444,52 @@
           8545
         ]
       ],
-      "rank": 15
+      "rank": 17
+    },
+    {
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "days": 1,
+      "best_rank": 11,
+      "gained": 197,
+      "stars": 20882,
+      "language": "Python",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-26",
+          20882
+        ]
+      ],
+      "rank": 18
+    },
+    {
+      "full_name": "coollabsio/coolify",
+      "url": "https://github.com/coollabsio/coolify",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 152,
+      "stars": 64388,
+      "language": "PHP",
+      "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+      "description_zh": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务。",
+      "categories": [],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-26",
+          64388
+        ]
+      ],
+      "rank": 19
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -396,7 +510,7 @@
           40299
         ]
       ],
-      "rank": 16
+      "rank": 20
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -417,7 +531,7 @@
           8547
         ]
       ],
-      "rank": 17
+      "rank": 21
     },
     {
       "full_name": "fastapi/fastapi",
@@ -438,7 +552,7 @@
           103422
         ]
       ],
-      "rank": 18
+      "rank": 22
     },
     {
       "full_name": "nodejs/node",
@@ -459,7 +573,28 @@
           122904
         ]
       ],
-      "rank": 19
+      "rank": 23
+    },
+    {
+      "full_name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "days": 1,
+      "best_rank": 8,
+      "gained": 51,
+      "stars": 1746,
+      "language": "TypeScript",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "description_zh": "轻量级的真实IDE中带有pi的Vibe代码，可根据您的工作方式自行定制—您需要的Vibe",
+      "categories": [],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "history": [
+        [
+          "2026-10-26",
+          1746
+        ]
+      ],
+      "rank": 24
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -483,7 +618,7 @@
           108105
         ]
       ],
-      "rank": 20
+      "rank": 25
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -507,7 +642,7 @@
           3156
         ]
       ],
-      "rank": 21
+      "rank": 26
     }
   ]
 }
