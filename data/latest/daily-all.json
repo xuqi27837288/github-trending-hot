@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "category": "all",
-  "fetched_at": "2026-10-26T01:02:48+00:00",
+  "fetched_at": "2026-10-26T02:44:55+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
@@ -10,8 +10,8 @@
       "url": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "stars": 4879,
-      "forks": 666,
+      "stars": 5013,
+      "forks": 677,
       "stars_gained": 675,
       "categories": [
         "ai",
@@ -25,8 +25,8 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 33786,
-      "forks": 1767,
+      "stars": 34024,
+      "forks": 1777,
       "stars_gained": 1317,
       "categories": [
         "ai"
@@ -39,8 +39,8 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 86843,
-      "forks": 9613,
+      "stars": 87014,
+      "forks": 9631,
       "stars_gained": 1592,
       "categories": [],
       "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
@@ -51,8 +51,8 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 87708,
-      "forks": 5243,
+      "stars": 87836,
+      "forks": 5249,
       "stars_gained": 1092,
       "categories": [
         "ai"
@@ -65,8 +65,8 @@
       "url": "https://github.com/pollen-robotics/microduck",
       "description": "A Tiny biped duck robot 🦆",
       "language": "Rust",
-      "stars": 11648,
-      "forks": 1483,
+      "stars": 11740,
+      "forks": 1493,
       "stars_gained": 647,
       "categories": [],
       "description_zh": "小型双足鸭子机器人🦆"
@@ -77,8 +77,8 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "stars": 114623,
-      "forks": 22128,
+      "stars": 114729,
+      "forks": 22134,
       "stars_gained": 381,
       "categories": [
         "ai",
@@ -92,8 +92,8 @@
       "url": "https://github.com/Renhuai123/ziwei-doushu",
       "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "language": "TypeScript",
-      "stars": 7563,
-      "forks": 1548,
+      "stars": 7726,
+      "forks": 1566,
       "stars_gained": 199,
       "categories": [],
       "description_zh": ""
@@ -104,8 +104,8 @@
       "url": "https://github.com/JetBrains/thinkrail",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "language": "TypeScript",
-      "stars": 1746,
-      "forks": 102,
+      "stars": 1863,
+      "forks": 107,
       "stars_gained": 51,
       "categories": [],
       "description_zh": "轻量级的真实IDE中带有pi的Vibe代码，可根据您的工作方式自行定制—您需要的Vibe"
@@ -116,8 +116,8 @@
       "url": "https://github.com/coollabsio/coolify",
       "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
       "language": "PHP",
-      "stars": 64388,
-      "forks": 5785,
+      "stars": 64486,
+      "forks": 5796,
       "stars_gained": 152,
       "categories": [],
       "description_zh": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务。"
@@ -128,8 +128,8 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 46919,
-      "forks": 2908,
+      "stars": 47072,
+      "forks": 2920,
       "stars_gained": 2878,
       "categories": [
         "agent"
@@ -142,8 +142,8 @@
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "stars": 20882,
-      "forks": 2956,
+      "stars": 21015,
+      "forks": 2960,
       "stars_gained": 197,
       "categories": [
         "ai",

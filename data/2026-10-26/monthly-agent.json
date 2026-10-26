@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-10-26T01:02:55+00:00",
+  "fetched_at": "2026-10-26T02:45:02+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,8 +10,8 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 72168,
-      "forks": 6520,
+      "stars": 72236,
+      "forks": 6525,
       "stars_gained": 19211,
       "categories": [
         "agent"
@@ -25,8 +25,8 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 46919,
-      "forks": 2908,
+      "stars": 47072,
+      "forks": 2920,
       "stars_gained": 24611,
       "categories": [
         "agent"
@@ -40,8 +40,8 @@
       "url": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "stars": 107296,
-      "forks": 17825,
+      "stars": 107329,
+      "forks": 17832,
       "stars_gained": 24081,
       "categories": [
         "agent"
@@ -55,8 +55,8 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19869,
-      "forks": 1966,
+      "stars": 19893,
+      "forks": 1968,
       "stars_gained": 11062,
       "categories": [
         "ai",
@@ -71,7 +71,7 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 32258,
+      "stars": 32275,
       "forks": 2232,
       "stars_gained": 8324,
       "categories": [
@@ -87,8 +87,8 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars": 53726,
-      "forks": 6251,
+      "stars": 53766,
+      "forks": 6252,
       "stars_gained": 25486,
       "categories": [
         "agent"
@@ -102,8 +102,8 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 23131,
-      "forks": 2246,
+      "stars": 23148,
+      "forks": 2249,
       "stars_gained": 6821,
       "categories": [
         "agent"
@@ -117,8 +117,8 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 288870,
-      "forks": 42829,
+      "stars": 288910,
+      "forks": 42834,
       "stars_gained": 22882,
       "categories": [
         "ai",
@@ -133,8 +133,8 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 103123,
-      "forks": 9110,
+      "stars": 103142,
+      "forks": 9109,
       "stars_gained": 8817,
       "categories": [
         "ai",
@@ -149,8 +149,8 @@
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 11023,
-      "forks": 1415,
+      "stars": 11037,
+      "forks": 1416,
       "stars_gained": 6203,
       "categories": [
         "ai",
@@ -165,7 +165,7 @@
       "url": "https://github.com/Gaurav-Gosain/tuios",
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
       "language": "Go",
-      "stars": 5991,
+      "stars": 6004,
       "forks": 276,
       "stars_gained": 2223,
       "categories": [

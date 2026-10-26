@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "ai",
-  "fetched_at": "2026-10-26T01:02:52+00:00",
+  "fetched_at": "2026-10-26T02:44:59+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,8 +10,8 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "stars": 79283,
-      "forks": 9305,
+      "stars": 79310,
+      "forks": 9309,
       "stars_gained": 2987,
       "categories": [
         "ai",
@@ -26,7 +26,7 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 32982,
+      "stars": 33013,
       "forks": 3633,
       "stars_gained": 2790,
       "categories": [
@@ -41,8 +41,8 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 105831,
-      "forks": 6693,
+      "stars": 105941,
+      "forks": 6700,
       "stars_gained": 9622,
       "categories": [
         "ai",
@@ -57,8 +57,8 @@
       "url": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
-      "stars": 135262,
-      "forks": 12909,
+      "stars": 135344,
+      "forks": 12915,
       "stars_gained": 6903,
       "categories": [
         "ai"
@@ -72,8 +72,8 @@
       "url": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "stars": 13526,
-      "forks": 959,
+      "stars": 13544,
+      "forks": 960,
       "stars_gained": 3254,
       "categories": [
         "ai",
@@ -88,8 +88,8 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "stars": 142943,
-      "forks": 16874,
+      "stars": 142969,
+      "forks": 16876,
       "stars_gained": 4790,
       "categories": [
         "ai"
@@ -103,7 +103,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44566,
+      "stars": 44577,
       "forks": 4664,
       "stars_gained": 2245,
       "categories": [
@@ -118,8 +118,8 @@
       "url": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 95494,
-      "forks": 23949,
+      "stars": 95504,
+      "forks": 23950,
       "stars_gained": 1445,
       "categories": [
         "ai"
@@ -133,7 +133,7 @@
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": null,
-      "stars": 223851,
+      "stars": 223897,
       "forks": 22415,
       "stars_gained": 2937,
       "categories": [

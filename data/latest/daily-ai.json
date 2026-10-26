@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "category": "ai",
-  "fetched_at": "2026-10-26T01:02:48+00:00",
+  "fetched_at": "2026-10-26T02:44:55+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
@@ -10,8 +10,8 @@
       "url": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "stars": 4879,
-      "forks": 666,
+      "stars": 5013,
+      "forks": 677,
       "stars_gained": 675,
       "categories": [
         "ai",
@@ -26,8 +26,8 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 33786,
-      "forks": 1767,
+      "stars": 34024,
+      "forks": 1777,
       "stars_gained": 1317,
       "categories": [
         "ai"
@@ -41,8 +41,8 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 87708,
-      "forks": 5243,
+      "stars": 87836,
+      "forks": 5249,
       "stars_gained": 1092,
       "categories": [
         "ai"
@@ -56,8 +56,8 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "stars": 114623,
-      "forks": 22128,
+      "stars": 114729,
+      "forks": 22134,
       "stars_gained": 381,
       "categories": [
         "ai",
@@ -72,8 +72,8 @@
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "stars": 20882,
-      "forks": 2956,
+      "stars": 21015,
+      "forks": 2960,
       "stars_gained": 197,
       "categories": [
         "ai",

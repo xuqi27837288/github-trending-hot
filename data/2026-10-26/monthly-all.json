@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "all",
-  "fetched_at": "2026-10-26T01:02:55+00:00",
+  "fetched_at": "2026-10-26T02:45:02+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,8 +10,8 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 72168,
-      "forks": 6520,
+      "stars": 72236,
+      "forks": 6525,
       "stars_gained": 19211,
       "categories": [
         "agent"
@@ -24,8 +24,8 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 86843,
-      "forks": 9613,
+      "stars": 87014,
+      "forks": 9631,
       "stars_gained": 50977,
       "categories": [],
       "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
@@ -36,8 +36,8 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 46919,
-      "forks": 2908,
+      "stars": 47072,
+      "forks": 2920,
       "stars_gained": 24611,
       "categories": [
         "agent"
@@ -50,7 +50,7 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 32982,
+      "stars": 33013,
       "forks": 3633,
       "stars_gained": 7387,
       "categories": [
@@ -64,8 +64,8 @@
       "url": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "stars": 107296,
-      "forks": 17825,
+      "stars": 107329,
+      "forks": 17832,
       "stars_gained": 24081,
       "categories": [
         "agent"
@@ -78,8 +78,8 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19869,
-      "forks": 1966,
+      "stars": 19893,
+      "forks": 1968,
       "stars_gained": 11062,
       "categories": [
         "ai",
@@ -93,7 +93,7 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 32258,
+      "stars": 32275,
       "forks": 2232,
       "stars_gained": 8324,
       "categories": [
@@ -108,8 +108,8 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 14051,
-      "forks": 1403,
+      "stars": 14062,
+      "forks": 1404,
       "stars_gained": 5448,
       "categories": [],
       "description_zh": "光标插件规范和官方插件"
@@ -120,8 +120,8 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars": 53726,
-      "forks": 6251,
+      "stars": 53766,
+      "forks": 6252,
       "stars_gained": 25486,
       "categories": [
         "agent"
@@ -134,7 +134,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44566,
+      "stars": 44577,
       "forks": 4664,
       "stars_gained": 7932,
       "categories": [
@@ -148,8 +148,8 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 23131,
-      "forks": 2246,
+      "stars": 23148,
+      "forks": 2249,
       "stars_gained": 6821,
       "categories": [
         "agent"
@@ -162,8 +162,8 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 87709,
-      "forks": 5243,
+      "stars": 87836,
+      "forks": 5249,
       "stars_gained": 16493,
       "categories": [
         "ai"
@@ -176,8 +176,8 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 94319,
-      "forks": 10595,
+      "stars": 94346,
+      "forks": 10598,
       "stars_gained": 14822,
       "categories": [],
       "description_zh": "Ghidra是一个软件逆向工程（ SRE ）框架"
@@ -188,8 +188,8 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 288870,
-      "forks": 42829,
+      "stars": 288910,
+      "forks": 42834,
       "stars_gained": 22882,
       "categories": [
         "ai",
@@ -203,8 +203,8 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "stars": 41591,
-      "forks": 5605,
+      "stars": 41619,
+      "forks": 5610,
       "stars_gained": 12957,
       "categories": [
         "ai"
@@ -217,8 +217,8 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 103123,
-      "forks": 9110,
+      "stars": 103142,
+      "forks": 9109,
       "stars_gained": 8817,
       "categories": [
         "ai",
@@ -232,8 +232,8 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "stars": 30131,
-      "forks": 8080,
+      "stars": 30166,
+      "forks": 8087,
       "stars_gained": 6596,
       "categories": [],
       "description_zh": ""
@@ -244,8 +244,8 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars": 73820,
-      "forks": 12941,
+      "stars": 73852,
+      "forks": 12944,
       "stars_gained": 16847,
       "categories": [
         "ai"
@@ -258,7 +258,7 @@
       "url": "https://github.com/VectifyAI/PageIndex",
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "stars": 39699,
+      "stars": 39709,
       "forks": 3429,
       "stars_gained": 3964,
       "categories": [
@@ -272,8 +272,8 @@
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 11023,
-      "forks": 1415,
+      "stars": 11037,
+      "forks": 1416,
       "stars_gained": 6203,
       "categories": [
         "ai",
@@ -287,7 +287,7 @@
       "url": "https://github.com/Gaurav-Gosain/tuios",
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
       "language": "Go",
-      "stars": 5991,
+      "stars": 6004,
       "forks": 276,
       "stars_gained": 2223,
       "categories": [
