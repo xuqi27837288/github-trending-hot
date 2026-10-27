@@ -1,0 +1,165 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-10-27T03:19:20+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 36677,
+      "forks": 1913,
+      "stars_gained": 2244,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 116307,
+      "forks": 22307,
+      "stars_gained": 1395,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
+      "rank": 2
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 6657,
+      "forks": 807,
+      "stars_gained": 1296,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 3
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 289953,
+      "forks": 42970,
+      "stars_gained": 896,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 89342,
+      "forks": 5316,
+      "stars_gained": 1506,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "stars": 22316,
+      "forks": 1944,
+      "stars_gained": 214,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI 代理技能的安全扫描器。在安装之前检测 Claude Code、Codex 和 MCP 技能中的漏洞、恶意模式、安全风险、提示注入、数据泄露和供应链风险。",
+      "rank": 6
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "stars": 1573,
+      "forks": 193,
+      "stars_gained": 176,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "为持久的 AI 团队成员提供本地优先的桌面工作区。通过专用工作区、任务队列、文件共享、浏览器控制和代理间协作来运行 Codex、Claude 和 Grok。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 103817,
+      "forks": 9208,
+      "stars_gained": 746,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。",
+      "rank": 8
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "alchaincyf/huashu-design",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "language": "HTML",
+      "stars": 27022,
+      "forks": 2977,
+      "stars_gained": 251,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 9
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "stars": 224758,
+      "forks": 22483,
+      "stars_gained": 638,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察。",
+      "rank": 10
+    }
+  ]
+}

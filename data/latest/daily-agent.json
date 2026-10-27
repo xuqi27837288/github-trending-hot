@@ -1,71 +1,135 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-10-26T02:44:55+00:00",
+  "fetched_at": "2026-10-27T03:19:20+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
-      "trend_rank": 1,
-      "full_name": "makecindy/cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "language": "TypeScript",
-      "stars": 5013,
-      "forks": 677,
-      "stars_gained": 675,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "",
-      "rank": 1
-    },
-    {
-      "trend_rank": 6,
+      "trend_rank": 2,
       "full_name": "TauricResearch/TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "stars": 114729,
-      "forks": 22134,
-      "stars_gained": 381,
+      "stars": 116307,
+      "forks": 22307,
+      "stars_gained": 1395,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "TradingAgent ：多代理LLM金融交易框架",
-      "rank": 2
+      "rank": 1
     },
     {
-      "trend_rank": 10,
-      "full_name": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "stars": 47072,
-      "forks": 2920,
-      "stars_gained": 2878,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
-      "rank": 3
-    },
-    {
-      "trend_rank": 11,
-      "full_name": "AgriciDaniel/claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "stars": 21015,
-      "forks": 2960,
-      "stars_gained": 197,
+      "trend_rank": 4,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 6657,
+      "forks": 807,
+      "stars_gained": 1296,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "description_zh": "",
+      "rank": 2
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 289953,
+      "forks": 42970,
+      "stars_gained": 896,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "stars": 22316,
+      "forks": 1944,
+      "stars_gained": 214,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI 代理技能的安全扫描器。在安装之前检测 Claude Code、Codex 和 MCP 技能中的漏洞、恶意模式、安全风险、提示注入、数据泄露和供应链风险。",
       "rank": 4
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "stars": 1573,
+      "forks": 193,
+      "stars_gained": 176,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "为持久的 AI 团队成员提供本地优先的桌面工作区。通过专用工作区、任务队列、文件共享、浏览器控制和代理间协作来运行 Codex、Claude 和 Grok。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 103817,
+      "forks": 9208,
+      "stars_gained": 746,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。",
+      "rank": 6
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "gitroomhq/postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "language": "TypeScript",
+      "stars": 38549,
+      "forks": 7461,
+      "stars_gained": 188,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "📨 终极代理社交媒体调度工具🤖",
+      "rank": 7
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "alchaincyf/huashu-design",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "language": "HTML",
+      "stars": 27022,
+      "forks": 2977,
+      "stars_gained": 251,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 8
     }
   ]
 }

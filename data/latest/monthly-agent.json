@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-10-26T02:45:02+00:00",
+  "fetched_at": "2026-10-27T03:19:28+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 72236,
-      "forks": 6525,
-      "stars_gained": 19211,
+      "stars": 73188,
+      "forks": 6627,
+      "stars_gained": 19856,
       "categories": [
         "agent"
       ],
@@ -20,14 +20,14 @@
       "rank": 1
     },
     {
-      "trend_rank": 3,
+      "trend_rank": 2,
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 47072,
-      "forks": 2920,
-      "stars_gained": 24611,
+      "stars": 48717,
+      "forks": 3037,
+      "stars_gained": 26289,
       "categories": [
         "agent"
       ],
@@ -36,28 +36,29 @@
     },
     {
       "trend_rank": 5,
-      "full_name": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 107329,
-      "forks": 17832,
-      "stars_gained": 24081,
+      "stars": 32455,
+      "forks": 2244,
+      "stars_gained": 8483,
       "categories": [
+        "ai",
         "agent"
       ],
-      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理",
+      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。",
       "rank": 3
     },
     {
-      "trend_rank": 6,
+      "trend_rank": 9,
       "full_name": "NVIDIA/OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19893,
-      "forks": 1968,
-      "stars_gained": 11062,
+      "stars": 20115,
+      "forks": 1985,
+      "stars_gained": 11321,
       "categories": [
         "ai",
         "agent"
@@ -66,113 +67,98 @@
       "rank": 4
     },
     {
-      "trend_rank": 7,
-      "full_name": "mksglu/context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "stars": 32275,
-      "forks": 2232,
-      "stars_gained": 8324,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。",
-      "rank": 5
-    },
-    {
-      "trend_rank": 9,
-      "full_name": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "stars": 53766,
-      "forks": 6252,
-      "stars_gained": 25486,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "后见之明：学习的客服代表记忆",
-      "rank": 6
-    },
-    {
-      "trend_rank": 11,
+      "trend_rank": 10,
       "full_name": "earthtojake/text-to-cad",
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 23148,
-      "forks": 2249,
-      "stars_gained": 6821,
+      "stars": 23350,
+      "forks": 2264,
+      "stars_gained": 7011,
       "categories": [
         "agent"
       ],
       "description_zh": "为您的代理商提供CAD超能力。",
-      "rank": 7
+      "rank": 5
     },
     {
-      "trend_rank": 14,
+      "trend_rank": 11,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 107708,
+      "forks": 17867,
+      "stars_gained": 21863,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理",
+      "rank": 6
+    },
+    {
+      "trend_rank": 12,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 288910,
-      "forks": 42834,
-      "stars_gained": 22882,
+      "stars": 289953,
+      "forks": 42970,
+      "stars_gained": 23245,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
-      "rank": 8
+      "rank": 7
     },
     {
-      "trend_rank": 16,
+      "trend_rank": 13,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 103142,
-      "forks": 9109,
-      "stars_gained": 8817,
+      "stars": 103468,
+      "forks": 9132,
+      "stars_gained": 9085,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
-      "rank": 9
+      "rank": 8
     },
     {
-      "trend_rank": 20,
-      "full_name": "TencentCloud/Octop",
-      "url": "https://github.com/TencentCloud/Octop",
-      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "language": "Python",
-      "stars": 11037,
-      "forks": 1416,
-      "stars_gained": 6203,
+      "trend_rank": 17,
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 177277,
+      "forks": 9693,
+      "stars_gained": 31644,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "更智能、自托管的人工智能助手—多用户、多代理。",
-      "rank": 10
+      "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。",
+      "rank": 9
     },
     {
-      "trend_rank": 21,
-      "full_name": "Gaurav-Gosain/tuios",
-      "url": "https://github.com/Gaurav-Gosain/tuios",
-      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
-      "language": "Go",
-      "stars": 6004,
-      "forks": 276,
-      "stars_gained": 2223,
+      "trend_rank": 18,
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 103818,
+      "forks": 9208,
+      "stars_gained": 18035,
       "categories": [
+        "ai",
         "agent"
       ],
-      "description_zh": "终端窗口管理器知道您的代理正在做什么。平铺窗格、工作区、重新启动后仍保留的会话以及每个编码代理的一个收件箱。仅限 tuios.dev 和此存储库的官方版本。 tuios 没有 X/Twitter 帐户。",
-      "rank": 11
+      "description_zh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。",
+      "rank": 10
     }
   ]
 }

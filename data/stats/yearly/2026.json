@@ -2,12 +2,12 @@
   "key": "2026",
   "label": "2026 年",
   "summary": {
-    "days": 4,
-    "repos": 26,
-    "gained": 29131,
+    "days": 5,
+    "repos": 33,
+    "gained": 42994,
     "categories": {
-      "ai": 14,
-      "agent": 9
+      "ai": 20,
+      "agent": 15
     },
     "top_language": "Python"
   },
@@ -48,6 +48,154 @@
       "rank": 1
     },
     {
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "days": 3,
+      "best_rank": 1,
+      "gained": 4016,
+      "stars": 36677,
+      "language": "CSS",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-25",
+          32235
+        ],
+        [
+          "2026-10-26",
+          34024
+        ],
+        [
+          "2026-10-27",
+          36677
+        ]
+      ],
+      "rank": 2
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "days": 3,
+      "best_rank": 4,
+      "gained": 3217,
+      "stars": 89342,
+      "language": "Rust",
+      "description": "The design language that makes your AI harness better at design.",
+      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-25",
+          86487
+        ],
+        [
+          "2026-10-26",
+          87836
+        ],
+        [
+          "2026-10-27",
+          89342
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "days": 3,
+      "best_rank": 1,
+      "gained": 2448,
+      "stars": 6657,
+      "language": "TypeScript",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "description_zh": "",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-25",
+          4142
+        ],
+        [
+          "2026-10-26",
+          5013
+        ],
+        [
+          "2026-10-27",
+          6657
+        ]
+      ],
+      "rank": 4
+    },
+    {
+      "full_name": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "days": 3,
+      "best_rank": 5,
+      "gained": 1809,
+      "stars": 12486,
+      "language": "Rust",
+      "description": "A Tiny biped duck robot 🦆",
+      "description_zh": "小型双足鸭子机器人🦆",
+      "categories": [],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-25",
+          11035
+        ],
+        [
+          "2026-10-26",
+          11740
+        ],
+        [
+          "2026-10-27",
+          12486
+        ]
+      ],
+      "rank": 5
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "days": 2,
+      "best_rank": 3,
+      "gained": 3889,
+      "stars": 89510,
+      "language": "Python",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。",
+      "categories": [],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-26",
+          87014
+        ],
+        [
+          "2026-10-27",
+          89510
+        ]
+      ],
+      "rank": 6
+    },
+    {
       "full_name": "NVIDIA/OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "days": 2,
@@ -73,114 +221,60 @@
           19519
         ]
       ],
-      "rank": 2
+      "rank": 7
     },
     {
-      "full_name": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
       "days": 2,
       "best_rank": 2,
-      "gained": 1772,
-      "stars": 34024,
-      "language": "CSS",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-26",
-      "history": [
-        [
-          "2026-10-25",
-          32235
-        ],
-        [
-          "2026-10-26",
-          34024
-        ]
-      ],
-      "rank": 3
-    },
-    {
-      "full_name": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "days": 2,
-      "best_rank": 4,
-      "gained": 1711,
-      "stars": 87836,
-      "language": "Rust",
-      "description": "The design language that makes your AI harness better at design.",
-      "description_zh": "让您的人工智能更好地进行设计的设计语言。",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-26",
-      "history": [
-        [
-          "2026-10-25",
-          86487
-        ],
-        [
-          "2026-10-26",
-          87836
-        ]
-      ],
-      "rank": 4
-    },
-    {
-      "full_name": "makecindy/cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "days": 2,
-      "best_rank": 1,
-      "gained": 1152,
-      "stars": 5013,
-      "language": "TypeScript",
-      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "description_zh": "",
+      "gained": 1776,
+      "stars": 116307,
+      "language": "Python",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
       "categories": [
         "ai",
         "agent"
       ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "history": [
         [
-          "2026-10-25",
-          4142
+          "2026-10-26",
+          114729
         ],
         [
-          "2026-10-26",
-          5013
+          "2026-10-27",
+          116307
         ]
       ],
-      "rank": 5
+      "rank": 8
     },
     {
-      "full_name": "pollen-robotics/microduck",
-      "url": "https://github.com/pollen-robotics/microduck",
+      "full_name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
       "days": 2,
-      "best_rank": 5,
-      "gained": 966,
-      "stars": 11740,
-      "language": "Rust",
-      "description": "A Tiny biped duck robot 🦆",
-      "description_zh": "小型双足鸭子机器人🦆",
+      "best_rank": 3,
+      "gained": 1224,
+      "stars": 3069,
+      "language": "TypeScript",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "description_zh": "轻量级的真实IDE中带有pi的Vibe代码，可根据您的工作方式自行定制—您需要的Vibe",
       "categories": [],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "history": [
         [
-          "2026-10-25",
-          11035
+          "2026-10-26",
+          1863
         ],
         [
-          "2026-10-26",
-          11740
+          "2026-10-27",
+          3069
         ]
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -207,7 +301,7 @@
           32270
         ]
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "full_name": "php/php-src",
@@ -232,7 +326,7 @@
           41582
         ]
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -260,7 +354,7 @@
           44609
         ]
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "full_name": "Renhuai123/ziwei-doushu",
@@ -285,7 +379,7 @@
           7726
         ]
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -309,28 +403,7 @@
           172626
         ]
       ],
-      "rank": 11
-    },
-    {
-      "full_name": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "days": 1,
-      "best_rank": 3,
-      "gained": 1592,
-      "stars": 87014,
-      "language": "Python",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。",
-      "categories": [],
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26",
-      "history": [
-        [
-          "2026-10-26",
-          87014
-        ]
-      ],
-      "rank": 12
+      "rank": 14
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -353,7 +426,55 @@
           132319
         ]
       ],
-      "rank": 13
+      "rank": 15
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "days": 1,
+      "best_rank": 5,
+      "gained": 896,
+      "stars": 289953,
+      "language": "JavaScript",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-27",
+          289953
+        ]
+      ],
+      "rank": 16
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "days": 1,
+      "best_rank": 10,
+      "gained": 746,
+      "stars": 103817,
+      "language": "Python",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "description_zh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-27",
+          103817
+        ]
+      ],
+      "rank": 17
     },
     {
       "full_name": "supabase/supabase",
@@ -376,31 +497,54 @@
           113280
         ]
       ],
-      "rank": 14
+      "rank": 18
     },
     {
-      "full_name": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "days": 1,
-      "best_rank": 6,
-      "gained": 381,
-      "stars": 114729,
-      "language": "Python",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
+      "best_rank": 14,
+      "gained": 638,
+      "stars": 224758,
+      "language": null,
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "description_zh": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-27",
+          224758
+        ]
+      ],
+      "rank": 19
+    },
+    {
+      "full_name": "alchaincyf/huashu-design",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "days": 1,
+      "best_rank": 13,
+      "gained": 251,
+      "stars": 27022,
+      "language": "HTML",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "description_zh": "",
       "categories": [
         "ai",
         "agent"
       ],
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
       "history": [
         [
-          "2026-10-26",
-          114729
+          "2026-10-27",
+          27022
         ]
       ],
-      "rank": 15
+      "rank": 20
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -421,7 +565,7 @@
           22694
         ]
       ],
-      "rank": 16
+      "rank": 21
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -444,7 +588,31 @@
           8545
         ]
       ],
-      "rank": 17
+      "rank": 22
+    },
+    {
+      "full_name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "days": 1,
+      "best_rank": 7,
+      "gained": 214,
+      "stars": 22316,
+      "language": "Python",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "description_zh": "AI 代理技能的安全扫描器。在安装之前检测 Claude Code、Codex 和 MCP 技能中的漏洞、恶意模式、安全风险、提示注入、数据泄露和供应链风险。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-27",
+          22316
+        ]
+      ],
+      "rank": 23
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -468,7 +636,54 @@
           21015
         ]
       ],
-      "rank": 18
+      "rank": 24
+    },
+    {
+      "full_name": "gitroomhq/postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 188,
+      "stars": 38549,
+      "language": "TypeScript",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "description_zh": "📨 终极代理社交媒体调度工具🤖",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-27",
+          38549
+        ]
+      ],
+      "rank": 25
+    },
+    {
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 176,
+      "stars": 1573,
+      "language": "TypeScript",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "description_zh": "为持久的 AI 团队成员提供本地优先的桌面工作区。通过专用工作区、任务队列、文件共享、浏览器控制和代理间协作来运行 Codex、Claude 和 Grok。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "history": [
+        [
+          "2026-10-27",
+          1573
+        ]
+      ],
+      "rank": 26
     },
     {
       "full_name": "coollabsio/coolify",
@@ -489,7 +704,7 @@
           64486
         ]
       ],
-      "rank": 19
+      "rank": 27
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -510,7 +725,7 @@
           40299
         ]
       ],
-      "rank": 20
+      "rank": 28
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -531,7 +746,7 @@
           8547
         ]
       ],
-      "rank": 21
+      "rank": 29
     },
     {
       "full_name": "fastapi/fastapi",
@@ -552,7 +767,7 @@
           103422
         ]
       ],
-      "rank": 22
+      "rank": 30
     },
     {
       "full_name": "nodejs/node",
@@ -573,28 +788,7 @@
           122904
         ]
       ],
-      "rank": 23
-    },
-    {
-      "full_name": "JetBrains/thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "days": 1,
-      "best_rank": 8,
-      "gained": 51,
-      "stars": 1863,
-      "language": "TypeScript",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "description_zh": "轻量级的真实IDE中带有pi的Vibe代码，可根据您的工作方式自行定制—您需要的Vibe",
-      "categories": [],
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26",
-      "history": [
-        [
-          "2026-10-26",
-          1863
-        ]
-      ],
-      "rank": 24
+      "rank": 31
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -618,7 +812,7 @@
           108105
         ]
       ],
-      "rank": 25
+      "rank": 32
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -642,7 +836,7 @@
           3156
         ]
       ],
-      "rank": 26
+      "rank": 33
     }
   ]
 }
