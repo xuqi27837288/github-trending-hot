@@ -1,0 +1,102 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-10-28T03:35:15+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "description": "",
+      "language": null,
+      "stars": 9682,
+      "forks": 688,
+      "stars_gained": 1395,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "",
+      "rank": 1
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 39231,
+      "forks": 2048,
+      "stars_gained": 2830,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "stars": 2570,
+      "forks": 259,
+      "stars_gained": 777,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "为持久的 AI 团队成员提供本地优先的桌面工作区。通过专用工作区、任务队列、文件共享、浏览器控制和代理间协作来运行 Codex、Claude 和 Grok。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 90776,
+      "forks": 5382,
+      "stars_gained": 1449,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 7585,
+      "forks": 898,
+      "stars_gained": 1465,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 5
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 290999,
+      "forks": 43088,
+      "stars_gained": 1165,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "rank": 6
+    }
+  ]
+}

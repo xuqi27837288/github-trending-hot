@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "ai",
-  "fetched_at": "2026-10-27T03:19:24+00:00",
+  "fetched_at": "2026-10-28T03:35:19+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 33245,
-      "forks": 3661,
-      "stars_gained": 2822,
+      "stars": 33465,
+      "forks": 3677,
+      "stars_gained": 2789,
       "categories": [
         "ai"
       ],
@@ -21,35 +21,50 @@
     },
     {
       "trend_rank": 3,
-      "full_name": "ruvnet/ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "language": "TypeScript",
-      "stars": 79577,
-      "forks": 9346,
-      "stars_gained": 2683,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 22813,
+      "forks": 3102,
+      "stars_gained": 3081,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能",
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
       "rank": 2
     },
     {
+      "trend_rank": 4,
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "stars": 225563,
+      "forks": 22529,
+      "stars_gained": 4039,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察。",
+      "rank": 3
+    },
+    {
       "trend_rank": 5,
-      "full_name": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "language": "TypeScript",
-      "stars": 107189,
-      "forks": 6761,
-      "stars_gained": 9241,
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 117397,
+      "forks": 22478,
+      "stars_gained": 4882,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）。使用您自己的订阅运行任何编码代理。可在桌面、移动和远程运行时使用。",
-      "rank": 3
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
+      "rank": 4
     },
     {
       "trend_rank": 6,
@@ -57,108 +72,62 @@
       "url": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
-      "stars": 136255,
-      "forks": 13006,
-      "stars_gained": 7183,
+      "stars": 137084,
+      "forks": 13080,
+      "stars_gained": 7268,
       "categories": [
         "ai"
       ],
       "description_zh": "将任何代码库及其文档、SQL架构、配置和PDF转换为可查询的知识图。Claude Code、Cursor、Codex和Gemini CLI的A/graphify技能：本地确定性AST解析，解释每个边缘，没有矢量存储。",
-      "rank": 4
+      "rank": 5
     },
     {
-      "trend_rank": 8,
+      "trend_rank": 7,
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 79817,
+      "forks": 9362,
+      "stars_gained": 2296,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能",
+      "rank": 6
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 108192,
+      "forks": 6839,
+      "stars_gained": 8802,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）。使用您自己的订阅运行任何编码代理。可在桌面、移动和远程运行时使用。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 11,
       "full_name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "stars": 13849,
-      "forks": 986,
-      "stars_gained": 2838,
+      "stars": 14119,
+      "forks": 1007,
+      "stars_gained": 2239,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案",
-      "rank": 5
-    },
-    {
-      "trend_rank": 9,
-      "full_name": "multica-ai/andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": null,
-      "stars": 224758,
-      "forks": 22483,
-      "stars_gained": 3286,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察。",
-      "rank": 6
-    },
-    {
-      "trend_rank": 10,
-      "full_name": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "language": "Python",
-      "stars": 116307,
-      "forks": 22307,
-      "stars_gained": 3437,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
-      "rank": 7
-    },
-    {
-      "trend_rank": 11,
-      "full_name": "wshobson/agents",
-      "url": "https://github.com/wshobson/agents",
-      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-      "language": "Python",
-      "stars": 41825,
-      "forks": 4434,
-      "stars_gained": 689,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "适用于 Claude Code、Codex、Cursor、OpenCode、GitHub Copilot、Google Antigravity 和 Pi 的多用途代理插件市场",
       "rank": 8
-    },
-    {
-      "trend_rank": 13,
-      "full_name": "AgriciDaniel/claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "stars": 22216,
-      "forks": 3050,
-      "stars_gained": 2546,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
-      "rank": 9
-    },
-    {
-      "trend_rank": 14,
-      "full_name": "Comfy-Org/ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "language": "Python",
-      "stars": 143332,
-      "forks": 16930,
-      "stars_gained": 4109,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "最强大、模块化的扩散模型GUI、API和后端，具有图形/节点界面。世界上最快的本地推理引擎。",
-      "rank": 10
     }
   ]
 }
