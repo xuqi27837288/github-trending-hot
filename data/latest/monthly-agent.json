@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-10-28T03:35:24+00:00",
+  "fetched_at": "2026-10-29T03:56:08+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 74047,
-      "forks": 6726,
-      "stars_gained": 20501,
+      "stars": 74851,
+      "forks": 6801,
+      "stars_gained": 21015,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 50369,
-      "forks": 3173,
-      "stars_gained": 27415,
+      "stars": 51827,
+      "forks": 3298,
+      "stars_gained": 28617,
       "categories": [
         "agent"
       ],
@@ -40,9 +40,9 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 90776,
-      "forks": 5382,
-      "stars_gained": 18683,
+      "stars": 93105,
+      "forks": 5496,
+      "stars_gained": 19821,
       "categories": [
         "ai",
         "agent"
@@ -51,14 +51,14 @@
       "rank": 3
     },
     {
-      "trend_rank": 7,
+      "trend_rank": 9,
       "full_name": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 32572,
-      "forks": 2255,
-      "stars_gained": 8586,
+      "stars": 32731,
+      "forks": 2263,
+      "stars_gained": 8679,
       "categories": [
         "ai",
         "agent"
@@ -68,18 +68,18 @@
     },
     {
       "trend_rank": 10,
-      "full_name": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "stars": 20331,
-      "forks": 2000,
-      "stars_gained": 11510,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 104070,
+      "forks": 9182,
+      "stars_gained": 9592,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
+      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
       "rank": 5
     },
     {
@@ -88,9 +88,9 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 290999,
-      "forks": 43088,
-      "stars_gained": 23998,
+      "stars": 291877,
+      "forks": 43207,
+      "stars_gained": 24428,
       "categories": [
         "ai",
         "agent"
@@ -99,82 +99,68 @@
       "rank": 6
     },
     {
-      "trend_rank": 12,
-      "full_name": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "stars": 103768,
-      "forks": 9157,
-      "stars_gained": 9345,
+      "trend_rank": 14,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 20604,
+      "forks": 2021,
+      "stars_gained": 11650,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
+      "description_zh": "OpenShell是自主AI代理的安全、私有运行时。",
       "rank": 7
     },
     {
       "trend_rank": 15,
-      "full_name": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
-      "stars": 178300,
-      "forks": 9761,
-      "stars_gained": 32214,
+      "stars": 104662,
+      "forks": 7078,
+      "stars_gained": 13933,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。",
+      "description_zh": "赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面",
       "rank": 8
     },
     {
-      "trend_rank": 17,
-      "full_name": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "stars": 108058,
-      "forks": 17911,
-      "stars_gained": 19922,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理",
-      "rank": 9
-    },
-    {
-      "trend_rank": 18,
+      "trend_rank": 16,
       "full_name": "Panniantong/Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars": 105034,
-      "forks": 9309,
-      "stars_gained": 19461,
+      "stars": 105728,
+      "forks": 9375,
+      "stars_gained": 20047,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。",
-      "rank": 10
+      "rank": 9
     },
     {
-      "trend_rank": 20,
-      "full_name": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "stars": 57468,
-      "forks": 5174,
-      "stars_gained": 6879,
+      "trend_rank": 17,
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 179319,
+      "forks": 9829,
+      "stars_gained": 32691,
       "categories": [
+        "ai",
         "agent"
       ],
-      "description_zh": "“CLI-Anything：使所有软件代理原生”--CLI-Hub：https://clianything.cc/",
-      "rank": 11
+      "description_zh": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。",
+      "rank": 10
     }
   ]
 }

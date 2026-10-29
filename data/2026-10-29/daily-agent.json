@@ -1,0 +1,103 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-10-29T03:56:00+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 3,
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 307560,
+      "forks": 27355,
+      "stars_gained": 1095,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "有效的代理技能框架和软件开发方法。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "stars": 5491,
+      "forks": 524,
+      "stars_gained": 117,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "Macro 是一个面向团队的统一工作空间：电子邮件、聊天、文档、任务、代理、呼叫和 CRM — 通过共享 AI 内存 @ 链接在一起。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 93104,
+      "forks": 5496,
+      "stars_gained": 1472,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 8210,
+      "forks": 962,
+      "stars_gained": 728,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 4
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "stars": 3361,
+      "forks": 320,
+      "stars_gained": 1054,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "为持久的 AI 团队成员提供本地优先的桌面工作区。通过专用工作区、任务队列、文件共享、浏览器控制和代理间协作来运行 Codex、Claude 和 Grok。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "expo/skills",
+      "url": "https://github.com/expo/skills",
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "language": "Shell",
+      "stars": 3630,
+      "forks": 230,
+      "stars_gained": 90,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "与世博项目和世博应用服务合作的人工智能代理技能集合",
+      "rank": 6
+    }
+  ]
+}

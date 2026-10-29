@@ -2,16 +2,135 @@
   "key": "2026-Q4",
   "label": "2026 年 Q4 季度",
   "summary": {
-    "days": 6,
-    "repos": 37,
-    "gained": 57347,
+    "days": 7,
+    "repos": 42,
+    "gained": 73389,
     "categories": {
-      "ai": 21,
-      "agent": 17
+      "ai": 23,
+      "agent": 19
     },
     "top_language": "Python"
   },
   "repos": [
+    {
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "days": 5,
+      "best_rank": 1,
+      "gained": 8956,
+      "stars": 40904,
+      "language": "CSS",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-25",
+          32235
+        ],
+        [
+          "2026-10-26",
+          34024
+        ],
+        [
+          "2026-10-27",
+          36677
+        ],
+        [
+          "2026-10-28",
+          39231
+        ],
+        [
+          "2026-10-29",
+          40904
+        ]
+      ],
+      "rank": 1
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "days": 5,
+      "best_rank": 4,
+      "gained": 6138,
+      "stars": 93104,
+      "language": "Rust",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-25",
+          86487
+        ],
+        [
+          "2026-10-26",
+          87836
+        ],
+        [
+          "2026-10-27",
+          89342
+        ],
+        [
+          "2026-10-28",
+          90776
+        ],
+        [
+          "2026-10-29",
+          93104
+        ]
+      ],
+      "rank": 2
+    },
+    {
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "days": 5,
+      "best_rank": 1,
+      "gained": 4641,
+      "stars": 8210,
+      "language": "TypeScript",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "description_zh": "",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-25",
+          4142
+        ],
+        [
+          "2026-10-26",
+          5013
+        ],
+        [
+          "2026-10-27",
+          6657
+        ],
+        [
+          "2026-10-28",
+          7585
+        ],
+        [
+          "2026-10-29",
+          8210
+        ]
+      ],
+      "rank": 3
+    },
     {
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
@@ -45,128 +164,21 @@
           47072
         ]
       ],
-      "rank": 1
-    },
-    {
-      "full_name": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "days": 4,
-      "best_rank": 1,
-      "gained": 6846,
-      "stars": 39231,
-      "language": "CSS",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-28",
-      "history": [
-        [
-          "2026-10-25",
-          32235
-        ],
-        [
-          "2026-10-26",
-          34024
-        ],
-        [
-          "2026-10-27",
-          36677
-        ],
-        [
-          "2026-10-28",
-          39231
-        ]
-      ],
-      "rank": 2
-    },
-    {
-      "full_name": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "days": 4,
-      "best_rank": 4,
-      "gained": 4666,
-      "stars": 90776,
-      "language": "Rust",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-28",
-      "history": [
-        [
-          "2026-10-25",
-          86487
-        ],
-        [
-          "2026-10-26",
-          87836
-        ],
-        [
-          "2026-10-27",
-          89342
-        ],
-        [
-          "2026-10-28",
-          90776
-        ]
-      ],
-      "rank": 3
-    },
-    {
-      "full_name": "makecindy/cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "days": 4,
-      "best_rank": 1,
-      "gained": 3913,
-      "stars": 7585,
-      "language": "TypeScript",
-      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "description_zh": "",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-28",
-      "history": [
-        [
-          "2026-10-25",
-          4142
-        ],
-        [
-          "2026-10-26",
-          5013
-        ],
-        [
-          "2026-10-27",
-          6657
-        ],
-        [
-          "2026-10-28",
-          7585
-        ]
-      ],
       "rank": 4
     },
     {
       "full_name": "JetBrains/thinkrail",
       "url": "https://github.com/JetBrains/thinkrail",
-      "days": 3,
-      "best_rank": 3,
-      "gained": 2428,
-      "stars": 4174,
+      "days": 4,
+      "best_rank": 1,
+      "gained": 3496,
+      "stars": 5242,
       "language": "TypeScript",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "description_zh": "轻量级的真实IDE中带有pi的Vibe代码，可根据您的工作方式自行定制—您需要的Vibe",
       "categories": [],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
       "history": [
         [
           "2026-10-26",
@@ -179,9 +191,45 @@
         [
           "2026-10-28",
           4174
+        ],
+        [
+          "2026-10-29",
+          5242
         ]
       ],
       "rank": 5
+    },
+    {
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "days": 3,
+      "best_rank": 3,
+      "gained": 2007,
+      "stars": 3361,
+      "language": "TypeScript",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "description_zh": "为持久的 AI 团队成员提供本地优先的桌面工作区。通过专用工作区、任务队列、文件共享、浏览器控制和代理间协作来运行 Codex、Claude 和 Grok。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-27",
+          1573
+        ],
+        [
+          "2026-10-28",
+          2570
+        ],
+        [
+          "2026-10-29",
+          3361
+        ]
+      ],
+      "rank": 6
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -210,7 +258,32 @@
           12486
         ]
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "days": 2,
+      "best_rank": 4,
+      "gained": 3969,
+      "stars": 48310,
+      "language": "Python",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "description_zh": "DeepTutor：终身个性化辅导。 https://deeptutor.info/。",
+      "categories": [],
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-28",
+          46220
+        ],
+        [
+          "2026-10-29",
+          48310
+        ]
+      ],
+      "rank": 8
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -235,7 +308,59 @@
           89510
         ]
       ],
-      "rank": 7
+      "rank": 9
+    },
+    {
+      "full_name": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "days": 2,
+      "best_rank": 1,
+      "gained": 3534,
+      "stars": 11300,
+      "language": null,
+      "description": "",
+      "description_zh": "",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-28",
+          9682
+        ],
+        [
+          "2026-10-29",
+          11300
+        ]
+      ],
+      "rank": 10
+    },
+    {
+      "full_name": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "days": 2,
+      "best_rank": 10,
+      "gained": 2379,
+      "stars": 7346,
+      "language": null,
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "description_zh": "我所有越狱的列表",
+      "categories": [],
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-28",
+          5769
+        ],
+        [
+          "2026-10-29",
+          7346
+        ]
+      ],
+      "rank": 11
     },
     {
       "full_name": "affaan-m/ECC",
@@ -263,7 +388,7 @@
           290999
         ]
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -291,7 +416,7 @@
           19519
         ]
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -319,7 +444,34 @@
           116307
         ]
       ],
-      "rank": 10
+      "rank": 14
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "days": 2,
+      "best_rank": 3,
+      "gained": 1712,
+      "stars": 307560,
+      "language": "Shell",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "description_zh": "有效的代理技能框架和软件开发方法。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-28",
+          306560
+        ],
+        [
+          "2026-10-29",
+          307560
+        ]
+      ],
+      "rank": 15
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -346,35 +498,7 @@
           39491
         ]
       ],
-      "rank": 11
-    },
-    {
-      "full_name": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "days": 2,
-      "best_rank": 3,
-      "gained": 953,
-      "stars": 2570,
-      "language": "TypeScript",
-      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-      "description_zh": "为持久的 AI 团队成员提供本地优先的桌面工作区。通过专用工作区、任务队列、文件共享、浏览器控制和代理间协作来运行 Codex、Claude 和 Grok。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-28",
-      "history": [
-        [
-          "2026-10-27",
-          1573
-        ],
-        [
-          "2026-10-28",
-          2570
-        ]
-      ],
-      "rank": 12
+      "rank": 16
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -401,7 +525,7 @@
           32270
         ]
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "full_name": "php/php-src",
@@ -426,7 +550,7 @@
           41582
         ]
       ],
-      "rank": 14
+      "rank": 18
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -454,7 +578,7 @@
           44609
         ]
       ],
-      "rank": 15
+      "rank": 19
     },
     {
       "full_name": "Renhuai123/ziwei-doushu",
@@ -479,7 +603,7 @@
           7726
         ]
       ],
-      "rank": 16
+      "rank": 20
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -503,28 +627,28 @@
           172626
         ]
       ],
-      "rank": 17
+      "rank": 21
     },
     {
-      "full_name": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
+      "full_name": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
       "days": 1,
-      "best_rank": 9,
-      "gained": 1598,
-      "stars": 46220,
-      "language": "Python",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
-      "description_zh": "DeepTutor：终身个性化辅导。 https://deeptutor.info/。",
+      "best_rank": 11,
+      "gained": 1616,
+      "stars": 35214,
+      "language": "JavaScript",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "description_zh": "",
       "categories": [],
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
       "history": [
         [
-          "2026-10-28",
-          46220
+          "2026-10-29",
+          35214
         ]
       ],
-      "rank": 18
+      "rank": 22
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -547,51 +671,7 @@
           132319
         ]
       ],
-      "rank": 19
-    },
-    {
-      "full_name": "elayadesign/ai-design-skills",
-      "url": "https://github.com/elayadesign/ai-design-skills",
-      "days": 1,
-      "best_rank": 1,
-      "gained": 1395,
-      "stars": 9682,
-      "language": null,
-      "description": "",
-      "description_zh": "",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
-      "history": [
-        [
-          "2026-10-28",
-          9682
-        ]
-      ],
-      "rank": 20
-    },
-    {
-      "full_name": "togg53192-cmd/jailbreaks",
-      "url": "https://github.com/togg53192-cmd/jailbreaks",
-      "days": 1,
-      "best_rank": 11,
-      "gained": 902,
-      "stars": 5769,
-      "language": null,
-      "description": "LIST OF ALL MY JAILBREAKS",
-      "description_zh": "我所有越狱的列表",
-      "categories": [],
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
-      "history": [
-        [
-          "2026-10-28",
-          5769
-        ]
-      ],
-      "rank": 21
+      "rank": 23
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -615,7 +695,7 @@
           103817
         ]
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "full_name": "supabase/supabase",
@@ -638,7 +718,7 @@
           113280
         ]
       ],
-      "rank": 23
+      "rank": 25
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -661,30 +741,28 @@
           224758
         ]
       ],
-      "rank": 24
+      "rank": 26
     },
     {
-      "full_name": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
+      "full_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
       "days": 1,
-      "best_rank": 4,
-      "gained": 617,
-      "stars": 306560,
-      "language": "Shell",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "description_zh": "有效的代理技能框架和软件开发方法。",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
+      "best_rank": 13,
+      "gained": 557,
+      "stars": 101180,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "description_zh": "π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。",
+      "categories": [],
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
       "history": [
         [
-          "2026-10-28",
-          306560
+          "2026-10-29",
+          101180
         ]
       ],
-      "rank": 25
+      "rank": 27
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -708,7 +786,7 @@
           27022
         ]
       ],
-      "rank": 26
+      "rank": 28
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -729,7 +807,7 @@
           22694
         ]
       ],
-      "rank": 27
+      "rank": 29
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -752,7 +830,7 @@
           8545
         ]
       ],
-      "rank": 28
+      "rank": 30
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -776,7 +854,7 @@
           22316
         ]
       ],
-      "rank": 29
+      "rank": 31
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -800,7 +878,7 @@
           21015
         ]
       ],
-      "rank": 30
+      "rank": 32
     },
     {
       "full_name": "coollabsio/coolify",
@@ -821,7 +899,7 @@
           64486
         ]
       ],
-      "rank": 31
+      "rank": 33
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -842,7 +920,52 @@
           40299
         ]
       ],
-      "rank": 32
+      "rank": 34
+    },
+    {
+      "full_name": "xiaolai/the-craft-of-selfteaching",
+      "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
+      "days": 1,
+      "best_rank": 14,
+      "gained": 148,
+      "stars": 18619,
+      "language": "Jupyter Notebook",
+      "description": "One has no future if one couldn't teach themself.",
+      "description_zh": "一个人如果不能自学，就没有未来。",
+      "categories": [],
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-29",
+          18619
+        ]
+      ],
+      "rank": 35
+    },
+    {
+      "full_name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "days": 1,
+      "best_rank": 5,
+      "gained": 117,
+      "stars": 5491,
+      "language": "Rust",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "description_zh": "Macro 是一个面向团队的统一工作空间：电子邮件、聊天、文档、任务、代理、呼叫和 CRM — 通过共享 AI 内存 @ 链接在一起。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-29",
+          5491
+        ]
+      ],
+      "rank": 36
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -863,7 +986,7 @@
           8547
         ]
       ],
-      "rank": 33
+      "rank": 37
     },
     {
       "full_name": "fastapi/fastapi",
@@ -884,7 +1007,31 @@
           103422
         ]
       ],
-      "rank": 34
+      "rank": 38
+    },
+    {
+      "full_name": "expo/skills",
+      "url": "https://github.com/expo/skills",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 90,
+      "stars": 3630,
+      "language": "Shell",
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "description_zh": "与世博项目和世博应用服务合作的人工智能代理技能集合",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "history": [
+        [
+          "2026-10-29",
+          3630
+        ]
+      ],
+      "rank": 39
     },
     {
       "full_name": "nodejs/node",
@@ -905,7 +1052,7 @@
           122904
         ]
       ],
-      "rank": 35
+      "rank": 40
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -929,7 +1076,7 @@
           108105
         ]
       ],
-      "rank": 36
+      "rank": 41
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -953,7 +1100,7 @@
           3156
         ]
       ],
-      "rank": 37
+      "rank": 42
     }
   ]
 }
