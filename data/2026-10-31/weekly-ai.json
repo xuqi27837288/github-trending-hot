@@ -1,0 +1,134 @@
+{
+  "period": "weekly",
+  "category": "ai",
+  "fetched_at": "2026-10-31T03:41:49+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 24580,
+      "forks": 3269,
+      "stars_gained": 4478,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 97207,
+      "forks": 5727,
+      "stars_gained": 11323,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 118751,
+      "forks": 22702,
+      "stars_gained": 5490,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "TradingAgent ：多代理LLM金融交易框架",
+      "rank": 3
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "stars": 226925,
+      "forks": 22658,
+      "stars_gained": 4178,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "stars": 106415,
+      "forks": 7201,
+      "stars_gained": 4712,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面",
+      "rank": 5
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 34059,
+      "forks": 3750,
+      "stars_gained": 2083,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "rank": 6
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 293465,
+      "forks": 43426,
+      "stars_gained": 6506,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 80318,
+      "forks": 9416,
+      "stars_gained": 1723,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能",
+      "rank": 8
+    }
+  ]
+}
