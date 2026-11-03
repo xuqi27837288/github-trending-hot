@@ -2,12 +2,12 @@
   "key": "2026-Q4",
   "label": "2026 年 Q4 季度",
   "summary": {
-    "days": 11,
-    "repos": 63,
-    "gained": 127798,
+    "days": 12,
+    "repos": 70,
+    "gained": 142384,
     "categories": {
-      "ai": 31,
-      "agent": 28
+      "ai": 33,
+      "agent": 31
     },
     "top_language": "Python"
   },
@@ -219,6 +219,46 @@
       "rank": 5
     },
     {
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "days": 5,
+      "best_rank": 1,
+      "gained": 6528,
+      "stars": 110955,
+      "language": "TypeScript",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-10-30",
+          104952
+        ],
+        [
+          "2026-10-31",
+          106457
+        ],
+        [
+          "2026-11-01",
+          108017
+        ],
+        [
+          "2026-11-02",
+          109566
+        ],
+        [
+          "2026-11-03",
+          110955
+        ]
+      ],
+      "rank": 6
+    },
+    {
       "full_name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "days": 5,
@@ -255,7 +295,7 @@
           310132
         ]
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "full_name": "makecindy/cindy",
@@ -295,7 +335,7 @@
           8210
         ]
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "full_name": "Renhuai123/ziwei-doushu",
@@ -332,7 +372,7 @@
           13368
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "full_name": "cloudflare/security-audit-skill",
@@ -367,43 +407,40 @@
           47072
         ]
       ],
-      "rank": 9
+      "rank": 10
     },
     {
-      "full_name": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
       "days": 4,
-      "best_rank": 1,
-      "gained": 4725,
-      "stars": 109566,
+      "best_rank": 4,
+      "gained": 8401,
+      "stars": 42356,
       "language": "TypeScript",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-10-30",
-      "last_seen": "2026-11-02",
+      "description": "",
+      "description_zh": "",
+      "categories": [],
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-11-03",
       "history": [
         [
-          "2026-10-30",
-          104952
-        ],
-        [
           "2026-10-31",
-          106457
+          32871
         ],
         [
           "2026-11-01",
-          108017
+          35816
         ],
         [
           "2026-11-02",
-          109566
+          38423
+        ],
+        [
+          "2026-11-03",
+          42356
         ]
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "full_name": "milind-soni/OpenMausBot",
@@ -436,7 +473,43 @@
           10715
         ]
       ],
-      "rank": 11
+      "rank": 12
+    },
+    {
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "days": 4,
+      "best_rank": 3,
+      "gained": 3441,
+      "stars": 33784,
+      "language": "Shell",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "description_zh": "将 Claude Code 转变为完整的游戏开发工作室 — 49 个 AI 代理、72 种工作流程技能以及反映真实工作室层次结构的完整协调系统。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-10-30",
+          29412
+        ],
+        [
+          "2026-11-01",
+          31267
+        ],
+        [
+          "2026-11-02",
+          32486
+        ],
+        [
+          "2026-11-03",
+          33784
+        ]
+      ],
+      "rank": 13
     },
     {
       "full_name": "nightly-labs/openbot",
@@ -472,36 +545,7 @@
           3959
         ]
       ],
-      "rank": 12
-    },
-    {
-      "full_name": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "days": 3,
-      "best_rank": 4,
-      "gained": 5172,
-      "stars": 38423,
-      "language": "TypeScript",
-      "description": "",
-      "description_zh": "",
-      "categories": [],
-      "first_seen": "2026-10-31",
-      "last_seen": "2026-11-02",
-      "history": [
-        [
-          "2026-10-31",
-          32871
-        ],
-        [
-          "2026-11-01",
-          35816
-        ],
-        [
-          "2026-11-02",
-          38423
-        ]
-      ],
-      "rank": 13
+      "rank": 14
     },
     {
       "full_name": "elayadesign/ai-design-skills",
@@ -532,7 +576,38 @@
           12332
         ]
       ],
-      "rank": 14
+      "rank": 15
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "days": 3,
+      "best_rank": 2,
+      "gained": 2617,
+      "stars": 310418,
+      "language": "Shell",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-10-31",
+          307569
+        ],
+        [
+          "2026-11-01",
+          308524
+        ],
+        [
+          "2026-11-03",
+          310418
+        ]
+      ],
+      "rank": 16
     },
     {
       "full_name": "lightpanda-io/browser",
@@ -563,39 +638,7 @@
           40335
         ]
       ],
-      "rank": 15
-    },
-    {
-      "full_name": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "days": 3,
-      "best_rank": 3,
-      "gained": 2062,
-      "stars": 32486,
-      "language": "Shell",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "description_zh": "将 Claude Code 转变为完整的游戏开发工作室 — 49 个 AI 代理、72 种工作流程技能以及反映真实工作室层次结构的完整协调系统。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-10-30",
-      "last_seen": "2026-11-02",
-      "history": [
-        [
-          "2026-10-30",
-          29412
-        ],
-        [
-          "2026-11-01",
-          31267
-        ],
-        [
-          "2026-11-02",
-          32486
-        ]
-      ],
-      "rank": 16
+      "rank": 17
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -624,7 +667,7 @@
           12486
         ]
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -656,7 +699,7 @@
           9622
         ]
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -681,7 +724,7 @@
           89510
         ]
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "full_name": "affaan-m/ECC",
@@ -709,7 +752,7 @@
           290999
         ]
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -737,7 +780,7 @@
           19519
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -765,34 +808,32 @@
           116307
         ]
       ],
-      "rank": 22
+      "rank": 23
     },
     {
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
       "days": 2,
-      "best_rank": 2,
-      "gained": 1759,
-      "stars": 308524,
-      "language": "Shell",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-10-31",
-      "last_seen": "2026-11-01",
+      "best_rank": 3,
+      "gained": 1487,
+      "stars": 46075,
+      "language": "Python",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "description_zh": "Kronos：金融市场语言的基础模型",
+      "categories": [],
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "history": [
         [
-          "2026-10-31",
-          307569
+          "2026-11-02",
+          45497
         ],
         [
-          "2026-11-01",
-          308524
+          "2026-11-03",
+          46075
         ]
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -819,7 +860,7 @@
           39491
         ]
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -846,7 +887,32 @@
           32270
         ]
       ],
-      "rank": 25
+      "rank": 26
+    },
+    {
+      "full_name": "FlashML-org/FreeToken",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "days": 2,
+      "best_rank": 6,
+      "gained": 895,
+      "stars": 16214,
+      "language": "Python",
+      "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+      "description_zh": "FreeToken 将数据中心规模的模型服务带到您的桌面。在本地快速高效地运行大规模模型。",
+      "categories": [],
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-02",
+          15512
+        ],
+        [
+          "2026-11-03",
+          16214
+        ]
+      ],
+      "rank": 27
     },
     {
       "full_name": "php/php-src",
@@ -871,7 +937,7 @@
           41582
         ]
       ],
-      "rank": 26
+      "rank": 28
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -899,7 +965,59 @@
           44609
         ]
       ],
-      "rank": 27
+      "rank": 29
+    },
+    {
+      "full_name": "hyprwm/Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "days": 2,
+      "best_rank": 4,
+      "gained": 547,
+      "stars": 40031,
+      "language": "C++",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "description_zh": "Hyprland 是一个独立的、高度可定制的、动态平铺 Wayland 合成器，并且不会牺牲其外观。",
+      "categories": [],
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-02",
+          39445
+        ],
+        [
+          "2026-11-03",
+          40031
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "full_name": "kornia/kornia",
+      "url": "https://github.com/kornia/kornia",
+      "days": 2,
+      "best_rank": 9,
+      "gained": 513,
+      "stars": 12188,
+      "language": "Python",
+      "description": "🐍 Geometric Computer Vision Library for Spatial AI",
+      "description_zh": "🐍 空间人工智能几何计算机视觉库",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-02",
+          11858
+        ],
+        [
+          "2026-11-03",
+          12188
+        ]
+      ],
+      "rank": 31
     },
     {
       "full_name": "macro-inc/macro",
@@ -927,7 +1045,7 @@
           5902
         ]
       ],
-      "rank": 28
+      "rank": 32
     },
     {
       "full_name": "expo/skills",
@@ -955,7 +1073,31 @@
           3914
         ]
       ],
-      "rank": 29
+      "rank": 33
+    },
+    {
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "days": 1,
+      "best_rank": 1,
+      "gained": 2275,
+      "stars": 10448,
+      "language": "Rust",
+      "description": "Computer use CLI for AI agents",
+      "description_zh": "计算机使用 CLI 进行 AI 代理",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-03",
+          10448
+        ]
+      ],
+      "rank": 34
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -979,7 +1121,7 @@
           172626
         ]
       ],
-      "rank": 30
+      "rank": 35
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -1000,7 +1142,7 @@
           35214
         ]
       ],
-      "rank": 31
+      "rank": 36
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -1023,7 +1165,7 @@
           132319
         ]
       ],
-      "rank": 32
+      "rank": 37
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -1047,7 +1189,7 @@
           40423
         ]
       ],
-      "rank": 33
+      "rank": 38
     },
     {
       "full_name": "anomalyco/hex",
@@ -1068,7 +1210,7 @@
           3455
         ]
       ],
-      "rank": 34
+      "rank": 39
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -1092,7 +1234,7 @@
           6556
         ]
       ],
-      "rank": 35
+      "rank": 40
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -1116,7 +1258,28 @@
           103817
         ]
       ],
-      "rank": 36
+      "rank": 41
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "days": 1,
+      "best_rank": 3,
+      "gained": 706,
+      "stars": 93213,
+      "language": "Python",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "description_zh": "🕷️ 最好的网页抓取框架，可以处理从单个请求到全面抓取的所有内容！不要害羞，加入这里：https://discord.gg/EMgGbDceNQ 并按照此处获取日常提示和技巧：https://x.com/Scrapling_dev",
+      "categories": [],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-03",
+          93213
+        ]
+      ],
+      "rank": 42
     },
     {
       "full_name": "supabase/supabase",
@@ -1139,7 +1302,28 @@
           113280
         ]
       ],
-      "rank": 37
+      "rank": 43
+    },
+    {
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "days": 1,
+      "best_rank": 10,
+      "gained": 675,
+      "stars": 46705,
+      "language": "C",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "description_zh": "在您已经拥有的硬件上运行前沿 MoE 模型 - 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦",
+      "categories": [],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-03",
+          46705
+        ]
+      ],
+      "rank": 44
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -1162,28 +1346,7 @@
           224758
         ]
       ],
-      "rank": 38
-    },
-    {
-      "full_name": "shiyu-coder/Kronos",
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "days": 1,
-      "best_rank": 3,
-      "gained": 630,
-      "stars": 45497,
-      "language": "Python",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "description_zh": "Kronos：金融市场语言的基础模型",
-      "categories": [],
-      "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02",
-      "history": [
-        [
-          "2026-11-02",
-          45497
-        ]
-      ],
-      "rank": 39
+      "rank": 45
     },
     {
       "full_name": "ruvnet/RuView",
@@ -1204,7 +1367,7 @@
           101180
         ]
       ],
-      "rank": 40
+      "rank": 46
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -1225,7 +1388,7 @@
           31982
         ]
       ],
-      "rank": 41
+      "rank": 47
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -1249,7 +1412,51 @@
           6321
         ]
       ],
-      "rank": 42
+      "rank": 48
+    },
+    {
+      "full_name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "days": 1,
+      "best_rank": 15,
+      "gained": 420,
+      "stars": 38214,
+      "language": "Python",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "description_zh": "免训练语言模型修改：消除审查、抑制废话、减少阿谀奉承等",
+      "categories": [],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-03",
+          38214
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "days": 1,
+      "best_rank": 13,
+      "gained": 412,
+      "stars": 110519,
+      "language": "TypeScript",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "description_zh": "每个人都使用的开源应用程序来管理工作中的代理",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-03",
+          110519
+        ]
+      ],
+      "rank": 50
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -1270,7 +1477,7 @@
           86062
         ]
       ],
-      "rank": 43
+      "rank": 51
     },
     {
       "full_name": "cjpais/Handy",
@@ -1291,7 +1498,7 @@
           36702
         ]
       ],
-      "rank": 44
+      "rank": 52
     },
     {
       "full_name": "public-apis/public-apis",
@@ -1312,7 +1519,28 @@
           494811
         ]
       ],
-      "rank": 45
+      "rank": 53
+    },
+    {
+      "full_name": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "days": 1,
+      "best_rank": 14,
+      "gained": 321,
+      "stars": 59994,
+      "language": "Python",
+      "description": "The best ChatGPT that $100 can buy.",
+      "description_zh": "100 美元能买到的最好的 ChatGPT。",
+      "categories": [],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-03",
+          59994
+        ]
+      ],
+      "rank": 54
     },
     {
       "full_name": "anthropics/skills",
@@ -1335,7 +1563,7 @@
           185402
         ]
       ],
-      "rank": 46
+      "rank": 55
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -1359,28 +1587,7 @@
           27022
         ]
       ],
-      "rank": 47
-    },
-    {
-      "full_name": "FlashML-org/FreeToken",
-      "url": "https://github.com/FlashML-org/FreeToken",
-      "days": 1,
-      "best_rank": 16,
-      "gained": 242,
-      "stars": 15512,
-      "language": "Python",
-      "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
-      "description_zh": "FreeToken 将数据中心规模的模型服务带到您的桌面。在本地快速高效地运行大规模模型。",
-      "categories": [],
-      "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02",
-      "history": [
-        [
-          "2026-11-02",
-          15512
-        ]
-      ],
-      "rank": 48
+      "rank": 56
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -1401,7 +1608,7 @@
           22694
         ]
       ],
-      "rank": 49
+      "rank": 57
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -1424,7 +1631,7 @@
           8545
         ]
       ],
-      "rank": 50
+      "rank": 58
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -1448,7 +1655,7 @@
           22316
         ]
       ],
-      "rank": 51
+      "rank": 59
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -1472,7 +1679,7 @@
           21015
         ]
       ],
-      "rank": 52
+      "rank": 60
     },
     {
       "full_name": "coollabsio/coolify",
@@ -1493,7 +1700,7 @@
           64486
         ]
       ],
-      "rank": 53
+      "rank": 61
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -1514,7 +1721,7 @@
           40299
         ]
       ],
-      "rank": 54
+      "rank": 62
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -1535,7 +1742,7 @@
           18619
         ]
       ],
-      "rank": 55
+      "rank": 63
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -1558,7 +1765,7 @@
           42233
         ]
       ],
-      "rank": 56
+      "rank": 64
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -1579,30 +1786,7 @@
           8547
         ]
       ],
-      "rank": 57
-    },
-    {
-      "full_name": "kornia/kornia",
-      "url": "https://github.com/kornia/kornia",
-      "days": 1,
-      "best_rank": 9,
-      "gained": 101,
-      "stars": 11858,
-      "language": "Python",
-      "description": "🐍 Geometric Computer Vision Library for Spatial AI",
-      "description_zh": "🐍 空间人工智能几何计算机视觉库",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02",
-      "history": [
-        [
-          "2026-11-02",
-          11858
-        ]
-      ],
-      "rank": 58
+      "rank": 65
     },
     {
       "full_name": "fastapi/fastapi",
@@ -1623,7 +1807,31 @@
           103422
         ]
       ],
-      "rank": 59
+      "rank": 66
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 77,
+      "stars": 10122,
+      "language": "Rust",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "description_zh": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "history": [
+        [
+          "2026-11-03",
+          10122
+        ]
+      ],
+      "rank": 67
     },
     {
       "full_name": "nodejs/node",
@@ -1644,7 +1852,7 @@
           122904
         ]
       ],
-      "rank": 60
+      "rank": 68
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -1668,28 +1876,7 @@
           108105
         ]
       ],
-      "rank": 61
-    },
-    {
-      "full_name": "hyprwm/Hyprland",
-      "url": "https://github.com/hyprwm/Hyprland",
-      "days": 1,
-      "best_rank": 17,
-      "gained": 38,
-      "stars": 39445,
-      "language": "C++",
-      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-      "description_zh": "Hyprland 是一个独立的、高度可定制的、动态平铺 Wayland 合成器，并且不会牺牲其外观。",
-      "categories": [],
-      "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02",
-      "history": [
-        [
-          "2026-11-02",
-          39445
-        ]
-      ],
-      "rank": 62
+      "rank": 69
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -1713,7 +1900,7 @@
           3156
         ]
       ],
-      "rank": 63
+      "rank": 70
     }
   ]
 }
