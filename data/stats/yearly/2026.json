@@ -2,12 +2,12 @@
   "key": "2026",
   "label": "2026 年",
   "summary": {
-    "days": 14,
-    "repos": 83,
-    "gained": 170236,
+    "days": 15,
+    "repos": 88,
+    "gained": 183424,
     "categories": {
-      "ai": 42,
-      "agent": 34
+      "ai": 44,
+      "agent": 36
     },
     "top_language": "Python"
   },
@@ -113,6 +113,49 @@
       "rank": 2
     },
     {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "days": 6,
+      "best_rank": 2,
+      "gained": 7231,
+      "stars": 315538,
+      "language": "Shell",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-10-31",
+          307569
+        ],
+        [
+          "2026-11-01",
+          308524
+        ],
+        [
+          "2026-11-03",
+          310418
+        ],
+        [
+          "2026-11-04",
+          311663
+        ],
+        [
+          "2026-11-05",
+          313595
+        ],
+        [
+          "2026-11-06",
+          315538
+        ]
+      ],
+      "rank": 3
+    },
+    {
       "full_name": "JetBrains/thinkrail",
       "url": "https://github.com/JetBrains/thinkrail",
       "days": 6,
@@ -151,7 +194,7 @@
           6630
         ]
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "full_name": "HKUDS/DeepTutor",
@@ -188,7 +231,7 @@
           52958
         ]
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "full_name": "Nutlope/hallmark",
@@ -227,7 +270,7 @@
           40904
         ]
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "full_name": "togg53192-cmd/jailbreaks",
@@ -262,45 +305,6 @@
         [
           "2026-11-02",
           13083
-        ]
-      ],
-      "rank": 6
-    },
-    {
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "days": 5,
-      "best_rank": 2,
-      "gained": 5160,
-      "stars": 313595,
-      "language": "Shell",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-10-31",
-      "last_seen": "2026-11-05",
-      "history": [
-        [
-          "2026-10-31",
-          307569
-        ],
-        [
-          "2026-11-01",
-          308524
-        ],
-        [
-          "2026-11-03",
-          310418
-        ],
-        [
-          "2026-11-04",
-          311663
-        ],
-        [
-          "2026-11-05",
-          313595
         ]
       ],
       "rank": 7
@@ -497,6 +501,42 @@
       "rank": 12
     },
     {
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "days": 4,
+      "best_rank": 1,
+      "gained": 10709,
+      "stars": 17150,
+      "language": "Rust",
+      "description": "Computer use CLI for AI agents",
+      "description_zh": "计算机使用 CLI 进行 AI 代理",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-03",
+          10448
+        ],
+        [
+          "2026-11-04",
+          13172
+        ],
+        [
+          "2026-11-05",
+          15504
+        ],
+        [
+          "2026-11-06",
+          17150
+        ]
+      ],
+      "rank": 13
+    },
+    {
       "full_name": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
       "days": 4,
@@ -527,7 +567,40 @@
           42356
         ]
       ],
-      "rank": 13
+      "rank": 14
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "days": 4,
+      "best_rank": 3,
+      "gained": 6024,
+      "stars": 98199,
+      "language": "Python",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "description_zh": "🕷️ 最好的网页抓取框架，可以处理从单个请求到全面抓取的所有内容！不要害羞，加入这里：https://discord.gg/EMgGbDceNQ 并按照此处获取日常提示和技巧：https://x.com/Scrapling_dev",
+      "categories": [],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-03",
+          93213
+        ],
+        [
+          "2026-11-04",
+          95137
+        ],
+        [
+          "2026-11-05",
+          96840
+        ],
+        [
+          "2026-11-06",
+          98199
+        ]
+      ],
+      "rank": 15
     },
     {
       "full_name": "milind-soni/OpenMausBot",
@@ -560,7 +633,7 @@
           10715
         ]
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "full_name": "nightly-labs/openbot",
@@ -596,39 +669,43 @@
           3959
         ]
       ],
-      "rank": 15
+      "rank": 17
     },
     {
-      "full_name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "days": 3,
-      "best_rank": 1,
-      "gained": 8536,
-      "stars": 15504,
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "days": 4,
+      "best_rank": 2,
+      "gained": 1592,
+      "stars": 11593,
       "language": "Rust",
-      "description": "Computer use CLI for AI agents",
-      "description_zh": "计算机使用 CLI 进行 AI 代理",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "description_zh": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计",
       "categories": [
         "ai",
         "agent"
       ],
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "history": [
         [
           "2026-11-03",
-          10448
+          10122
         ],
         [
           "2026-11-04",
-          13172
+          10597
         ],
         [
           "2026-11-05",
-          15504
+          11146
+        ],
+        [
+          "2026-11-06",
+          11593
         ]
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "full_name": "elayadesign/ai-design-skills",
@@ -659,36 +736,7 @@
           12332
         ]
       ],
-      "rank": 17
-    },
-    {
-      "full_name": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "days": 3,
-      "best_rank": 3,
-      "gained": 4369,
-      "stars": 96840,
-      "language": "Python",
-      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-      "description_zh": "🕷️ 最好的网页抓取框架，可以处理从单个请求到全面抓取的所有内容！不要害羞，加入这里：https://discord.gg/EMgGbDceNQ 并按照此处获取日常提示和技巧：https://x.com/Scrapling_dev",
-      "categories": [],
-      "first_seen": "2026-11-03",
-      "last_seen": "2026-11-05",
-      "history": [
-        [
-          "2026-11-03",
-          93213
-        ],
-        [
-          "2026-11-04",
-          95137
-        ],
-        [
-          "2026-11-05",
-          96840
-        ]
-      ],
-      "rank": 18
+      "rank": 19
     },
     {
       "full_name": "lightpanda-io/browser",
@@ -719,7 +767,36 @@
           40335
         ]
       ],
-      "rank": 19
+      "rank": 20
+    },
+    {
+      "full_name": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "days": 3,
+      "best_rank": 4,
+      "gained": 2351,
+      "stars": 30526,
+      "language": "Java",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "description_zh": "轻便、蓬松且始终免费 - AWS 本地模拟器替代方案",
+      "categories": [],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-04",
+          28946
+        ],
+        [
+          "2026-11-05",
+          29753
+        ],
+        [
+          "2026-11-06",
+          30526
+        ]
+      ],
+      "rank": 21
     },
     {
       "full_name": "shiyu-coder/Kronos",
@@ -748,7 +825,7 @@
           46582
         ]
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -777,7 +854,7 @@
           12486
         ]
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -809,39 +886,35 @@
           9622
         ]
       ],
-      "rank": 22
+      "rank": 24
     },
     {
-      "full_name": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "days": 3,
-      "best_rank": 2,
-      "gained": 1046,
-      "stars": 11146,
-      "language": "Rust",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "description_zh": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计",
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "days": 2,
+      "best_rank": 1,
+      "gained": 4729,
+      "stars": 7666,
+      "language": "Python",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
       "categories": [
         "ai",
         "agent"
       ],
-      "first_seen": "2026-11-03",
-      "last_seen": "2026-11-05",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "history": [
         [
-          "2026-11-03",
-          10122
-        ],
-        [
-          "2026-11-04",
-          10597
-        ],
-        [
           "2026-11-05",
-          11146
+          5507
+        ],
+        [
+          "2026-11-06",
+          7666
         ]
       ],
-      "rank": 23
+      "rank": 25
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -866,7 +939,32 @@
           89510
         ]
       ],
-      "rank": 24
+      "rank": 26
+    },
+    {
+      "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "days": 2,
+      "best_rank": 12,
+      "gained": 2762,
+      "stars": 7392,
+      "language": "C#",
+      "description": "",
+      "description_zh": "",
+      "categories": [],
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-05",
+          6752
+        ],
+        [
+          "2026-11-06",
+          7392
+        ]
+      ],
+      "rank": 27
     },
     {
       "full_name": "affaan-m/ECC",
@@ -894,7 +992,7 @@
           290999
         ]
       ],
-      "rank": 25
+      "rank": 28
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -922,7 +1020,7 @@
           19519
         ]
       ],
-      "rank": 26
+      "rank": 29
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -950,7 +1048,7 @@
           116307
         ]
       ],
-      "rank": 27
+      "rank": 30
     },
     {
       "full_name": "anomalyco/hex",
@@ -975,32 +1073,7 @@
           4690
         ]
       ],
-      "rank": 28
-    },
-    {
-      "full_name": "floci-io/floci",
-      "url": "https://github.com/floci-io/floci",
-      "days": 2,
-      "best_rank": 4,
-      "gained": 1572,
-      "stars": 29753,
-      "language": "Java",
-      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-      "description_zh": "轻便、蓬松且始终免费 - AWS 本地模拟器替代方案",
-      "categories": [],
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-05",
-      "history": [
-        [
-          "2026-11-04",
-          28946
-        ],
-        [
-          "2026-11-05",
-          29753
-        ]
-      ],
-      "rank": 29
+      "rank": 31
     },
     {
       "full_name": "JustVugg/colibri",
@@ -1027,7 +1100,7 @@
           47343
         ]
       ],
-      "rank": 30
+      "rank": 32
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -1054,7 +1127,7 @@
           39491
         ]
       ],
-      "rank": 31
+      "rank": 33
     },
     {
       "full_name": "p-e-w/heretic",
@@ -1079,7 +1152,7 @@
           38917
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -1106,7 +1179,34 @@
           32270
         ]
       ],
-      "rank": 33
+      "rank": 35
+    },
+    {
+      "full_name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "days": 2,
+      "best_rank": 3,
+      "gained": 902,
+      "stars": 140061,
+      "language": "TypeScript",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "description_zh": "使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-05",
+          139438
+        ],
+        [
+          "2026-11-06",
+          140061
+        ]
+      ],
+      "rank": 36
     },
     {
       "full_name": "FlashML-org/FreeToken",
@@ -1131,7 +1231,35 @@
           16214
         ]
       ],
-      "rank": 34
+      "rank": 37
+    },
+    {
+      "full_name": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "days": 2,
+      "best_rank": 11,
+      "gained": 891,
+      "stars": 3177,
+      "language": "Python",
+      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "description_zh": "从任何 AI 代理处获取可立即投入生产的图像、视频、音频和 3D：通过场景 MCP 以及驱动 Blender、Maya、ZBrush、Unreal 和 Unity 的专家团队，选择正确的模型、购买前定价并保持角色和品牌一致的技能。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-05",
+          2552
+        ],
+        [
+          "2026-11-06",
+          3177
+        ]
+      ],
+      "rank": 38
     },
     {
       "full_name": "php/php-src",
@@ -1156,7 +1284,7 @@
           41582
         ]
       ],
-      "rank": 35
+      "rank": 39
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -1184,7 +1312,7 @@
           44609
         ]
       ],
-      "rank": 36
+      "rank": 40
     },
     {
       "full_name": "hyprwm/Hyprland",
@@ -1209,7 +1337,7 @@
           40031
         ]
       ],
-      "rank": 37
+      "rank": 41
     },
     {
       "full_name": "kornia/kornia",
@@ -1236,7 +1364,34 @@
           12188
         ]
       ],
-      "rank": 38
+      "rank": 42
+    },
+    {
+      "full_name": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "days": 2,
+      "best_rank": 4,
+      "gained": 468,
+      "stars": 17787,
+      "language": "Python",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "description_zh": "",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-04",
+          16670
+        ],
+        [
+          "2026-11-06",
+          17787
+        ]
+      ],
+      "rank": 43
     },
     {
       "full_name": "macro-inc/macro",
@@ -1264,7 +1419,7 @@
           5902
         ]
       ],
-      "rank": 39
+      "rank": 44
     },
     {
       "full_name": "expo/skills",
@@ -1292,31 +1447,7 @@
           3914
         ]
       ],
-      "rank": 40
-    },
-    {
-      "full_name": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "days": 1,
-      "best_rank": 1,
-      "gained": 2050,
-      "stars": 5507,
-      "language": "Python",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05",
-      "history": [
-        [
-          "2026-11-05",
-          5507
-        ]
-      ],
-      "rank": 41
+      "rank": 45
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -1340,28 +1471,7 @@
           172626
         ]
       ],
-      "rank": 42
-    },
-    {
-      "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
-      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-      "days": 1,
-      "best_rank": 12,
-      "gained": 1778,
-      "stars": 6752,
-      "language": "C#",
-      "description": "",
-      "description_zh": "",
-      "categories": [],
-      "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05",
-      "history": [
-        [
-          "2026-11-05",
-          6752
-        ]
-      ],
-      "rank": 43
+      "rank": 46
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -1382,7 +1492,7 @@
           35214
         ]
       ],
-      "rank": 44
+      "rank": 47
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -1405,7 +1515,7 @@
           132319
         ]
       ],
-      "rank": 45
+      "rank": 48
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -1429,7 +1539,7 @@
           40423
         ]
       ],
-      "rank": 46
+      "rank": 49
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -1453,7 +1563,7 @@
           6556
         ]
       ],
-      "rank": 47
+      "rank": 50
     },
     {
       "full_name": "github/spec-kit",
@@ -1474,7 +1584,7 @@
           147425
         ]
       ],
-      "rank": 48
+      "rank": 51
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -1498,7 +1608,7 @@
           103817
         ]
       ],
-      "rank": 49
+      "rank": 52
     },
     {
       "full_name": "supabase/supabase",
@@ -1521,7 +1631,7 @@
           113280
         ]
       ],
-      "rank": 50
+      "rank": 53
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -1544,7 +1654,7 @@
           224758
         ]
       ],
-      "rank": 51
+      "rank": 54
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -1567,7 +1677,7 @@
           139184
         ]
       ],
-      "rank": 52
+      "rank": 55
     },
     {
       "full_name": "ruvnet/RuView",
@@ -1588,7 +1698,7 @@
           101180
         ]
       ],
-      "rank": 53
+      "rank": 56
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -1609,7 +1719,7 @@
           31982
         ]
       ],
-      "rank": 54
+      "rank": 57
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -1633,7 +1743,7 @@
           6321
         ]
       ],
-      "rank": 55
+      "rank": 58
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -1656,7 +1766,7 @@
           110519
         ]
       ],
-      "rank": 56
+      "rank": 59
     },
     {
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
@@ -1679,7 +1789,7 @@
           10434
         ]
       ],
-      "rank": 57
+      "rank": 60
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -1700,7 +1810,7 @@
           86062
         ]
       ],
-      "rank": 58
+      "rank": 61
     },
     {
       "full_name": "cjpais/Handy",
@@ -1721,7 +1831,7 @@
           36702
         ]
       ],
-      "rank": 59
+      "rank": 62
     },
     {
       "full_name": "public-apis/public-apis",
@@ -1742,7 +1852,7 @@
           494811
         ]
       ],
-      "rank": 60
+      "rank": 63
     },
     {
       "full_name": "karpathy/nanochat",
@@ -1763,7 +1873,7 @@
           59994
         ]
       ],
-      "rank": 61
+      "rank": 64
     },
     {
       "full_name": "anthropics/skills",
@@ -1786,30 +1896,7 @@
           185402
         ]
       ],
-      "rank": 62
-    },
-    {
-      "full_name": "garrytan/gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "days": 1,
-      "best_rank": 10,
-      "gained": 290,
-      "stars": 139438,
-      "language": "TypeScript",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "description_zh": "使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05",
-      "history": [
-        [
-          "2026-11-05",
-          139438
-        ]
-      ],
-      "rank": 63
+      "rank": 65
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -1832,7 +1919,7 @@
           14865
         ]
       ],
-      "rank": 64
+      "rank": 66
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -1856,30 +1943,7 @@
           27022
         ]
       ],
-      "rank": 65
-    },
-    {
-      "full_name": "Usagi-org/ai-goofish-monitor",
-      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "days": 1,
-      "best_rank": 9,
-      "gained": 228,
-      "stars": 16670,
-      "language": "Python",
-      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-      "description_zh": "",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "history": [
-        [
-          "2026-11-04",
-          16670
-        ]
-      ],
-      "rank": 66
+      "rank": 67
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -1900,7 +1964,7 @@
           22694
         ]
       ],
-      "rank": 67
+      "rank": 68
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -1923,31 +1987,30 @@
           8545
         ]
       ],
-      "rank": 68
+      "rank": 69
     },
     {
-      "full_name": "scenario-labs/skills",
-      "url": "https://github.com/scenario-labs/skills",
+      "full_name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
       "days": 1,
-      "best_rank": 16,
-      "gained": 224,
-      "stars": 2552,
+      "best_rank": 13,
+      "gained": 223,
+      "stars": 56105,
       "language": "Python",
-      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-      "description_zh": "从任何 AI 代理处获取可立即投入生产的图像、视频、音频和 3D：通过场景 MCP 以及驱动 Blender、Maya、ZBrush、Unreal 和 Unity 的专家团队，选择正确的模型、购买前定价并保持角色和品牌一致的技能。",
+      "description": "Open-Source Frontier Voice AI",
+      "description_zh": "开源语音人工智能前沿",
       "categories": [
-        "ai",
-        "agent"
+        "ai"
       ],
-      "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
       "history": [
         [
-          "2026-11-05",
-          2552
+          "2026-11-06",
+          56105
         ]
       ],
-      "rank": 69
+      "rank": 70
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -1971,7 +2034,30 @@
           22316
         ]
       ],
-      "rank": 70
+      "rank": 71
+    },
+    {
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 211,
+      "stars": 22461,
+      "language": "Python",
+      "description": "Agent Skills for Google products and technologies",
+      "description_zh": "Google 产品和技术的代理技能",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-06",
+          22461
+        ]
+      ],
+      "rank": 72
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -1995,7 +2081,28 @@
           21015
         ]
       ],
-      "rank": 71
+      "rank": 73
+    },
+    {
+      "full_name": "ConardLi/garden-skills",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 175,
+      "stars": 14247,
+      "language": "JavaScript",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "description_zh": "ConardLi 的开源技能集合，包括网页设计、知识检索、图像生成等。",
+      "categories": [],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-06",
+          14247
+        ]
+      ],
+      "rank": 74
     },
     {
       "full_name": "coollabsio/coolify",
@@ -2016,7 +2123,7 @@
           64486
         ]
       ],
-      "rank": 72
+      "rank": 75
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -2037,7 +2144,31 @@
           40299
         ]
       ],
-      "rank": 73
+      "rank": 76
+    },
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "days": 1,
+      "best_rank": 10,
+      "gained": 150,
+      "stars": 46019,
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-06",
+          46019
+        ]
+      ],
+      "rank": 77
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -2058,7 +2189,7 @@
           18619
         ]
       ],
-      "rank": 74
+      "rank": 78
     },
     {
       "full_name": "Thysrael/Horizon",
@@ -2081,7 +2212,7 @@
           12632
         ]
       ],
-      "rank": 75
+      "rank": 79
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -2104,7 +2235,7 @@
           42233
         ]
       ],
-      "rank": 76
+      "rank": 80
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -2125,7 +2256,7 @@
           8547
         ]
       ],
-      "rank": 77
+      "rank": 81
     },
     {
       "full_name": "MichaelCade/90DaysOfDevOps",
@@ -2146,7 +2277,7 @@
           30536
         ]
       ],
-      "rank": 78
+      "rank": 82
     },
     {
       "full_name": "fastapi/fastapi",
@@ -2167,7 +2298,7 @@
           103422
         ]
       ],
-      "rank": 79
+      "rank": 83
     },
     {
       "full_name": "spotify/portal-ai-plugins",
@@ -2190,7 +2321,7 @@
           3082
         ]
       ],
-      "rank": 80
+      "rank": 84
     },
     {
       "full_name": "nodejs/node",
@@ -2211,7 +2342,7 @@
           122904
         ]
       ],
-      "rank": 81
+      "rank": 85
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -2235,7 +2366,28 @@
           108105
         ]
       ],
-      "rank": 82
+      "rank": 86
+    },
+    {
+      "full_name": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "days": 1,
+      "best_rank": 8,
+      "gained": 23,
+      "stars": 12428,
+      "language": "C",
+      "description": "Extremely Fast Compression algorithm",
+      "description_zh": "极快的压缩算法",
+      "categories": [],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "history": [
+        [
+          "2026-11-06",
+          12428
+        ]
+      ],
+      "rank": 87
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -2259,7 +2411,7 @@
           3156
         ]
       ],
-      "rank": 83
+      "rank": 88
     }
   ]
 }

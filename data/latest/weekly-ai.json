@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "ai",
-  "fetched_at": "2026-11-05T04:43:54+00:00",
+  "fetched_at": "2026-11-06T04:42:33+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 113010,
-      "forks": 9811,
-      "stars_gained": 8822,
+      "stars": 113636,
+      "forks": 9855,
+      "stars_gained": 9318,
       "categories": [
         "ai",
         "agent"
@@ -26,9 +26,9 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 48093,
-      "forks": 2545,
-      "stars_gained": 7622,
+      "stars": 48904,
+      "forks": 2592,
+      "stars_gained": 6994,
       "categories": [
         "ai"
       ],
@@ -36,82 +36,82 @@
       "rank": 2
     },
     {
-      "trend_rank": 4,
-      "full_name": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "language": "Rust",
-      "stars": 103031,
-      "forks": 6094,
-      "stars_gained": 10921,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
-      "rank": 3
-    },
-    {
-      "trend_rank": 7,
+      "trend_rank": 6,
       "full_name": "max-sixty/worktrunk",
       "url": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "stars": 11146,
-      "forks": 418,
-      "stars_gained": 1261,
+      "stars": 11593,
+      "forks": 441,
+      "stars_gained": 1802,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计",
-      "rank": 4
+      "rank": 3
     },
     {
-      "trend_rank": 11,
-      "full_name": "multica-ai/andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": null,
-      "stars": 229561,
-      "forks": 22861,
-      "stars_gained": 3808,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察。",
-      "rank": 5
-    },
-    {
-      "trend_rank": 13,
-      "full_name": "AgriciDaniel/claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "stars": 26714,
-      "forks": 3472,
-      "stars_gained": 3531,
+      "trend_rank": 9,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 104088,
+      "forks": 6168,
+      "stars_gained": 9303,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
-      "rank": 6
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "rank": 4
     },
     {
-      "trend_rank": 14,
+      "trend_rank": 12,
       "full_name": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars": 76645,
-      "forks": 10165,
-      "stars_gained": 3743,
+      "stars": 77266,
+      "forks": 10266,
+      "stars_gained": 4132,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "世界上第一个开源的代理视频制作系统。 12 条生产管道、100 多种工具、700 多种代理技能和生产知识文件。将您的人工智能编码助手变成一个完整的视频制作工作室。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "stars": 229938,
+      "forks": 22887,
+      "stars_gained": 3713,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察。",
+      "rank": 6
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "stars": 110792,
+      "forks": 7440,
+      "stars_gained": 5426,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面",
       "rank": 7
     }
   ]
