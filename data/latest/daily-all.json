@@ -1,18 +1,30 @@
 {
   "period": "daily",
   "category": "all",
-  "fetched_at": "2026-11-06T04:42:29+00:00",
+  "fetched_at": "2026-11-07T04:10:28+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
+      "full_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 93741,
+      "forks": 11506,
+      "stars_gained": 306,
+      "categories": [],
+      "description_zh": "以思想的速度编写代码 – Zed 是一款高性能、多人代码编辑器，由 Atom 和 Tree-sitter 的创建者开发。"
+    },
+    {
+      "trend_rank": 2,
       "full_name": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "stars": 7666,
-      "forks": 613,
-      "stars_gained": 2679,
+      "stars": 9212,
+      "forks": 734,
+      "stars_gained": 2015,
       "categories": [
         "ai",
         "agent"
@@ -20,194 +32,190 @@
       "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。"
     },
     {
-      "trend_rank": 2,
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "stars": 315538,
-      "forks": 26416,
-      "stars_gained": 2071,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。"
-    },
-    {
       "trend_rank": 3,
-      "full_name": "garrytan/gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "stars": 140061,
-      "forks": 20702,
-      "stars_gained": 612,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA"
+      "full_name": "rails/rails",
+      "url": "https://github.com/rails/rails",
+      "description": "Ruby on Rails",
+      "language": "Ruby",
+      "stars": 59043,
+      "forks": 23833,
+      "stars_gained": 142,
+      "categories": [],
+      "description_zh": "红宝石 on Rails"
     },
     {
       "trend_rank": 4,
-      "full_name": "Usagi-org/ai-goofish-monitor",
-      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-      "language": "Python",
-      "stars": 17787,
-      "forks": 2966,
-      "stars_gained": 240,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": ""
+      "full_name": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "language": "C",
+      "stars": 37908,
+      "forks": 3634,
+      "stars_gained": 37,
+      "categories": [],
+      "description_zh": "🎥 命令行媒体播放器"
     },
     {
       "trend_rank": 5,
-      "full_name": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-      "language": "Python",
-      "stars": 98199,
-      "forks": 10287,
-      "stars_gained": 1655,
+      "full_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "stars": 121493,
+      "forks": 17369,
+      "stars_gained": 192,
       "categories": [],
-      "description_zh": "🕷️ 最好的网页抓取框架，可以处理从单个请求到全面抓取的所有内容！不要害羞，加入这里：https://discord.gg/EMgGbDceNQ 并按照此处获取日常提示和技巧：https://x.com/Scrapling_dev"
+      "description_zh": "使每个人都能构建可靠、高效的软件。"
     },
     {
       "trend_rank": 6,
-      "full_name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "stars": 17150,
-      "forks": 1214,
-      "stars_gained": 2173,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "计算机使用 CLI 进行 AI 代理"
+      "full_name": "react/react",
+      "url": "https://github.com/react/react",
+      "description": "The library for web and native user interfaces.",
+      "language": "JavaScript",
+      "stars": 252283,
+      "forks": 51819,
+      "stars_gained": 248,
+      "categories": [],
+      "description_zh": "Web 和本机用户界面的库。"
     },
     {
       "trend_rank": 7,
-      "full_name": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "stars": 11593,
-      "forks": 441,
-      "stars_gained": 546,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计"
+      "full_name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "language": "TypeScript",
+      "stars": 101399,
+      "forks": 28912,
+      "stars_gained": 135,
+      "categories": [],
+      "description_zh": "充满信心地交付 Web 应用程序 🚀"
     },
     {
       "trend_rank": 8,
-      "full_name": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "description": "Extremely Fast Compression algorithm",
-      "language": "C",
-      "stars": 12428,
-      "forks": 1637,
-      "stars_gained": 23,
+      "full_name": "symfony/symfony",
+      "url": "https://github.com/symfony/symfony",
+      "description": "The Symfony PHP framework",
+      "language": "PHP",
+      "stars": 31455,
+      "forks": 9949,
+      "stars_gained": 128,
       "categories": [],
-      "description_zh": "极快的压缩算法"
+      "description_zh": "Symfony PHP 框架"
     },
     {
       "trend_rank": 9,
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 67217,
+      "forks": 10989,
+      "stars_gained": 148,
+      "categories": [],
+      "description_zh": "Prometheus监控系统和时间序列数据库。"
+    },
+    {
+      "trend_rank": 10,
       "full_name": "google/skills",
       "url": "https://github.com/google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 22461,
-      "forks": 1894,
-      "stars_gained": 211,
+      "stars": 22898,
+      "forks": 1926,
+      "stars_gained": 534,
       "categories": [
         "agent"
       ],
       "description_zh": "Google 产品和技术的代理技能"
     },
     {
-      "trend_rank": 10,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 46019,
-      "forks": 3150,
-      "stars_gained": 150,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI"
-    },
-    {
       "trend_rank": 11,
-      "full_name": "scenario-labs/skills",
-      "url": "https://github.com/scenario-labs/skills",
-      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-      "language": "Python",
-      "stars": 3177,
-      "forks": 278,
-      "stars_gained": 667,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "从任何 AI 代理处获取可立即投入生产的图像、视频、音频和 3D：通过场景 MCP 以及驱动 Blender、Maya、ZBrush、Unreal 和 Unity 的专家团队，选择正确的模型、购买前定价并保持角色和品牌一致的技能。"
+      "full_name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "stars": 195057,
+      "forks": 44429,
+      "stars_gained": 301,
+      "categories": [],
+      "description_zh": "视觉工作室代码"
     },
     {
       "trend_rank": 12,
-      "full_name": "ConardLi/garden-skills",
-      "url": "https://github.com/ConardLi/garden-skills",
-      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "language": "JavaScript",
-      "stars": 14247,
-      "forks": 1654,
-      "stars_gained": 175,
+      "full_name": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "stars": 41004,
+      "forks": 2343,
+      "stars_gained": 131,
       "categories": [],
-      "description_zh": "ConardLi 的开源技能集合，包括网页设计、知识检索、图像生成等。"
+      "description_zh": "一种新型外壳"
     },
     {
       "trend_rank": 13,
-      "full_name": "microsoft/VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "stars": 56105,
-      "forks": 6315,
-      "stars_gained": 223,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "开源语音人工智能前沿"
+      "full_name": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "stars": 52628,
+      "forks": 10590,
+      "stars_gained": 128,
+      "categories": [],
+      "description_zh": "用于分布式系统最关键数据的分布式可靠键值存储"
     },
     {
       "trend_rank": 14,
-      "full_name": "floci-io/floci",
-      "url": "https://github.com/floci-io/floci",
-      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-      "language": "Java",
-      "stars": 30526,
-      "forks": 3335,
-      "stars_gained": 779,
+      "full_name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 31315,
+      "forks": 11581,
+      "stars_gained": 26,
       "categories": [],
-      "description_zh": "轻便、蓬松且始终免费 - AWS 本地模拟器替代方案"
+      "description_zh": "通用 TLS 和加密库"
     },
     {
       "trend_rank": 15,
-      "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
-      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-      "description": "",
-      "language": "C#",
-      "stars": 7392,
-      "forks": 265,
-      "stars_gained": 984,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 316854,
+      "forks": 26511,
+      "stars_gained": 2070,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。"
+    },
+    {
+      "trend_rank": 16,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 64285,
+      "forks": 4163,
+      "stars_gained": 2548,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "stars": 50728,
+      "forks": 2613,
+      "stars_gained": 169,
       "categories": [],
-      "description_zh": ""
+      "description_zh": "一个非常快的 Python linter 和代码格式化程序，用 Rust 编写。"
     }
   ]
 }

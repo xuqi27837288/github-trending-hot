@@ -1,133 +1,24 @@
 {
   "period": "daily",
   "category": "ai",
-  "fetched_at": "2026-11-06T04:42:29+00:00",
+  "fetched_at": "2026-11-07T04:10:28+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
-      "trend_rank": 1,
+      "trend_rank": 2,
       "full_name": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "stars": 7666,
-      "forks": 613,
-      "stars_gained": 2679,
+      "stars": 9212,
+      "forks": 734,
+      "stars_gained": 2015,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
       "rank": 1
-    },
-    {
-      "trend_rank": 3,
-      "full_name": "garrytan/gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "stars": 140061,
-      "forks": 20702,
-      "stars_gained": 612,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA",
-      "rank": 2
-    },
-    {
-      "trend_rank": 4,
-      "full_name": "Usagi-org/ai-goofish-monitor",
-      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-      "language": "Python",
-      "stars": 17787,
-      "forks": 2966,
-      "stars_gained": 240,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "",
-      "rank": 3
-    },
-    {
-      "trend_rank": 6,
-      "full_name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "stars": 17150,
-      "forks": 1214,
-      "stars_gained": 2173,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "计算机使用 CLI 进行 AI 代理",
-      "rank": 4
-    },
-    {
-      "trend_rank": 7,
-      "full_name": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "stars": 11593,
-      "forks": 441,
-      "stars_gained": 546,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计",
-      "rank": 5
-    },
-    {
-      "trend_rank": 10,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 46019,
-      "forks": 3150,
-      "stars_gained": 150,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "rank": 6
-    },
-    {
-      "trend_rank": 11,
-      "full_name": "scenario-labs/skills",
-      "url": "https://github.com/scenario-labs/skills",
-      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-      "language": "Python",
-      "stars": 3177,
-      "forks": 278,
-      "stars_gained": 667,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "从任何 AI 代理处获取可立即投入生产的图像、视频、音频和 3D：通过场景 MCP 以及驱动 Blender、Maya、ZBrush、Unreal 和 Unity 的专家团队，选择正确的模型、购买前定价并保持角色和品牌一致的技能。",
-      "rank": 7
-    },
-    {
-      "trend_rank": 13,
-      "full_name": "microsoft/VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "stars": 56105,
-      "forks": 6315,
-      "stars_gained": 223,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "开源语音人工智能前沿",
-      "rank": 8
     }
   ]
 }

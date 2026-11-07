@@ -1,0 +1,69 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-11-07T04:10:28+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "stars": 9212,
+      "forks": 734,
+      "stars_gained": 2015,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 22898,
+      "forks": 1926,
+      "stars_gained": 534,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "Google 产品和技术的代理技能",
+      "rank": 2
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 316854,
+      "forks": 26511,
+      "stars_gained": 2070,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 16,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 64285,
+      "forks": 4163,
+      "stars_gained": 2548,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 4
+    }
+  ]
+}

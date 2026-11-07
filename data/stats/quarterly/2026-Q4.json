@@ -2,9 +2,9 @@
   "key": "2026-Q4",
   "label": "2026 年 Q4 季度",
   "summary": {
-    "days": 15,
-    "repos": 88,
-    "gained": 183424,
+    "days": 16,
+    "repos": 101,
+    "gained": 192682,
     "categories": {
       "ai": 44,
       "agent": 36
@@ -65,6 +65,53 @@
       "rank": 1
     },
     {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "days": 7,
+      "best_rank": 2,
+      "gained": 9301,
+      "stars": 316854,
+      "language": "Shell",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-10-31",
+          307569
+        ],
+        [
+          "2026-11-01",
+          308524
+        ],
+        [
+          "2026-11-03",
+          310418
+        ],
+        [
+          "2026-11-04",
+          311663
+        ],
+        [
+          "2026-11-05",
+          313595
+        ],
+        [
+          "2026-11-06",
+          315538
+        ],
+        [
+          "2026-11-07",
+          316854
+        ]
+      ],
+      "rank": 2
+    },
+    {
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "days": 7,
@@ -108,49 +155,6 @@
         [
           "2026-11-05",
           113010
-        ]
-      ],
-      "rank": 2
-    },
-    {
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "days": 6,
-      "best_rank": 2,
-      "gained": 7231,
-      "stars": 315538,
-      "language": "Shell",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-10-31",
-      "last_seen": "2026-11-06",
-      "history": [
-        [
-          "2026-10-31",
-          307569
-        ],
-        [
-          "2026-11-01",
-          308524
-        ],
-        [
-          "2026-11-03",
-          310418
-        ],
-        [
-          "2026-11-04",
-          311663
-        ],
-        [
-          "2026-11-05",
-          313595
-        ],
-        [
-          "2026-11-06",
-          315538
         ]
       ],
       "rank": 3
@@ -197,6 +201,45 @@
       "rank": 4
     },
     {
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "days": 5,
+      "best_rank": 1,
+      "gained": 13385,
+      "stars": 64285,
+      "language": "JavaScript",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-10-22",
+          38125
+        ],
+        [
+          "2026-10-24",
+          42285
+        ],
+        [
+          "2026-10-25",
+          44747
+        ],
+        [
+          "2026-10-26",
+          47072
+        ],
+        [
+          "2026-11-07",
+          64285
+        ]
+      ],
+      "rank": 5
+    },
+    {
       "full_name": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
       "days": 5,
@@ -231,7 +274,7 @@
           52958
         ]
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "full_name": "Nutlope/hallmark",
@@ -270,7 +313,7 @@
           40904
         ]
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "full_name": "togg53192-cmd/jailbreaks",
@@ -307,7 +350,7 @@
           13083
         ]
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "full_name": "obra/superpowers",
@@ -346,7 +389,7 @@
           310132
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "full_name": "makecindy/cindy",
@@ -386,7 +429,7 @@
           8210
         ]
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "full_name": "Donchitos/Claude-Code-Game-Studios",
@@ -426,7 +469,7 @@
           34805
         ]
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "full_name": "Renhuai123/ziwei-doushu",
@@ -461,41 +504,6 @@
         [
           "2026-11-02",
           13368
-        ]
-      ],
-      "rank": 11
-    },
-    {
-      "full_name": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "days": 4,
-      "best_rank": 1,
-      "gained": 10837,
-      "stars": 47072,
-      "language": "JavaScript",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-26",
-      "history": [
-        [
-          "2026-10-22",
-          38125
-        ],
-        [
-          "2026-10-24",
-          42285
-        ],
-        [
-          "2026-10-25",
-          44747
-        ],
-        [
-          "2026-10-26",
-          47072
         ]
       ],
       "rank": 12
@@ -708,6 +716,38 @@
       "rank": 18
     },
     {
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "days": 3,
+      "best_rank": 1,
+      "gained": 6744,
+      "stars": 9212,
+      "language": "Python",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-05",
+          5507
+        ],
+        [
+          "2026-11-06",
+          7666
+        ],
+        [
+          "2026-11-07",
+          9212
+        ]
+      ],
+      "rank": 19
+    },
+    {
       "full_name": "elayadesign/ai-design-skills",
       "url": "https://github.com/elayadesign/ai-design-skills",
       "days": 3,
@@ -736,7 +776,7 @@
           12332
         ]
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "full_name": "lightpanda-io/browser",
@@ -767,7 +807,7 @@
           40335
         ]
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "full_name": "floci-io/floci",
@@ -796,7 +836,7 @@
           30526
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "full_name": "shiyu-coder/Kronos",
@@ -825,7 +865,7 @@
           46582
         ]
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -854,7 +894,7 @@
           12486
         ]
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -884,34 +924,6 @@
         [
           "2026-11-02",
           9622
-        ]
-      ],
-      "rank": 24
-    },
-    {
-      "full_name": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "days": 2,
-      "best_rank": 1,
-      "gained": 4729,
-      "stars": 7666,
-      "language": "Python",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-05",
-      "last_seen": "2026-11-06",
-      "history": [
-        [
-          "2026-11-05",
-          5507
-        ],
-        [
-          "2026-11-06",
-          7666
         ]
       ],
       "rank": 25
@@ -1315,6 +1327,33 @@
       "rank": 40
     },
     {
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "days": 2,
+      "best_rank": 9,
+      "gained": 745,
+      "stars": 22898,
+      "language": "Python",
+      "description": "Agent Skills for Google products and technologies",
+      "description_zh": "Google 产品和技术的代理技能",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-06",
+          22461
+        ],
+        [
+          "2026-11-07",
+          22898
+        ]
+      ],
+      "rank": 41
+    },
+    {
       "full_name": "hyprwm/Hyprland",
       "url": "https://github.com/hyprwm/Hyprland",
       "days": 2,
@@ -1337,7 +1376,7 @@
           40031
         ]
       ],
-      "rank": 41
+      "rank": 42
     },
     {
       "full_name": "kornia/kornia",
@@ -1364,7 +1403,7 @@
           12188
         ]
       ],
-      "rank": 42
+      "rank": 43
     },
     {
       "full_name": "Usagi-org/ai-goofish-monitor",
@@ -1391,7 +1430,7 @@
           17787
         ]
       ],
-      "rank": 43
+      "rank": 44
     },
     {
       "full_name": "macro-inc/macro",
@@ -1419,7 +1458,7 @@
           5902
         ]
       ],
-      "rank": 44
+      "rank": 45
     },
     {
       "full_name": "expo/skills",
@@ -1447,7 +1486,7 @@
           3914
         ]
       ],
-      "rank": 45
+      "rank": 46
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -1471,7 +1510,7 @@
           172626
         ]
       ],
-      "rank": 46
+      "rank": 47
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -1492,7 +1531,7 @@
           35214
         ]
       ],
-      "rank": 47
+      "rank": 48
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -1515,7 +1554,7 @@
           132319
         ]
       ],
-      "rank": 48
+      "rank": 49
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -1539,7 +1578,7 @@
           40423
         ]
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -1563,7 +1602,7 @@
           6556
         ]
       ],
-      "rank": 50
+      "rank": 51
     },
     {
       "full_name": "github/spec-kit",
@@ -1584,7 +1623,7 @@
           147425
         ]
       ],
-      "rank": 51
+      "rank": 52
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -1608,7 +1647,7 @@
           103817
         ]
       ],
-      "rank": 52
+      "rank": 53
     },
     {
       "full_name": "supabase/supabase",
@@ -1631,7 +1670,7 @@
           113280
         ]
       ],
-      "rank": 53
+      "rank": 54
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -1654,7 +1693,7 @@
           224758
         ]
       ],
-      "rank": 54
+      "rank": 55
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -1677,7 +1716,7 @@
           139184
         ]
       ],
-      "rank": 55
+      "rank": 56
     },
     {
       "full_name": "ruvnet/RuView",
@@ -1698,7 +1737,7 @@
           101180
         ]
       ],
-      "rank": 56
+      "rank": 57
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -1719,7 +1758,7 @@
           31982
         ]
       ],
-      "rank": 57
+      "rank": 58
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -1743,7 +1782,7 @@
           6321
         ]
       ],
-      "rank": 58
+      "rank": 59
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -1766,7 +1805,7 @@
           110519
         ]
       ],
-      "rank": 59
+      "rank": 60
     },
     {
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
@@ -1789,7 +1828,7 @@
           10434
         ]
       ],
-      "rank": 60
+      "rank": 61
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -1810,7 +1849,7 @@
           86062
         ]
       ],
-      "rank": 61
+      "rank": 62
     },
     {
       "full_name": "cjpais/Handy",
@@ -1831,7 +1870,7 @@
           36702
         ]
       ],
-      "rank": 62
+      "rank": 63
     },
     {
       "full_name": "public-apis/public-apis",
@@ -1852,7 +1891,7 @@
           494811
         ]
       ],
-      "rank": 63
+      "rank": 64
     },
     {
       "full_name": "karpathy/nanochat",
@@ -1873,7 +1912,49 @@
           59994
         ]
       ],
-      "rank": 64
+      "rank": 65
+    },
+    {
+      "full_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "days": 1,
+      "best_rank": 1,
+      "gained": 306,
+      "stars": 93741,
+      "language": "Rust",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "description_zh": "以思想的速度编写代码 – Zed 是一款高性能、多人代码编辑器，由 Atom 和 Tree-sitter 的创建者开发。",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          93741
+        ]
+      ],
+      "rank": 66
+    },
+    {
+      "full_name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "days": 1,
+      "best_rank": 11,
+      "gained": 301,
+      "stars": 195057,
+      "language": "TypeScript",
+      "description": "Visual Studio Code",
+      "description_zh": "视觉工作室代码",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          195057
+        ]
+      ],
+      "rank": 67
     },
     {
       "full_name": "anthropics/skills",
@@ -1896,7 +1977,7 @@
           185402
         ]
       ],
-      "rank": 65
+      "rank": 68
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -1919,7 +2000,7 @@
           14865
         ]
       ],
-      "rank": 66
+      "rank": 69
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -1943,7 +2024,28 @@
           27022
         ]
       ],
-      "rank": 67
+      "rank": 70
+    },
+    {
+      "full_name": "react/react",
+      "url": "https://github.com/react/react",
+      "days": 1,
+      "best_rank": 6,
+      "gained": 248,
+      "stars": 252283,
+      "language": "JavaScript",
+      "description": "The library for web and native user interfaces.",
+      "description_zh": "Web 和本机用户界面的库。",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          252283
+        ]
+      ],
+      "rank": 71
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -1964,7 +2066,7 @@
           22694
         ]
       ],
-      "rank": 68
+      "rank": 72
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -1987,7 +2089,7 @@
           8545
         ]
       ],
-      "rank": 69
+      "rank": 73
     },
     {
       "full_name": "microsoft/VibeVoice",
@@ -2010,7 +2112,7 @@
           56105
         ]
       ],
-      "rank": 70
+      "rank": 74
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -2034,30 +2136,7 @@
           22316
         ]
       ],
-      "rank": 71
-    },
-    {
-      "full_name": "google/skills",
-      "url": "https://github.com/google/skills",
-      "days": 1,
-      "best_rank": 9,
-      "gained": 211,
-      "stars": 22461,
-      "language": "Python",
-      "description": "Agent Skills for Google products and technologies",
-      "description_zh": "Google 产品和技术的代理技能",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-06",
-      "last_seen": "2026-11-06",
-      "history": [
-        [
-          "2026-11-06",
-          22461
-        ]
-      ],
-      "rank": 72
+      "rank": 75
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -2081,7 +2160,28 @@
           21015
         ]
       ],
-      "rank": 73
+      "rank": 76
+    },
+    {
+      "full_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "days": 1,
+      "best_rank": 5,
+      "gained": 192,
+      "stars": 121493,
+      "language": "Rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "description_zh": "使每个人都能构建可靠、高效的软件。",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          121493
+        ]
+      ],
+      "rank": 77
     },
     {
       "full_name": "ConardLi/garden-skills",
@@ -2102,7 +2202,28 @@
           14247
         ]
       ],
-      "rank": 74
+      "rank": 78
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "days": 1,
+      "best_rank": 17,
+      "gained": 169,
+      "stars": 50728,
+      "language": "Rust",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "description_zh": "一个非常快的 Python linter 和代码格式化程序，用 Rust 编写。",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          50728
+        ]
+      ],
+      "rank": 79
     },
     {
       "full_name": "coollabsio/coolify",
@@ -2123,7 +2244,7 @@
           64486
         ]
       ],
-      "rank": 75
+      "rank": 80
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -2144,7 +2265,7 @@
           40299
         ]
       ],
-      "rank": 76
+      "rank": 81
     },
     {
       "full_name": "vercel-labs/agent-browser",
@@ -2168,7 +2289,28 @@
           46019
         ]
       ],
-      "rank": 77
+      "rank": 82
+    },
+    {
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 148,
+      "stars": 67217,
+      "language": "Go",
+      "description": "The Prometheus monitoring system and time series database.",
+      "description_zh": "Prometheus监控系统和时间序列数据库。",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          67217
+        ]
+      ],
+      "rank": 83
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -2189,7 +2331,112 @@
           18619
         ]
       ],
-      "rank": 78
+      "rank": 84
+    },
+    {
+      "full_name": "rails/rails",
+      "url": "https://github.com/rails/rails",
+      "days": 1,
+      "best_rank": 3,
+      "gained": 142,
+      "stars": 59043,
+      "language": "Ruby",
+      "description": "Ruby on Rails",
+      "description_zh": "红宝石 on Rails",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          59043
+        ]
+      ],
+      "rank": 85
+    },
+    {
+      "full_name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "days": 1,
+      "best_rank": 7,
+      "gained": 135,
+      "stars": 101399,
+      "language": "TypeScript",
+      "description": "Deliver web apps with confidence 🚀",
+      "description_zh": "充满信心地交付 Web 应用程序 🚀",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          101399
+        ]
+      ],
+      "rank": 86
+    },
+    {
+      "full_name": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 131,
+      "stars": 41004,
+      "language": "Rust",
+      "description": "A new type of shell",
+      "description_zh": "一种新型外壳",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          41004
+        ]
+      ],
+      "rank": 87
+    },
+    {
+      "full_name": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "days": 1,
+      "best_rank": 13,
+      "gained": 128,
+      "stars": 52628,
+      "language": "Go",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "description_zh": "用于分布式系统最关键数据的分布式可靠键值存储",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          52628
+        ]
+      ],
+      "rank": 88
+    },
+    {
+      "full_name": "symfony/symfony",
+      "url": "https://github.com/symfony/symfony",
+      "days": 1,
+      "best_rank": 8,
+      "gained": 128,
+      "stars": 31455,
+      "language": "PHP",
+      "description": "The Symfony PHP framework",
+      "description_zh": "Symfony PHP 框架",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          31455
+        ]
+      ],
+      "rank": 89
     },
     {
       "full_name": "Thysrael/Horizon",
@@ -2212,7 +2459,7 @@
           12632
         ]
       ],
-      "rank": 79
+      "rank": 90
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -2235,7 +2482,7 @@
           42233
         ]
       ],
-      "rank": 80
+      "rank": 91
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -2256,7 +2503,7 @@
           8547
         ]
       ],
-      "rank": 81
+      "rank": 92
     },
     {
       "full_name": "MichaelCade/90DaysOfDevOps",
@@ -2277,7 +2524,7 @@
           30536
         ]
       ],
-      "rank": 82
+      "rank": 93
     },
     {
       "full_name": "fastapi/fastapi",
@@ -2298,7 +2545,7 @@
           103422
         ]
       ],
-      "rank": 83
+      "rank": 94
     },
     {
       "full_name": "spotify/portal-ai-plugins",
@@ -2321,7 +2568,7 @@
           3082
         ]
       ],
-      "rank": 84
+      "rank": 95
     },
     {
       "full_name": "nodejs/node",
@@ -2342,7 +2589,7 @@
           122904
         ]
       ],
-      "rank": 85
+      "rank": 96
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -2366,7 +2613,49 @@
           108105
         ]
       ],
-      "rank": 86
+      "rank": 97
+    },
+    {
+      "full_name": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "days": 1,
+      "best_rank": 4,
+      "gained": 37,
+      "stars": 37908,
+      "language": "C",
+      "description": "🎥 Command line media player",
+      "description_zh": "🎥 命令行媒体播放器",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          37908
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "full_name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "days": 1,
+      "best_rank": 14,
+      "gained": 26,
+      "stars": 31315,
+      "language": "C",
+      "description": "General purpose TLS and crypto library",
+      "description_zh": "通用 TLS 和加密库",
+      "categories": [],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "history": [
+        [
+          "2026-11-07",
+          31315
+        ]
+      ],
+      "rank": 99
     },
     {
       "full_name": "lz4/lz4",
@@ -2387,7 +2676,7 @@
           12428
         ]
       ],
-      "rank": 87
+      "rank": 100
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -2411,7 +2700,7 @@
           3156
         ]
       ],
-      "rank": 88
+      "rank": 101
     }
   ]
 }
