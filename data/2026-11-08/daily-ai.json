@@ -1,0 +1,39 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-11-08T03:53:42+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 46923,
+      "forks": 3217,
+      "stars_gained": 190,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 1
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars": 594,
+      "forks": 91,
+      "stars_gained": 123,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "NVIDIA Kubernetes 引擎 (NVKE)。裸机上 GPU Kubernetes 的管理平面。",
+      "rank": 2
+    }
+  ]
+}

@@ -1,221 +1,203 @@
 {
   "period": "daily",
   "category": "all",
-  "fetched_at": "2026-11-07T04:10:28+00:00",
+  "fetched_at": "2026-11-08T03:53:42+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 93741,
-      "forks": 11506,
-      "stars_gained": 306,
-      "categories": [],
-      "description_zh": "以思想的速度编写代码 – Zed 是一款高性能、多人代码编辑器，由 Atom 和 Tree-sitter 的创建者开发。"
-    },
-    {
-      "trend_rank": 2,
-      "full_name": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "language": "Python",
-      "stars": 9212,
-      "forks": 734,
-      "stars_gained": 2015,
+      "stars": 46923,
+      "forks": 3217,
+      "stars_gained": 190,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。"
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI"
     },
     {
-      "trend_rank": 3,
-      "full_name": "rails/rails",
-      "url": "https://github.com/rails/rails",
-      "description": "Ruby on Rails",
-      "language": "Ruby",
-      "stars": 59043,
-      "forks": 23833,
-      "stars_gained": 142,
-      "categories": [],
-      "description_zh": "红宝石 on Rails"
-    },
-    {
-      "trend_rank": 4,
-      "full_name": "mpv-player/mpv",
-      "url": "https://github.com/mpv-player/mpv",
-      "description": "🎥 Command line media player",
-      "language": "C",
-      "stars": 37908,
-      "forks": 3634,
-      "stars_gained": 37,
-      "categories": [],
-      "description_zh": "🎥 命令行媒体播放器"
-    },
-    {
-      "trend_rank": 5,
-      "full_name": "rust-lang/rust",
-      "url": "https://github.com/rust-lang/rust",
-      "description": "Empowering everyone to build reliable and efficient software.",
-      "language": "Rust",
-      "stars": 121493,
-      "forks": 17369,
-      "stars_gained": 192,
-      "categories": [],
-      "description_zh": "使每个人都能构建可靠、高效的软件。"
-    },
-    {
-      "trend_rank": 6,
-      "full_name": "react/react",
-      "url": "https://github.com/react/react",
-      "description": "The library for web and native user interfaces.",
-      "language": "JavaScript",
-      "stars": 252283,
-      "forks": 51819,
-      "stars_gained": 248,
-      "categories": [],
-      "description_zh": "Web 和本机用户界面的库。"
-    },
-    {
-      "trend_rank": 7,
-      "full_name": "angular/angular",
-      "url": "https://github.com/angular/angular",
-      "description": "Deliver web apps with confidence 🚀",
-      "language": "TypeScript",
-      "stars": 101399,
-      "forks": 28912,
-      "stars_gained": 135,
-      "categories": [],
-      "description_zh": "充满信心地交付 Web 应用程序 🚀"
-    },
-    {
-      "trend_rank": 8,
-      "full_name": "symfony/symfony",
-      "url": "https://github.com/symfony/symfony",
-      "description": "The Symfony PHP framework",
-      "language": "PHP",
-      "stars": 31455,
-      "forks": 9949,
-      "stars_gained": 128,
-      "categories": [],
-      "description_zh": "Symfony PHP 框架"
-    },
-    {
-      "trend_rank": 9,
-      "full_name": "prometheus/prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "description": "The Prometheus monitoring system and time series database.",
-      "language": "Go",
-      "stars": 67217,
-      "forks": 10989,
-      "stars_gained": 148,
-      "categories": [],
-      "description_zh": "Prometheus监控系统和时间序列数据库。"
-    },
-    {
-      "trend_rank": 10,
-      "full_name": "google/skills",
-      "url": "https://github.com/google/skills",
-      "description": "Agent Skills for Google products and technologies",
-      "language": "Python",
-      "stars": 22898,
-      "forks": 1926,
-      "stars_gained": 534,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "Google 产品和技术的代理技能"
-    },
-    {
-      "trend_rank": 11,
-      "full_name": "microsoft/vscode",
-      "url": "https://github.com/microsoft/vscode",
-      "description": "Visual Studio Code",
-      "language": "TypeScript",
-      "stars": 195057,
-      "forks": 44429,
-      "stars_gained": 301,
-      "categories": [],
-      "description_zh": "视觉工作室代码"
-    },
-    {
-      "trend_rank": 12,
-      "full_name": "nushell/nushell",
-      "url": "https://github.com/nushell/nushell",
-      "description": "A new type of shell",
-      "language": "Rust",
-      "stars": 41004,
-      "forks": 2343,
-      "stars_gained": 131,
-      "categories": [],
-      "description_zh": "一种新型外壳"
-    },
-    {
-      "trend_rank": 13,
-      "full_name": "etcd-io/etcd",
-      "url": "https://github.com/etcd-io/etcd",
-      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
-      "language": "Go",
-      "stars": 52628,
-      "forks": 10590,
-      "stars_gained": 128,
-      "categories": [],
-      "description_zh": "用于分布式系统最关键数据的分布式可靠键值存储"
-    },
-    {
-      "trend_rank": 14,
-      "full_name": "openssl/openssl",
-      "url": "https://github.com/openssl/openssl",
-      "description": "General purpose TLS and crypto library",
-      "language": "C",
-      "stars": 31315,
-      "forks": 11581,
-      "stars_gained": 26,
-      "categories": [],
-      "description_zh": "通用 TLS 和加密库"
-    },
-    {
-      "trend_rank": 15,
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "stars": 316854,
-      "forks": 26511,
-      "stars_gained": 2070,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。"
-    },
-    {
-      "trend_rank": 16,
+      "trend_rank": 2,
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 64285,
-      "forks": 4163,
-      "stars_gained": 2548,
+      "stars": 65901,
+      "forks": 4283,
+      "stars_gained": 2085,
       "categories": [
         "agent"
       ],
       "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
     },
     {
-      "trend_rank": 17,
+      "trend_rank": 3,
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 23473,
+      "forks": 1961,
+      "stars_gained": 443,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "Google 产品和技术的代理技能"
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 317831,
+      "forks": 26589,
+      "stars_gained": 1100,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 188879,
+      "forks": 22261,
+      "stars_gained": 390,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "代理技能的公共存储库"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 14661,
+      "forks": 1199,
+      "stars_gained": 96,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 67472,
+      "forks": 11008,
+      "stars_gained": 322,
+      "categories": [],
+      "description_zh": "Prometheus监控系统和时间序列数据库。"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 100786,
+      "forks": 11909,
+      "stars_gained": 1766,
+      "categories": [],
+      "description_zh": "通过社交网络上的用户名查找社交媒体帐户"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 17158,
+      "forks": 2423,
+      "stars_gained": 1955,
+      "categories": [],
+      "description_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机"
+    },
+    {
+      "trend_rank": 10,
       "full_name": "astral-sh/ruff",
       "url": "https://github.com/astral-sh/ruff",
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "language": "Rust",
-      "stars": 50728,
-      "forks": 2613,
-      "stars_gained": 169,
+      "stars": 51007,
+      "forks": 2633,
+      "stars_gained": 350,
       "categories": [],
       "description_zh": "一个非常快的 Python linter 和代码格式化程序，用 Rust 编写。"
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "tailwindlabs/tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "stars": 98524,
+      "forks": 7112,
+      "stars_gained": 122,
+      "categories": [],
+      "description_zh": "用于快速 UI 开发的实用程序优先 CSS 框架。"
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "mbillow/localthings",
+      "url": "https://github.com/mbillow/localthings",
+      "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+      "language": "Python",
+      "stars": 1085,
+      "forks": 113,
+      "stars_gained": 186,
+      "categories": [],
+      "description_zh": "通过家庭网络从家庭助理控制您的三星设备，无需云帐户。"
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 94320,
+      "forks": 11557,
+      "stars_gained": 1114,
+      "categories": [],
+      "description_zh": "以思想的速度编写代码 – Zed 是一款高性能、多人代码编辑器，由 Atom 和 Tree-sitter 的创建者开发。"
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript",
+      "stars": 4677,
+      "forks": 373,
+      "stars_gained": 191,
+      "categories": [],
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars": 594,
+      "forks": 91,
+      "stars_gained": 123,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "NVIDIA Kubernetes 引擎 (NVKE)。裸机上 GPU Kubernetes 的管理平面。"
     }
   ]
 }

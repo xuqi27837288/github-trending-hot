@@ -1,0 +1,55 @@
+{
+  "period": "monthly",
+  "category": "ai",
+  "fetched_at": "2026-11-08T03:53:48+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 50360,
+      "forks": 2671,
+      "stars_gained": 20523,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 114554,
+      "forks": 9935,
+      "stars_gained": 17493,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
+      "rank": 2
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 105634,
+      "forks": 6277,
+      "stars_gained": 27680,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "rank": 3
+    }
+  ]
+}
