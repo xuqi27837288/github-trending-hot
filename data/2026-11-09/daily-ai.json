@@ -1,0 +1,54 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-11-09T04:07:51+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars": 908,
+      "forks": 112,
+      "stars_gained": 345,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "NVIDIA Kubernetes 引擎 (NVKE)。裸机上 GPU Kubernetes 的管理平面。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 19529,
+      "forks": 3284,
+      "stars_gained": 32,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合",
+      "rank": 2
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 47784,
+      "forks": 3269,
+      "stars_gained": 815,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 3
+    }
+  ]
+}

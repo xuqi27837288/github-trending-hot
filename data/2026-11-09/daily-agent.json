@@ -1,0 +1,54 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-11-09T04:07:51+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 5,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 47784,
+      "forks": 3269,
+      "stars_gained": 815,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 1
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 17274,
+      "forks": 1367,
+      "stars_gained": 875,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "rank": 2
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 189809,
+      "forks": 22363,
+      "stars_gained": 792,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "代理技能的公共存储库",
+      "rank": 3
+    }
+  ]
+}

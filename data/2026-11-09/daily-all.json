@@ -1,0 +1,127 @@
+{
+  "period": "daily",
+  "category": "all",
+  "fetched_at": "2026-11-09T04:07:51+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 104299,
+      "forks": 12178,
+      "stars_gained": 2373,
+      "categories": [],
+      "description_zh": "通过社交网络上的用户名查找社交媒体帐户"
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars": 908,
+      "forks": 112,
+      "stars_gained": 345,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "NVIDIA Kubernetes 引擎 (NVKE)。裸机上 GPU Kubernetes 的管理平面。"
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 18562,
+      "forks": 2570,
+      "stars_gained": 1439,
+      "categories": [],
+      "description_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机"
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 19529,
+      "forks": 3284,
+      "stars_gained": 32,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 47784,
+      "forks": 3269,
+      "stars_gained": 815,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 17274,
+      "forks": 1367,
+      "stars_gained": 875,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 189809,
+      "forks": 22363,
+      "stars_gained": 792,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "代理技能的公共存储库"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 16505,
+      "forks": 1957,
+      "stars_gained": 41,
+      "categories": [],
+      "description_zh": "具有接触的多关节动力学。通用物理模拟器。"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript",
+      "stars": 5299,
+      "forks": 413,
+      "stars_gained": 460,
+      "categories": [],
+      "description_zh": ""
+    }
+  ]
+}

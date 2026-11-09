@@ -1,0 +1,166 @@
+{
+  "period": "monthly",
+  "category": "all",
+  "fetched_at": "2026-11-09T04:07:59+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 444259,
+      "forks": 109731,
+      "stars_gained": 425123,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。"
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 51081,
+      "forks": 2719,
+      "stars_gained": 21146,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。"
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 67041,
+      "forks": 4377,
+      "stars_gained": 40289,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 39962,
+      "forks": 6255,
+      "stars_gained": 33780,
+      "categories": [],
+      "description_zh": "ArtCraft 是为艺术家、设计师和电影制作人打造的有意制作引擎"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 81182,
+      "forks": 7491,
+      "stars_gained": 22360,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 105176,
+      "forks": 11687,
+      "stars_gained": 50169,
+      "categories": [],
+      "description_zh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 52703,
+      "forks": 10040,
+      "stars_gained": 25840,
+      "categories": [],
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 114984,
+      "forks": 9987,
+      "stars_gained": 17296,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 52377,
+      "forks": 4976,
+      "stars_gained": 39354,
+      "categories": [],
+      "description_zh": "自动将 PS5 可执行文件移植到 Linux 和 Windows 的工具"
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 106312,
+      "forks": 6314,
+      "stars_gained": 28008,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。"
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "language": "Python",
+      "stars": 57129,
+      "forks": 6964,
+      "stars_gained": 16065,
+      "categories": [],
+      "description_zh": "DeepTutor：终身个性化辅导。 https://deeptutor.info/。"
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "stars": 98836,
+      "forks": 11218,
+      "stars_gained": 17344,
+      "categories": [],
+      "description_zh": "Ghidra是一个软件逆向工程（ SRE ）框架"
+    }
+  ]
+}
