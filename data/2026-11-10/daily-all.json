@@ -1,0 +1,156 @@
+{
+  "period": "daily",
+  "category": "all",
+  "fetched_at": "2026-11-10T05:38:20+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 191303,
+      "forks": 22464,
+      "stars_gained": 1038,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "代理技能的公共存储库"
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 20690,
+      "forks": 1568,
+      "stars_gained": 3278,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统"
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 107584,
+      "forks": 12445,
+      "stars_gained": 4267,
+      "categories": [],
+      "description_zh": "通过社交网络上的用户名查找社交媒体帐户"
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 17021,
+      "forks": 2008,
+      "stars_gained": 574,
+      "categories": [],
+      "description_zh": "具有接触的多关节动力学。通用物理模拟器。"
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 20131,
+      "forks": 3323,
+      "stars_gained": 551,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "stars": 32275,
+      "forks": 4777,
+      "stars_gained": 216,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "加里固执己见的 OpenClaw/Hermes 特工大脑"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 48663,
+      "forks": 3315,
+      "stars_gained": 916,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 103621,
+      "forks": 13421,
+      "stars_gained": 172,
+      "categories": [],
+      "description_zh": "π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 69150,
+      "forks": 56454,
+      "stars_gained": 506,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "stars": 6131,
+      "forks": 299,
+      "stars_gained": 31,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。"
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 19997,
+      "forks": 2734,
+      "stars_gained": 1587,
+      "categories": [],
+      "description_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机"
+    }
+  ]
+}

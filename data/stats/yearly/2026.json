@@ -2,12 +2,12 @@
   "key": "2026",
   "label": "2026 年",
   "summary": {
-    "days": 18,
-    "repos": 109,
-    "gained": 210287,
+    "days": 19,
+    "repos": 112,
+    "gained": 223423,
     "categories": {
-      "ai": 46,
-      "agent": 37
+      "ai": 48,
+      "agent": 39
     },
     "top_language": "Python"
   },
@@ -116,6 +116,51 @@
       "rank": 2
     },
     {
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "days": 7,
+      "best_rank": 2,
+      "gained": 9300,
+      "stars": 19997,
+      "language": "TypeScript",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "description_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机",
+      "categories": [],
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-10-30",
+          7596
+        ],
+        [
+          "2026-10-31",
+          8785
+        ],
+        [
+          "2026-11-01",
+          9760
+        ],
+        [
+          "2026-11-02",
+          10715
+        ],
+        [
+          "2026-11-08",
+          17158
+        ],
+        [
+          "2026-11-09",
+          18562
+        ],
+        [
+          "2026-11-10",
+          19997
+        ]
+      ],
+      "rank": 3
+    },
+    {
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "days": 7,
@@ -161,7 +206,7 @@
           113010
         ]
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "full_name": "cloudflare/security-audit-skill",
@@ -202,47 +247,6 @@
         [
           "2026-11-08",
           65901
-        ]
-      ],
-      "rank": 4
-    },
-    {
-      "full_name": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "days": 6,
-      "best_rank": 2,
-      "gained": 7713,
-      "stars": 18562,
-      "language": "TypeScript",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "description_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机",
-      "categories": [],
-      "first_seen": "2026-10-30",
-      "last_seen": "2026-11-09",
-      "history": [
-        [
-          "2026-10-30",
-          7596
-        ],
-        [
-          "2026-10-31",
-          8785
-        ],
-        [
-          "2026-11-01",
-          9760
-        ],
-        [
-          "2026-11-02",
-          10715
-        ],
-        [
-          "2026-11-08",
-          17158
-        ],
-        [
-          "2026-11-09",
-          18562
         ]
       ],
       "rank": 5
@@ -696,6 +700,77 @@
       "rank": 17
     },
     {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "days": 4,
+      "best_rank": 1,
+      "gained": 2515,
+      "stars": 191303,
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "description_zh": "代理技能的公共存储库",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-10-31",
+          185402
+        ],
+        [
+          "2026-11-08",
+          188879
+        ],
+        [
+          "2026-11-09",
+          189809
+        ],
+        [
+          "2026-11-10",
+          191303
+        ]
+      ],
+      "rank": 18
+    },
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "days": 4,
+      "best_rank": 1,
+      "gained": 2071,
+      "stars": 48663,
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-11-06",
+          46019
+        ],
+        [
+          "2026-11-08",
+          46923
+        ],
+        [
+          "2026-11-09",
+          47784
+        ],
+        [
+          "2026-11-10",
+          48663
+        ]
+      ],
+      "rank": 19
+    },
+    {
       "full_name": "max-sixty/worktrunk",
       "url": "https://github.com/max-sixty/worktrunk",
       "days": 4,
@@ -729,7 +804,36 @@
           11593
         ]
       ],
-      "rank": 18
+      "rank": 20
+    },
+    {
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "days": 3,
+      "best_rank": 1,
+      "gained": 8406,
+      "stars": 107584,
+      "language": "Python",
+      "description": "Hunt down social media accounts by username across social networks",
+      "description_zh": "通过社交网络上的用户名查找社交媒体帐户",
+      "categories": [],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-11-08",
+          100786
+        ],
+        [
+          "2026-11-09",
+          104299
+        ],
+        [
+          "2026-11-10",
+          107584
+        ]
+      ],
+      "rank": 21
     },
     {
       "full_name": "NVIDIA/auto-ontology",
@@ -761,7 +865,7 @@
           9212
         ]
       ],
-      "rank": 19
+      "rank": 22
     },
     {
       "full_name": "elayadesign/ai-design-skills",
@@ -792,7 +896,38 @@
           12332
         ]
       ],
-      "rank": 20
+      "rank": 23
+    },
+    {
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "days": 3,
+      "best_rank": 2,
+      "gained": 4249,
+      "stars": 20690,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-11-08",
+          14661
+        ],
+        [
+          "2026-11-09",
+          17274
+        ],
+        [
+          "2026-11-10",
+          20690
+        ]
+      ],
+      "rank": 24
     },
     {
       "full_name": "lightpanda-io/browser",
@@ -823,7 +958,7 @@
           40335
         ]
       ],
-      "rank": 21
+      "rank": 25
     },
     {
       "full_name": "floci-io/floci",
@@ -852,7 +987,7 @@
           30526
         ]
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "full_name": "shiyu-coder/Kronos",
@@ -881,7 +1016,7 @@
           46582
         ]
       ],
-      "rank": 23
+      "rank": 27
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -910,38 +1045,7 @@
           12486
         ]
       ],
-      "rank": 24
-    },
-    {
-      "full_name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "days": 3,
-      "best_rank": 5,
-      "gained": 1477,
-      "stars": 189809,
-      "language": "Python",
-      "description": "Public repository for Agent Skills",
-      "description_zh": "代理技能的公共存储库",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-10-31",
-      "last_seen": "2026-11-09",
-      "history": [
-        [
-          "2026-10-31",
-          185402
-        ],
-        [
-          "2026-11-08",
-          188879
-        ],
-        [
-          "2026-11-09",
-          189809
-        ]
-      ],
-      "rank": 25
+      "rank": 28
     },
     {
       "full_name": "google/skills",
@@ -972,39 +1076,7 @@
           23473
         ]
       ],
-      "rank": 26
-    },
-    {
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "days": 3,
-      "best_rank": 1,
-      "gained": 1155,
-      "stars": 47784,
-      "language": "Rust",
-      "description": "Browser automation CLI for AI agents",
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-06",
-      "last_seen": "2026-11-09",
-      "history": [
-        [
-          "2026-11-06",
-          46019
-        ],
-        [
-          "2026-11-08",
-          46923
-        ],
-        [
-          "2026-11-09",
-          47784
-        ]
-      ],
-      "rank": 27
+      "rank": 29
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -1036,32 +1108,7 @@
           9622
         ]
       ],
-      "rank": 28
-    },
-    {
-      "full_name": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "days": 2,
-      "best_rank": 1,
-      "gained": 4139,
-      "stars": 104299,
-      "language": "Python",
-      "description": "Hunt down social media accounts by username across social networks",
-      "description_zh": "通过社交网络上的用户名查找社交媒体帐户",
-      "categories": [],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-09",
-      "history": [
-        [
-          "2026-11-08",
-          100786
-        ],
-        [
-          "2026-11-09",
-          104299
-        ]
-      ],
-      "rank": 29
+      "rank": 30
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -1086,7 +1133,7 @@
           89510
         ]
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
@@ -1111,7 +1158,7 @@
           7392
         ]
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "full_name": "affaan-m/ECC",
@@ -1139,7 +1186,7 @@
           290999
         ]
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -1167,7 +1214,7 @@
           19519
         ]
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -1195,7 +1242,7 @@
           116307
         ]
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "full_name": "anomalyco/hex",
@@ -1220,7 +1267,7 @@
           4690
         ]
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "full_name": "JustVugg/colibri",
@@ -1247,7 +1294,7 @@
           47343
         ]
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "full_name": "zed-industries/zed",
@@ -1272,7 +1319,7 @@
           94320
         ]
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -1299,7 +1346,7 @@
           39491
         ]
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "full_name": "p-e-w/heretic",
@@ -1322,33 +1369,6 @@
         [
           "2026-11-04",
           38917
-        ]
-      ],
-      "rank": 39
-    },
-    {
-      "full_name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "days": 2,
-      "best_rank": 6,
-      "gained": 971,
-      "stars": 17274,
-      "language": "TypeScript",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "description_zh": "完全可定制且可供代理使用的开源设计系统",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-09",
-      "history": [
-        [
-          "2026-11-08",
-          14661
-        ],
-        [
-          "2026-11-09",
-          17274
         ]
       ],
       "rank": 40
@@ -1514,6 +1534,31 @@
       "rank": 46
     },
     {
+      "full_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "days": 2,
+      "best_rank": 8,
+      "gained": 729,
+      "stars": 103621,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "description_zh": "π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。",
+      "categories": [],
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-10-29",
+          101180
+        ],
+        [
+          "2026-11-10",
+          103621
+        ]
+      ],
+      "rank": 47
+    },
+    {
       "full_name": "ranxianglei/billion-context",
       "url": "https://github.com/ranxianglei/billion-context",
       "days": 2,
@@ -1536,7 +1581,59 @@
           5299
         ]
       ],
-      "rank": 47
+      "rank": 48
+    },
+    {
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "days": 2,
+      "best_rank": 4,
+      "gained": 615,
+      "stars": 17021,
+      "language": "C++",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "description_zh": "具有接触的多关节动力学。通用物理模拟器。",
+      "categories": [],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-11-09",
+          16505
+        ],
+        [
+          "2026-11-10",
+          17021
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "days": 2,
+      "best_rank": 4,
+      "gained": 583,
+      "stars": 20131,
+      "language": "Python",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-11-09",
+          19529
+        ],
+        [
+          "2026-11-10",
+          20131
+        ]
+      ],
+      "rank": 50
     },
     {
       "full_name": "hyprwm/Hyprland",
@@ -1561,7 +1658,7 @@
           40031
         ]
       ],
-      "rank": 48
+      "rank": 51
     },
     {
       "full_name": "astral-sh/ruff",
@@ -1586,7 +1683,7 @@
           51007
         ]
       ],
-      "rank": 49
+      "rank": 52
     },
     {
       "full_name": "kornia/kornia",
@@ -1613,7 +1710,7 @@
           12188
         ]
       ],
-      "rank": 50
+      "rank": 53
     },
     {
       "full_name": "prometheus/prometheus",
@@ -1638,7 +1735,7 @@
           67472
         ]
       ],
-      "rank": 51
+      "rank": 54
     },
     {
       "full_name": "Usagi-org/ai-goofish-monitor",
@@ -1665,7 +1762,7 @@
           17787
         ]
       ],
-      "rank": 52
+      "rank": 55
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -1692,7 +1789,7 @@
           908
         ]
       ],
-      "rank": 53
+      "rank": 56
     },
     {
       "full_name": "macro-inc/macro",
@@ -1720,7 +1817,7 @@
           5902
         ]
       ],
-      "rank": 54
+      "rank": 57
     },
     {
       "full_name": "expo/skills",
@@ -1748,7 +1845,7 @@
           3914
         ]
       ],
-      "rank": 55
+      "rank": 58
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -1772,7 +1869,7 @@
           172626
         ]
       ],
-      "rank": 56
+      "rank": 59
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -1793,7 +1890,7 @@
           35214
         ]
       ],
-      "rank": 57
+      "rank": 60
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -1816,7 +1913,7 @@
           132319
         ]
       ],
-      "rank": 58
+      "rank": 61
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -1840,7 +1937,7 @@
           40423
         ]
       ],
-      "rank": 59
+      "rank": 62
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -1864,7 +1961,7 @@
           6556
         ]
       ],
-      "rank": 60
+      "rank": 63
     },
     {
       "full_name": "github/spec-kit",
@@ -1885,7 +1982,7 @@
           147425
         ]
       ],
-      "rank": 61
+      "rank": 64
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -1909,7 +2006,7 @@
           103817
         ]
       ],
-      "rank": 62
+      "rank": 65
     },
     {
       "full_name": "supabase/supabase",
@@ -1932,7 +2029,7 @@
           113280
         ]
       ],
-      "rank": 63
+      "rank": 66
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -1955,7 +2052,7 @@
           224758
         ]
       ],
-      "rank": 64
+      "rank": 67
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -1978,28 +2075,30 @@
           139184
         ]
       ],
-      "rank": 65
+      "rank": 68
     },
     {
-      "full_name": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "days": 1,
-      "best_rank": 13,
-      "gained": 557,
-      "stars": 101180,
-      "language": "Rust",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "description_zh": "π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。",
-      "categories": [],
-      "first_seen": "2026-10-29",
-      "last_seen": "2026-10-29",
+      "best_rank": 9,
+      "gained": 506,
+      "stars": 69150,
+      "language": "Python",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "description_zh": "",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
       "history": [
         [
-          "2026-10-29",
-          101180
+          "2026-11-10",
+          69150
         ]
       ],
-      "rank": 66
+      "rank": 69
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -2020,7 +2119,7 @@
           31982
         ]
       ],
-      "rank": 67
+      "rank": 70
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -2044,7 +2143,7 @@
           6321
         ]
       ],
-      "rank": 68
+      "rank": 71
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -2067,7 +2166,7 @@
           110519
         ]
       ],
-      "rank": 69
+      "rank": 72
     },
     {
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
@@ -2090,7 +2189,7 @@
           10434
         ]
       ],
-      "rank": 70
+      "rank": 73
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -2111,7 +2210,7 @@
           86062
         ]
       ],
-      "rank": 71
+      "rank": 74
     },
     {
       "full_name": "cjpais/Handy",
@@ -2132,7 +2231,7 @@
           36702
         ]
       ],
-      "rank": 72
+      "rank": 75
     },
     {
       "full_name": "public-apis/public-apis",
@@ -2153,7 +2252,7 @@
           494811
         ]
       ],
-      "rank": 73
+      "rank": 76
     },
     {
       "full_name": "karpathy/nanochat",
@@ -2174,7 +2273,7 @@
           59994
         ]
       ],
-      "rank": 74
+      "rank": 77
     },
     {
       "full_name": "microsoft/vscode",
@@ -2195,7 +2294,7 @@
           195057
         ]
       ],
-      "rank": 75
+      "rank": 78
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -2218,7 +2317,7 @@
           14865
         ]
       ],
-      "rank": 76
+      "rank": 79
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -2242,7 +2341,7 @@
           27022
         ]
       ],
-      "rank": 77
+      "rank": 80
     },
     {
       "full_name": "react/react",
@@ -2263,7 +2362,7 @@
           252283
         ]
       ],
-      "rank": 78
+      "rank": 81
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -2284,7 +2383,7 @@
           22694
         ]
       ],
-      "rank": 79
+      "rank": 82
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -2307,7 +2406,7 @@
           8545
         ]
       ],
-      "rank": 80
+      "rank": 83
     },
     {
       "full_name": "microsoft/VibeVoice",
@@ -2330,7 +2429,30 @@
           56105
         ]
       ],
-      "rank": 81
+      "rank": 84
+    },
+    {
+      "full_name": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "days": 1,
+      "best_rank": 6,
+      "gained": 216,
+      "stars": 32275,
+      "language": "TypeScript",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "description_zh": "加里固执己见的 OpenClaw/Hermes 特工大脑",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "history": [
+        [
+          "2026-11-10",
+          32275
+        ]
+      ],
+      "rank": 85
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -2354,7 +2476,7 @@
           22316
         ]
       ],
-      "rank": 82
+      "rank": 86
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -2378,7 +2500,7 @@
           21015
         ]
       ],
-      "rank": 83
+      "rank": 87
     },
     {
       "full_name": "rust-lang/rust",
@@ -2399,7 +2521,7 @@
           121493
         ]
       ],
-      "rank": 84
+      "rank": 88
     },
     {
       "full_name": "mbillow/localthings",
@@ -2420,7 +2542,7 @@
           1085
         ]
       ],
-      "rank": 85
+      "rank": 89
     },
     {
       "full_name": "ConardLi/garden-skills",
@@ -2441,7 +2563,7 @@
           14247
         ]
       ],
-      "rank": 86
+      "rank": 90
     },
     {
       "full_name": "coollabsio/coolify",
@@ -2462,7 +2584,7 @@
           64486
         ]
       ],
-      "rank": 87
+      "rank": 91
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -2483,7 +2605,7 @@
           40299
         ]
       ],
-      "rank": 88
+      "rank": 92
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -2504,7 +2626,7 @@
           18619
         ]
       ],
-      "rank": 89
+      "rank": 93
     },
     {
       "full_name": "rails/rails",
@@ -2525,7 +2647,7 @@
           59043
         ]
       ],
-      "rank": 90
+      "rank": 94
     },
     {
       "full_name": "angular/angular",
@@ -2546,7 +2668,7 @@
           101399
         ]
       ],
-      "rank": 91
+      "rank": 95
     },
     {
       "full_name": "nushell/nushell",
@@ -2567,7 +2689,7 @@
           41004
         ]
       ],
-      "rank": 92
+      "rank": 96
     },
     {
       "full_name": "etcd-io/etcd",
@@ -2588,7 +2710,7 @@
           52628
         ]
       ],
-      "rank": 93
+      "rank": 97
     },
     {
       "full_name": "symfony/symfony",
@@ -2609,7 +2731,7 @@
           31455
         ]
       ],
-      "rank": 94
+      "rank": 98
     },
     {
       "full_name": "tailwindlabs/tailwindcss",
@@ -2630,7 +2752,7 @@
           98524
         ]
       ],
-      "rank": 95
+      "rank": 99
     },
     {
       "full_name": "Thysrael/Horizon",
@@ -2653,7 +2775,7 @@
           12632
         ]
       ],
-      "rank": 96
+      "rank": 100
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -2676,7 +2798,7 @@
           42233
         ]
       ],
-      "rank": 97
+      "rank": 101
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -2697,7 +2819,7 @@
           8547
         ]
       ],
-      "rank": 98
+      "rank": 102
     },
     {
       "full_name": "MichaelCade/90DaysOfDevOps",
@@ -2718,7 +2840,7 @@
           30536
         ]
       ],
-      "rank": 99
+      "rank": 103
     },
     {
       "full_name": "fastapi/fastapi",
@@ -2739,7 +2861,7 @@
           103422
         ]
       ],
-      "rank": 100
+      "rank": 104
     },
     {
       "full_name": "spotify/portal-ai-plugins",
@@ -2762,7 +2884,7 @@
           3082
         ]
       ],
-      "rank": 101
+      "rank": 105
     },
     {
       "full_name": "nodejs/node",
@@ -2783,7 +2905,7 @@
           122904
         ]
       ],
-      "rank": 102
+      "rank": 106
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -2807,28 +2929,7 @@
           108105
         ]
       ],
-      "rank": 103
-    },
-    {
-      "full_name": "google-deepmind/mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "days": 1,
-      "best_rank": 8,
-      "gained": 41,
-      "stars": 16505,
-      "language": "C++",
-      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "description_zh": "具有接触的多关节动力学。通用物理模拟器。",
-      "categories": [],
-      "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
-      "history": [
-        [
-          "2026-11-09",
-          16505
-        ]
-      ],
-      "rank": 104
+      "rank": 107
     },
     {
       "full_name": "mpv-player/mpv",
@@ -2849,30 +2950,31 @@
           37908
         ]
       ],
-      "rank": 105
+      "rank": 108
     },
     {
-      "full_name": "anthropics/claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
       "days": 1,
-      "best_rank": 4,
-      "gained": 32,
-      "stars": 19529,
+      "best_rank": 10,
+      "gained": 31,
+      "stars": 6131,
       "language": "Python",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。",
       "categories": [
-        "ai"
+        "ai",
+        "agent"
       ],
-      "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
       "history": [
         [
-          "2026-11-09",
-          19529
+          "2026-11-10",
+          6131
         ]
       ],
-      "rank": 106
+      "rank": 109
     },
     {
       "full_name": "openssl/openssl",
@@ -2893,7 +2995,7 @@
           31315
         ]
       ],
-      "rank": 107
+      "rank": 110
     },
     {
       "full_name": "lz4/lz4",
@@ -2914,7 +3016,7 @@
           12428
         ]
       ],
-      "rank": 108
+      "rank": 111
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -2938,7 +3040,7 @@
           3156
         ]
       ],
-      "rank": 109
+      "rank": 112
     }
   ]
 }

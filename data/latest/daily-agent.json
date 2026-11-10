@@ -1,34 +1,33 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-11-09T04:07:51+00:00",
+  "fetched_at": "2026-11-10T05:38:20+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
-      "trend_rank": 5,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 47784,
-      "forks": 3269,
-      "stars_gained": 815,
+      "trend_rank": 1,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 191303,
+      "forks": 22464,
+      "stars_gained": 1038,
       "categories": [
-        "ai",
         "agent"
       ],
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "description_zh": "代理技能的公共存储库",
       "rank": 1
     },
     {
-      "trend_rank": 6,
+      "trend_rank": 2,
       "full_name": "meta/astryx",
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 17274,
-      "forks": 1367,
-      "stars_gained": 875,
+      "stars": 20690,
+      "forks": 1568,
+      "stars_gained": 3278,
       "categories": [
         "agent"
       ],
@@ -36,19 +35,51 @@
       "rank": 2
     },
     {
-      "trend_rank": 7,
-      "full_name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "stars": 189809,
-      "forks": 22363,
-      "stars_gained": 792,
+      "trend_rank": 6,
+      "full_name": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "stars": 32275,
+      "forks": 4777,
+      "stars_gained": 216,
       "categories": [
         "agent"
       ],
-      "description_zh": "代理技能的公共存储库",
+      "description_zh": "加里固执己见的 OpenClaw/Hermes 特工大脑",
       "rank": 3
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 48663,
+      "forks": 3315,
+      "stars_gained": 916,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 4
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "stars": 6131,
+      "forks": 299,
+      "stars_gained": 31,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。",
+      "rank": 5
     }
   ]
 }

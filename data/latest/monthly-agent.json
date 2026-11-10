@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-11-09T04:07:59+00:00",
+  "fetched_at": "2026-11-10T05:38:27+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 444259,
-      "forks": 109731,
-      "stars_gained": 425123,
+      "stars": 447594,
+      "forks": 110364,
+      "stars_gained": 413718,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 67041,
-      "forks": 4377,
-      "stars_gained": 40289,
+      "stars": 68288,
+      "forks": 4484,
+      "stars_gained": 40994,
       "categories": [
         "agent"
       ],
@@ -40,9 +40,9 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 81182,
-      "forks": 7491,
-      "stars_gained": 22360,
+      "stars": 81815,
+      "forks": 7557,
+      "stars_gained": 22344,
       "categories": [
         "agent"
       ],
@@ -50,14 +50,14 @@
       "rank": 3
     },
     {
-      "trend_rank": 8,
+      "trend_rank": 6,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 114984,
-      "forks": 9987,
-      "stars_gained": 17296,
+      "stars": 115496,
+      "forks": 10025,
+      "stars_gained": 17008,
       "categories": [
         "ai",
         "agent"
@@ -66,14 +66,14 @@
       "rank": 4
     },
     {
-      "trend_rank": 10,
+      "trend_rank": 9,
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 106312,
-      "forks": 6314,
-      "stars_gained": 28008,
+      "stars": 107027,
+      "forks": 6357,
+      "stars_gained": 28285,
       "categories": [
         "ai",
         "agent"
