@@ -1,85 +1,101 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-11-10T05:38:20+00:00",
+  "fetched_at": "2026-11-11T04:12:27+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "stars": 191303,
-      "forks": 22464,
-      "stars_gained": 1038,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "代理技能的公共存储库",
-      "rank": 1
-    },
-    {
-      "trend_rank": 2,
       "full_name": "meta/astryx",
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 20690,
-      "forks": 1568,
-      "stars_gained": 3278,
+      "stars": 23302,
+      "forks": 1840,
+      "stars_gained": 3108,
       "categories": [
         "agent"
       ],
       "description_zh": "完全可定制且可供代理使用的开源设计系统",
-      "rank": 2
+      "rank": 1
     },
     {
-      "trend_rank": 6,
-      "full_name": "garrytan/gbrain",
-      "url": "https://github.com/garrytan/gbrain",
-      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
-      "language": "TypeScript",
-      "stars": 32275,
-      "forks": 4777,
-      "stars_gained": 216,
+      "trend_rank": 2,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 192485,
+      "forks": 22661,
+      "stars_gained": 1679,
       "categories": [
         "agent"
       ],
-      "description_zh": "加里固执己见的 OpenClaw/Hermes 特工大脑",
-      "rank": 3
+      "description_zh": "代理技能的公共存储库",
+      "rank": 2
     },
     {
-      "trend_rank": 7,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 48663,
-      "forks": 3315,
-      "stars_gained": 916,
+      "trend_rank": 3,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 115279,
+      "forks": 12105,
+      "stars_gained": 465,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "rank": 4
+      "description_zh": "AI编码代理的生产级工程技能。",
+      "rank": 3
     },
     {
-      "trend_rank": 10,
+      "trend_rank": 7,
       "full_name": "homeassistant-ai/ha-mcp",
       "url": "https://github.com/homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
-      "stars": 6131,
-      "forks": 299,
-      "stars_gained": 31,
+      "stars": 6767,
+      "forks": 435,
+      "stars_gained": 790,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 49352,
+      "forks": 3454,
+      "stars_gained": 780,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
       "rank": 5
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 321101,
+      "forks": 26921,
+      "stars_gained": 1225,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
+      "rank": 6
     }
   ]
 }

@@ -1,69 +1,70 @@
 {
   "period": "daily",
   "category": "ai",
-  "fetched_at": "2026-11-10T05:38:20+00:00",
+  "fetched_at": "2026-11-11T04:12:27+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
-      "trend_rank": 5,
-      "full_name": "anthropics/claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "language": "Python",
-      "stars": 20131,
-      "forks": 3323,
-      "stars_gained": 551,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合",
-      "rank": 1
-    },
-    {
-      "trend_rank": 7,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 48663,
-      "forks": 3315,
-      "stars_gained": 916,
+      "trend_rank": 3,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 115279,
+      "forks": 12105,
+      "stars_gained": 465,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "rank": 2
+      "description_zh": "AI编码代理的生产级工程技能。",
+      "rank": 1
     },
     {
-      "trend_rank": 9,
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "trend_rank": 4,
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
-      "stars": 69150,
-      "forks": 56454,
-      "stars_gained": 506,
+      "stars": 20570,
+      "forks": 3474,
+      "stars_gained": 531,
       "categories": [
         "ai"
       ],
-      "description_zh": "",
-      "rank": 3
+      "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合",
+      "rank": 2
     },
     {
-      "trend_rank": 10,
+      "trend_rank": 7,
       "full_name": "homeassistant-ai/ha-mcp",
       "url": "https://github.com/homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
-      "stars": 6131,
-      "forks": 299,
-      "stars_gained": 31,
+      "stars": 6767,
+      "forks": 435,
+      "stars_gained": 790,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 49352,
+      "forks": 3454,
+      "stars_gained": 780,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
       "rank": 4
     }
   ]

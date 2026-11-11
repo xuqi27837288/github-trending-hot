@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-11-10T05:38:27+00:00",
+  "fetched_at": "2026-11-11T04:12:34+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 447594,
-      "forks": 110364,
-      "stars_gained": 413718,
+      "stars": 450445,
+      "forks": 110830,
+      "stars_gained": 389832,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 68288,
-      "forks": 4484,
-      "stars_gained": 40994,
+      "stars": 69482,
+      "forks": 4593,
+      "stars_gained": 41811,
       "categories": [
         "agent"
       ],
@@ -36,33 +36,33 @@
     },
     {
       "trend_rank": 5,
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "stars": 81815,
-      "forks": 7557,
-      "stars_gained": 22344,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "编写HTML。渲染视频。专为客服代表打造。",
-      "rank": 3
-    },
-    {
-      "trend_rank": 6,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 115496,
-      "forks": 10025,
-      "stars_gained": 17008,
+      "stars": 115896,
+      "forks": 10054,
+      "stars_gained": 17223,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
+      "rank": 3
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 82383,
+      "forks": 7613,
+      "stars_gained": 22380,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "编写HTML。渲染视频。专为客服代表打造。",
       "rank": 4
     },
     {
@@ -71,9 +71,9 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 107027,
-      "forks": 6357,
-      "stars_gained": 28285,
+      "stars": 107698,
+      "forks": 6404,
+      "stars_gained": 28598,
       "categories": [
         "ai",
         "agent"
