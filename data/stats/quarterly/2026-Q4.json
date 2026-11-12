@@ -2,11 +2,11 @@
   "key": "2026-Q4",
   "label": "2026 年 Q4 季度",
   "summary": {
-    "days": 20,
-    "repos": 115,
-    "gained": 235576,
+    "days": 21,
+    "repos": 119,
+    "gained": 242471,
     "categories": {
-      "ai": 49,
+      "ai": 50,
       "agent": 40
     },
     "top_language": "Python"
@@ -297,6 +297,89 @@
       "rank": 6
     },
     {
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "days": 6,
+      "best_rank": 1,
+      "gained": 3559,
+      "stars": 50005,
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-06",
+          46019
+        ],
+        [
+          "2026-11-08",
+          46923
+        ],
+        [
+          "2026-11-09",
+          47784
+        ],
+        [
+          "2026-11-10",
+          48663
+        ],
+        [
+          "2026-11-11",
+          49352
+        ],
+        [
+          "2026-11-12",
+          50005
+        ]
+      ],
+      "rank": 7
+    },
+    {
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "days": 5,
+      "best_rank": 1,
+      "gained": 10133,
+      "stars": 25379,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-08",
+          14661
+        ],
+        [
+          "2026-11-09",
+          17274
+        ],
+        [
+          "2026-11-10",
+          20690
+        ],
+        [
+          "2026-11-11",
+          23302
+        ],
+        [
+          "2026-11-12",
+          25379
+        ]
+      ],
+      "rank": 8
+    },
+    {
       "full_name": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
       "days": 5,
@@ -331,7 +414,7 @@
           52958
         ]
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "full_name": "Nutlope/hallmark",
@@ -370,7 +453,7 @@
           40904
         ]
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "full_name": "togg53192-cmd/jailbreaks",
@@ -407,7 +490,7 @@
           13083
         ]
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "full_name": "obra/superpowers",
@@ -446,7 +529,7 @@
           310132
         ]
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "full_name": "makecindy/cindy",
@@ -486,7 +569,7 @@
           8210
         ]
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "full_name": "Donchitos/Claude-Code-Game-Studios",
@@ -526,7 +609,7 @@
           34805
         ]
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "full_name": "anthropics/skills",
@@ -565,7 +648,7 @@
           192485
         ]
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "full_name": "Renhuai123/ziwei-doushu",
@@ -602,47 +685,7 @@
           13368
         ]
       ],
-      "rank": 14
-    },
-    {
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "days": 5,
-      "best_rank": 1,
-      "gained": 2851,
-      "stars": 49352,
-      "language": "Rust",
-      "description": "Browser automation CLI for AI agents",
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-06",
-      "last_seen": "2026-11-11",
-      "history": [
-        [
-          "2026-11-06",
-          46019
-        ],
-        [
-          "2026-11-08",
-          46923
-        ],
-        [
-          "2026-11-09",
-          47784
-        ],
-        [
-          "2026-11-10",
-          48663
-        ],
-        [
-          "2026-11-11",
-          49352
-        ]
-      ],
-      "rank": 15
+      "rank": 16
     },
     {
       "full_name": "sherlock-project/sherlock",
@@ -675,7 +718,7 @@
           109223
         ]
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "full_name": "vercel-labs/agent-desktop",
@@ -711,7 +754,7 @@
           17150
         ]
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "full_name": "pingdotgg/t3code",
@@ -742,41 +785,6 @@
         [
           "2026-11-03",
           42356
-        ]
-      ],
-      "rank": 18
-    },
-    {
-      "full_name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "days": 4,
-      "best_rank": 1,
-      "gained": 7357,
-      "stars": 23302,
-      "language": "TypeScript",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "description_zh": "完全可定制且可供代理使用的开源设计系统",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11",
-      "history": [
-        [
-          "2026-11-08",
-          14661
-        ],
-        [
-          "2026-11-09",
-          17274
-        ],
-        [
-          "2026-11-10",
-          20690
-        ],
-        [
-          "2026-11-11",
-          23302
         ]
       ],
       "rank": 19
@@ -1068,6 +1076,38 @@
       "rank": 28
     },
     {
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "days": 3,
+      "best_rank": 7,
+      "gained": 1466,
+      "stars": 7484,
+      "language": "Python",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-10",
+          6131
+        ],
+        [
+          "2026-11-11",
+          6767
+        ],
+        [
+          "2026-11-12",
+          7484
+        ]
+      ],
+      "rank": 29
+    },
+    {
       "full_name": "google/skills",
       "url": "https://github.com/google/skills",
       "days": 3,
@@ -1096,7 +1136,7 @@
           23473
         ]
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -1128,7 +1168,7 @@
           9622
         ]
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "full_name": "anthropics/claude-quickstarts",
@@ -1159,7 +1199,7 @@
           20570
         ]
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "full_name": "google-deepmind/mujoco",
@@ -1188,7 +1228,7 @@
           17437
         ]
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -1217,7 +1257,7 @@
           6428
         ]
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -1242,7 +1282,7 @@
           89510
         ]
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
@@ -1267,7 +1307,7 @@
           7392
         ]
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "full_name": "affaan-m/ECC",
@@ -1295,7 +1335,7 @@
           290999
         ]
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -1323,7 +1363,7 @@
           19519
         ]
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -1351,7 +1391,7 @@
           116307
         ]
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "full_name": "anomalyco/hex",
@@ -1376,7 +1416,7 @@
           4690
         ]
       ],
-      "rank": 39
+      "rank": 40
     },
     {
       "full_name": "JustVugg/colibri",
@@ -1403,7 +1443,7 @@
           47343
         ]
       ],
-      "rank": 40
+      "rank": 41
     },
     {
       "full_name": "zed-industries/zed",
@@ -1428,7 +1468,60 @@
           94320
         ]
       ],
-      "rank": 41
+      "rank": 42
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "days": 2,
+      "best_rank": 3,
+      "gained": 1252,
+      "stars": 116088,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "description_zh": "AI编码代理的生产级工程技能。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-11",
+          115279
+        ],
+        [
+          "2026-11-12",
+          116088
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "days": 2,
+      "best_rank": 6,
+      "gained": 1237,
+      "stars": 13123,
+      "language": "Ruby",
+      "description": "The personal finance app for everyone (by everyone)",
+      "description_zh": "适合所有人（由所有人）的个人理财应用程序",
+      "categories": [],
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-11",
+          12133
+        ],
+        [
+          "2026-11-12",
+          13123
+        ]
+      ],
+      "rank": 44
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -1455,7 +1548,7 @@
           39491
         ]
       ],
-      "rank": 42
+      "rank": 45
     },
     {
       "full_name": "p-e-w/heretic",
@@ -1480,7 +1573,7 @@
           38917
         ]
       ],
-      "rank": 43
+      "rank": 46
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -1507,7 +1600,7 @@
           32270
         ]
       ],
-      "rank": 44
+      "rank": 47
     },
     {
       "full_name": "garrytan/gstack",
@@ -1534,7 +1627,7 @@
           140061
         ]
       ],
-      "rank": 45
+      "rank": 48
     },
     {
       "full_name": "FlashML-org/FreeToken",
@@ -1559,7 +1652,7 @@
           16214
         ]
       ],
-      "rank": 46
+      "rank": 49
     },
     {
       "full_name": "scenario-labs/skills",
@@ -1587,7 +1680,7 @@
           3177
         ]
       ],
-      "rank": 47
+      "rank": 50
     },
     {
       "full_name": "php/php-src",
@@ -1612,35 +1705,7 @@
           41582
         ]
       ],
-      "rank": 48
-    },
-    {
-      "full_name": "homeassistant-ai/ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "days": 2,
-      "best_rank": 7,
-      "gained": 821,
-      "stars": 6767,
-      "language": "Python",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-10",
-      "last_seen": "2026-11-11",
-      "history": [
-        [
-          "2026-11-10",
-          6131
-        ],
-        [
-          "2026-11-11",
-          6767
-        ]
-      ],
-      "rank": 49
+      "rank": 51
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -1668,7 +1733,34 @@
           44609
         ]
       ],
-      "rank": 50
+      "rank": 52
+    },
+    {
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "days": 2,
+      "best_rank": 2,
+      "gained": 784,
+      "stars": 70537,
+      "language": "Python",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "description_zh": "",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-10",
+          69150
+        ],
+        [
+          "2026-11-12",
+          70537
+        ]
+      ],
+      "rank": 53
     },
     {
       "full_name": "ruvnet/RuView",
@@ -1693,7 +1785,7 @@
           103621
         ]
       ],
-      "rank": 51
+      "rank": 54
     },
     {
       "full_name": "hyprwm/Hyprland",
@@ -1718,7 +1810,7 @@
           40031
         ]
       ],
-      "rank": 52
+      "rank": 55
     },
     {
       "full_name": "astral-sh/ruff",
@@ -1743,7 +1835,7 @@
           51007
         ]
       ],
-      "rank": 53
+      "rank": 56
     },
     {
       "full_name": "kornia/kornia",
@@ -1770,7 +1862,7 @@
           12188
         ]
       ],
-      "rank": 54
+      "rank": 57
     },
     {
       "full_name": "prometheus/prometheus",
@@ -1795,7 +1887,7 @@
           67472
         ]
       ],
-      "rank": 55
+      "rank": 58
     },
     {
       "full_name": "Usagi-org/ai-goofish-monitor",
@@ -1822,7 +1914,7 @@
           17787
         ]
       ],
-      "rank": 56
+      "rank": 59
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -1849,7 +1941,7 @@
           908
         ]
       ],
-      "rank": 57
+      "rank": 60
     },
     {
       "full_name": "macro-inc/macro",
@@ -1877,7 +1969,7 @@
           5902
         ]
       ],
-      "rank": 58
+      "rank": 61
     },
     {
       "full_name": "expo/skills",
@@ -1905,7 +1997,7 @@
           3914
         ]
       ],
-      "rank": 59
+      "rank": 62
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -1929,7 +2021,7 @@
           172626
         ]
       ],
-      "rank": 60
+      "rank": 63
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -1950,7 +2042,7 @@
           35214
         ]
       ],
-      "rank": 61
+      "rank": 64
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -1973,7 +2065,7 @@
           132319
         ]
       ],
-      "rank": 62
+      "rank": 65
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -1997,7 +2089,7 @@
           40423
         ]
       ],
-      "rank": 63
+      "rank": 66
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -2021,7 +2113,7 @@
           6556
         ]
       ],
-      "rank": 64
+      "rank": 67
     },
     {
       "full_name": "github/spec-kit",
@@ -2042,7 +2134,7 @@
           147425
         ]
       ],
-      "rank": 65
+      "rank": 68
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -2066,7 +2158,7 @@
           103817
         ]
       ],
-      "rank": 66
+      "rank": 69
     },
     {
       "full_name": "supabase/supabase",
@@ -2089,7 +2181,7 @@
           113280
         ]
       ],
-      "rank": 67
+      "rank": 70
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -2112,7 +2204,7 @@
           224758
         ]
       ],
-      "rank": 68
+      "rank": 71
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -2135,30 +2227,7 @@
           139184
         ]
       ],
-      "rank": 69
-    },
-    {
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "days": 1,
-      "best_rank": 9,
-      "gained": 506,
-      "stars": 69150,
-      "language": "Python",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "description_zh": "",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-11-10",
-      "last_seen": "2026-11-10",
-      "history": [
-        [
-          "2026-11-10",
-          69150
-        ]
-      ],
-      "rank": 70
+      "rank": 72
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -2179,31 +2248,7 @@
           31982
         ]
       ],
-      "rank": 71
-    },
-    {
-      "full_name": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "days": 1,
-      "best_rank": 3,
-      "gained": 465,
-      "stars": 115279,
-      "language": "JavaScript",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "description_zh": "AI编码代理的生产级工程技能。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
-      "history": [
-        [
-          "2026-11-11",
-          115279
-        ]
-      ],
-      "rank": 72
+      "rank": 73
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -2227,7 +2272,7 @@
           6321
         ]
       ],
-      "rank": 73
+      "rank": 74
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -2250,7 +2295,28 @@
           110519
         ]
       ],
-      "rank": 74
+      "rank": 75
+    },
+    {
+      "full_name": "shadcn/improve",
+      "url": "https://github.com/shadcn/improve",
+      "days": 1,
+      "best_rank": 4,
+      "gained": 361,
+      "stars": 11089,
+      "language": null,
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "description_zh": "使用您最有能力的模型来审核您的代码库并编写更便宜的模型执行计划。",
+      "categories": [],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-12",
+          11089
+        ]
+      ],
+      "rank": 76
     },
     {
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
@@ -2273,7 +2339,7 @@
           10434
         ]
       ],
-      "rank": 75
+      "rank": 77
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -2294,7 +2360,7 @@
           86062
         ]
       ],
-      "rank": 76
+      "rank": 78
     },
     {
       "full_name": "cjpais/Handy",
@@ -2315,7 +2381,7 @@
           36702
         ]
       ],
-      "rank": 77
+      "rank": 79
     },
     {
       "full_name": "public-apis/public-apis",
@@ -2336,7 +2402,7 @@
           494811
         ]
       ],
-      "rank": 78
+      "rank": 80
     },
     {
       "full_name": "karpathy/nanochat",
@@ -2357,7 +2423,7 @@
           59994
         ]
       ],
-      "rank": 79
+      "rank": 81
     },
     {
       "full_name": "microsoft/vscode",
@@ -2378,7 +2444,7 @@
           195057
         ]
       ],
-      "rank": 80
+      "rank": 82
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -2401,7 +2467,7 @@
           14865
         ]
       ],
-      "rank": 81
+      "rank": 83
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -2425,7 +2491,7 @@
           27022
         ]
       ],
-      "rank": 82
+      "rank": 84
     },
     {
       "full_name": "react/react",
@@ -2446,7 +2512,7 @@
           252283
         ]
       ],
-      "rank": 83
+      "rank": 85
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -2467,7 +2533,7 @@
           22694
         ]
       ],
-      "rank": 84
+      "rank": 86
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -2490,7 +2556,7 @@
           8545
         ]
       ],
-      "rank": 85
+      "rank": 87
     },
     {
       "full_name": "microsoft/VibeVoice",
@@ -2513,7 +2579,7 @@
           56105
         ]
       ],
-      "rank": 86
+      "rank": 88
     },
     {
       "full_name": "garrytan/gbrain",
@@ -2536,7 +2602,7 @@
           32275
         ]
       ],
-      "rank": 87
+      "rank": 89
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -2560,7 +2626,7 @@
           22316
         ]
       ],
-      "rank": 88
+      "rank": 90
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -2584,7 +2650,7 @@
           21015
         ]
       ],
-      "rank": 89
+      "rank": 91
     },
     {
       "full_name": "rust-lang/rust",
@@ -2605,7 +2671,7 @@
           121493
         ]
       ],
-      "rank": 90
+      "rank": 92
     },
     {
       "full_name": "tokio-rs/topcoat",
@@ -2626,7 +2692,7 @@
           6906
         ]
       ],
-      "rank": 91
+      "rank": 93
     },
     {
       "full_name": "mbillow/localthings",
@@ -2647,7 +2713,7 @@
           1085
         ]
       ],
-      "rank": 92
+      "rank": 94
     },
     {
       "full_name": "ConardLi/garden-skills",
@@ -2668,28 +2734,28 @@
           14247
         ]
       ],
-      "rank": 93
+      "rank": 95
     },
     {
-      "full_name": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "days": 1,
-      "best_rank": 6,
+      "best_rank": 3,
       "gained": 159,
-      "stars": 12133,
-      "language": "Ruby",
-      "description": "The personal finance app for everyone (by everyone)",
-      "description_zh": "适合所有人（由所有人）的个人理财应用程序",
+      "stars": 1944,
+      "language": "TypeScript",
+      "description": "",
+      "description_zh": "",
       "categories": [],
-      "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
       "history": [
         [
-          "2026-11-11",
-          12133
+          "2026-11-12",
+          1944
         ]
       ],
-      "rank": 94
+      "rank": 96
     },
     {
       "full_name": "coollabsio/coolify",
@@ -2710,7 +2776,7 @@
           64486
         ]
       ],
-      "rank": 95
+      "rank": 97
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -2731,7 +2797,7 @@
           40299
         ]
       ],
-      "rank": 96
+      "rank": 98
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -2752,7 +2818,7 @@
           18619
         ]
       ],
-      "rank": 97
+      "rank": 99
     },
     {
       "full_name": "rails/rails",
@@ -2773,7 +2839,7 @@
           59043
         ]
       ],
-      "rank": 98
+      "rank": 100
     },
     {
       "full_name": "angular/angular",
@@ -2794,7 +2860,7 @@
           101399
         ]
       ],
-      "rank": 99
+      "rank": 101
     },
     {
       "full_name": "nushell/nushell",
@@ -2815,7 +2881,7 @@
           41004
         ]
       ],
-      "rank": 100
+      "rank": 102
     },
     {
       "full_name": "etcd-io/etcd",
@@ -2836,7 +2902,7 @@
           52628
         ]
       ],
-      "rank": 101
+      "rank": 103
     },
     {
       "full_name": "symfony/symfony",
@@ -2857,7 +2923,7 @@
           31455
         ]
       ],
-      "rank": 102
+      "rank": 104
     },
     {
       "full_name": "tailwindlabs/tailwindcss",
@@ -2878,7 +2944,7 @@
           98524
         ]
       ],
-      "rank": 103
+      "rank": 105
     },
     {
       "full_name": "Thysrael/Horizon",
@@ -2901,7 +2967,7 @@
           12632
         ]
       ],
-      "rank": 104
+      "rank": 106
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -2924,7 +2990,7 @@
           42233
         ]
       ],
-      "rank": 105
+      "rank": 107
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -2945,7 +3011,7 @@
           8547
         ]
       ],
-      "rank": 106
+      "rank": 108
     },
     {
       "full_name": "MichaelCade/90DaysOfDevOps",
@@ -2966,7 +3032,7 @@
           30536
         ]
       ],
-      "rank": 107
+      "rank": 109
     },
     {
       "full_name": "fastapi/fastapi",
@@ -2987,7 +3053,7 @@
           103422
         ]
       ],
-      "rank": 108
+      "rank": 110
     },
     {
       "full_name": "spotify/portal-ai-plugins",
@@ -3010,7 +3076,7 @@
           3082
         ]
       ],
-      "rank": 109
+      "rank": 111
     },
     {
       "full_name": "nodejs/node",
@@ -3031,7 +3097,51 @@
           122904
         ]
       ],
-      "rank": 110
+      "rank": 112
+    },
+    {
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 52,
+      "stars": 11883,
+      "language": "TypeScript",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-12",
+          11883
+        ]
+      ],
+      "rank": 113
+    },
+    {
+      "full_name": "TheAlgorithms/Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "days": 1,
+      "best_rank": 10,
+      "gained": 51,
+      "stars": 67108,
+      "language": "Java",
+      "description": "All Algorithms implemented in Java",
+      "description_zh": "所有算法均用 Java 实现",
+      "categories": [],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "history": [
+        [
+          "2026-11-12",
+          67108
+        ]
+      ],
+      "rank": 114
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -3055,7 +3165,7 @@
           108105
         ]
       ],
-      "rank": 111
+      "rank": 115
     },
     {
       "full_name": "mpv-player/mpv",
@@ -3076,7 +3186,7 @@
           37908
         ]
       ],
-      "rank": 112
+      "rank": 116
     },
     {
       "full_name": "openssl/openssl",
@@ -3097,7 +3207,7 @@
           31315
         ]
       ],
-      "rank": 113
+      "rank": 117
     },
     {
       "full_name": "lz4/lz4",
@@ -3118,7 +3228,7 @@
           12428
         ]
       ],
-      "rank": 114
+      "rank": 118
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -3142,7 +3252,7 @@
           3156
         ]
       ],
-      "rank": 115
+      "rank": 119
     }
   ]
 }
