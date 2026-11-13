@@ -2,12 +2,12 @@
   "key": "2026-Q4",
   "label": "2026 年 Q4 季度",
   "summary": {
-    "days": 21,
-    "repos": 119,
-    "gained": 242471,
+    "days": 22,
+    "repos": 125,
+    "gained": 248903,
     "categories": {
-      "ai": 50,
-      "agent": 40
+      "ai": 54,
+      "agent": 42
     },
     "top_language": "Python"
   },
@@ -256,6 +256,49 @@
       "rank": 5
     },
     {
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "days": 6,
+      "best_rank": 1,
+      "gained": 11963,
+      "stars": 26771,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-08",
+          14661
+        ],
+        [
+          "2026-11-09",
+          17274
+        ],
+        [
+          "2026-11-10",
+          20690
+        ],
+        [
+          "2026-11-11",
+          23302
+        ],
+        [
+          "2026-11-12",
+          25379
+        ],
+        [
+          "2026-11-13",
+          26771
+        ]
+      ],
+      "rank": 6
+    },
+    {
       "full_name": "JetBrains/thinkrail",
       "url": "https://github.com/JetBrains/thinkrail",
       "days": 6,
@@ -294,7 +337,7 @@
           6630
         ]
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "full_name": "vercel-labs/agent-browser",
@@ -336,45 +379,6 @@
         [
           "2026-11-12",
           50005
-        ]
-      ],
-      "rank": 7
-    },
-    {
-      "full_name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "days": 5,
-      "best_rank": 1,
-      "gained": 10133,
-      "stars": 25379,
-      "language": "TypeScript",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "description_zh": "完全可定制且可供代理使用的开源设计系统",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-12",
-      "history": [
-        [
-          "2026-11-08",
-          14661
-        ],
-        [
-          "2026-11-09",
-          17274
-        ],
-        [
-          "2026-11-10",
-          20690
-        ],
-        [
-          "2026-11-11",
-          23302
-        ],
-        [
-          "2026-11-12",
-          25379
         ]
       ],
       "rank": 8
@@ -895,6 +899,42 @@
       "rank": 22
     },
     {
+      "full_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "days": 4,
+      "best_rank": 4,
+      "gained": 1426,
+      "stars": 11749,
+      "language": "TypeScript",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "description_zh": "开源人工智能同事每人都有一台自己的计算机：浏览器、文件和工具，每一个动作在发生之前就决定并在发生之后记录。带上任何 AG-UI 代理。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-10-30",
+          8240
+        ],
+        [
+          "2026-10-31",
+          8863
+        ],
+        [
+          "2026-11-02",
+          9622
+        ],
+        [
+          "2026-11-13",
+          11749
+        ]
+      ],
+      "rank": 23
+    },
+    {
       "full_name": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
       "days": 3,
@@ -924,7 +964,7 @@
           9212
         ]
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "full_name": "elayadesign/ai-design-skills",
@@ -955,7 +995,7 @@
           12332
         ]
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "full_name": "lightpanda-io/browser",
@@ -986,7 +1026,7 @@
           40335
         ]
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "full_name": "floci-io/floci",
@@ -1015,7 +1055,68 @@
           30526
         ]
       ],
-      "rank": 26
+      "rank": 27
+    },
+    {
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "days": 3,
+      "best_rank": 5,
+      "gained": 2204,
+      "stars": 14076,
+      "language": "Ruby",
+      "description": "The personal finance app for everyone (by everyone)",
+      "description_zh": "适合所有人（由所有人）的个人理财应用程序",
+      "categories": [],
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-11",
+          12133
+        ],
+        [
+          "2026-11-12",
+          13123
+        ],
+        [
+          "2026-11-13",
+          14076
+        ]
+      ],
+      "rank": 28
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "days": 3,
+      "best_rank": 3,
+      "gained": 2068,
+      "stars": 116785,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "description_zh": "AI编码代理的生产级工程技能。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-11",
+          115279
+        ],
+        [
+          "2026-11-12",
+          116088
+        ],
+        [
+          "2026-11-13",
+          116785
+        ]
+      ],
+      "rank": 29
     },
     {
       "full_name": "shiyu-coder/Kronos",
@@ -1044,7 +1145,7 @@
           46582
         ]
       ],
-      "rank": 27
+      "rank": 30
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -1073,7 +1174,7 @@
           12486
         ]
       ],
-      "rank": 28
+      "rank": 31
     },
     {
       "full_name": "homeassistant-ai/ha-mcp",
@@ -1105,7 +1206,7 @@
           7484
         ]
       ],
-      "rank": 29
+      "rank": 32
     },
     {
       "full_name": "google/skills",
@@ -1136,39 +1237,7 @@
           23473
         ]
       ],
-      "rank": 30
-    },
-    {
-      "full_name": "CopilotKit/OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "days": 3,
-      "best_rank": 4,
-      "gained": 1128,
-      "stars": 9622,
-      "language": "TypeScript",
-      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "description_zh": "开源人工智能同事每人都有一台自己的计算机：浏览器、文件和工具，每一个动作在发生之前就决定并在发生之后记录。带上任何 AG-UI 代理。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-10-30",
-      "last_seen": "2026-11-02",
-      "history": [
-        [
-          "2026-10-30",
-          8240
-        ],
-        [
-          "2026-10-31",
-          8863
-        ],
-        [
-          "2026-11-02",
-          9622
-        ]
-      ],
-      "rank": 31
+      "rank": 33
     },
     {
       "full_name": "anthropics/claude-quickstarts",
@@ -1199,7 +1268,7 @@
           20570
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "full_name": "google-deepmind/mujoco",
@@ -1228,7 +1297,7 @@
           17437
         ]
       ],
-      "rank": 33
+      "rank": 35
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -1257,7 +1326,7 @@
           6428
         ]
       ],
-      "rank": 34
+      "rank": 36
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -1282,7 +1351,7 @@
           89510
         ]
       ],
-      "rank": 35
+      "rank": 37
     },
     {
       "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
@@ -1307,7 +1376,7 @@
           7392
         ]
       ],
-      "rank": 36
+      "rank": 38
     },
     {
       "full_name": "affaan-m/ECC",
@@ -1335,7 +1404,7 @@
           290999
         ]
       ],
-      "rank": 37
+      "rank": 39
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -1363,7 +1432,7 @@
           19519
         ]
       ],
-      "rank": 38
+      "rank": 40
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -1391,7 +1460,7 @@
           116307
         ]
       ],
-      "rank": 39
+      "rank": 41
     },
     {
       "full_name": "anomalyco/hex",
@@ -1416,7 +1485,7 @@
           4690
         ]
       ],
-      "rank": 40
+      "rank": 42
     },
     {
       "full_name": "JustVugg/colibri",
@@ -1443,7 +1512,7 @@
           47343
         ]
       ],
-      "rank": 41
+      "rank": 43
     },
     {
       "full_name": "zed-industries/zed",
@@ -1466,59 +1535,6 @@
         [
           "2026-11-08",
           94320
-        ]
-      ],
-      "rank": 42
-    },
-    {
-      "full_name": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "days": 2,
-      "best_rank": 3,
-      "gained": 1252,
-      "stars": 116088,
-      "language": "JavaScript",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "description_zh": "AI编码代理的生产级工程技能。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-11",
-      "last_seen": "2026-11-12",
-      "history": [
-        [
-          "2026-11-11",
-          115279
-        ],
-        [
-          "2026-11-12",
-          116088
-        ]
-      ],
-      "rank": 43
-    },
-    {
-      "full_name": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "days": 2,
-      "best_rank": 6,
-      "gained": 1237,
-      "stars": 13123,
-      "language": "Ruby",
-      "description": "The personal finance app for everyone (by everyone)",
-      "description_zh": "适合所有人（由所有人）的个人理财应用程序",
-      "categories": [],
-      "first_seen": "2026-11-11",
-      "last_seen": "2026-11-12",
-      "history": [
-        [
-          "2026-11-11",
-          12133
-        ],
-        [
-          "2026-11-12",
-          13123
         ]
       ],
       "rank": 44
@@ -1630,6 +1646,33 @@
       "rank": 48
     },
     {
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "days": 2,
+      "best_rank": 1,
+      "gained": 898,
+      "stars": 3383,
+      "language": "TypeScript",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "description_zh": "让您的编码代理了解最新的网络最佳实践",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-12",
+          1944
+        ],
+        [
+          "2026-11-13",
+          3383
+        ]
+      ],
+      "rank": 49
+    },
+    {
       "full_name": "FlashML-org/FreeToken",
       "url": "https://github.com/FlashML-org/FreeToken",
       "days": 2,
@@ -1652,7 +1695,7 @@
           16214
         ]
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "full_name": "scenario-labs/skills",
@@ -1680,7 +1723,7 @@
           3177
         ]
       ],
-      "rank": 50
+      "rank": 51
     },
     {
       "full_name": "php/php-src",
@@ -1705,7 +1748,7 @@
           41582
         ]
       ],
-      "rank": 51
+      "rank": 52
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -1733,7 +1776,7 @@
           44609
         ]
       ],
-      "rank": 52
+      "rank": 53
     },
     {
       "full_name": "ZhuLinsen/daily_stock_analysis",
@@ -1760,7 +1803,7 @@
           70537
         ]
       ],
-      "rank": 53
+      "rank": 54
     },
     {
       "full_name": "ruvnet/RuView",
@@ -1785,7 +1828,34 @@
           103621
         ]
       ],
-      "rank": 54
+      "rank": 55
+    },
+    {
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "days": 2,
+      "best_rank": 2,
+      "gained": 695,
+      "stars": 12578,
+      "language": "TypeScript",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-12",
+          11883
+        ],
+        [
+          "2026-11-13",
+          12578
+        ]
+      ],
+      "rank": 56
     },
     {
       "full_name": "hyprwm/Hyprland",
@@ -1810,7 +1880,7 @@
           40031
         ]
       ],
-      "rank": 55
+      "rank": 57
     },
     {
       "full_name": "astral-sh/ruff",
@@ -1835,7 +1905,7 @@
           51007
         ]
       ],
-      "rank": 56
+      "rank": 58
     },
     {
       "full_name": "kornia/kornia",
@@ -1862,7 +1932,7 @@
           12188
         ]
       ],
-      "rank": 57
+      "rank": 59
     },
     {
       "full_name": "prometheus/prometheus",
@@ -1887,7 +1957,7 @@
           67472
         ]
       ],
-      "rank": 58
+      "rank": 60
     },
     {
       "full_name": "Usagi-org/ai-goofish-monitor",
@@ -1914,7 +1984,7 @@
           17787
         ]
       ],
-      "rank": 59
+      "rank": 61
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -1941,7 +2011,7 @@
           908
         ]
       ],
-      "rank": 60
+      "rank": 62
     },
     {
       "full_name": "macro-inc/macro",
@@ -1969,7 +2039,7 @@
           5902
         ]
       ],
-      "rank": 61
+      "rank": 63
     },
     {
       "full_name": "expo/skills",
@@ -1997,7 +2067,32 @@
           3914
         ]
       ],
-      "rank": 62
+      "rank": 64
+    },
+    {
+      "full_name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "days": 2,
+      "best_rank": 8,
+      "gained": 128,
+      "stars": 123627,
+      "language": "JavaScript",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "description_zh": "Node.js JavaScript 运行时✨🐢🚀✨",
+      "categories": [],
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-10-24",
+          122904
+        ],
+        [
+          "2026-11-13",
+          123627
+        ]
+      ],
+      "rank": 65
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -2021,7 +2116,7 @@
           172626
         ]
       ],
-      "rank": 63
+      "rank": 66
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -2042,7 +2137,7 @@
           35214
         ]
       ],
-      "rank": 64
+      "rank": 67
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -2065,7 +2160,7 @@
           132319
         ]
       ],
-      "rank": 65
+      "rank": 68
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -2089,7 +2184,7 @@
           40423
         ]
       ],
-      "rank": 66
+      "rank": 69
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -2113,7 +2208,7 @@
           6556
         ]
       ],
-      "rank": 67
+      "rank": 70
     },
     {
       "full_name": "github/spec-kit",
@@ -2134,7 +2229,7 @@
           147425
         ]
       ],
-      "rank": 68
+      "rank": 71
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -2158,7 +2253,7 @@
           103817
         ]
       ],
-      "rank": 69
+      "rank": 72
     },
     {
       "full_name": "supabase/supabase",
@@ -2181,7 +2276,7 @@
           113280
         ]
       ],
-      "rank": 70
+      "rank": 73
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -2204,7 +2299,7 @@
           224758
         ]
       ],
-      "rank": 71
+      "rank": 74
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -2227,7 +2322,7 @@
           139184
         ]
       ],
-      "rank": 72
+      "rank": 75
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -2248,7 +2343,7 @@
           31982
         ]
       ],
-      "rank": 73
+      "rank": 76
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -2272,7 +2367,30 @@
           6321
         ]
       ],
-      "rank": 74
+      "rank": 77
+    },
+    {
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 415,
+      "stars": 69453,
+      "language": "Python",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "description_zh": "从您的终端、应用程序、IDE 或手机免费使用 Claude Code、Codex、Antigravity、VSCode、Pi 和 OpenCode（以及其他 6 个工具）（1.3B+ 免费代币），现在可以从具有本机浏览器会话（多工具 + 多模型）的浏览器（如 OpenClaw）（支持语音 + ToS 友好）使用",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-13",
+          69453
+        ]
+      ],
+      "rank": 78
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -2295,7 +2413,7 @@
           110519
         ]
       ],
-      "rank": 75
+      "rank": 79
     },
     {
       "full_name": "shadcn/improve",
@@ -2316,7 +2434,7 @@
           11089
         ]
       ],
-      "rank": 76
+      "rank": 80
     },
     {
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
@@ -2339,7 +2457,7 @@
           10434
         ]
       ],
-      "rank": 77
+      "rank": 81
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -2360,7 +2478,7 @@
           86062
         ]
       ],
-      "rank": 78
+      "rank": 82
     },
     {
       "full_name": "cjpais/Handy",
@@ -2381,7 +2499,7 @@
           36702
         ]
       ],
-      "rank": 79
+      "rank": 83
     },
     {
       "full_name": "public-apis/public-apis",
@@ -2402,7 +2520,7 @@
           494811
         ]
       ],
-      "rank": 80
+      "rank": 84
     },
     {
       "full_name": "karpathy/nanochat",
@@ -2423,7 +2541,7 @@
           59994
         ]
       ],
-      "rank": 81
+      "rank": 85
     },
     {
       "full_name": "microsoft/vscode",
@@ -2444,7 +2562,7 @@
           195057
         ]
       ],
-      "rank": 82
+      "rank": 86
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -2467,7 +2585,7 @@
           14865
         ]
       ],
-      "rank": 83
+      "rank": 87
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -2491,7 +2609,7 @@
           27022
         ]
       ],
-      "rank": 84
+      "rank": 88
     },
     {
       "full_name": "react/react",
@@ -2512,7 +2630,7 @@
           252283
         ]
       ],
-      "rank": 85
+      "rank": 89
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -2533,7 +2651,7 @@
           22694
         ]
       ],
-      "rank": 86
+      "rank": 90
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -2556,7 +2674,7 @@
           8545
         ]
       ],
-      "rank": 87
+      "rank": 91
     },
     {
       "full_name": "microsoft/VibeVoice",
@@ -2579,7 +2697,28 @@
           56105
         ]
       ],
-      "rank": 88
+      "rank": 92
+    },
+    {
+      "full_name": "pookjw/HermesEnabler",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "days": 1,
+      "best_rank": 4,
+      "gained": 218,
+      "stars": 1607,
+      "language": "Objective-C",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "description_zh": "在任何 Apple Watch 设备上启用 Hermès 表盘",
+      "categories": [],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-13",
+          1607
+        ]
+      ],
+      "rank": 93
     },
     {
       "full_name": "garrytan/gbrain",
@@ -2602,7 +2741,7 @@
           32275
         ]
       ],
-      "rank": 89
+      "rank": 94
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -2626,7 +2765,7 @@
           22316
         ]
       ],
-      "rank": 90
+      "rank": 95
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -2650,7 +2789,7 @@
           21015
         ]
       ],
-      "rank": 91
+      "rank": 96
     },
     {
       "full_name": "rust-lang/rust",
@@ -2671,7 +2810,7 @@
           121493
         ]
       ],
-      "rank": 92
+      "rank": 97
     },
     {
       "full_name": "tokio-rs/topcoat",
@@ -2692,7 +2831,7 @@
           6906
         ]
       ],
-      "rank": 93
+      "rank": 98
     },
     {
       "full_name": "mbillow/localthings",
@@ -2713,7 +2852,30 @@
           1085
         ]
       ],
-      "rank": 94
+      "rank": 99
+    },
+    {
+      "full_name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "days": 1,
+      "best_rank": 13,
+      "gained": 176,
+      "stars": 134639,
+      "language": "C++",
+      "description": "LLM inference in C/C++",
+      "description_zh": "C/C++ 中的 LLM 推理",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-13",
+          134639
+        ]
+      ],
+      "rank": 100
     },
     {
       "full_name": "ConardLi/garden-skills",
@@ -2734,28 +2896,7 @@
           14247
         ]
       ],
-      "rank": 95
-    },
-    {
-      "full_name": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "days": 1,
-      "best_rank": 3,
-      "gained": 159,
-      "stars": 1944,
-      "language": "TypeScript",
-      "description": "",
-      "description_zh": "",
-      "categories": [],
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12",
-      "history": [
-        [
-          "2026-11-12",
-          1944
-        ]
-      ],
-      "rank": 96
+      "rank": 101
     },
     {
       "full_name": "coollabsio/coolify",
@@ -2776,7 +2917,31 @@
           64486
         ]
       ],
-      "rank": 97
+      "rank": 102
+    },
+    {
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "days": 1,
+      "best_rank": 6,
+      "gained": 151,
+      "stars": 29919,
+      "language": "TypeScript",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "description_zh": "位于您终端中的开源人工智能编码代理。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "history": [
+        [
+          "2026-11-13",
+          29919
+        ]
+      ],
+      "rank": 103
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -2797,7 +2962,7 @@
           40299
         ]
       ],
-      "rank": 98
+      "rank": 104
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -2818,7 +2983,7 @@
           18619
         ]
       ],
-      "rank": 99
+      "rank": 105
     },
     {
       "full_name": "rails/rails",
@@ -2839,7 +3004,7 @@
           59043
         ]
       ],
-      "rank": 100
+      "rank": 106
     },
     {
       "full_name": "angular/angular",
@@ -2860,7 +3025,7 @@
           101399
         ]
       ],
-      "rank": 101
+      "rank": 107
     },
     {
       "full_name": "nushell/nushell",
@@ -2881,7 +3046,7 @@
           41004
         ]
       ],
-      "rank": 102
+      "rank": 108
     },
     {
       "full_name": "etcd-io/etcd",
@@ -2902,7 +3067,7 @@
           52628
         ]
       ],
-      "rank": 103
+      "rank": 109
     },
     {
       "full_name": "symfony/symfony",
@@ -2923,7 +3088,7 @@
           31455
         ]
       ],
-      "rank": 104
+      "rank": 110
     },
     {
       "full_name": "tailwindlabs/tailwindcss",
@@ -2944,7 +3109,7 @@
           98524
         ]
       ],
-      "rank": 105
+      "rank": 111
     },
     {
       "full_name": "Thysrael/Horizon",
@@ -2967,7 +3132,7 @@
           12632
         ]
       ],
-      "rank": 106
+      "rank": 112
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -2990,7 +3155,7 @@
           42233
         ]
       ],
-      "rank": 107
+      "rank": 113
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -3011,7 +3176,7 @@
           8547
         ]
       ],
-      "rank": 108
+      "rank": 114
     },
     {
       "full_name": "MichaelCade/90DaysOfDevOps",
@@ -3032,7 +3197,7 @@
           30536
         ]
       ],
-      "rank": 109
+      "rank": 115
     },
     {
       "full_name": "fastapi/fastapi",
@@ -3053,7 +3218,7 @@
           103422
         ]
       ],
-      "rank": 110
+      "rank": 116
     },
     {
       "full_name": "spotify/portal-ai-plugins",
@@ -3076,51 +3241,51 @@
           3082
         ]
       ],
-      "rank": 111
+      "rank": 117
     },
     {
-      "full_name": "nodejs/node",
-      "url": "https://github.com/nodejs/node",
+      "full_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
       "days": 1,
-      "best_rank": 8,
-      "gained": 66,
-      "stars": 122904,
-      "language": "JavaScript",
-      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-      "description_zh": "Node.js JavaScript 运行时✨🐢🚀✨",
+      "best_rank": 3,
+      "gained": 63,
+      "stars": 96043,
+      "language": "Shell",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "description_zh": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活动的 Node.js 版本。",
       "categories": [],
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
       "history": [
         [
-          "2026-10-24",
-          122904
+          "2026-11-13",
+          96043
         ]
       ],
-      "rank": 112
+      "rank": 118
     },
     {
-      "full_name": "openai/codex-security",
-      "url": "https://github.com/openai/codex-security",
+      "full_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
       "days": 1,
-      "best_rank": 9,
-      "gained": 52,
-      "stars": 11883,
-      "language": "TypeScript",
-      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-      "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security",
+      "best_rank": 7,
+      "gained": 54,
+      "stars": 1992,
+      "language": "Zig",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "description_zh": "适用于 Metal、CUDA 和 Vulkan 的法学硕士推理引擎。",
       "categories": [
         "ai"
       ],
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
       "history": [
         [
-          "2026-11-12",
-          11883
+          "2026-11-13",
+          1992
         ]
       ],
-      "rank": 113
+      "rank": 119
     },
     {
       "full_name": "TheAlgorithms/Java",
@@ -3141,7 +3306,7 @@
           67108
         ]
       ],
-      "rank": 114
+      "rank": 120
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -3165,7 +3330,7 @@
           108105
         ]
       ],
-      "rank": 115
+      "rank": 121
     },
     {
       "full_name": "mpv-player/mpv",
@@ -3186,7 +3351,7 @@
           37908
         ]
       ],
-      "rank": 116
+      "rank": 122
     },
     {
       "full_name": "openssl/openssl",
@@ -3207,7 +3372,7 @@
           31315
         ]
       ],
-      "rank": 117
+      "rank": 123
     },
     {
       "full_name": "lz4/lz4",
@@ -3228,7 +3393,7 @@
           12428
         ]
       ],
-      "rank": 118
+      "rank": 124
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -3252,7 +3417,7 @@
           3156
         ]
       ],
-      "rank": 119
+      "rank": 125
     }
   ]
 }

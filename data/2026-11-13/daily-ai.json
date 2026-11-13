@@ -1,0 +1,116 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-11-13T04:38:30+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stars": 12578,
+      "forks": 981,
+      "stars_gained": 643,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security",
+      "rank": 1
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 29919,
+      "forks": 3406,
+      "stars_gained": 151,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "位于您终端中的开源人工智能编码代理。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "language": "Zig",
+      "stars": 1992,
+      "forks": 394,
+      "stars_gained": 54,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "适用于 Metal、CUDA 和 Vulkan 的法学硕士推理引擎。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 116785,
+      "forks": 12216,
+      "stars_gained": 816,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI编码代理的生产级工程技能。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "stars": 11749,
+      "forks": 1449,
+      "stars_gained": 298,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "开源人工智能同事每人都有一台自己的计算机：浏览器、文件和工具，每一个动作在发生之前就决定并在发生之后记录。带上任何 AG-UI 代理。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 69453,
+      "forks": 10783,
+      "stars_gained": 415,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "从您的终端、应用程序、IDE 或手机免费使用 Claude Code、Codex、Antigravity、VSCode、Pi 和 OpenCode（以及其他 6 个工具）（1.3B+ 免费代币），现在可以从具有本机浏览器会话（多工具 + 多模型）的浏览器（如 OpenClaw）（支持语音 + ToS 友好）使用",
+      "rank": 6
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 134639,
+      "forks": 25515,
+      "stars_gained": 176,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "C/C++ 中的 LLM 推理",
+      "rank": 7
+    }
+  ]
+}

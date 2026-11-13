@@ -1,0 +1,56 @@
+{
+  "period": "weekly",
+  "category": "ai",
+  "fetched_at": "2026-11-13T04:38:33+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 3,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 50397,
+      "forks": 3508,
+      "stars_gained": 4601,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 1
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "stars": 12298,
+      "forks": 1013,
+      "stars_gained": 5802,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "stars": 22839,
+      "forks": 1692,
+      "stars_gained": 6414,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "计算机使用 CLI 进行 AI 代理",
+      "rank": 3
+    }
+  ]
+}

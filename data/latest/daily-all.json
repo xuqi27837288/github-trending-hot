@@ -1,70 +1,123 @@
 {
   "period": "daily",
   "category": "all",
-  "fetched_at": "2026-11-12T05:23:37+00:00",
+  "fetched_at": "2026-11-13T04:38:30+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 25379,
-      "forks": 1977,
-      "stars_gained": 2776,
+      "stars": 3383,
+      "forks": 213,
+      "stars_gained": 739,
       "categories": [
         "agent"
       ],
-      "description_zh": "完全可定制且可供代理使用的开源设计系统"
+      "description_zh": "让您的编码代理了解最新的网络最佳实践"
     },
     {
       "trend_rank": 2,
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "stars": 70537,
-      "forks": 56949,
-      "stars_gained": 278,
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stars": 12578,
+      "forks": 981,
+      "stars_gained": 643,
       "categories": [
         "ai"
       ],
-      "description_zh": ""
+      "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security"
     },
     {
       "trend_rank": 3,
-      "full_name": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "description": "",
-      "language": "TypeScript",
-      "stars": 1944,
-      "forks": 148,
-      "stars_gained": 159,
+      "full_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "language": "Shell",
+      "stars": 96043,
+      "forks": 10760,
+      "stars_gained": 63,
       "categories": [],
-      "description_zh": ""
+      "description_zh": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活动的 Node.js 版本。"
     },
     {
       "trend_rank": 4,
-      "full_name": "shadcn/improve",
-      "url": "https://github.com/shadcn/improve",
-      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "language": null,
-      "stars": 11089,
-      "forks": 451,
-      "stars_gained": 361,
+      "full_name": "pookjw/HermesEnabler",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "language": "Objective-C",
+      "stars": 1607,
+      "forks": 143,
+      "stars_gained": 218,
       "categories": [],
-      "description_zh": "使用您最有能力的模型来审核您的代码库并编写更便宜的模型执行计划。"
+      "description_zh": "在任何 Apple Watch 设备上启用 Hermès 表盘"
     },
     {
       "trend_rank": 5,
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "stars": 14076,
+      "forks": 1060,
+      "stars_gained": 967,
+      "categories": [],
+      "description_zh": "适合所有人（由所有人）的个人理财应用程序"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 29919,
+      "forks": 3406,
+      "stars_gained": 151,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "位于您终端中的开源人工智能编码代理。"
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "language": "Zig",
+      "stars": 1992,
+      "forks": 394,
+      "stars_gained": 54,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "适用于 Metal、CUDA 和 Vulkan 的法学硕士推理引擎。"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "stars": 123627,
+      "forks": 38059,
+      "stars_gained": 62,
+      "categories": [],
+      "description_zh": "Node.js JavaScript 运行时✨🐢🚀✨"
+    },
+    {
+      "trend_rank": 9,
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 116088,
-      "forks": 12170,
-      "stars_gained": 787,
+      "stars": 116785,
+      "forks": 12216,
+      "stars_gained": 816,
       "categories": [
         "ai",
         "agent"
@@ -72,72 +125,61 @@
       "description_zh": "AI编码代理的生产级工程技能。"
     },
     {
-      "trend_rank": 6,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 50005,
-      "forks": 3493,
-      "stars_gained": 708,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI"
-    },
-    {
-      "trend_rank": 7,
-      "full_name": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "description": "The personal finance app for everyone (by everyone)",
-      "language": "Ruby",
-      "stars": 13123,
-      "forks": 966,
-      "stars_gained": 1078,
-      "categories": [],
-      "description_zh": "适合所有人（由所有人）的个人理财应用程序"
-    },
-    {
-      "trend_rank": 8,
-      "full_name": "homeassistant-ai/ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "language": "Python",
-      "stars": 7484,
-      "forks": 456,
-      "stars_gained": 645,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。"
-    },
-    {
-      "trend_rank": 9,
-      "full_name": "openai/codex-security",
-      "url": "https://github.com/openai/codex-security",
-      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "trend_rank": 10,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 11883,
-      "forks": 946,
-      "stars_gained": 52,
+      "stars": 26771,
+      "forks": 2075,
+      "stars_gained": 1830,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统"
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "stars": 11749,
+      "forks": 1449,
+      "stars_gained": 298,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "开源人工智能同事每人都有一台自己的计算机：浏览器、文件和工具，每一个动作在发生之前就决定并在发生之后记录。带上任何 AG-UI 代理。"
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 69453,
+      "forks": 10783,
+      "stars_gained": 415,
       "categories": [
         "ai"
       ],
-      "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security"
+      "description_zh": "从您的终端、应用程序、IDE 或手机免费使用 Claude Code、Codex、Antigravity、VSCode、Pi 和 OpenCode（以及其他 6 个工具）（1.3B+ 免费代币），现在可以从具有本机浏览器会话（多工具 + 多模型）的浏览器（如 OpenClaw）（支持语音 + ToS 友好）使用"
     },
     {
-      "trend_rank": 10,
-      "full_name": "TheAlgorithms/Java",
-      "url": "https://github.com/TheAlgorithms/Java",
-      "description": "All Algorithms implemented in Java",
-      "language": "Java",
-      "stars": 67108,
-      "forks": 21516,
-      "stars_gained": 51,
-      "categories": [],
-      "description_zh": "所有算法均用 Java 实现"
+      "trend_rank": 13,
+      "full_name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 134639,
+      "forks": 25515,
+      "stars_gained": 176,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "C/C++ 中的 LLM 推理"
     }
   ]
 }

@@ -1,71 +1,86 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-11-12T05:23:37+00:00",
+  "fetched_at": "2026-11-13T04:38:30+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 25379,
-      "forks": 1977,
-      "stars_gained": 2776,
+      "stars": 3383,
+      "forks": 213,
+      "stars_gained": 739,
       "categories": [
         "agent"
       ],
-      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "description_zh": "让您的编码代理了解最新的网络最佳实践",
       "rank": 1
     },
     {
-      "trend_rank": 5,
+      "trend_rank": 6,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 29919,
+      "forks": 3406,
+      "stars_gained": 151,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "位于您终端中的开源人工智能编码代理。",
+      "rank": 2
+    },
+    {
+      "trend_rank": 9,
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 116088,
-      "forks": 12170,
-      "stars_gained": 787,
+      "stars": 116785,
+      "forks": 12216,
+      "stars_gained": 816,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "AI编码代理的生产级工程技能。",
-      "rank": 2
-    },
-    {
-      "trend_rank": 6,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 50005,
-      "forks": 3493,
-      "stars_gained": 708,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
       "rank": 3
     },
     {
-      "trend_rank": 8,
-      "full_name": "homeassistant-ai/ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "language": "Python",
-      "stars": 7484,
-      "forks": 456,
-      "stars_gained": 645,
+      "trend_rank": 10,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 26771,
+      "forks": 2075,
+      "stars_gained": 1830,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "rank": 4
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "stars": 11749,
+      "forks": 1449,
+      "stars_gained": 298,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。",
-      "rank": 4
+      "description_zh": "开源人工智能同事每人都有一台自己的计算机：浏览器、文件和工具，每一个动作在发生之前就决定并在发生之后记录。带上任何 AG-UI 代理。",
+      "rank": 5
     }
   ]
 }

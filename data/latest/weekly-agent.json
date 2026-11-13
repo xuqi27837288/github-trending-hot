@@ -1,85 +1,85 @@
 {
   "period": "weekly",
   "category": "agent",
-  "fetched_at": "2026-11-12T05:23:41+00:00",
+  "fetched_at": "2026-11-13T04:38:33+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "language": "Python",
-      "stars": 11945,
-      "forks": 979,
-      "stars_gained": 7947,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
-      "rank": 1
-    },
-    {
-      "trend_rank": 2,
       "full_name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 193267,
-      "forks": 22741,
-      "stars_gained": 5738,
+      "stars": 193776,
+      "forks": 22798,
+      "stars_gained": 6055,
       "categories": [
         "agent"
       ],
       "description_zh": "代理技能的公共存储库",
-      "rank": 2
+      "rank": 1
     },
     {
       "trend_rank": 3,
-      "full_name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "stars": 22247,
-      "forks": 1654,
-      "stars_gained": 7772,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "计算机使用 CLI 进行 AI 代理",
-      "rank": 3
-    },
-    {
-      "trend_rank": 5,
       "full_name": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 50005,
-      "forks": 3493,
-      "stars_gained": 4183,
+      "stars": 50397,
+      "forks": 3508,
+      "stars_gained": 4601,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "rank": 4
+      "rank": 2
     },
     {
-      "trend_rank": 6,
+      "trend_rank": 4,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "stars": 12298,
+      "forks": 1013,
+      "stars_gained": 5802,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 5,
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 70496,
-      "forks": 4674,
-      "stars_gained": 11507,
+      "stars": 71311,
+      "forks": 4744,
+      "stars_gained": 10700,
       "categories": [
         "agent"
       ],
       "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 4
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "stars": 22839,
+      "forks": 1692,
+      "stars_gained": 6414,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "计算机使用 CLI 进行 AI 代理",
       "rank": 5
     },
     {
@@ -88,9 +88,9 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 322200,
-      "forks": 27021,
-      "stars_gained": 9575,
+      "stars": 323140,
+      "forks": 27109,
+      "stars_gained": 8731,
       "categories": [
         "agent"
       ],
@@ -99,49 +99,18 @@
     },
     {
       "trend_rank": 10,
-      "full_name": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "language": "Shell",
-      "stars": 38556,
-      "forks": 5013,
-      "stars_gained": 3150,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "将 Claude Code 转变为完整的游戏开发工作室 — 49 个 AI 代理、72 种工作流程技能以及反映真实工作室层次结构的完整协调系统。",
-      "rank": 7
-    },
-    {
-      "trend_rank": 11,
       "full_name": "google/skills",
       "url": "https://github.com/google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 23963,
-      "forks": 1998,
-      "stars_gained": 2013,
+      "stars": 24090,
+      "forks": 2006,
+      "stars_gained": 1933,
       "categories": [
         "agent"
       ],
       "description_zh": "Google 产品和技术的代理技能",
-      "rank": 8
-    },
-    {
-      "trend_rank": 13,
-      "full_name": "herdrdev/herdr",
-      "url": "https://github.com/herdrdev/herdr",
-      "description": "the runtime your coding agents live on",
-      "language": "Rust",
-      "stars": 50396,
-      "forks": 4067,
-      "stars_gained": 2213,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "你的编码代理所在的运行时",
-      "rank": 9
+      "rank": 7
     }
   ]
 }
