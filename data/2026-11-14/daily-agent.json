@@ -1,0 +1,69 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-11-14T04:33:29+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 50770,
+      "forks": 3776,
+      "stars_gained": 215,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "安全、快速、高效，经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道+LLM代理，精确的行级注释，内置多语言规则集（NPE，线程安全，XSS，SQL注入），兼容OpenAI和Anthropic。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 5004,
+      "forks": 274,
+      "stars_gained": 1925,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "让您的编码代理了解最新的网络最佳实践",
+      "rank": 2
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 10526,
+      "forks": 790,
+      "stars_gained": 108,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 55581,
+      "forks": 4613,
+      "stars_gained": 67,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于编码代理的 Chrome DevTools",
+      "rank": 4
+    }
+  ]
+}
