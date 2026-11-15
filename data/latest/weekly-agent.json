@@ -1,23 +1,38 @@
 {
   "period": "weekly",
   "category": "agent",
-  "fetched_at": "2026-11-14T04:33:33+00:00",
+  "fetched_at": "2026-11-15T04:22:23+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
-      "trend_rank": 2,
+      "trend_rank": 1,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 28248,
+      "forks": 2197,
+      "stars_gained": 13660,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
       "full_name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 194194,
-      "forks": 22841,
-      "stars_gained": 6169,
+      "stars": 194688,
+      "forks": 22903,
+      "stars_gained": 6220,
       "categories": [
         "agent"
       ],
       "description_zh": "代理技能的公共存储库",
-      "rank": 1
+      "rank": 2
     },
     {
       "trend_rank": 4,
@@ -25,15 +40,15 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 50786,
-      "forks": 3531,
-      "stars_gained": 4360,
+      "stars": 51279,
+      "forks": 3580,
+      "stars_gained": 4601,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "rank": 2
+      "rank": 3
     },
     {
       "trend_rank": 5,
@@ -41,44 +56,28 @@
       "url": "https://github.com/google/elephant-goldfish-model",
       "description": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
-      "stars": 18690,
-      "forks": 1394,
-      "stars_gained": 5560,
+      "stars": 19266,
+      "forks": 1429,
+      "stars_gained": 5539,
       "categories": [
         "agent"
       ],
       "description_zh": "用于与代理一起设计和审查软件的开源插件",
-      "rank": 3
-    },
-    {
-      "trend_rank": 7,
-      "full_name": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "language": "Python",
-      "stars": 12604,
-      "forks": 1034,
-      "stars_gained": 4108,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
       "rank": 4
     },
     {
       "trend_rank": 9,
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "stars": 323905,
-      "forks": 27186,
-      "stars_gained": 7599,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 11256,
+      "forks": 943,
+      "stars_gained": 818,
       "categories": [
         "agent"
       ],
-      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。",
+      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。",
       "rank": 5
     },
     {
@@ -87,61 +86,15 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 117206,
-      "forks": 12256,
-      "stars_gained": 3502,
+      "stars": 117625,
+      "forks": 12306,
+      "stars_gained": 3670,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "AI编码代理的生产级工程技能。",
       "rank": 6
-    },
-    {
-      "trend_rank": 11,
-      "full_name": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "stars": 72020,
-      "forks": 4800,
-      "stars_gained": 8829,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
-      "rank": 7
-    },
-    {
-      "trend_rank": 14,
-      "full_name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "stars": 23378,
-      "forks": 1730,
-      "stars_gained": 5408,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "计算机使用 CLI 进行 AI 代理",
-      "rank": 8
-    },
-    {
-      "trend_rank": 15,
-      "full_name": "lobehub/lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-      "language": "TypeScript",
-      "stars": 85432,
-      "forks": 16301,
-      "stars_gained": 1126,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "🤯 LobeHub - 您团队中的超级代理。将超级代理添加到您的团队已使用的聊天中。他们自己承担工作，并且每周都会变得更好。",
-      "rank": 9
     }
   ]
 }

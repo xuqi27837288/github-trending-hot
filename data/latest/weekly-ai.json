@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "ai",
-  "fetched_at": "2026-11-14T04:33:33+00:00",
+  "fetched_at": "2026-11-15T04:22:23+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 50786,
-      "forks": 3531,
-      "stars_gained": 4360,
+      "stars": 51279,
+      "forks": 3580,
+      "stars_gained": 4601,
       "categories": [
         "ai",
         "agent"
@@ -21,14 +21,14 @@
       "rank": 1
     },
     {
-      "trend_rank": 6,
+      "trend_rank": 7,
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 71770,
-      "forks": 57339,
-      "stars_gained": 3778,
+      "stars": 72285,
+      "forks": 57490,
+      "stars_gained": 4526,
       "categories": [
         "ai"
       ],
@@ -36,67 +36,35 @@
       "rank": 2
     },
     {
-      "trend_rank": 7,
-      "full_name": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "language": "Python",
-      "stars": 12604,
-      "forks": 1034,
-      "stars_gained": 4108,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "Auto Ontology 是一个 Python 框架，用于在数据上构建语义、基于图形的推理层。它为法学硕士和代理工作流程提供确定性查询生成、更好的上下文检索以及更可解释的人工智能。",
-      "rank": 3
-    },
-    {
       "trend_rank": 10,
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 117206,
-      "forks": 12256,
-      "stars_gained": 3502,
+      "stars": 117625,
+      "forks": 12306,
+      "stars_gained": 3670,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "AI编码代理的生产级工程技能。",
-      "rank": 4
+      "rank": 3
     },
     {
-      "trend_rank": 13,
+      "trend_rank": 11,
       "full_name": "anthropics/claude-quickstarts",
       "url": "https://github.com/anthropics/claude-quickstarts",
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
-      "stars": 20883,
-      "forks": 3490,
-      "stars_gained": 1731,
+      "stars": 21001,
+      "forks": 3497,
+      "stars_gained": 1794,
       "categories": [
         "ai"
       ],
       "description_zh": "旨在帮助开发人员快速开始使用 Claude API 构建可部署应用程序的项目集合",
-      "rank": 5
-    },
-    {
-      "trend_rank": 14,
-      "full_name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "stars": 23378,
-      "forks": 1730,
-      "stars_gained": 5408,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "计算机使用 CLI 进行 AI 代理",
-      "rank": 6
+      "rank": 4
     }
   ]
 }
