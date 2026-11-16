@@ -2,12 +2,12 @@
   "key": "2026",
   "label": "2026 年",
   "summary": {
-    "days": 24,
-    "repos": 138,
-    "gained": 260292,
+    "days": 25,
+    "repos": 142,
+    "gained": 266767,
     "categories": {
-      "ai": 59,
-      "agent": 49
+      "ai": 62,
+      "agent": 51
     },
     "top_language": "Python"
   },
@@ -497,6 +497,45 @@
       "rank": 11
     },
     {
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "days": 5,
+      "best_rank": 1,
+      "gained": 5273,
+      "stars": 7357,
+      "language": "TypeScript",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "description_zh": "让您的编码代理了解最新的网络最佳实践",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-12",
+          1944
+        ],
+        [
+          "2026-11-13",
+          3383
+        ],
+        [
+          "2026-11-14",
+          5004
+        ],
+        [
+          "2026-11-15",
+          6203
+        ],
+        [
+          "2026-11-16",
+          7357
+        ]
+      ],
+      "rank": 12
+    },
+    {
       "full_name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "days": 5,
@@ -533,7 +572,7 @@
           310132
         ]
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "full_name": "makecindy/cindy",
@@ -573,7 +612,7 @@
           8210
         ]
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "full_name": "Donchitos/Claude-Code-Game-Studios",
@@ -613,7 +652,7 @@
           34805
         ]
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "full_name": "anthropics/skills",
@@ -652,7 +691,7 @@
           192485
         ]
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "full_name": "Renhuai123/ziwei-doushu",
@@ -689,7 +728,7 @@
           13368
         ]
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "full_name": "we-promise/sure",
@@ -726,7 +765,7 @@
           15383
         ]
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "full_name": "sherlock-project/sherlock",
@@ -759,7 +798,7 @@
           109223
         ]
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "full_name": "vercel-labs/agent-desktop",
@@ -795,7 +834,7 @@
           17150
         ]
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "full_name": "pingdotgg/t3code",
@@ -828,7 +867,7 @@
           42356
         ]
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "full_name": "D4Vinci/Scrapling",
@@ -859,41 +898,6 @@
         [
           "2026-11-06",
           98199
-        ]
-      ],
-      "rank": 21
-    },
-    {
-      "full_name": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "days": 4,
-      "best_rank": 1,
-      "gained": 4054,
-      "stars": 6203,
-      "language": "TypeScript",
-      "description": "Keep your coding agent up to date with the latest web best practices",
-      "description_zh": "让您的编码代理了解最新的网络最佳实践",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-12",
-          1944
-        ],
-        [
-          "2026-11-13",
-          3383
-        ],
-        [
-          "2026-11-14",
-          5004
-        ],
-        [
-          "2026-11-15",
-          6203
         ]
       ],
       "rank": 22
@@ -1220,6 +1224,38 @@
       "rank": 32
     },
     {
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "days": 3,
+      "best_rank": 1,
+      "gained": 1799,
+      "stars": 52281,
+      "language": "Go",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "description_zh": "安全、快速、高效，经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道+LLM代理，精确的行级注释，内置多语言规则集（NPE，线程安全，XSS，SQL注入），兼容OpenAI和Anthropic。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-14",
+          50770
+        ],
+        [
+          "2026-11-15",
+          51511
+        ],
+        [
+          "2026-11-16",
+          52281
+        ]
+      ],
+      "rank": 33
+    },
+    {
       "full_name": "homeassistant-ai/ha-mcp",
       "url": "https://github.com/homeassistant-ai/ha-mcp",
       "days": 3,
@@ -1249,7 +1285,38 @@
           7484
         ]
       ],
-      "rank": 33
+      "rank": 34
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "days": 3,
+      "best_rank": 4,
+      "gained": 1448,
+      "stars": 57127,
+      "language": "TypeScript",
+      "description": "Chrome DevTools for coding agents",
+      "description_zh": "用于编码代理的 Chrome DevTools",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-14",
+          55581
+        ],
+        [
+          "2026-11-15",
+          56387
+        ],
+        [
+          "2026-11-16",
+          57127
+        ]
+      ],
+      "rank": 35
     },
     {
       "full_name": "openai/codex-security",
@@ -1280,7 +1347,69 @@
           13214
         ]
       ],
-      "rank": 34
+      "rank": 36
+    },
+    {
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "days": 3,
+      "best_rank": 1,
+      "gained": 1382,
+      "stars": 11979,
+      "language": "TypeScript",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-14",
+          10526
+        ],
+        [
+          "2026-11-15",
+          11255
+        ],
+        [
+          "2026-11-16",
+          11979
+        ]
+      ],
+      "rank": 37
+    },
+    {
+      "full_name": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "days": 3,
+      "best_rank": 3,
+      "gained": 1328,
+      "stars": 5696,
+      "language": "Python",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "description_zh": "克劳德代码为股票投资者和交易者提供的技能——市场分析、技术图表、经济日历、筛选器和交易策略开发。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-14",
+          4255
+        ],
+        [
+          "2026-11-15",
+          4921
+        ],
+        [
+          "2026-11-16",
+          5696
+        ]
+      ],
+      "rank": 38
     },
     {
       "full_name": "google/skills",
@@ -1311,7 +1440,7 @@
           23473
         ]
       ],
-      "rank": 35
+      "rank": 39
     },
     {
       "full_name": "anthropics/claude-quickstarts",
@@ -1342,7 +1471,7 @@
           20570
         ]
       ],
-      "rank": 36
+      "rank": 40
     },
     {
       "full_name": "google-deepmind/mujoco",
@@ -1371,7 +1500,7 @@
           17437
         ]
       ],
-      "rank": 37
+      "rank": 41
     },
     {
       "full_name": "ZhuLinsen/daily_stock_analysis",
@@ -1402,7 +1531,7 @@
           71770
         ]
       ],
-      "rank": 38
+      "rank": 42
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -1431,7 +1560,7 @@
           6428
         ]
       ],
-      "rank": 39
+      "rank": 43
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -1456,7 +1585,7 @@
           89510
         ]
       ],
-      "rank": 40
+      "rank": 44
     },
     {
       "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
@@ -1481,7 +1610,7 @@
           7392
         ]
       ],
-      "rank": 41
+      "rank": 45
     },
     {
       "full_name": "affaan-m/ECC",
@@ -1509,7 +1638,7 @@
           290999
         ]
       ],
-      "rank": 42
+      "rank": 46
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -1537,7 +1666,7 @@
           19519
         ]
       ],
-      "rank": 43
+      "rank": 47
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -1565,7 +1694,7 @@
           116307
         ]
       ],
-      "rank": 44
+      "rank": 48
     },
     {
       "full_name": "anomalyco/hex",
@@ -1590,7 +1719,35 @@
           4690
         ]
       ],
-      "rank": 45
+      "rank": 49
+    },
+    {
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "days": 2,
+      "best_rank": 1,
+      "gained": 1483,
+      "stars": 26460,
+      "language": "TypeScript",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "description_zh": "使用 Univer Office SDK 构建您自己的 AI 办公室。将编辑、计算、协作和文件处理引入您的产品中，供人员和 AI 代理使用。基于可扩展的开源核心构建。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-15",
+          25008
+        ],
+        [
+          "2026-11-16",
+          26460
+        ]
+      ],
+      "rank": 50
     },
     {
       "full_name": "JustVugg/colibri",
@@ -1617,7 +1774,7 @@
           47343
         ]
       ],
-      "rank": 46
+      "rank": 51
     },
     {
       "full_name": "zed-industries/zed",
@@ -1642,7 +1799,7 @@
           94320
         ]
       ],
-      "rank": 47
+      "rank": 52
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -1669,7 +1826,7 @@
           39491
         ]
       ],
-      "rank": 48
+      "rank": 53
     },
     {
       "full_name": "p-e-w/heretic",
@@ -1694,35 +1851,7 @@
           38917
         ]
       ],
-      "rank": 49
-    },
-    {
-      "full_name": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "days": 2,
-      "best_rank": 1,
-      "gained": 1108,
-      "stars": 51511,
-      "language": "Go",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "description_zh": "安全、快速、高效，经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道+LLM代理，精确的行级注释，内置多语言规则集（NPE，线程安全，XSS，SQL注入），兼容OpenAI和Anthropic。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-14",
-          50770
-        ],
-        [
-          "2026-11-15",
-          51511
-        ]
-      ],
-      "rank": 50
+      "rank": 54
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -1749,7 +1878,7 @@
           32270
         ]
       ],
-      "rank": 51
+      "rank": 55
     },
     {
       "full_name": "garrytan/gstack",
@@ -1776,7 +1905,7 @@
           140061
         ]
       ],
-      "rank": 52
+      "rank": 56
     },
     {
       "full_name": "FlashML-org/FreeToken",
@@ -1801,7 +1930,7 @@
           16214
         ]
       ],
-      "rank": 53
+      "rank": 57
     },
     {
       "full_name": "scenario-labs/skills",
@@ -1829,7 +1958,7 @@
           3177
         ]
       ],
-      "rank": 54
+      "rank": 58
     },
     {
       "full_name": "php/php-src",
@@ -1854,7 +1983,7 @@
           41582
         ]
       ],
-      "rank": 55
+      "rank": 59
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -1882,34 +2011,7 @@
           44609
         ]
       ],
-      "rank": 56
-    },
-    {
-      "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "days": 2,
-      "best_rank": 4,
-      "gained": 731,
-      "stars": 56387,
-      "language": "TypeScript",
-      "description": "Chrome DevTools for coding agents",
-      "description_zh": "用于编码代理的 Chrome DevTools",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-14",
-          55581
-        ],
-        [
-          "2026-11-15",
-          56387
-        ]
-      ],
-      "rank": 57
+      "rank": 60
     },
     {
       "full_name": "ruvnet/RuView",
@@ -1934,7 +2036,7 @@
           103621
         ]
       ],
-      "rank": 58
+      "rank": 61
     },
     {
       "full_name": "Likely7/Veyra-NRVideo",
@@ -1961,34 +2063,7 @@
           2349
         ]
       ],
-      "rank": 59
-    },
-    {
-      "full_name": "tradermonty/claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "days": 2,
-      "best_rank": 3,
-      "gained": 622,
-      "stars": 4921,
-      "language": "Python",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "description_zh": "克劳德代码为股票投资者和交易者提供的技能——市场分析、技术图表、经济日历、筛选器和交易策略开发。",
-      "categories": [
-        "ai"
-      ],
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-14",
-          4255
-        ],
-        [
-          "2026-11-15",
-          4921
-        ]
-      ],
-      "rank": 60
+      "rank": 62
     },
     {
       "full_name": "hyprwm/Hyprland",
@@ -2013,7 +2088,7 @@
           40031
         ]
       ],
-      "rank": 61
+      "rank": 63
     },
     {
       "full_name": "astral-sh/ruff",
@@ -2038,34 +2113,7 @@
           51007
         ]
       ],
-      "rank": 62
-    },
-    {
-      "full_name": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "days": 2,
-      "best_rank": 1,
-      "gained": 516,
-      "stars": 11255,
-      "language": "TypeScript",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-14",
-          10526
-        ],
-        [
-          "2026-11-15",
-          11255
-        ]
-      ],
-      "rank": 63
+      "rank": 64
     },
     {
       "full_name": "kornia/kornia",
@@ -2092,7 +2140,7 @@
           12188
         ]
       ],
-      "rank": 64
+      "rank": 65
     },
     {
       "full_name": "louislam/uptime-kuma",
@@ -2117,7 +2165,7 @@
           94297
         ]
       ],
-      "rank": 65
+      "rank": 66
     },
     {
       "full_name": "prometheus/prometheus",
@@ -2142,7 +2190,7 @@
           67472
         ]
       ],
-      "rank": 66
+      "rank": 67
     },
     {
       "full_name": "Usagi-org/ai-goofish-monitor",
@@ -2169,7 +2217,7 @@
           17787
         ]
       ],
-      "rank": 67
+      "rank": 68
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -2196,7 +2244,62 @@
           908
         ]
       ],
-      "rank": 68
+      "rank": 69
+    },
+    {
+      "full_name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "days": 2,
+      "best_rank": 7,
+      "gained": 456,
+      "stars": 1729,
+      "language": "Go",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "description_zh": "用于编码代理交付的自托管工作流程。使用脚本和人工审批门来编排 CodeBuddy、Codex 和 Claude Code。包括编码助理的本地工作流程。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-15",
+          975
+        ],
+        [
+          "2026-11-16",
+          1729
+        ]
+      ],
+      "rank": 70
+    },
+    {
+      "full_name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "days": 2,
+      "best_rank": 2,
+      "gained": 364,
+      "stars": 18062,
+      "language": "TypeScript",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "description_zh": "AG-UI：代理-用户交互协议。将代理引入前端应用程序。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-15",
+          17421
+        ],
+        [
+          "2026-11-16",
+          18062
+        ]
+      ],
+      "rank": 71
     },
     {
       "full_name": "QwenLM/qwen-code",
@@ -2224,7 +2327,7 @@
           30396
         ]
       ],
-      "rank": 69
+      "rank": 72
     },
     {
       "full_name": "macro-inc/macro",
@@ -2252,7 +2355,7 @@
           5902
         ]
       ],
-      "rank": 70
+      "rank": 73
     },
     {
       "full_name": "expo/skills",
@@ -2280,7 +2383,7 @@
           3914
         ]
       ],
-      "rank": 71
+      "rank": 74
     },
     {
       "full_name": "nodejs/node",
@@ -2305,7 +2408,7 @@
           123627
         ]
       ],
-      "rank": 72
+      "rank": 75
     },
     {
       "full_name": "ashhart/TensorFold",
@@ -2332,7 +2435,7 @@
           2184
         ]
       ],
-      "rank": 73
+      "rank": 76
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -2356,7 +2459,7 @@
           172626
         ]
       ],
-      "rank": 74
+      "rank": 77
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -2377,7 +2480,7 @@
           35214
         ]
       ],
-      "rank": 75
+      "rank": 78
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -2400,7 +2503,7 @@
           132319
         ]
       ],
-      "rank": 76
+      "rank": 79
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -2424,7 +2527,7 @@
           40423
         ]
       ],
-      "rank": 77
+      "rank": 80
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -2448,7 +2551,7 @@
           6556
         ]
       ],
-      "rank": 78
+      "rank": 81
     },
     {
       "full_name": "github/spec-kit",
@@ -2469,7 +2572,7 @@
           147425
         ]
       ],
-      "rank": 79
+      "rank": 82
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -2493,7 +2596,7 @@
           103817
         ]
       ],
-      "rank": 80
+      "rank": 83
     },
     {
       "full_name": "supabase/supabase",
@@ -2516,7 +2619,7 @@
           113280
         ]
       ],
-      "rank": 81
+      "rank": 84
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -2539,7 +2642,7 @@
           224758
         ]
       ],
-      "rank": 82
+      "rank": 85
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -2562,7 +2665,7 @@
           139184
         ]
       ],
-      "rank": 83
+      "rank": 86
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -2583,31 +2686,7 @@
           31982
         ]
       ],
-      "rank": 84
-    },
-    {
-      "full_name": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "days": 1,
-      "best_rank": 7,
-      "gained": 495,
-      "stars": 25008,
-      "language": "TypeScript",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "description_zh": "",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-15",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-15",
-          25008
-        ]
-      ],
-      "rank": 85
+      "rank": 87
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -2631,7 +2710,7 @@
           6321
         ]
       ],
-      "rank": 86
+      "rank": 88
     },
     {
       "full_name": "Alishahryar1/free-claude-code",
@@ -2654,7 +2733,7 @@
           69453
         ]
       ],
-      "rank": 87
+      "rank": 89
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -2677,7 +2756,7 @@
           110519
         ]
       ],
-      "rank": 88
+      "rank": 90
     },
     {
       "full_name": "shadcn/improve",
@@ -2698,7 +2777,7 @@
           11089
         ]
       ],
-      "rank": 89
+      "rank": 91
     },
     {
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
@@ -2721,7 +2800,7 @@
           10434
         ]
       ],
-      "rank": 90
+      "rank": 92
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -2742,7 +2821,7 @@
           86062
         ]
       ],
-      "rank": 91
+      "rank": 93
     },
     {
       "full_name": "cjpais/Handy",
@@ -2763,7 +2842,7 @@
           36702
         ]
       ],
-      "rank": 92
+      "rank": 94
     },
     {
       "full_name": "public-apis/public-apis",
@@ -2784,7 +2863,7 @@
           494811
         ]
       ],
-      "rank": 93
+      "rank": 95
     },
     {
       "full_name": "karpathy/nanochat",
@@ -2805,7 +2884,7 @@
           59994
         ]
       ],
-      "rank": 94
+      "rank": 96
     },
     {
       "full_name": "microsoft/vscode",
@@ -2826,7 +2905,7 @@
           195057
         ]
       ],
-      "rank": 95
+      "rank": 97
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -2849,7 +2928,7 @@
           14865
         ]
       ],
-      "rank": 96
+      "rank": 98
     },
     {
       "full_name": "martin-olivier/airgorah",
@@ -2870,7 +2949,7 @@
           5960
         ]
       ],
-      "rank": 97
+      "rank": 99
     },
     {
       "full_name": "tailscale/tailcat",
@@ -2891,7 +2970,7 @@
           9528
         ]
       ],
-      "rank": 98
+      "rank": 100
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -2915,7 +2994,7 @@
           27022
         ]
       ],
-      "rank": 99
+      "rank": 101
     },
     {
       "full_name": "react/react",
@@ -2936,7 +3015,31 @@
           252283
         ]
       ],
-      "rank": 100
+      "rank": 102
+    },
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "days": 1,
+      "best_rank": 3,
+      "gained": 247,
+      "stars": 9408,
+      "language": "TypeScript",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-16",
+          9408
+        ]
+      ],
+      "rank": 103
     },
     {
       "full_name": "JuliusBrussee/caveman",
@@ -2959,7 +3062,7 @@
           120130
         ]
       ],
-      "rank": 101
+      "rank": 104
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -2980,7 +3083,7 @@
           22694
         ]
       ],
-      "rank": 102
+      "rank": 105
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -3003,7 +3106,7 @@
           8545
         ]
       ],
-      "rank": 103
+      "rank": 106
     },
     {
       "full_name": "microsoft/VibeVoice",
@@ -3026,7 +3129,7 @@
           56105
         ]
       ],
-      "rank": 104
+      "rank": 107
     },
     {
       "full_name": "pookjw/HermesEnabler",
@@ -3047,7 +3150,7 @@
           1607
         ]
       ],
-      "rank": 105
+      "rank": 108
     },
     {
       "full_name": "garrytan/gbrain",
@@ -3070,7 +3173,7 @@
           32275
         ]
       ],
-      "rank": 106
+      "rank": 109
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -3094,7 +3197,7 @@
           22316
         ]
       ],
-      "rank": 107
+      "rank": 110
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -3118,7 +3221,7 @@
           21015
         ]
       ],
-      "rank": 108
+      "rank": 111
     },
     {
       "full_name": "rust-lang/rust",
@@ -3139,7 +3242,7 @@
           121493
         ]
       ],
-      "rank": 109
+      "rank": 112
     },
     {
       "full_name": "tokio-rs/topcoat",
@@ -3160,7 +3263,7 @@
           6906
         ]
       ],
-      "rank": 110
+      "rank": 113
     },
     {
       "full_name": "mbillow/localthings",
@@ -3181,7 +3284,7 @@
           1085
         ]
       ],
-      "rank": 111
+      "rank": 114
     },
     {
       "full_name": "ggml-org/llama.cpp",
@@ -3204,7 +3307,7 @@
           134639
         ]
       ],
-      "rank": 112
+      "rank": 115
     },
     {
       "full_name": "ConardLi/garden-skills",
@@ -3225,7 +3328,7 @@
           14247
         ]
       ],
-      "rank": 113
+      "rank": 116
     },
     {
       "full_name": "coollabsio/coolify",
@@ -3246,7 +3349,7 @@
           64486
         ]
       ],
-      "rank": 114
+      "rank": 117
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -3267,7 +3370,7 @@
           40299
         ]
       ],
-      "rank": 115
+      "rank": 118
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -3288,7 +3391,7 @@
           18619
         ]
       ],
-      "rank": 116
+      "rank": 119
     },
     {
       "full_name": "rails/rails",
@@ -3309,7 +3412,7 @@
           59043
         ]
       ],
-      "rank": 117
+      "rank": 120
     },
     {
       "full_name": "angular/angular",
@@ -3330,7 +3433,7 @@
           101399
         ]
       ],
-      "rank": 118
+      "rank": 121
     },
     {
       "full_name": "nushell/nushell",
@@ -3351,7 +3454,7 @@
           41004
         ]
       ],
-      "rank": 119
+      "rank": 122
     },
     {
       "full_name": "etcd-io/etcd",
@@ -3372,7 +3475,7 @@
           52628
         ]
       ],
-      "rank": 120
+      "rank": 123
     },
     {
       "full_name": "symfony/symfony",
@@ -3393,7 +3496,31 @@
           31455
         ]
       ],
-      "rank": 121
+      "rank": 124
+    },
+    {
+      "full_name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 122,
+      "stars": 1855,
+      "language": "Python",
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "description_zh": "用于评估 AI 代理技能的多层框架，包括质量门、语义重叠检测、综合评估数据集生成以及衡量技能如何影响代理行为的实时代理评估。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-16",
+          1855
+        ]
+      ],
+      "rank": 125
     },
     {
       "full_name": "tailwindlabs/tailwindcss",
@@ -3414,7 +3541,7 @@
           98524
         ]
       ],
-      "rank": 122
+      "rank": 126
     },
     {
       "full_name": "Thysrael/Horizon",
@@ -3437,7 +3564,7 @@
           12632
         ]
       ],
-      "rank": 123
+      "rank": 127
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -3460,7 +3587,7 @@
           42233
         ]
       ],
-      "rank": 124
+      "rank": 128
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -3481,7 +3608,30 @@
           8547
         ]
       ],
-      "rank": 125
+      "rank": 129
+    },
+    {
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "days": 1,
+      "best_rank": 9,
+      "gained": 98,
+      "stars": 6624,
+      "language": "Python",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 82 项技能、15 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-16",
+          6624
+        ]
+      ],
+      "rank": 130
     },
     {
       "full_name": "MichaelCade/90DaysOfDevOps",
@@ -3502,7 +3652,7 @@
           30536
         ]
       ],
-      "rank": 126
+      "rank": 131
     },
     {
       "full_name": "block/buzz",
@@ -3523,7 +3673,7 @@
           37331
         ]
       ],
-      "rank": 127
+      "rank": 132
     },
     {
       "full_name": "fastapi/fastapi",
@@ -3544,7 +3694,7 @@
           103422
         ]
       ],
-      "rank": 128
+      "rank": 133
     },
     {
       "full_name": "spotify/portal-ai-plugins",
@@ -3567,7 +3717,7 @@
           3082
         ]
       ],
-      "rank": 129
+      "rank": 134
     },
     {
       "full_name": "nvm-sh/nvm",
@@ -3588,7 +3738,7 @@
           96043
         ]
       ],
-      "rank": 130
+      "rank": 135
     },
     {
       "full_name": "TheAlgorithms/Java",
@@ -3609,7 +3759,7 @@
           67108
         ]
       ],
-      "rank": 131
+      "rank": 136
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -3633,7 +3783,28 @@
           108105
         ]
       ],
-      "rank": 132
+      "rank": 137
+    },
+    {
+      "full_name": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "days": 1,
+      "best_rank": 8,
+      "gained": 43,
+      "stars": 15965,
+      "language": "C++",
+      "description": "Tensor library for machine learning",
+      "description_zh": "用于机器学习的张量库",
+      "categories": [],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "history": [
+        [
+          "2026-11-16",
+          15965
+        ]
+      ],
+      "rank": 138
     },
     {
       "full_name": "mpv-player/mpv",
@@ -3654,31 +3825,7 @@
           37908
         ]
       ],
-      "rank": 133
-    },
-    {
-      "full_name": "Tencent/LoopForge",
-      "url": "https://github.com/Tencent/LoopForge",
-      "days": 1,
-      "best_rank": 13,
-      "gained": 33,
-      "stars": 975,
-      "language": "Go",
-      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "description_zh": "",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-15",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-15",
-          975
-        ]
-      ],
-      "rank": 134
+      "rank": 139
     },
     {
       "full_name": "openssl/openssl",
@@ -3699,7 +3846,7 @@
           31315
         ]
       ],
-      "rank": 135
+      "rank": 140
     },
     {
       "full_name": "lz4/lz4",
@@ -3720,7 +3867,7 @@
           12428
         ]
       ],
-      "rank": 136
+      "rank": 141
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -3744,30 +3891,7 @@
           3156
         ]
       ],
-      "rank": 137
-    },
-    {
-      "full_name": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "days": 1,
-      "best_rank": 8,
-      "gained": 9,
-      "stars": 17421,
-      "language": "TypeScript",
-      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "description_zh": "",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-11-15",
-      "last_seen": "2026-11-15",
-      "history": [
-        [
-          "2026-11-15",
-          17421
-        ]
-      ],
-      "rank": 138
+      "rank": 142
     }
   ]
 }

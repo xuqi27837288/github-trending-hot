@@ -1,0 +1,100 @@
+{
+  "period": "weekly",
+  "category": "agent",
+  "fetched_at": "2026-11-16T04:21:04+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 29024,
+      "forks": 2268,
+      "stars_gained": 13501,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "rank": 1
+    },
+    {
+      "trend_rank": 2,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 195465,
+      "forks": 22970,
+      "stars_gained": 6077,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "代理技能的公共存储库",
+      "rank": 2
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 11979,
+      "forks": 1093,
+      "stars_gained": 1719,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 51707,
+      "forks": 3617,
+      "stars_gained": 4217,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 4
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "language": "Python",
+      "stars": 19885,
+      "forks": 1478,
+      "stars_gained": 5060,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于与代理一起设计和审查软件的开源插件",
+      "rank": 5
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 118007,
+      "forks": 12346,
+      "stars_gained": 3889,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI编码代理的生产级工程技能。",
+      "rank": 6
+    }
+  ]
+}

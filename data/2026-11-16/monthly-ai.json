@@ -1,0 +1,148 @@
+{
+  "period": "monthly",
+  "category": "ai",
+  "fetched_at": "2026-11-16T04:21:08+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 55584,
+      "forks": 2983,
+      "stars_gained": 25448,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code、Cursor、Codex 的防 AI 设计技巧。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "language": "TypeScript",
+      "stars": 61740,
+      "forks": 11051,
+      "stars_gained": 33583,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "从任何计算机或手机控制 Claude Code、Codex 等的最佳方式",
+      "rank": 2
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 117423,
+      "forks": 10199,
+      "stars_gained": 17038,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
+      "rank": 3
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 110846,
+      "forks": 6628,
+      "stars_gained": 29631,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 29768,
+      "forks": 3746,
+      "stars_gained": 10672,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "stars": 116324,
+      "forks": 7800,
+      "stars_gained": 19546,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面",
+      "rank": 6
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 36210,
+      "forks": 3999,
+      "stars_gained": 6417,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "rank": 7
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "Vincentwei1021/video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "language": "TypeScript",
+      "stars": 20167,
+      "forks": 1881,
+      "stars_gained": 7937,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 进行电影化、可编辑的产品宣传片：124 个镜头配方卡、150 个动作预览、节拍同步、声音设计、Motion Workbench 和JianYing (CapCut CN) 导出。",
+      "rank": 8
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 51707,
+      "forks": 3617,
+      "stars_gained": 7545,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 9
+    }
+  ]
+}

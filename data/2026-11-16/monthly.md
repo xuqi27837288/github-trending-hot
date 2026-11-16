@@ -1,0 +1,43 @@
+# 📈 GitHub Trending · 本月 · 2026-11-16
+
+> 来源：https://github.com/trending?since=monthly　|　全量 14 条已归档至 monthly-all.json
+
+## AI 专区
+
+1. [Nutlope/hallmark](https://github.com/Nutlope/hallmark) ⭐ 55,584 (+25,448 this month) · CSS
+   Claude Code、Cursor、Codex 的防 AI 设计技巧。
+2. [pingdotgg/t3code](https://github.com/pingdotgg/t3code) ⭐ 61,740 (+33,583 this month) · TypeScript
+   从任何计算机或手机控制 Claude Code、Codex 等的最佳方式
+3. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) ⭐ 117,423 (+17,038 this month) · TypeScript
+   每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等
+4. [pbakaus/impeccable](https://github.com/pbakaus/impeccable) ⭐ 110,846 (+29,631 this month) · Rust
+   编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。
+5. [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) ⭐ 29,768 (+10,672 this month) · Python
+   适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。
+6. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) ⭐ 116,324 (+19,546 this month) · JavaScript
+   赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面
+7. [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) ⭐ 36,210 (+6,417 this month) · Python
+   主要供知识工作者在Claude Cowork中使用的插件的开源存储库
+8. [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) ⭐ 20,167 (+7,937 this month) · TypeScript
+   Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 进行电影化、可编辑的产品宣传片：124 个镜头配方卡、150 个动作预览、节拍同步、声音设计、Motion Workbench 和JianYing (CapCut CN) 导出。
+9. [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) ⭐ 51,707 (+7,545 this month) · Rust
+   用于 AI 代理的浏览器自动化 CLI
+
+## Agent 专区
+
+1. [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) ⭐ 73,328 (+43,540 this month) · JavaScript
+   用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果
+2. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) ⭐ 117,423 (+17,038 this month) · TypeScript
+   每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等
+3. [pbakaus/impeccable](https://github.com/pbakaus/impeccable) ⭐ 110,846 (+29,631 this month) · Rust
+   编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。
+4. [anthropics/skills](https://github.com/anthropics/skills) ⭐ 195,465 (+14,332 this month) · Python
+   代理技能的公共存储库
+5. [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) ⭐ 84,820 (+20,878 this month) · TypeScript
+   编写HTML。渲染视频。专为客服代表打造。
+6. [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) ⭐ 29,768 (+10,672 this month) · Python
+   适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。
+7. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) ⭐ 116,324 (+19,546 this month) · JavaScript
+   赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面
+8. [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) ⭐ 51,707 (+7,545 this month) · Rust
+   用于 AI 代理的浏览器自动化 CLI

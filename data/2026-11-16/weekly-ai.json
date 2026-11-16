@@ -1,0 +1,55 @@
+{
+  "period": "weekly",
+  "category": "ai",
+  "fetched_at": "2026-11-16T04:21:04+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "items": [
+    {
+      "trend_rank": 5,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 51707,
+      "forks": 3617,
+      "stars_gained": 4217,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 1
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 72573,
+      "forks": 57593,
+      "stars_gained": 4548,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "",
+      "rank": 2
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 118007,
+      "forks": 12346,
+      "stars_gained": 3889,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI编码代理的生产级工程技能。",
+      "rank": 3
+    }
+  ]
+}
