@@ -1,48 +1,48 @@
 {
   "period": "weekly",
   "category": "agent",
-  "fetched_at": "2026-11-16T04:21:04+00:00",
+  "fetched_at": "2026-11-17T06:04:29+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 29024,
-      "forks": 2268,
-      "stars_gained": 13501,
+      "stars": 8113,
+      "forks": 703,
+      "stars_gained": 6542,
       "categories": [
         "agent"
       ],
-      "description_zh": "完全可定制且可供代理使用的开源设计系统",
+      "description_zh": "让您的编码代理了解最新的网络最佳实践",
       "rank": 1
     },
     {
       "trend_rank": 2,
-      "full_name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "stars": 195465,
-      "forks": 22970,
-      "stars_gained": 6077,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 29757,
+      "forks": 2317,
+      "stars_gained": 10939,
       "categories": [
         "agent"
       ],
-      "description_zh": "代理技能的公共存储库",
+      "description_zh": "完全可定制且可供代理使用的开源设计系统",
       "rank": 2
     },
     {
-      "trend_rank": 4,
+      "trend_rank": 3,
       "full_name": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 11979,
-      "forks": 1093,
-      "stars_gained": 1719,
+      "stars": 12741,
+      "forks": 1256,
+      "stars_gained": 2325,
       "categories": [
         "agent"
       ],
@@ -50,20 +50,35 @@
       "rank": 3
     },
     {
+      "trend_rank": 4,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 196206,
+      "forks": 23026,
+      "stars_gained": 5666,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "代理技能的公共存储库",
+      "rank": 4
+    },
+    {
       "trend_rank": 5,
       "full_name": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 51707,
-      "forks": 3617,
-      "stars_gained": 4217,
+      "stars": 52111,
+      "forks": 3642,
+      "stars_gained": 3760,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "rank": 4
+      "rank": 5
     },
     {
       "trend_rank": 9,
@@ -71,30 +86,62 @@
       "url": "https://github.com/google/elephant-goldfish-model",
       "description": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
-      "stars": 19885,
-      "forks": 1478,
-      "stars_gained": 5060,
+      "stars": 20475,
+      "forks": 1515,
+      "stars_gained": 4249,
       "categories": [
         "agent"
       ],
       "description_zh": "用于与代理一起设计和审查软件的开源插件",
-      "rank": 5
+      "rank": 6
     },
     {
       "trend_rank": 11,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 53128,
+      "forks": 4338,
+      "stars_gained": 3056,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "安全、快速、高效，经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道+LLM代理，精确的行级注释，内置多语言规则集（NPE，线程安全，XSS，SQL注入），兼容OpenAI和Anthropic。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 12,
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 118007,
-      "forks": 12346,
-      "stars_gained": 3889,
+      "stars": 118407,
+      "forks": 12358,
+      "stars_gained": 3960,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "AI编码代理的生产级工程技能。",
-      "rank": 6
+      "rank": 8
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 30681,
+      "forks": 3549,
+      "stars_gained": 1497,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "位于您终端中的开源人工智能编码代理。",
+      "rank": 9
     }
   ]
 }
