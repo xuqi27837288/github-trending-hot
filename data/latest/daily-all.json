@@ -1,32 +1,44 @@
 {
   "period": "daily",
   "category": "all",
-  "fetched_at": "2026-11-18T05:34:09+00:00",
+  "fetched_at": "2026-11-19T05:31:35+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
-      "full_name": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "language": "Python",
-      "stars": 9709,
-      "forks": 1389,
-      "stars_gained": 1005,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 82 项技能、15 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。"
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 17302,
+      "forks": 1912,
+      "stars_gained": 314,
+      "categories": [],
+      "description_zh": "光标插件规范和官方插件"
     },
     {
       "trend_rank": 2,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 59946,
+      "forks": 5441,
+      "stars_gained": 389,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "“CLI-Anything：使所有软件代理原生”--CLI-Hub：https://clianything.cc/"
+    },
+    {
+      "trend_rank": 3,
       "full_name": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 69298,
-      "forks": 6162,
-      "stars_gained": 696,
+      "stars": 70207,
+      "forks": 6256,
+      "stars_gained": 1059,
       "categories": [
         "ai",
         "agent"
@@ -34,71 +46,80 @@
       "description_zh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要"
     },
     {
-      "trend_rank": 3,
-      "full_name": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "stars": 53888,
-      "forks": 4438,
-      "stars_gained": 763,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "安全、快速、高效，经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道+LLM代理，精确的行级注释，内置多语言规则集（NPE，线程安全，XSS，SQL注入），兼容OpenAI和Anthropic。"
-    },
-    {
       "trend_rank": 4,
-      "full_name": "Tencent/LoopForge",
-      "url": "https://github.com/Tencent/LoopForge",
-      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "language": "Go",
-      "stars": 3433,
-      "forks": 463,
-      "stars_gained": 591,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "用于编码代理交付的自托管工作流程。使用脚本和人工审批门来编排 CodeBuddy、Codex 和 Claude Code。包括编码助理的本地工作流程。"
-    },
-    {
-      "trend_rank": 5,
-      "full_name": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "language": "TypeScript",
-      "stars": 29218,
-      "forks": 2627,
-      "stars_gained": 1774,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "使用 Univer Office SDK 构建您自己的 AI 办公室。将编辑、计算、协作和文件处理引入您的产品中，供人员和 AI 代理使用。基于可扩展的开源核心构建。"
-    },
-    {
-      "trend_rank": 6,
       "full_name": "getarcaneapp/arcane",
       "url": "https://github.com/getarcaneapp/arcane",
       "description": "Modern Docker Management, Designed for Everyone",
       "language": "Go",
-      "stars": 9433,
-      "forks": 517,
-      "stars_gained": 618,
+      "stars": 9903,
+      "forks": 568,
+      "stars_gained": 547,
       "categories": [],
       "description_zh": "现代 Docker 管理，专为所有人设计"
     },
     {
+      "trend_rank": 5,
+      "full_name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+      "language": "Python",
+      "stars": 3834,
+      "forks": 526,
+      "stars_gained": 312,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于评估 AI 代理技能和插件的多层框架，包括质量门、安全扫描、线束兼容性检查、语义重叠检测、综合评估数据集生成以及衡量技能如何影响代理行为的实时代理评估。提供可重用的 CI 模板，将每次检查带到任何存储库。"
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "language": "Shell",
+      "stars": 96176,
+      "forks": 10781,
+      "stars_gained": 237,
+      "categories": [],
+      "description_zh": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活动的 Node.js 版本。"
+    },
+    {
       "trend_rank": 7,
+      "full_name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "stars": 92284,
+      "forks": 3924,
+      "stars_gained": 258,
+      "categories": [],
+      "description_zh": "一个非常快的 Python 包和项目管理器，用 Rust 编写。"
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "stars": 4479,
+      "forks": 552,
+      "stars_gained": 1524,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "PaperOrchestra 是一个用于自动化 AI 研究论文写作的多代理框架。"
+    },
+    {
+      "trend_rank": 9,
       "full_name": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 10182,
-      "forks": 1335,
-      "stars_gained": 350,
+      "stars": 10475,
+      "forks": 1371,
+      "stars_gained": 365,
       "categories": [
         "ai",
         "agent"
@@ -106,80 +127,80 @@
       "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。"
     },
     {
-      "trend_rank": 8,
-      "full_name": "cursor/plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "stars": 16965,
-      "forks": 1838,
-      "stars_gained": 201,
+      "trend_rank": 10,
+      "full_name": "sveltejs/svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "stars": 89668,
+      "forks": 6209,
+      "stars_gained": 692,
       "categories": [],
-      "description_zh": "光标插件规范和官方插件"
+      "description_zh": "适合我们其他人的网络开发"
     },
     {
-      "trend_rank": 9,
+      "trend_rank": 11,
+      "full_name": "jquery/jquery",
+      "url": "https://github.com/jquery/jquery",
+      "description": "jQuery JavaScript Library",
+      "language": "JavaScript",
+      "stars": 60037,
+      "forks": 20709,
+      "stars_gained": 266,
+      "categories": [],
+      "description_zh": "jQuery JavaScript 库"
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "language": "TypeScript",
+      "stars": 58282,
+      "forks": 5885,
+      "stars_gained": 232,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "面向代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息传递、托管、实时、WAF 等"
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "language": "C++",
+      "stars": 11380,
+      "forks": 3605,
+      "stars_gained": 24,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "OpenVINO™ 是一个用于优化和部署 AI 推理的开源工具包"
+    },
+    {
+      "trend_rank": 14,
       "full_name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 319489,
-      "forks": 28485,
-      "stars_gained": 1917,
+      "stars": 321444,
+      "forks": 28570,
+      "stars_gained": 822,
       "categories": [
         "agent"
       ],
       "description_zh": "有效的代理技能框架和软件开发方法。"
     },
     {
-      "trend_rank": 10,
-      "full_name": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "language": "TypeScript",
-      "stars": 20118,
-      "forks": 2073,
-      "stars_gained": 1445,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "AG-UI：代理-用户交互协议。将代理引入前端应用程序。"
-    },
-    {
-      "trend_rank": 11,
-      "full_name": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "language": "TypeScript",
-      "stars": 13158,
-      "forks": 1317,
-      "stars_gained": 691,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。"
-    },
-    {
-      "trend_rank": 12,
-      "full_name": "sveltejs/svelte",
-      "url": "https://github.com/sveltejs/svelte",
-      "description": "web development for the rest of us",
-      "language": "JavaScript",
-      "stars": 89660,
-      "forks": 6235,
-      "stars_gained": 477,
-      "categories": [],
-      "description_zh": "适合我们其他人的网络开发"
-    },
-    {
-      "trend_rank": 13,
+      "trend_rank": 15,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 305729,
-      "forks": 44997,
-      "stars_gained": 883,
+      "stars": 306697,
+      "forks": 45152,
+      "stars_gained": 1108,
       "categories": [
         "ai",
         "agent"
@@ -187,33 +208,56 @@
       "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
-      "trend_rank": 14,
-      "full_name": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-      "language": "Python",
-      "stars": 66169,
-      "forks": 8682,
-      "stars_gained": 192,
+      "trend_rank": 16,
+      "full_name": "DeanChensj/jiangshan-map",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "language": "JavaScript",
+      "stars": 8130,
+      "forks": 998,
+      "stars_gained": 218,
+      "categories": [],
+      "description_zh": ""
+    },
+    {
+      "trend_rank": 17,
+      "full_name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "stars": 211193,
+      "forks": 61575,
+      "stars_gained": 325,
       "categories": [
         "ai"
       ],
-      "description_zh": "🧠 只需 2 小时从头开始训练 64M 参数的 LLM！"
+      "description_zh": "具有原生 AI 功能的公平代码工作流程自动化平台。将可视化构建与自定义代码、自托管或云、400 多个集成相结合。"
     },
     {
-      "trend_rank": 15,
-      "full_name": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "language": "Python",
-      "stars": 3296,
-      "forks": 433,
-      "stars_gained": 1072,
+      "trend_rank": 18,
+      "full_name": "solidjs/solid",
+      "url": "https://github.com/solidjs/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "language": "TypeScript",
+      "stars": 36655,
+      "forks": 1186,
+      "stars_gained": 40,
+      "categories": [],
+      "description_zh": "用于构建用户界面的声明式、高效且灵活的 JavaScript 库。"
+    },
+    {
+      "trend_rank": 19,
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "language": null,
+      "stars": 98111,
+      "forks": 20368,
+      "stars_gained": 53,
       "categories": [
-        "ai",
         "agent"
       ],
-      "description_zh": "PaperOrchestra 是一个用于自动化 AI 研究论文写作的多代理框架。"
+      "description_zh": "MCP 服务器的集合。"
     }
   ]
 }

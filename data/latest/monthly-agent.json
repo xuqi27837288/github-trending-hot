@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-11-18T05:34:16+00:00",
+  "fetched_at": "2026-11-19T05:31:42+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 74928,
-      "forks": 5023,
-      "stars_gained": 44314,
+      "stars": 75446,
+      "forks": 5068,
+      "stars_gained": 44600,
       "categories": [
         "agent"
       ],
@@ -20,14 +20,14 @@
       "rank": 1
     },
     {
-      "trend_rank": 4,
+      "trend_rank": 6,
       "full_name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 196847,
-      "forks": 23071,
-      "stars_gained": 15351,
+      "stars": 197323,
+      "forks": 23106,
+      "stars_gained": 15769,
       "categories": [
         "agent"
       ],
@@ -35,14 +35,14 @@
       "rank": 2
     },
     {
-      "trend_rank": 5,
+      "trend_rank": 7,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 118056,
-      "forks": 10256,
-      "stars_gained": 17236,
+      "stars": 118283,
+      "forks": 10282,
+      "stars_gained": 17311,
       "categories": [
         "ai",
         "agent"
@@ -51,14 +51,14 @@
       "rank": 3
     },
     {
-      "trend_rank": 6,
+      "trend_rank": 8,
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 112355,
-      "forks": 6699,
-      "stars_gained": 30177,
+      "stars": 113010,
+      "forks": 6731,
+      "stars_gained": 30662,
       "categories": [
         "ai",
         "agent"
@@ -67,14 +67,14 @@
       "rank": 4
     },
     {
-      "trend_rank": 8,
+      "trend_rank": 9,
       "full_name": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 13158,
-      "forks": 1317,
-      "stars_gained": 3475,
+      "stars": 13502,
+      "forks": 1361,
+      "stars_gained": 3868,
       "categories": [
         "agent"
       ],
@@ -82,29 +82,30 @@
       "rank": 5
     },
     {
-      "trend_rank": 10,
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "stars": 86106,
-      "forks": 7978,
-      "stars_gained": 20425,
+      "trend_rank": 13,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 30724,
+      "forks": 3826,
+      "stars_gained": 11532,
       "categories": [
+        "ai",
         "agent"
       ],
-      "description_zh": "编写HTML。渲染视频。专为客服代表打造。",
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
       "rank": 6
     },
     {
-      "trend_rank": 11,
+      "trend_rank": 14,
       "full_name": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
-      "stars": 117904,
-      "forks": 7891,
-      "stars_gained": 19688,
+      "stars": 118549,
+      "forks": 7931,
+      "stars_gained": 20055,
       "categories": [
         "ai",
         "agent"
@@ -113,36 +114,20 @@
       "rank": 7
     },
     {
-      "trend_rank": 12,
-      "full_name": "AgriciDaniel/claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "stars": 30449,
-      "forks": 3802,
-      "stars_gained": 11246,
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
-      "rank": 8
-    },
-    {
-      "trend_rank": 13,
+      "trend_rank": 15,
       "full_name": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 52434,
-      "forks": 3667,
-      "stars_gained": 8282,
+      "stars": 52694,
+      "forks": 3689,
+      "stars_gained": 8540,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "用于 AI 代理的浏览器自动化 CLI",
-      "rank": 9
+      "rank": 8
     }
   ]
 }

@@ -2,12 +2,12 @@
   "key": "2026-Q4",
   "label": "2026 年 Q4 季度",
   "summary": {
-    "days": 27,
-    "repos": 150,
-    "gained": 289146,
+    "days": 28,
+    "repos": 158,
+    "gained": 297931,
     "categories": {
-      "ai": 66,
-      "agent": 54
+      "ai": 68,
+      "agent": 57
     },
     "top_language": "Python"
   },
@@ -213,6 +213,53 @@
       "rank": 4
     },
     {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "days": 7,
+      "best_rank": 2,
+      "gained": 7409,
+      "stars": 321444,
+      "language": "Shell",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "description_zh": "有效的代理技能框架和软件开发方法。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-10-28",
+          306560
+        ],
+        [
+          "2026-10-29",
+          307560
+        ],
+        [
+          "2026-10-30",
+          308709
+        ],
+        [
+          "2026-10-31",
+          309502
+        ],
+        [
+          "2026-11-01",
+          310132
+        ],
+        [
+          "2026-11-18",
+          319489
+        ],
+        [
+          "2026-11-19",
+          321444
+        ]
+      ],
+      "rank": 5
+    },
+    {
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "days": 6,
@@ -253,7 +300,7 @@
           65901
         ]
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "full_name": "meta/astryx",
@@ -294,49 +341,6 @@
         [
           "2026-11-13",
           26771
-        ]
-      ],
-      "rank": 6
-    },
-    {
-      "full_name": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "days": 6,
-      "best_rank": 2,
-      "gained": 6587,
-      "stars": 319489,
-      "language": "Shell",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "description_zh": "有效的代理技能框架和软件开发方法。",
-      "categories": [
-        "agent"
-      ],
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-11-18",
-      "history": [
-        [
-          "2026-10-28",
-          306560
-        ],
-        [
-          "2026-10-29",
-          307560
-        ],
-        [
-          "2026-10-30",
-          308709
-        ],
-        [
-          "2026-10-31",
-          309502
-        ],
-        [
-          "2026-11-01",
-          310132
-        ],
-        [
-          "2026-11-18",
-          319489
         ]
       ],
       "rank": 7
@@ -1022,6 +1026,42 @@
       "rank": 25
     },
     {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "days": 4,
+      "best_rank": 5,
+      "gained": 4052,
+      "stars": 306697,
+      "language": "JavaScript",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-10-27",
+          289953
+        ],
+        [
+          "2026-10-28",
+          290999
+        ],
+        [
+          "2026-11-18",
+          305729
+        ],
+        [
+          "2026-11-19",
+          306697
+        ]
+      ],
+      "rank": 26
+    },
+    {
       "full_name": "nightly-labs/openbot",
       "url": "https://github.com/nightly-labs/openbot",
       "days": 4,
@@ -1055,7 +1095,7 @@
           3959
         ]
       ],
-      "rank": 26
+      "rank": 27
     },
     {
       "full_name": "ag-ui-protocol/ag-ui",
@@ -1090,7 +1130,7 @@
           20118
         ]
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "full_name": "ChromeDevTools/chrome-devtools-mcp",
@@ -1125,7 +1165,7 @@
           57795
         ]
       ],
-      "rank": 28
+      "rank": 29
     },
     {
       "full_name": "tradermonty/claude-trading-skills",
@@ -1160,7 +1200,7 @@
           6510
         ]
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "full_name": "max-sixty/worktrunk",
@@ -1196,7 +1236,43 @@
           11593
         ]
       ],
-      "rank": 30
+      "rank": 31
+    },
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "days": 4,
+      "best_rank": 3,
+      "gained": 1491,
+      "stars": 10475,
+      "language": "TypeScript",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-16",
+          9408
+        ],
+        [
+          "2026-11-17",
+          9818
+        ],
+        [
+          "2026-11-18",
+          10182
+        ],
+        [
+          "2026-11-19",
+          10475
+        ]
+      ],
+      "rank": 32
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -1232,7 +1308,7 @@
           11749
         ]
       ],
-      "rank": 31
+      "rank": 33
     },
     {
       "full_name": "NVIDIA/auto-ontology",
@@ -1264,7 +1340,7 @@
           9212
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "full_name": "elayadesign/ai-design-skills",
@@ -1295,39 +1371,39 @@
           12332
         ]
       ],
-      "rank": 33
+      "rank": 35
     },
     {
-      "full_name": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
+      "full_name": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
       "days": 3,
-      "best_rank": 5,
-      "gained": 2944,
-      "stars": 305729,
-      "language": "JavaScript",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "best_rank": 8,
+      "gained": 2909,
+      "stars": 4479,
+      "language": "Python",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "description_zh": "PaperOrchestra 是一个用于自动化 AI 研究论文写作的多代理框架。",
       "categories": [
         "ai",
         "agent"
       ],
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-11-18",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
       "history": [
         [
-          "2026-10-27",
-          289953
-        ],
-        [
-          "2026-10-28",
-          290999
+          "2026-11-17",
+          1774
         ],
         [
           "2026-11-18",
-          305729
+          3296
+        ],
+        [
+          "2026-11-19",
+          4479
         ]
       ],
-      "rank": 34
+      "rank": 36
     },
     {
       "full_name": "lightpanda-io/browser",
@@ -1358,7 +1434,7 @@
           40335
         ]
       ],
-      "rank": 35
+      "rank": 37
     },
     {
       "full_name": "floci-io/floci",
@@ -1387,7 +1463,7 @@
           30526
         ]
       ],
-      "rank": 36
+      "rank": 38
     },
     {
       "full_name": "elementalsouls/Claude-BugHunter",
@@ -1418,7 +1494,7 @@
           9709
         ]
       ],
-      "rank": 37
+      "rank": 39
     },
     {
       "full_name": "addyosmani/agent-skills",
@@ -1450,7 +1526,7 @@
           116785
         ]
       ],
-      "rank": 38
+      "rank": 40
     },
     {
       "full_name": "shiyu-coder/Kronos",
@@ -1479,7 +1555,39 @@
           46582
         ]
       ],
-      "rank": 39
+      "rank": 41
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "days": 3,
+      "best_rank": 2,
+      "gained": 1890,
+      "stars": 70207,
+      "language": "Python",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "description_zh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-17",
+          68319
+        ],
+        [
+          "2026-11-18",
+          69298
+        ],
+        [
+          "2026-11-19",
+          70207
+        ]
+      ],
+      "rank": 42
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -1508,7 +1616,7 @@
           12486
         ]
       ],
-      "rank": 40
+      "rank": 43
     },
     {
       "full_name": "homeassistant-ai/ha-mcp",
@@ -1540,7 +1648,7 @@
           7484
         ]
       ],
-      "rank": 41
+      "rank": 44
     },
     {
       "full_name": "openai/codex-security",
@@ -1571,7 +1679,97 @@
           13214
         ]
       ],
-      "rank": 42
+      "rank": 45
+    },
+    {
+      "full_name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "days": 3,
+      "best_rank": 5,
+      "gained": 1307,
+      "stars": 3834,
+      "language": "Python",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+      "description_zh": "用于评估 AI 代理技能和插件的多层框架，包括质量门、安全扫描、线束兼容性检查、语义重叠检测、综合评估数据集生成以及衡量技能如何影响代理行为的实时代理评估。提供可重用的 CI 模板，将每次检查带到任何存储库。",
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-16",
+          1855
+        ],
+        [
+          "2026-11-17",
+          2942
+        ],
+        [
+          "2026-11-19",
+          3834
+        ]
+      ],
+      "rank": 46
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "days": 3,
+      "best_rank": 10,
+      "gained": 1284,
+      "stars": 89668,
+      "language": "JavaScript",
+      "description": "web development for the rest of us",
+      "description_zh": "适合我们其他人的网络开发",
+      "categories": [],
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-17",
+          89080
+        ],
+        [
+          "2026-11-18",
+          89660
+        ],
+        [
+          "2026-11-19",
+          89668
+        ]
+      ],
+      "rank": 47
+    },
+    {
+      "full_name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "days": 3,
+      "best_rank": 4,
+      "gained": 1211,
+      "stars": 9903,
+      "language": "Go",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "description_zh": "现代 Docker 管理，专为所有人设计",
+      "categories": [],
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-17",
+          8887
+        ],
+        [
+          "2026-11-18",
+          9433
+        ],
+        [
+          "2026-11-19",
+          9903
+        ]
+      ],
+      "rank": 48
     },
     {
       "full_name": "google/skills",
@@ -1602,39 +1800,7 @@
           23473
         ]
       ],
-      "rank": 43
-    },
-    {
-      "full_name": "google-labs-code/stitch-skills",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "days": 3,
-      "best_rank": 3,
-      "gained": 1126,
-      "stars": 10182,
-      "language": "TypeScript",
-      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-18",
-      "history": [
-        [
-          "2026-11-16",
-          9408
-        ],
-        [
-          "2026-11-17",
-          9818
-        ],
-        [
-          "2026-11-18",
-          10182
-        ]
-      ],
-      "rank": 44
+      "rank": 49
     },
     {
       "full_name": "anthropics/claude-quickstarts",
@@ -1665,7 +1831,7 @@
           20570
         ]
       ],
-      "rank": 45
+      "rank": 50
     },
     {
       "full_name": "google-deepmind/mujoco",
@@ -1694,7 +1860,7 @@
           17437
         ]
       ],
-      "rank": 46
+      "rank": 51
     },
     {
       "full_name": "Tencent/LoopForge",
@@ -1726,7 +1892,7 @@
           3433
         ]
       ],
-      "rank": 47
+      "rank": 52
     },
     {
       "full_name": "ZhuLinsen/daily_stock_analysis",
@@ -1757,7 +1923,7 @@
           71770
         ]
       ],
-      "rank": 48
+      "rank": 53
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -1786,7 +1952,7 @@
           6428
         ]
       ],
-      "rank": 49
+      "rank": 54
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -1811,7 +1977,7 @@
           89510
         ]
       ],
-      "rank": 50
+      "rank": 55
     },
     {
       "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
@@ -1836,7 +2002,7 @@
           7392
         ]
       ],
-      "rank": 51
+      "rank": 56
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -1864,7 +2030,7 @@
           19519
         ]
       ],
-      "rank": 52
+      "rank": 57
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -1892,7 +2058,7 @@
           116307
         ]
       ],
-      "rank": 53
+      "rank": 58
     },
     {
       "full_name": "anomalyco/hex",
@@ -1917,7 +2083,7 @@
           4690
         ]
       ],
-      "rank": 54
+      "rank": 59
     },
     {
       "full_name": "JustVugg/colibri",
@@ -1944,7 +2110,7 @@
           47343
         ]
       ],
-      "rank": 55
+      "rank": 60
     },
     {
       "full_name": "zed-industries/zed",
@@ -1969,35 +2135,7 @@
           94320
         ]
       ],
-      "rank": 56
-    },
-    {
-      "full_name": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "days": 2,
-      "best_rank": 12,
-      "gained": 1385,
-      "stars": 3296,
-      "language": "Python",
-      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "description_zh": "PaperOrchestra 是一个用于自动化 AI 研究论文写作的多代理框架。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-18",
-      "history": [
-        [
-          "2026-11-17",
-          1774
-        ],
-        [
-          "2026-11-18",
-          3296
-        ]
-      ],
-      "rank": 57
+      "rank": 61
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -2024,7 +2162,7 @@
           39491
         ]
       ],
-      "rank": 58
+      "rank": 62
     },
     {
       "full_name": "p-e-w/heretic",
@@ -2049,35 +2187,7 @@
           38917
         ]
       ],
-      "rank": 59
-    },
-    {
-      "full_name": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "days": 2,
-      "best_rank": 10,
-      "gained": 995,
-      "stars": 2942,
-      "language": "Python",
-      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "description_zh": "用于评估 AI 代理技能和插件的多层框架，具有质量门、语义重叠检测、综合评估数据集生成以及衡量技能如何影响代理行为的实时代理评估。",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-17",
-      "history": [
-        [
-          "2026-11-16",
-          1855
-        ],
-        [
-          "2026-11-17",
-          2942
-        ]
-      ],
-      "rank": 60
+      "rank": 63
     },
     {
       "full_name": "anthropics/knowledge-work-plugins",
@@ -2104,7 +2214,7 @@
           32270
         ]
       ],
-      "rank": 61
+      "rank": 64
     },
     {
       "full_name": "garrytan/gstack",
@@ -2131,7 +2241,7 @@
           140061
         ]
       ],
-      "rank": 62
+      "rank": 65
     },
     {
       "full_name": "FlashML-org/FreeToken",
@@ -2156,7 +2266,7 @@
           16214
         ]
       ],
-      "rank": 63
+      "rank": 66
     },
     {
       "full_name": "scenario-labs/skills",
@@ -2184,35 +2294,7 @@
           3177
         ]
       ],
-      "rank": 64
-    },
-    {
-      "full_name": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "days": 2,
-      "best_rank": 2,
-      "gained": 831,
-      "stars": 69298,
-      "language": "Python",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "description_zh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要",
-      "categories": [
-        "ai",
-        "agent"
-      ],
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-18",
-      "history": [
-        [
-          "2026-11-17",
-          68319
-        ],
-        [
-          "2026-11-18",
-          69298
-        ]
-      ],
-      "rank": 65
+      "rank": 67
     },
     {
       "full_name": "php/php-src",
@@ -2237,7 +2319,7 @@
           41582
         ]
       ],
-      "rank": 66
+      "rank": 68
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -2265,7 +2347,7 @@
           44609
         ]
       ],
-      "rank": 67
+      "rank": 69
     },
     {
       "full_name": "ruvnet/RuView",
@@ -2290,7 +2372,7 @@
           103621
         ]
       ],
-      "rank": 68
+      "rank": 70
     },
     {
       "full_name": "Likely7/Veyra-NRVideo",
@@ -2315,56 +2397,6 @@
         [
           "2026-11-15",
           2349
-        ]
-      ],
-      "rank": 69
-    },
-    {
-      "full_name": "getarcaneapp/arcane",
-      "url": "https://github.com/getarcaneapp/arcane",
-      "days": 2,
-      "best_rank": 6,
-      "gained": 664,
-      "stars": 9433,
-      "language": "Go",
-      "description": "Modern Docker Management, Designed for Everyone",
-      "description_zh": "现代 Docker 管理，专为所有人设计",
-      "categories": [],
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-18",
-      "history": [
-        [
-          "2026-11-17",
-          8887
-        ],
-        [
-          "2026-11-18",
-          9433
-        ]
-      ],
-      "rank": 70
-    },
-    {
-      "full_name": "sveltejs/svelte",
-      "url": "https://github.com/sveltejs/svelte",
-      "days": 2,
-      "best_rank": 12,
-      "gained": 592,
-      "stars": 89660,
-      "language": "JavaScript",
-      "description": "web development for the rest of us",
-      "description_zh": "适合我们其他人的网络开发",
-      "categories": [],
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-18",
-      "history": [
-        [
-          "2026-11-17",
-          89080
-        ],
-        [
-          "2026-11-18",
-          89660
         ]
       ],
       "rank": 71
@@ -2420,6 +2452,31 @@
       "rank": 73
     },
     {
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "days": 2,
+      "best_rank": 1,
+      "gained": 515,
+      "stars": 17302,
+      "language": "TypeScript",
+      "description": "Cursor plugin specification and official plugins",
+      "description_zh": "光标插件规范和官方插件",
+      "categories": [],
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-18",
+          16965
+        ],
+        [
+          "2026-11-19",
+          17302
+        ]
+      ],
+      "rank": 74
+    },
+    {
       "full_name": "kornia/kornia",
       "url": "https://github.com/kornia/kornia",
       "days": 2,
@@ -2444,7 +2501,32 @@
           12188
         ]
       ],
-      "rank": 74
+      "rank": 75
+    },
+    {
+      "full_name": "DeanChensj/jiangshan-map",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "days": 2,
+      "best_rank": 7,
+      "gained": 506,
+      "stars": 8130,
+      "language": "JavaScript",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "description_zh": "",
+      "categories": [],
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-17",
+          7169
+        ],
+        [
+          "2026-11-19",
+          8130
+        ]
+      ],
+      "rank": 76
     },
     {
       "full_name": "louislam/uptime-kuma",
@@ -2469,7 +2551,7 @@
           94297
         ]
       ],
-      "rank": 75
+      "rank": 77
     },
     {
       "full_name": "prometheus/prometheus",
@@ -2494,7 +2576,7 @@
           67472
         ]
       ],
-      "rank": 76
+      "rank": 78
     },
     {
       "full_name": "Usagi-org/ai-goofish-monitor",
@@ -2521,7 +2603,7 @@
           17787
         ]
       ],
-      "rank": 77
+      "rank": 79
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -2548,7 +2630,32 @@
           908
         ]
       ],
-      "rank": 78
+      "rank": 80
+    },
+    {
+      "full_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "days": 2,
+      "best_rank": 3,
+      "gained": 300,
+      "stars": 96176,
+      "language": "Shell",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "description_zh": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活动的 Node.js 版本。",
+      "categories": [],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-13",
+          96043
+        ],
+        [
+          "2026-11-19",
+          96176
+        ]
+      ],
+      "rank": 81
     },
     {
       "full_name": "QwenLM/qwen-code",
@@ -2576,7 +2683,7 @@
           30396
         ]
       ],
-      "rank": 79
+      "rank": 82
     },
     {
       "full_name": "macro-inc/macro",
@@ -2604,7 +2711,7 @@
           5902
         ]
       ],
-      "rank": 80
+      "rank": 83
     },
     {
       "full_name": "expo/skills",
@@ -2632,7 +2739,7 @@
           3914
         ]
       ],
-      "rank": 81
+      "rank": 84
     },
     {
       "full_name": "nodejs/node",
@@ -2657,7 +2764,7 @@
           123627
         ]
       ],
-      "rank": 82
+      "rank": 85
     },
     {
       "full_name": "ashhart/TensorFold",
@@ -2684,7 +2791,7 @@
           2184
         ]
       ],
-      "rank": 83
+      "rank": 86
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -2708,7 +2815,7 @@
           172626
         ]
       ],
-      "rank": 84
+      "rank": 87
     },
     {
       "full_name": "hmjz100/LinkSwift",
@@ -2729,7 +2836,7 @@
           35214
         ]
       ],
-      "rank": 85
+      "rank": 88
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -2752,7 +2859,7 @@
           132319
         ]
       ],
-      "rank": 86
+      "rank": 89
     },
     {
       "full_name": "patchy631/ai-engineering-hub",
@@ -2776,7 +2883,7 @@
           40423
         ]
       ],
-      "rank": 87
+      "rank": 90
     },
     {
       "full_name": "Orkas-AI/Orkas",
@@ -2800,7 +2907,7 @@
           6556
         ]
       ],
-      "rank": 88
+      "rank": 91
     },
     {
       "full_name": "github/spec-kit",
@@ -2821,7 +2928,7 @@
           147425
         ]
       ],
-      "rank": 89
+      "rank": 92
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -2845,7 +2952,7 @@
           103817
         ]
       ],
-      "rank": 90
+      "rank": 93
     },
     {
       "full_name": "supabase/supabase",
@@ -2868,7 +2975,7 @@
           113280
         ]
       ],
-      "rank": 91
+      "rank": 94
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -2891,7 +2998,7 @@
           224758
         ]
       ],
-      "rank": 92
+      "rank": 95
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -2914,7 +3021,7 @@
           139184
         ]
       ],
-      "rank": 93
+      "rank": 96
     },
     {
       "full_name": "vorssaint/vorssaint-utils",
@@ -2935,7 +3042,7 @@
           31982
         ]
       ],
-      "rank": 94
+      "rank": 97
     },
     {
       "full_name": "beenuar/AiSOC",
@@ -2959,7 +3066,7 @@
           6321
         ]
       ],
-      "rank": 95
+      "rank": 98
     },
     {
       "full_name": "Alishahryar1/free-claude-code",
@@ -2982,7 +3089,7 @@
           69453
         ]
       ],
-      "rank": 96
+      "rank": 99
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -3005,7 +3112,30 @@
           110519
         ]
       ],
-      "rank": 97
+      "rank": 100
+    },
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "days": 1,
+      "best_rank": 2,
+      "gained": 389,
+      "stars": 59946,
+      "language": "Python",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "description_zh": "“CLI-Anything：使所有软件代理原生”--CLI-Hub：https://clianything.cc/",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-19",
+          59946
+        ]
+      ],
+      "rank": 101
     },
     {
       "full_name": "kajisho5/ffmpeg-skill",
@@ -3029,7 +3159,7 @@
           7114
         ]
       ],
-      "rank": 98
+      "rank": 102
     },
     {
       "full_name": "shadcn/improve",
@@ -3050,7 +3180,7 @@
           11089
         ]
       ],
-      "rank": 99
+      "rank": 103
     },
     {
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
@@ -3073,7 +3203,7 @@
           10434
         ]
       ],
-      "rank": 100
+      "rank": 104
     },
     {
       "full_name": "bregman-arie/devops-exercises",
@@ -3094,7 +3224,7 @@
           86062
         ]
       ],
-      "rank": 101
+      "rank": 105
     },
     {
       "full_name": "cjpais/Handy",
@@ -3115,7 +3245,30 @@
           36702
         ]
       ],
-      "rank": 102
+      "rank": 106
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "days": 1,
+      "best_rank": 17,
+      "gained": 325,
+      "stars": 211193,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "description_zh": "具有原生 AI 功能的公平代码工作流程自动化平台。将可视化构建与自定义代码、自托管或云、400 多个集成相结合。",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-19",
+          211193
+        ]
+      ],
+      "rank": 107
     },
     {
       "full_name": "public-apis/public-apis",
@@ -3136,7 +3289,7 @@
           494811
         ]
       ],
-      "rank": 103
+      "rank": 108
     },
     {
       "full_name": "karpathy/nanochat",
@@ -3157,7 +3310,7 @@
           59994
         ]
       ],
-      "rank": 104
+      "rank": 109
     },
     {
       "full_name": "microsoft/vscode",
@@ -3178,28 +3331,7 @@
           195057
         ]
       ],
-      "rank": 105
-    },
-    {
-      "full_name": "DeanChensj/jiangshan-map",
-      "url": "https://github.com/DeanChensj/jiangshan-map",
-      "days": 1,
-      "best_rank": 7,
-      "gained": 288,
-      "stars": 7169,
-      "language": "JavaScript",
-      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "description_zh": "",
-      "categories": [],
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17",
-      "history": [
-        [
-          "2026-11-17",
-          7169
-        ]
-      ],
-      "rank": 106
+      "rank": 110
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -3222,7 +3354,7 @@
           14865
         ]
       ],
-      "rank": 107
+      "rank": 111
     },
     {
       "full_name": "martin-olivier/airgorah",
@@ -3243,7 +3375,49 @@
           5960
         ]
       ],
-      "rank": 108
+      "rank": 112
+    },
+    {
+      "full_name": "jquery/jquery",
+      "url": "https://github.com/jquery/jquery",
+      "days": 1,
+      "best_rank": 11,
+      "gained": 266,
+      "stars": 60037,
+      "language": "JavaScript",
+      "description": "jQuery JavaScript Library",
+      "description_zh": "jQuery JavaScript 库",
+      "categories": [],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-19",
+          60037
+        ]
+      ],
+      "rank": 113
+    },
+    {
+      "full_name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "days": 1,
+      "best_rank": 7,
+      "gained": 258,
+      "stars": 92284,
+      "language": "Rust",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "description_zh": "一个非常快的 Python 包和项目管理器，用 Rust 编写。",
+      "categories": [],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-19",
+          92284
+        ]
+      ],
+      "rank": 114
     },
     {
       "full_name": "tailscale/tailcat",
@@ -3264,7 +3438,7 @@
           9528
         ]
       ],
-      "rank": 109
+      "rank": 115
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -3288,7 +3462,7 @@
           27022
         ]
       ],
-      "rank": 110
+      "rank": 116
     },
     {
       "full_name": "react/react",
@@ -3309,7 +3483,30 @@
           252283
         ]
       ],
-      "rank": 111
+      "rank": 117
+    },
+    {
+      "full_name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "days": 1,
+      "best_rank": 12,
+      "gained": 232,
+      "stars": 58282,
+      "language": "TypeScript",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "description_zh": "面向代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息传递、托管、实时、WAF 等",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-19",
+          58282
+        ]
+      ],
+      "rank": 118
     },
     {
       "full_name": "JuliusBrussee/caveman",
@@ -3332,7 +3529,7 @@
           120130
         ]
       ],
-      "rank": 112
+      "rank": 119
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -3353,7 +3550,7 @@
           22694
         ]
       ],
-      "rank": 113
+      "rank": 120
     },
     {
       "full_name": "SnailSploit/Claude-Red",
@@ -3376,7 +3573,7 @@
           8545
         ]
       ],
-      "rank": 114
+      "rank": 121
     },
     {
       "full_name": "microsoft/VibeVoice",
@@ -3399,7 +3596,7 @@
           56105
         ]
       ],
-      "rank": 115
+      "rank": 122
     },
     {
       "full_name": "pookjw/HermesEnabler",
@@ -3420,7 +3617,7 @@
           1607
         ]
       ],
-      "rank": 116
+      "rank": 123
     },
     {
       "full_name": "garrytan/gbrain",
@@ -3443,7 +3640,7 @@
           32275
         ]
       ],
-      "rank": 117
+      "rank": 124
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -3467,28 +3664,7 @@
           22316
         ]
       ],
-      "rank": 118
-    },
-    {
-      "full_name": "cursor/plugins",
-      "url": "https://github.com/cursor/plugins",
-      "days": 1,
-      "best_rank": 8,
-      "gained": 201,
-      "stars": 16965,
-      "language": "TypeScript",
-      "description": "Cursor plugin specification and official plugins",
-      "description_zh": "光标插件规范和官方插件",
-      "categories": [],
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-18",
-      "history": [
-        [
-          "2026-11-18",
-          16965
-        ]
-      ],
-      "rank": 119
+      "rank": 125
     },
     {
       "full_name": "AgriciDaniel/claude-seo",
@@ -3512,7 +3688,7 @@
           21015
         ]
       ],
-      "rank": 120
+      "rank": 126
     },
     {
       "full_name": "jingyaogong/minimind",
@@ -3535,7 +3711,7 @@
           66169
         ]
       ],
-      "rank": 121
+      "rank": 127
     },
     {
       "full_name": "rust-lang/rust",
@@ -3556,7 +3732,7 @@
           121493
         ]
       ],
-      "rank": 122
+      "rank": 128
     },
     {
       "full_name": "tokio-rs/topcoat",
@@ -3577,7 +3753,7 @@
           6906
         ]
       ],
-      "rank": 123
+      "rank": 129
     },
     {
       "full_name": "mbillow/localthings",
@@ -3598,7 +3774,7 @@
           1085
         ]
       ],
-      "rank": 124
+      "rank": 130
     },
     {
       "full_name": "ggml-org/llama.cpp",
@@ -3621,7 +3797,7 @@
           134639
         ]
       ],
-      "rank": 125
+      "rank": 131
     },
     {
       "full_name": "ConardLi/garden-skills",
@@ -3642,7 +3818,7 @@
           14247
         ]
       ],
-      "rank": 126
+      "rank": 132
     },
     {
       "full_name": "coollabsio/coolify",
@@ -3663,7 +3839,7 @@
           64486
         ]
       ],
-      "rank": 127
+      "rank": 133
     },
     {
       "full_name": "OpenBMB/VoxCPM",
@@ -3684,7 +3860,7 @@
           40299
         ]
       ],
-      "rank": 128
+      "rank": 134
     },
     {
       "full_name": "xiaolai/the-craft-of-selfteaching",
@@ -3705,7 +3881,7 @@
           18619
         ]
       ],
-      "rank": 129
+      "rank": 135
     },
     {
       "full_name": "rails/rails",
@@ -3726,7 +3902,7 @@
           59043
         ]
       ],
-      "rank": 130
+      "rank": 136
     },
     {
       "full_name": "angular/angular",
@@ -3747,7 +3923,7 @@
           101399
         ]
       ],
-      "rank": 131
+      "rank": 137
     },
     {
       "full_name": "nushell/nushell",
@@ -3768,7 +3944,7 @@
           41004
         ]
       ],
-      "rank": 132
+      "rank": 138
     },
     {
       "full_name": "etcd-io/etcd",
@@ -3789,7 +3965,7 @@
           52628
         ]
       ],
-      "rank": 133
+      "rank": 139
     },
     {
       "full_name": "symfony/symfony",
@@ -3810,7 +3986,7 @@
           31455
         ]
       ],
-      "rank": 134
+      "rank": 140
     },
     {
       "full_name": "tailwindlabs/tailwindcss",
@@ -3831,7 +4007,7 @@
           98524
         ]
       ],
-      "rank": 135
+      "rank": 141
     },
     {
       "full_name": "Thysrael/Horizon",
@@ -3854,7 +4030,7 @@
           12632
         ]
       ],
-      "rank": 136
+      "rank": 142
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -3877,7 +4053,7 @@
           42233
         ]
       ],
-      "rank": 137
+      "rank": 143
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -3898,7 +4074,7 @@
           8547
         ]
       ],
-      "rank": 138
+      "rank": 144
     },
     {
       "full_name": "MichaelCade/90DaysOfDevOps",
@@ -3919,7 +4095,7 @@
           30536
         ]
       ],
-      "rank": 139
+      "rank": 145
     },
     {
       "full_name": "block/buzz",
@@ -3940,7 +4116,7 @@
           37331
         ]
       ],
-      "rank": 140
+      "rank": 146
     },
     {
       "full_name": "fastapi/fastapi",
@@ -3961,7 +4137,7 @@
           103422
         ]
       ],
-      "rank": 141
+      "rank": 147
     },
     {
       "full_name": "spotify/portal-ai-plugins",
@@ -3984,28 +4160,30 @@
           3082
         ]
       ],
-      "rank": 142
+      "rank": 148
     },
     {
-      "full_name": "nvm-sh/nvm",
-      "url": "https://github.com/nvm-sh/nvm",
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
       "days": 1,
-      "best_rank": 3,
-      "gained": 63,
-      "stars": 96043,
-      "language": "Shell",
-      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-      "description_zh": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活动的 Node.js 版本。",
-      "categories": [],
-      "first_seen": "2026-11-13",
-      "last_seen": "2026-11-13",
+      "best_rank": 19,
+      "gained": 53,
+      "stars": 98111,
+      "language": null,
+      "description": "A collection of MCP servers.",
+      "description_zh": "MCP 服务器的集合。",
+      "categories": [
+        "agent"
+      ],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
       "history": [
         [
-          "2026-11-13",
-          96043
+          "2026-11-19",
+          98111
         ]
       ],
-      "rank": 143
+      "rank": 149
     },
     {
       "full_name": "TheAlgorithms/Java",
@@ -4026,7 +4204,7 @@
           67108
         ]
       ],
-      "rank": 144
+      "rank": 150
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -4050,7 +4228,7 @@
           108105
         ]
       ],
-      "rank": 145
+      "rank": 151
     },
     {
       "full_name": "ggml-org/ggml",
@@ -4071,7 +4249,28 @@
           15965
         ]
       ],
-      "rank": 146
+      "rank": 152
+    },
+    {
+      "full_name": "solidjs/solid",
+      "url": "https://github.com/solidjs/solid",
+      "days": 1,
+      "best_rank": 18,
+      "gained": 40,
+      "stars": 36655,
+      "language": "TypeScript",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "description_zh": "用于构建用户界面的声明式、高效且灵活的 JavaScript 库。",
+      "categories": [],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-19",
+          36655
+        ]
+      ],
+      "rank": 153
     },
     {
       "full_name": "mpv-player/mpv",
@@ -4092,7 +4291,7 @@
           37908
         ]
       ],
-      "rank": 147
+      "rank": 154
     },
     {
       "full_name": "openssl/openssl",
@@ -4113,7 +4312,30 @@
           31315
         ]
       ],
-      "rank": 148
+      "rank": 155
+    },
+    {
+      "full_name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "days": 1,
+      "best_rank": 13,
+      "gained": 24,
+      "stars": 11380,
+      "language": "C++",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "description_zh": "OpenVINO™ 是一个用于优化和部署 AI 推理的开源工具包",
+      "categories": [
+        "ai"
+      ],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "history": [
+        [
+          "2026-11-19",
+          11380
+        ]
+      ],
+      "rank": 156
     },
     {
       "full_name": "lz4/lz4",
@@ -4134,7 +4356,7 @@
           12428
         ]
       ],
-      "rank": 149
+      "rank": 157
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -4158,7 +4380,7 @@
           3156
         ]
       ],
-      "rank": 150
+      "rank": 158
     }
   ]
 }

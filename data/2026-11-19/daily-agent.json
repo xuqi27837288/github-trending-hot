@@ -1,0 +1,148 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-11-19T05:31:35+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 59946,
+      "forks": 5441,
+      "stars_gained": 389,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "“CLI-Anything：使所有软件代理原生”--CLI-Hub：https://clianything.cc/",
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 70207,
+      "forks": 6256,
+      "stars_gained": 1059,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要",
+      "rank": 2
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+      "language": "Python",
+      "stars": 3834,
+      "forks": 526,
+      "stars_gained": 312,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于评估 AI 代理技能和插件的多层框架，包括质量门、安全扫描、线束兼容性检查、语义重叠检测、综合评估数据集生成以及衡量技能如何影响代理行为的实时代理评估。提供可重用的 CI 模板，将每次检查带到任何存储库。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "stars": 4479,
+      "forks": 552,
+      "stars_gained": 1524,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "PaperOrchestra 是一个用于自动化 AI 研究论文写作的多代理框架。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars": 10475,
+      "forks": 1371,
+      "stars_gained": 365,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "language": "TypeScript",
+      "stars": 58282,
+      "forks": 5885,
+      "stars_gained": 232,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "面向代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息传递、托管、实时、WAF 等",
+      "rank": 6
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 321444,
+      "forks": 28570,
+      "stars_gained": 822,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "有效的代理技能框架和软件开发方法。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 306697,
+      "forks": 45152,
+      "stars_gained": 1108,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+      "rank": 8
+    },
+    {
+      "trend_rank": 19,
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "language": null,
+      "stars": 98111,
+      "forks": 20368,
+      "stars_gained": 53,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "MCP 服务器的集合。",
+      "rank": 9
+    }
+  ]
+}
