@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "all",
-  "fetched_at": "2026-11-19T05:31:42+00:00",
+  "fetched_at": "2026-11-20T05:19:43+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 57639,
-      "forks": 3126,
-      "stars_gained": 27295,
+      "stars": 58148,
+      "forks": 3166,
+      "stars_gained": 27756,
       "categories": [
         "ai"
       ],
@@ -24,9 +24,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 75446,
-      "forks": 5068,
-      "stars_gained": 44600,
+      "stars": 75921,
+      "forks": 5106,
+      "stars_gained": 44608,
       "categories": [
         "agent"
       ],
@@ -34,65 +34,53 @@
     },
     {
       "trend_rank": 3,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 25901,
+      "forks": 3684,
+      "stars_gained": 20640,
+      "categories": [],
+      "description_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机"
+    },
+    {
+      "trend_rank": 4,
       "full_name": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
-      "stars": 65457,
-      "forks": 11470,
-      "stars_gained": 36872,
+      "stars": 66658,
+      "forks": 11607,
+      "stars_gained": 37642,
       "categories": [
         "ai"
       ],
       "description_zh": "从任何计算机或手机控制 Claude Code、Codex 等的最佳方式"
     },
     {
-      "trend_rank": 4,
-      "full_name": "php/php-src",
-      "url": "https://github.com/php/php-src",
-      "description": "The PHP Interpreter",
-      "language": "C",
-      "stars": 41814,
-      "forks": 8575,
-      "stars_gained": 1454,
-      "categories": [],
-      "description_zh": "PHP解释器"
-    },
-    {
       "trend_rank": 5,
-      "full_name": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "stars": 25493,
-      "forks": 3607,
-      "stars_gained": 20270,
-      "categories": [],
-      "description_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机"
-    },
-    {
-      "trend_rank": 6,
       "full_name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 197323,
-      "forks": 23106,
-      "stars_gained": 15769,
+      "stars": 197778,
+      "forks": 23171,
+      "stars_gained": 16003,
       "categories": [
         "agent"
       ],
       "description_zh": "代理技能的公共存储库"
     },
     {
-      "trend_rank": 7,
+      "trend_rank": 6,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 118283,
-      "forks": 10282,
-      "stars_gained": 17311,
+      "stars": 118486,
+      "forks": 10310,
+      "stars_gained": 17313,
       "categories": [
         "ai",
         "agent"
@@ -100,14 +88,55 @@
       "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
     },
     {
+      "trend_rank": 7,
+      "full_name": "Jakeschincariol/instagram-agent-skill",
+      "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+      "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+      "language": "Python",
+      "stars": 7426,
+      "forks": 1422,
+      "stars_gained": 5322,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "管理 Instagram 帐户的 13 项 Claude 技能：讲述 26 个得分挂钩公式、一项病毒式研究技能、标题短绒和人性化。免费，麻省理工学院。"
+    },
+    {
       "trend_rank": 8,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 13717,
+      "forks": 1388,
+      "stars_gained": 4143,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。"
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "language": "Python",
+      "stars": 60880,
+      "forks": 7367,
+      "stars_gained": 19312,
+      "categories": [],
+      "description_zh": "DeepTutor：终身个性化辅导。 https://deeptutor.info/。"
+    },
+    {
+      "trend_rank": 10,
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 113010,
-      "forks": 6731,
-      "stars_gained": 30662,
+      "stars": 113581,
+      "forks": 6770,
+      "stars_gained": 30843,
       "categories": [
         "ai",
         "agent"
@@ -115,66 +144,26 @@
       "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。"
     },
     {
-      "trend_rank": 9,
-      "full_name": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "language": "TypeScript",
-      "stars": 13502,
-      "forks": 1361,
-      "stars_gained": 3868,
-      "categories": [
-        "agent"
-      ],
-      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。"
-    },
-    {
-      "trend_rank": 10,
-      "full_name": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
-      "language": "Python",
-      "stars": 60583,
-      "forks": 7335,
-      "stars_gained": 19065,
-      "categories": [],
-      "description_zh": "DeepTutor：终身个性化辅导。 https://deeptutor.info/。"
-    },
-    {
       "trend_rank": 11,
       "full_name": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 114271,
-      "forks": 13134,
-      "stars_gained": 20046,
+      "stars": 114704,
+      "forks": 13164,
+      "stars_gained": 20350,
       "categories": [],
       "description_zh": "通过社交网络上的用户名查找社交媒体帐户"
     },
     {
       "trend_rank": 12,
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
-      "language": "TypeScript",
-      "stars": 86630,
-      "forks": 8047,
-      "stars_gained": 20375,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "您可以实际编辑 AI 视频。 HyperFrames 是一款免费的开源 AI 视频编辑器。描述任何视频并获得一个可以更改为框架的真实项目。"
-    },
-    {
-      "trend_rank": 13,
       "full_name": "AgriciDaniel/claude-seo",
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "stars": 30724,
-      "forks": 3826,
-      "stars_gained": 11532,
+      "stars": 30985,
+      "forks": 3849,
+      "stars_gained": 11706,
       "categories": [
         "ai",
         "agent"
@@ -182,48 +171,77 @@
       "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。"
     },
     {
-      "trend_rank": 14,
-      "full_name": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "language": "JavaScript",
-      "stars": 118549,
-      "forks": 7931,
-      "stars_gained": 20055,
+      "trend_rank": 13,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars": 10788,
+      "forks": 1390,
+      "stars_gained": 2107,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面"
+      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。"
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+      "language": "TypeScript",
+      "stars": 87116,
+      "forks": 8104,
+      "stars_gained": 20032,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "您可以实际编辑 AI 视频。 HyperFrames 是一款免费的开源 AI 视频编辑器。描述任何视频并获得一个可以更改为框架的真实项目。"
     },
     {
       "trend_rank": 15,
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "stars": 12829,
+      "forks": 1611,
+      "stars_gained": 6708,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 82 项技能、15 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。"
+    },
+    {
+      "trend_rank": 16,
+      "full_name": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "language": "Python",
+      "stars": 8456,
+      "forks": 786,
+      "stars_gained": 6206,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于编码代理的本地视频编辑器：42 个 FFmpeg 工具，带有机器可读合约和 MCP 服务器，用于 Claude Code、Cursor 和 Codex。剪切、字幕、重构、响度、平台导出。没有云，没有 API 密钥。"
+    },
+    {
+      "trend_rank": 17,
       "full_name": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 52694,
-      "forks": 3689,
-      "stars_gained": 8540,
+      "stars": 52921,
+      "forks": 3702,
+      "stars_gained": 8717,
       "categories": [
         "ai",
         "agent"
       ],
       "description_zh": "用于 AI 代理的浏览器自动化 CLI"
-    },
-    {
-      "trend_rank": 16,
-      "full_name": "Vincentwei1021/video-shotcraft",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
-      "language": "TypeScript",
-      "stars": 21417,
-      "forks": 1975,
-      "stars_gained": 8934,
-      "categories": [
-        "ai"
-      ],
-      "description_zh": "Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 进行电影化、可编辑的产品宣传片：124 个镜头配方卡、150 个动作预览、节拍同步、声音设计、Motion Workbench 和JianYing (CapCut CN) 导出。"
     }
   ]
 }
