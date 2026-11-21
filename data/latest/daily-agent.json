@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-11-20T05:19:35+00:00",
+  "fetched_at": "2026-11-21T05:12:02+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 322231,
-      "forks": 28642,
-      "stars_gained": 2028,
+      "stars": 322956,
+      "forks": 28676,
+      "stars_gained": 890,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 60716,
-      "forks": 5510,
-      "stars_gained": 898,
+      "stars": 61511,
+      "forks": 5579,
+      "stars_gained": 773,
       "categories": [
         "agent"
       ],
@@ -38,15 +38,15 @@
       "trend_rank": 6,
       "full_name": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "stars": 204450,
-      "forks": 10715,
-      "stars_gained": 825,
+      "stars": 205460,
+      "forks": 10744,
+      "stars_gained": 1241,
       "categories": [
         "agent"
       ],
-      "description_zh": "知识基础设施让您的座席变得更加聪明。通过一个 API 搜索、抓取和 550 多个数据提供商。",
+      "description_zh": "知识基础设施让您的座席变得更加聪明。通过一个 API 搜索、抓取和访问 550 多个数据提供商。",
       "rank": 3
     },
     {
@@ -55,9 +55,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 70940,
-      "forks": 6317,
-      "stars_gained": 954,
+      "stars": 71538,
+      "forks": 6342,
+      "stars_gained": 681,
       "categories": [
         "ai",
         "agent"
@@ -71,9 +71,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 10788,
-      "forks": 1390,
-      "stars_gained": 302,
+      "stars": 11102,
+      "forks": 1413,
+      "stars_gained": 315,
       "categories": [
         "ai",
         "agent"
@@ -87,9 +87,9 @@
       "url": "https://github.com/mjmirza/app-store-compliance",
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 2001,
-      "forks": 134,
-      "stars_gained": 377,
+      "stars": 2854,
+      "forks": 180,
+      "stars_gained": 869,
       "categories": [
         "ai",
         "agent"
@@ -103,9 +103,9 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
-      "stars": 13217,
-      "forks": 1910,
-      "stars_gained": 38,
+      "stars": 13686,
+      "forks": 1928,
+      "stars_gained": 466,
       "categories": [
         "agent"
       ],
