@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "category": "agent",
-  "fetched_at": "2026-11-21T05:12:08+00:00",
+  "fetched_at": "2026-11-22T04:38:43+00:00",
   "source": "https://github.com/trending?since=monthly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 76364,
-      "forks": 5143,
-      "stars_gained": 43310,
+      "stars": 76748,
+      "forks": 5172,
+      "stars_gained": 41810,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 198121,
-      "forks": 23191,
-      "stars_gained": 16149,
+      "stars": 198565,
+      "forks": 23239,
+      "stars_gained": 16259,
       "categories": [
         "agent"
       ],
@@ -40,9 +40,9 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 118693,
-      "forks": 10312,
-      "stars_gained": 17381,
+      "stars": 118877,
+      "forks": 10336,
+      "stars_gained": 17400,
       "categories": [
         "ai",
         "agent"
@@ -56,9 +56,9 @@
       "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
       "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
       "language": "Python",
-      "stars": 7720,
-      "forks": 1439,
-      "stars_gained": 5504,
+      "stars": 8023,
+      "forks": 1478,
+      "stars_gained": 5612,
       "categories": [
         "ai",
         "agent"
@@ -72,9 +72,9 @@
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 13940,
-      "forks": 1391,
-      "stars_gained": 4344,
+      "stars": 14202,
+      "forks": 1412,
+      "stars_gained": 4563,
       "categories": [
         "agent"
       ],
@@ -87,9 +87,9 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 114140,
-      "forks": 6788,
-      "stars_gained": 30831,
+      "stars": 114603,
+      "forks": 6822,
+      "stars_gained": 30698,
       "categories": [
         "ai",
         "agent"
@@ -103,9 +103,9 @@
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "stars": 31213,
-      "forks": 3859,
-      "stars_gained": 11786,
+      "stars": 31432,
+      "forks": 3882,
+      "stars_gained": 11925,
       "categories": [
         "ai",
         "agent"
@@ -119,9 +119,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 11102,
-      "forks": 1413,
-      "stars_gained": 2406,
+      "stars": 11523,
+      "forks": 1446,
+      "stars_gained": 2713,
       "categories": [
         "ai",
         "agent"
@@ -135,9 +135,9 @@
       "url": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
-      "stars": 8949,
-      "forks": 816,
-      "stars_gained": 6641,
+      "stars": 9345,
+      "forks": 842,
+      "stars_gained": 7107,
       "categories": [
         "ai",
         "agent"
@@ -151,9 +151,9 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 53109,
-      "forks": 3714,
-      "stars_gained": 8855,
+      "stars": 53251,
+      "forks": 3729,
+      "stars_gained": 8977,
       "categories": [
         "ai",
         "agent"

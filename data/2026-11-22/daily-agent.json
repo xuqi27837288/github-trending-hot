@@ -1,0 +1,116 @@
+{
+  "period": "daily",
+  "category": "agent",
+  "fetched_at": "2026-11-22T04:38:36+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 323828,
+      "forks": 28722,
+      "stars_gained": 883,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "有效的代理技能框架和软件开发方法。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 3,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 62169,
+      "forks": 5639,
+      "stars_gained": 769,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "“CLI-Anything：使所有软件代理原生”--CLI-Hub：https://clianything.cc/",
+      "rank": 2
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "language": "TypeScript",
+      "stars": 206342,
+      "forks": 10789,
+      "stars_gained": 1006,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "知识基础设施让您的座席变得更加聪明。通过一个 API 搜索、抓取和访问 550 多个数据提供商。",
+      "rank": 3
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 72112,
+      "forks": 6386,
+      "stars_gained": 560,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要",
+      "rank": 4
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars": 11523,
+      "forks": 1446,
+      "stars_gained": 326,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "mjmirza/app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "language": "Shell",
+      "stars": 3491,
+      "forks": 214,
+      "stars_gained": 720,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 124 个记录的拒绝模式和修复、隐私清单和数据安全检查、111 个跟踪的截止日期（欧盟 AI 法案、DSA、COPPA、年龄法）以及 AI 编码代理的技能。",
+      "rank": 6
+    },
+    {
+      "trend_rank": 13,
+      "full_name": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "The open-source agent for CI/CD reliability.",
+      "language": "Python",
+      "stars": 14049,
+      "forks": 1944,
+      "stars_gained": 450,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "CI/CD 可靠性的开源代理。",
+      "rank": 7
+    }
+  ]
+}
