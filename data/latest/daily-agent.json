@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-11-23T05:14:44+00:00",
+  "fetched_at": "2026-11-24T07:57:12+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 324311,
-      "forks": 28771,
-      "stars_gained": 788,
+      "stars": 325372,
+      "forks": 28855,
+      "stars_gained": 840,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 62924,
-      "forks": 5710,
-      "stars_gained": 699,
+      "stars": 64050,
+      "forks": 5823,
+      "stars_gained": 790,
       "categories": [
         "agent"
       ],
@@ -40,9 +40,9 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "stars": 207196,
-      "forks": 10827,
-      "stars_gained": 915,
+      "stars": 208229,
+      "forks": 10879,
+      "stars_gained": 924,
       "categories": [
         "agent"
       ],
@@ -55,9 +55,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 72893,
-      "forks": 6436,
-      "stars_gained": 668,
+      "stars": 73679,
+      "forks": 6497,
+      "stars_gained": 797,
       "categories": [
         "ai",
         "agent"
@@ -71,9 +71,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 11994,
-      "forks": 1477,
-      "stars_gained": 494,
+      "stars": 12435,
+      "forks": 1519,
+      "stars_gained": 422,
       "categories": [
         "ai",
         "agent"
@@ -87,9 +87,9 @@
       "url": "https://github.com/mjmirza/app-store-compliance",
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 4139,
-      "forks": 251,
-      "stars_gained": 621,
+      "stars": 5247,
+      "forks": 333,
+      "stars_gained": 761,
       "categories": [
         "ai",
         "agent"
@@ -103,9 +103,9 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
-      "stars": 14494,
-      "forks": 1969,
-      "stars_gained": 399,
+      "stars": 14940,
+      "forks": 1998,
+      "stars_gained": 436,
       "categories": [
         "agent"
       ],

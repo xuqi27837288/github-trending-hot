@@ -1,22 +1,22 @@
 {
   "period": "daily",
   "category": "ai",
-  "fetched_at": "2026-11-23T05:14:44+00:00",
+  "fetched_at": "2026-11-24T07:57:12+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
       "full_name": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 18196,
-      "forks": 1994,
-      "stars_gained": 1716,
+      "stars": 20289,
+      "forks": 2133,
+      "stars_gained": 2029,
       "categories": [
         "ai"
       ],
-      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 82 项技能、15 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。",
+      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 84 项技能、15 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。",
       "rank": 1
     },
     {
@@ -25,9 +25,9 @@
       "url": "https://github.com/jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
-      "stars": 68885,
-      "forks": 8997,
-      "stars_gained": 473,
+      "stars": 69755,
+      "forks": 9102,
+      "stars_gained": 828,
       "categories": [
         "ai"
       ],
@@ -40,9 +40,9 @@
       "url": "https://github.com/openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "language": "C++",
-      "stars": 12127,
-      "forks": 3660,
-      "stars_gained": 158,
+      "stars": 12344,
+      "forks": 3682,
+      "stars_gained": 184,
       "categories": [
         "ai"
       ],
@@ -53,15 +53,15 @@
       "trend_rank": 9,
       "full_name": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 70438,
-      "forks": 4720,
-      "stars_gained": 518,
+      "stars": 71242,
+      "forks": 4760,
+      "stars_gained": 620,
       "categories": [
         "ai"
       ],
-      "description_zh": "Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图设计。 45 种图表类型。独立的 HTML + SVG。没有阴影。没有美人鱼污水。",
+      "description_zh": "Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图设计。 52 种图表类型。独立的 HTML + SVG。没有阴影。没有美人鱼污水。",
       "rank": 4
     },
     {
@@ -70,9 +70,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 72893,
-      "forks": 6436,
-      "stars_gained": 668,
+      "stars": 73679,
+      "forks": 6497,
+      "stars_gained": 797,
       "categories": [
         "ai",
         "agent"
@@ -86,9 +86,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 11994,
-      "forks": 1477,
-      "stars_gained": 494,
+      "stars": 12435,
+      "forks": 1519,
+      "stars_gained": 422,
       "categories": [
         "ai",
         "agent"
@@ -102,9 +102,9 @@
       "url": "https://github.com/mjmirza/app-store-compliance",
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 4139,
-      "forks": 251,
-      "stars_gained": 621,
+      "stars": 5247,
+      "forks": 333,
+      "stars_gained": 761,
       "categories": [
         "ai",
         "agent"
@@ -118,9 +118,9 @@
       "url": "https://github.com/zhouxiaoka/autoclip",
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
-      "stars": 13680,
-      "forks": 2152,
-      "stars_gained": 641,
+      "stars": 14804,
+      "forks": 2237,
+      "stars_gained": 907,
       "categories": [
         "ai"
       ],
