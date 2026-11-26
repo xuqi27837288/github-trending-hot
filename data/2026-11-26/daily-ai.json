@@ -1,0 +1,131 @@
+{
+  "period": "daily",
+  "category": "ai",
+  "fetched_at": "2026-11-26T06:25:16+00:00",
+  "source": "https://github.com/trending?since=daily",
+  "items": [
+    {
+      "trend_rank": 1,
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "stars": 23356,
+      "forks": 2390,
+      "stars_gained": 1652,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 85 项技能、16 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。",
+      "rank": 1
+    },
+    {
+      "trend_rank": 4,
+      "full_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "stars": 71195,
+      "forks": 9241,
+      "stars_gained": 826,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "",
+      "rank": 2
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "language": "C++",
+      "stars": 12700,
+      "forks": 3718,
+      "stars_gained": 191,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "OpenVINO™ 是一个用于优化和部署 AI 推理的开源工具包",
+      "rank": 3
+    },
+    {
+      "trend_rank": 9,
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 73272,
+      "forks": 4873,
+      "stars_gained": 1141,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图设计。 52 种图表类型。独立的 HTML + SVG。没有阴影。没有美人鱼污水。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 10,
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 75279,
+      "forks": 6640,
+      "stars_gained": 945,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要",
+      "rank": 5
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars": 13070,
+      "forks": 1544,
+      "stars_gained": 355,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。",
+      "rank": 6
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "mjmirza/app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "language": "Shell",
+      "stars": 6624,
+      "forks": 435,
+      "stars_gained": 858,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 124 个记录的拒绝模式和修复、隐私清单和数据安全检查、114 个跟踪的截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 16,
+      "full_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "language": "Python",
+      "stars": 16410,
+      "forks": 2346,
+      "stars_gained": 880,
+      "categories": [
+        "ai"
+      ],
+      "description_zh": "",
+      "rank": 8
+    }
+  ]
+}

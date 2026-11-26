@@ -1,22 +1,22 @@
 {
   "period": "daily",
   "category": "all",
-  "fetched_at": "2026-11-25T06:33:45+00:00",
+  "fetched_at": "2026-11-26T06:25:16+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
       "trend_rank": 1,
       "full_name": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 21830,
-      "forks": 2267,
-      "stars_gained": 1826,
+      "stars": 23356,
+      "forks": 2390,
+      "stars_gained": 1652,
       "categories": [
         "ai"
       ],
-      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 84 项技能、15 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。"
+      "description_zh": "用于错误搜寻和外部红队工作的 Claude Code 技能包 - 85 项技能、16 个斜线命令、涵盖 24 个核心漏洞类别的 681 个披露报告模式，以及企业身份 + 基础设施攻击矩阵。"
     },
     {
       "trend_rank": 2,
@@ -24,9 +24,9 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 326001,
-      "forks": 28929,
-      "stars_gained": 1003,
+      "stars": 326812,
+      "forks": 28995,
+      "stars_gained": 903,
       "categories": [
         "agent"
       ],
@@ -38,9 +38,9 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 65064,
-      "forks": 5923,
-      "stars_gained": 1074,
+      "stars": 65854,
+      "forks": 5992,
+      "stars_gained": 1106,
       "categories": [
         "agent"
       ],
@@ -52,9 +52,9 @@
       "url": "https://github.com/jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
-      "stars": 70479,
-      "forks": 9164,
-      "stars_gained": 727,
+      "stars": 71195,
+      "forks": 9241,
+      "stars_gained": 826,
       "categories": [
         "ai"
       ],
@@ -66,9 +66,9 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 19321,
-      "forks": 2086,
-      "stars_gained": 360,
+      "stars": 19601,
+      "forks": 2117,
+      "stars_gained": 416,
       "categories": [],
       "description_zh": "光标插件规范和官方插件"
     },
@@ -78,9 +78,9 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "stars": 209181,
-      "forks": 10931,
-      "stars_gained": 991,
+      "stars": 210285,
+      "forks": 11005,
+      "stars_gained": 1135,
       "categories": [
         "agent"
       ],
@@ -92,9 +92,9 @@
       "url": "https://github.com/nginx/nginx",
       "description": "The official NGINX Open Source repository.",
       "language": "C",
-      "stars": 33267,
-      "forks": 8397,
-      "stars_gained": 158,
+      "stars": 33416,
+      "forks": 8409,
+      "stars_gained": 176,
       "categories": [],
       "description_zh": "官方 NGINX 开源存储库。"
     },
@@ -104,9 +104,9 @@
       "url": "https://github.com/openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "language": "C++",
-      "stars": 12518,
-      "forks": 3696,
-      "stars_gained": 185,
+      "stars": 12700,
+      "forks": 3718,
+      "stars_gained": 191,
       "categories": [
         "ai"
       ],
@@ -118,9 +118,9 @@
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 72327,
-      "forks": 4818,
-      "stars_gained": 802,
+      "stars": 73272,
+      "forks": 4873,
+      "stars_gained": 1141,
       "categories": [
         "ai"
       ],
@@ -132,9 +132,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 74491,
-      "forks": 6564,
-      "stars_gained": 703,
+      "stars": 75279,
+      "forks": 6640,
+      "stars_gained": 945,
       "categories": [
         "ai",
         "agent"
@@ -147,9 +147,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 12758,
-      "forks": 1529,
-      "stars_gained": 403,
+      "stars": 13070,
+      "forks": 1544,
+      "stars_gained": 355,
       "categories": [
         "ai",
         "agent"
@@ -160,16 +160,16 @@
       "trend_rank": 12,
       "full_name": "mjmirza/app-store-compliance",
       "url": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 6024,
-      "forks": 388,
-      "stars_gained": 928,
+      "stars": 6624,
+      "forks": 435,
+      "stars_gained": 858,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 124 个记录的拒绝模式和修复、隐私清单和数据安全检查、112 个跟踪的截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。"
+      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 124 个记录的拒绝模式和修复、隐私清单和数据安全检查、114 个跟踪的截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。"
     },
     {
       "trend_rank": 13,
@@ -177,9 +177,9 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
-      "stars": 15282,
-      "forks": 2018,
-      "stars_gained": 398,
+      "stars": 15607,
+      "forks": 2035,
+      "stars_gained": 348,
       "categories": [
         "agent"
       ],
@@ -191,9 +191,9 @@
       "url": "https://github.com/toeverything/AFFiNE",
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "language": "TypeScript",
-      "stars": 78112,
-      "forks": 5704,
-      "stars_gained": 584,
+      "stars": 78620,
+      "forks": 5726,
+      "stars_gained": 574,
       "categories": [],
       "description_zh": "不仅仅是 Notion 和 Miro。 AFFiNE（发音为 [ə‘fain]）是一个集规划、分类和创建于一体的下一代知识库。隐私第一、开源、可定制且随时可用。"
     },
@@ -203,9 +203,9 @@
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "description": "The only downloader you need. 下载器的集大成者。",
       "language": "Python",
-      "stars": 17616,
-      "forks": 1059,
-      "stars_gained": 1092,
+      "stars": 18491,
+      "forks": 1110,
+      "stars_gained": 951,
       "categories": [],
       "description_zh": ""
     },
@@ -215,9 +215,9 @@
       "url": "https://github.com/zhouxiaoka/autoclip",
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
-      "stars": 15628,
-      "forks": 2287,
-      "stars_gained": 980,
+      "stars": 16410,
+      "forks": 2346,
+      "stars_gained": 880,
       "categories": [
         "ai"
       ],
