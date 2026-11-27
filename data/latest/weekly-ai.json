@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "ai",
-  "fetched_at": "2026-11-26T06:25:19+00:00",
+  "fetched_at": "2026-11-27T06:15:04+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 13070,
-      "forks": 1544,
-      "stars_gained": 2616,
+      "stars": 13367,
+      "forks": 1571,
+      "stars_gained": 2619,
       "categories": [
         "ai",
         "agent"
@@ -26,9 +26,9 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 56430,
-      "forks": 4665,
-      "stars_gained": 2259,
+      "stars": 56704,
+      "forks": 4693,
+      "stars_gained": 2284,
       "categories": [
         "ai",
         "agent"
@@ -42,9 +42,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 75279,
-      "forks": 6640,
-      "stars_gained": 5302,
+      "stars": 75925,
+      "forks": 6696,
+      "stars_gained": 5090,
       "categories": [
         "ai",
         "agent"
@@ -58,9 +58,9 @@
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "stars": 8490,
-      "forks": 1555,
-      "stars_gained": 1422,
+      "stars": 8632,
+      "forks": 1565,
+      "stars_gained": 1381,
       "categories": [
         "ai"
       ],
@@ -68,14 +68,14 @@
       "rank": 4
     },
     {
-      "trend_rank": 13,
+      "trend_rank": 14,
       "full_name": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 31890,
-      "forks": 2869,
-      "stars_gained": 2319,
+      "stars": 31994,
+      "forks": 2874,
+      "stars_gained": 1825,
       "categories": [
         "ai",
         "agent"
@@ -84,14 +84,14 @@
       "rank": 5
     },
     {
-      "trend_rank": 14,
+      "trend_rank": 15,
       "full_name": "kajisho5/ffmpeg-skill",
       "url": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
-      "stars": 11219,
-      "forks": 947,
-      "stars_gained": 3048,
+      "stars": 11623,
+      "forks": 973,
+      "stars_gained": 3229,
       "categories": [
         "ai",
         "agent"

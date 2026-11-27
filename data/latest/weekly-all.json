@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "all",
-  "fetched_at": "2026-11-26T06:25:19+00:00",
+  "fetched_at": "2026-11-27T06:15:04+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 15127,
-      "forks": 1449,
-      "stars_gained": 1764,
+      "stars": 15297,
+      "forks": 1463,
+      "stars_gained": 1631,
       "categories": [
         "agent"
       ],
@@ -24,9 +24,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 13070,
-      "forks": 1544,
-      "stars_gained": 2616,
+      "stars": 13367,
+      "forks": 1571,
+      "stars_gained": 2619,
       "categories": [
         "ai",
         "agent"
@@ -39,9 +39,9 @@
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 11107,
-      "forks": 835,
-      "stars_gained": 2309,
+      "stars": 11304,
+      "forks": 843,
+      "stars_gained": 2209,
       "categories": [
         "agent"
       ],
@@ -53,9 +53,9 @@
       "url": "https://github.com/n8n-io/nod",
       "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
       "language": "TypeScript",
-      "stars": 3649,
-      "forks": 577,
-      "stars_gained": 1008,
+      "stars": 4068,
+      "forks": 621,
+      "stars_gained": 1165,
       "categories": [
         "agent"
       ],
@@ -67,9 +67,9 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 56430,
-      "forks": 4665,
-      "stars_gained": 2259,
+      "stars": 56704,
+      "forks": 4693,
+      "stars_gained": 2284,
       "categories": [
         "ai",
         "agent"
@@ -82,9 +82,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 75279,
-      "forks": 6640,
-      "stars_gained": 5302,
+      "stars": 75925,
+      "forks": 6696,
+      "stars_gained": 5090,
       "categories": [
         "ai",
         "agent"
@@ -97,9 +97,9 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 59396,
-      "forks": 4889,
-      "stars_gained": 1203,
+      "stars": 59531,
+      "forks": 4899,
+      "stars_gained": 1175,
       "categories": [
         "agent"
       ],
@@ -111,9 +111,9 @@
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "stars": 8490,
-      "forks": 1555,
-      "stars_gained": 1422,
+      "stars": 8632,
+      "forks": 1565,
+      "stars_gained": 1381,
       "categories": [
         "ai"
       ],
@@ -125,9 +125,9 @@
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "stars": 21765,
-      "forks": 2188,
-      "stars_gained": 1421,
+      "stars": 21868,
+      "forks": 2191,
+      "stars_gained": 1269,
       "categories": [
         "agent"
       ],
@@ -139,9 +139,9 @@
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 33194,
-      "forks": 2594,
-      "stars_gained": 2635,
+      "stars": 33406,
+      "forks": 2604,
+      "stars_gained": 2519,
       "categories": [
         "agent"
       ],
@@ -153,9 +153,9 @@
       "url": "https://github.com/pookjw/HermesEnabler",
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "language": "Objective-C",
-      "stars": 2525,
-      "forks": 207,
-      "stars_gained": 318,
+      "stars": 2552,
+      "forks": 206,
+      "stars_gained": 325,
       "categories": [],
       "description_zh": "在任何 Apple Watch 设备上启用 Hermès 表盘"
     },
@@ -165,21 +165,35 @@
       "url": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "stars": 17969,
-      "forks": 1565,
-      "stars_gained": 1509,
+      "stars": 18123,
+      "forks": 1573,
+      "stars_gained": 1430,
       "categories": [],
       "description_zh": "适合所有人（由所有人）的个人理财应用程序"
     },
     {
       "trend_rank": 13,
+      "full_name": "obsidianmd/obsidian-skills",
+      "url": "https://github.com/obsidianmd/obsidian-skills",
+      "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+      "language": "Shell",
+      "stars": 54101,
+      "forks": 3849,
+      "stars_gained": 704,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "教您的代理使用 Obsidian 和开放格式，包括 Markdown、Bases、JSON Canvas。"
+    },
+    {
+      "trend_rank": 14,
       "full_name": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 31890,
-      "forks": 2869,
-      "stars_gained": 2319,
+      "stars": 31994,
+      "forks": 2874,
+      "stars_gained": 1825,
       "categories": [
         "ai",
         "agent"
@@ -187,14 +201,14 @@
       "description_zh": "使用 Univer Office SDK 构建您自己的 AI 办公室。将编辑、计算、协作和文件处理引入您的产品中，供人员和 AI 代理使用。基于可扩展的开源核心构建。"
     },
     {
-      "trend_rank": 14,
+      "trend_rank": 15,
       "full_name": "kajisho5/ffmpeg-skill",
       "url": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
-      "stars": 11219,
-      "forks": 947,
-      "stars_gained": 3048,
+      "stars": 11623,
+      "forks": 973,
+      "stars_gained": 3229,
       "categories": [
         "ai",
         "agent"

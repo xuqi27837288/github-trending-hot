@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "category": "ai",
-  "fetched_at": "2026-11-26T06:25:16+00:00",
+  "fetched_at": "2026-11-27T06:15:01+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 23356,
-      "forks": 2390,
-      "stars_gained": 1652,
+      "stars": 24956,
+      "forks": 2526,
+      "stars_gained": 1597,
       "categories": [
         "ai"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
-      "stars": 71195,
-      "forks": 9241,
-      "stars_gained": 826,
+      "stars": 71831,
+      "forks": 9327,
+      "stars_gained": 702,
       "categories": [
         "ai"
       ],
@@ -40,9 +40,9 @@
       "url": "https://github.com/openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "language": "C++",
-      "stars": 12700,
-      "forks": 3718,
-      "stars_gained": 191,
+      "stars": 12848,
+      "forks": 3741,
+      "stars_gained": 176,
       "categories": [
         "ai"
       ],
@@ -55,9 +55,9 @@
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 73272,
-      "forks": 4873,
-      "stars_gained": 1141,
+      "stars": 74029,
+      "forks": 4945,
+      "stars_gained": 955,
       "categories": [
         "ai"
       ],
@@ -70,9 +70,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 75279,
-      "forks": 6640,
-      "stars_gained": 945,
+      "stars": 75925,
+      "forks": 6696,
+      "stars_gained": 759,
       "categories": [
         "ai",
         "agent"
@@ -86,9 +86,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 13070,
-      "forks": 1544,
-      "stars_gained": 355,
+      "stars": 13367,
+      "forks": 1571,
+      "stars_gained": 309,
       "categories": [
         "ai",
         "agent"
@@ -100,29 +100,30 @@
       "trend_rank": 12,
       "full_name": "mjmirza/app-store-compliance",
       "url": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 6624,
-      "forks": 435,
-      "stars_gained": 858,
+      "stars": 7151,
+      "forks": 487,
+      "stars_gained": 562,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 124 个记录的拒绝模式和修复、隐私清单和数据安全检查、114 个跟踪的截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。",
+      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 125 个记录的拒绝模式和修复、隐私清单和数据安全检查、117 个跟踪的截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。",
       "rank": 7
     },
     {
       "trend_rank": 16,
       "full_name": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "language": "Python",
-      "stars": 16410,
-      "forks": 2346,
-      "stars_gained": 880,
+      "stars": 17146,
+      "forks": 2399,
+      "stars_gained": 774,
       "categories": [
-        "ai"
+        "ai",
+        "agent"
       ],
       "description_zh": "",
       "rank": 8

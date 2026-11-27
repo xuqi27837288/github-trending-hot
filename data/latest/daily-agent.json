@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "category": "agent",
-  "fetched_at": "2026-11-26T06:25:16+00:00",
+  "fetched_at": "2026-11-27T06:15:01+00:00",
   "source": "https://github.com/trending?since=daily",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 326812,
-      "forks": 28995,
-      "stars_gained": 903,
+      "stars": 327672,
+      "forks": 29073,
+      "stars_gained": 854,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 65854,
-      "forks": 5992,
-      "stars_gained": 1106,
+      "stars": 66523,
+      "forks": 6064,
+      "stars_gained": 746,
       "categories": [
         "agent"
       ],
@@ -40,9 +40,9 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "stars": 210285,
-      "forks": 11005,
-      "stars_gained": 1135,
+      "stars": 211130,
+      "forks": 11062,
+      "stars_gained": 1046,
       "categories": [
         "agent"
       ],
@@ -55,9 +55,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 75279,
-      "forks": 6640,
-      "stars_gained": 945,
+      "stars": 75925,
+      "forks": 6696,
+      "stars_gained": 759,
       "categories": [
         "ai",
         "agent"
@@ -71,9 +71,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 13070,
-      "forks": 1544,
-      "stars_gained": 355,
+      "stars": 13367,
+      "forks": 1571,
+      "stars_gained": 309,
       "categories": [
         "ai",
         "agent"
@@ -85,16 +85,16 @@
       "trend_rank": 12,
       "full_name": "mjmirza/app-store-compliance",
       "url": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 6624,
-      "forks": 435,
-      "stars_gained": 858,
+      "stars": 7151,
+      "forks": 487,
+      "stars_gained": 562,
       "categories": [
         "ai",
         "agent"
       ],
-      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 124 个记录的拒绝模式和修复、隐私清单和数据安全检查、114 个跟踪的截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。",
+      "description_zh": "避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 125 个记录的拒绝模式和修复、隐私清单和数据安全检查、117 个跟踪的截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。",
       "rank": 6
     },
     {
@@ -103,14 +103,30 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
-      "stars": 15607,
-      "forks": 2035,
-      "stars_gained": 348,
+      "stars": 15900,
+      "forks": 2073,
+      "stars_gained": 327,
       "categories": [
         "agent"
       ],
       "description_zh": "CI/CD 可靠性的开源代理。",
       "rank": 7
+    },
+    {
+      "trend_rank": 16,
+      "full_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+      "language": "Python",
+      "stars": 17146,
+      "forks": 2399,
+      "stars_gained": 774,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "",
+      "rank": 8
     }
   ]
 }
