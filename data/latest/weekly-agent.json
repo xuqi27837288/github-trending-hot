@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "category": "agent",
-  "fetched_at": "2026-11-27T06:15:04+00:00",
+  "fetched_at": "2026-11-28T05:54:19+00:00",
   "source": "https://github.com/trending?since=weekly",
   "items": [
     {
@@ -10,9 +10,9 @@
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 15297,
-      "forks": 1463,
-      "stars_gained": 1631,
+      "stars": 15453,
+      "forks": 1478,
+      "stars_gained": 1596,
       "categories": [
         "agent"
       ],
@@ -25,9 +25,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 13367,
-      "forks": 1571,
-      "stars_gained": 2619,
+      "stars": 13652,
+      "forks": 1631,
+      "stars_gained": 2616,
       "categories": [
         "ai",
         "agent"
@@ -41,9 +41,9 @@
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 11304,
-      "forks": 843,
-      "stars_gained": 2209,
+      "stars": 11495,
+      "forks": 849,
+      "stars_gained": 2008,
       "categories": [
         "agent"
       ],
@@ -56,9 +56,9 @@
       "url": "https://github.com/n8n-io/nod",
       "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
       "language": "TypeScript",
-      "stars": 4068,
-      "forks": 621,
-      "stars_gained": 1165,
+      "stars": 4447,
+      "forks": 670,
+      "stars_gained": 1424,
       "categories": [
         "agent"
       ],
@@ -71,9 +71,9 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 56704,
-      "forks": 4693,
-      "stars_gained": 2284,
+      "stars": 56954,
+      "forks": 4707,
+      "stars_gained": 2335,
       "categories": [
         "ai",
         "agent"
@@ -87,9 +87,9 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 75925,
-      "forks": 6696,
-      "stars_gained": 5090,
+      "stars": 76458,
+      "forks": 6800,
+      "stars_gained": 5072,
       "categories": [
         "ai",
         "agent"
@@ -103,9 +103,9 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 59531,
-      "forks": 4899,
-      "stars_gained": 1175,
+      "stars": 59650,
+      "forks": 4852,
+      "stars_gained": 1150,
       "categories": [
         "agent"
       ],
@@ -118,9 +118,9 @@
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "stars": 21868,
-      "forks": 2191,
-      "stars_gained": 1269,
+      "stars": 21974,
+      "forks": 2193,
+      "stars_gained": 1185,
       "categories": [
         "agent"
       ],
@@ -133,9 +133,9 @@
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 33406,
-      "forks": 2604,
-      "stars_gained": 2519,
+      "stars": 33562,
+      "forks": 2615,
+      "stars_gained": 2306,
       "categories": [
         "agent"
       ],
@@ -148,9 +148,9 @@
       "url": "https://github.com/obsidianmd/obsidian-skills",
       "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
       "language": "Shell",
-      "stars": 54101,
-      "forks": 3849,
-      "stars_gained": 704,
+      "stars": 54402,
+      "forks": 3869,
+      "stars_gained": 950,
       "categories": [
         "agent"
       ],
@@ -163,9 +163,9 @@
       "url": "https://github.com/dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 31994,
-      "forks": 2874,
-      "stars_gained": 1825,
+      "stars": 32079,
+      "forks": 2882,
+      "stars_gained": 1280,
       "categories": [
         "ai",
         "agent"
@@ -179,9 +179,9 @@
       "url": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
-      "stars": 11623,
-      "forks": 973,
-      "stars_gained": 3229,
+      "stars": 12006,
+      "forks": 991,
+      "stars_gained": 3169,
       "categories": [
         "ai",
         "agent"

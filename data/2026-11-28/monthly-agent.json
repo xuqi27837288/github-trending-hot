@@ -1,0 +1,181 @@
+{
+  "period": "monthly",
+  "category": "agent",
+  "fetched_at": "2026-11-28T05:54:22+00:00",
+  "source": "https://github.com/trending?since=monthly",
+  "items": [
+    {
+      "trend_rank": 2,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 79346,
+      "forks": 5379,
+      "stars_gained": 30171,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果",
+      "rank": 1
+    },
+    {
+      "trend_rank": 5,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 201608,
+      "forks": 23598,
+      "stars_gained": 17791,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "代理技能的公共存储库",
+      "rank": 2
+    },
+    {
+      "trend_rank": 6,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 120253,
+      "forks": 10461,
+      "stars_gained": 17228,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等",
+      "rank": 3
+    },
+    {
+      "trend_rank": 7,
+      "full_name": "Jakeschincariol/instagram-agent-skill",
+      "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+      "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+      "language": "Python",
+      "stars": 9927,
+      "forks": 1658,
+      "stars_gained": 6548,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "管理 Instagram 帐户的 13 项 Claude 技能：讲述 26 个得分挂钩公式、一项病毒式研究技能、标题短绒和人性化。免费，麻省理工学院。",
+      "rank": 4
+    },
+    {
+      "trend_rank": 8,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 15453,
+      "forks": 1478,
+      "stars_gained": 5746,
+      "categories": [
+        "agent"
+      ],
+      "description_zh": "保持在循环中并在座席之上的工作区 - 塑造、决定、计划、注释、审查代码、与团队共享以及一键将所有反馈发送给座席。",
+      "rank": 5
+    },
+    {
+      "trend_rank": 11,
+      "full_name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+      "language": "Go",
+      "stars": 42605,
+      "forks": 3921,
+      "stars_gained": 19543,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "汇集您支付的每个计划 - Claude、ChatGPT、Copilot、GLM Coding Plan、Kimi Code 等 - 并在任何代理中使用它们：Claude Code、Codex、Claude Desktop……当一个计划用完时，下一个将接管。",
+      "rank": 6
+    },
+    {
+      "trend_rank": 12,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 118154,
+      "forks": 7076,
+      "stars_gained": 28497,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。",
+      "rank": 7
+    },
+    {
+      "trend_rank": 14,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 32923,
+      "forks": 3988,
+      "stars_gained": 10462,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "适用于Claude Code的通用SEO技能。26个子技能+ 19个子代理，涵盖技术SEO、E-E-A-T、SCHEMA、GEO/AEO、代理就绪性（ Lighthouse Agentic Browsing、WebMCP、llms.txt ）、反向链接、本地SEO、电子商务、国际SEO、Google API和PDF/Excel报告。9个实时SEO数据的可选扩展。",
+      "rank": 8
+    },
+    {
+      "trend_rank": 15,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars": 13652,
+      "forks": 1631,
+      "stars_gained": 4912,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。",
+      "rank": 9
+    },
+    {
+      "trend_rank": 18,
+      "full_name": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "language": "Python",
+      "stars": 12006,
+      "forks": 991,
+      "stars_gained": 8708,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于编码代理的本地视频编辑器：42 个 FFmpeg 工具，带有机器可读合约和 MCP 服务器，用于 Claude Code、Cursor 和 Codex。剪切、字幕、重构、响度、平台导出。没有云，没有 API 密钥。",
+      "rank": 10
+    },
+    {
+      "trend_rank": 19,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 54368,
+      "forks": 3792,
+      "stars_gained": 9765,
+      "categories": [
+        "ai",
+        "agent"
+      ],
+      "description_zh": "用于 AI 代理的浏览器自动化 CLI",
+      "rank": 11
+    }
+  ]
+}
